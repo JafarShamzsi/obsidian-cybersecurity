@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "type": "file",
+      "ctime": 1743117562630,
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Lockheed Martin Cyber Kill Chain/Reconnaisance/Reconnaissance.md",
+      "title": "change the end path to the next files and upgrade it"
+    },
+    {
+      "type": "file",
+      "ctime": 1743263447681,
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Lockheed Martin Cyber Kill Chain/Reconnaisance/Tools/Host.md",
+      "title": "add the tool links at the end"
+    },
+    {
+      "type": "file",
+      "ctime": 1744486448828,
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Offensive-Techniques/EternalBlue.md",
+      "title": "add related section notes"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "cssTheme": "Material Ocean",
+  "translucency": false,
+  "baseFontSizeAction": true,
+  "accentColor": "#5c0d87",
+  "baseFontSize": 15,
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "dashboard",
+    "animations",
+    "pincard",
+    "code-block-styling-01",
+    "command-palette",
+    "empty-tab",
+    "folder-headers",
+    "heading-indicators2",
+    "multicolumn-note",
+    "statusbar",
+    "banner"
+  ],
+  "interfaceFontFamily": "0xProto Nerd Font",
+  "textFontFamily": "0xProto Nerd Font,0xProto Nerd Font Mono,0xProto Nerd Font Propo",
+  "nativeMenus": false
+}

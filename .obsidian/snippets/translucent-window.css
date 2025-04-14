@@ -1,0 +1,36 @@
+body {
+    --background-primary: #000 !important;
+    --titlebar-background: transparent !important;
+    --titlebar-background-focused: var(--titlebar-background);
+    --text-normal: #f1f1f1 !Important;
+    --workspace-background-translucent: rgba(var(--mono-rgb-0), 0.5);
+    
+}
+
+.workspace-tab-header.is-active {
+    color: #fff !Important;
+}
+
+
+.workspace-leaf,
+.workspace-tab-header-container {
+    background: transparent;
+}
+
+.workspace-split.mod-root,
+.workspace-split.mod-root .view-content,
+.workspace-split.mod-root .view-header {
+    background: transparent;
+}
+
+.view-header-title-container:not(.mod-at-end):after {
+    background: transparent;
+}
+
+.custom-frames-frame {
+    background: transparent !important;
+}
+
+.is-focused .workspace-leaf.mod-active .view-header {
+    background: transparent;
+}

@@ -1,0 +1,25 @@
+/*Cloze Deletion*/
+/* Highlight in EDITOR */
+
+s, .cm-s-obsidian span.cm-formatting-highlight, .cm-s-obsidian span.cm-highlight {
+	background: rgba(216,216,216,1);
+	color: rgba(0,0,0,0);
+	border-radius: 5px;
+	padding-left: 5px;
+	padding-right: 5px; 
+	text-decoration: none;
+	transition-property: background, color;
+	transition-duration: 5s;
+	transition-timing-function: ease-out;
+	transition-delay: 15s;
+	}
+
+s, .cm-s-obsidian span.cm-formatting-highlight:hover, .cm-s-obsidian span.cm-highlight:hover {
+        background: none !important;
+        color: red;
+        cursor: none;  
+        transition-property: background, color;
+        transition-duration: 0.25s;
+        transition-timing-function: ease-out;
+        transition-delay: 0.25s;
+	}

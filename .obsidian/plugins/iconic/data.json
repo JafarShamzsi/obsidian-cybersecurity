@@ -1,0 +1,54 @@
+{
+  "biggerIcons": "mobile",
+  "clickableIcons": "desktop",
+  "showAllFileIcons": false,
+  "showAllFolderIcons": false,
+  "minimalFolderIcons": false,
+  "showItemName": "desktop",
+  "biggerSearchResults": "mobile",
+  "maxSearchResults": 50,
+  "colorPicker1": "list",
+  "colorPicker2": "rgb",
+  "uncolorHover": false,
+  "uncolorDrag": false,
+  "uncolorSelect": false,
+  "uncolorQuick": false,
+  "rememberDeletedItems": false,
+  "dialogState": {
+    "iconMode": true,
+    "emojiMode": false,
+    "rulePage": "file"
+  },
+  "appIcons": {},
+  "tabIcons": {},
+  "fileIcons": {
+    "CyberSecurity/Security+/5-Governance-Risk-Compliance/Security Concepts and Controls - Lesson 1 Summary.md": {
+      "icon": "lucide-arrow-up-left-from-circle",
+      "color": "yellow"
+    },
+    "Game Project": {
+      "icon": "lucide-gamepad",
+      "color": "purple",
+      "unsynced": [
+        "5d9789662d2ad8a8"
+      ]
+    },
+    "Game Project/Pygame": {
+      "icon": "lucide-origami",
+      "unsynced": [
+        "5d9789662d2ad8a8"
+      ],
+      "color": "green"
+    },
+    "Home.md": {
+      "icon": "homepage",
+      "color": "purple"
+    }
+  },
+  "bookmarkIcons": {},
+  "tagIcons": {},
+  "propertyIcons": {},
+  "ribbonIcons": {},
+  "fileRules": [],
+  "folderRules": []
+}

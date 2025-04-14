@@ -1,0 +1,208 @@
+{
+  "recentFiles": [
+    {
+      "basename": "Supply Chain Attack Surface",
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attack Surface.md"
+    },
+    {
+      "basename": "Collection",
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Attacking-Frameworks/MITRE ATT&CK/Mobile-Attack/tactics/Collection.md"
+    },
+    {
+      "basename": "Home",
+      "path": "Home.md"
+    },
+    {
+      "basename": "EternalBlue",
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Offensive-Techniques/EternalBlue.md"
+    },
+    {
+      "basename": "Message-Based Attack Vectors",
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Message-Based Attack Vectors.md"
+    },
+    {
+      "basename": "Credential Access",
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Attacking-Frameworks/MITRE ATT&CK/Mobile-Attack/tactics/Credential Access.md"
+    },
+    {
+      "basename": "Persistence",
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Attacking-Frameworks/MITRE ATT&CK/Mobile-Attack/tactics/Persistence.md"
+    },
+    {
+      "basename": "Internal Threat Actors",
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Internal Threat Actors.md"
+    },
+    {
+      "basename": "Lure-Based Attack Vectors",
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Lure-Based Attack Vectors.md"
+    },
+    {
+      "basename": "Network Vectors for Attack",
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Network Vectors for Attack.md"
+    },
+    {
+      "basename": "Vulnerable Software Vectors",
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Vulnerable Software Vectors.md"
+    },
+    {
+      "basename": "Attack Surface and Threat Vectors",
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Attack Surface and Threat Vectors.md"
+    },
+    {
+      "basename": "Organized Crime and Competitors in Cybersecurity",
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Organized Crime and Competitors in Cybersecurity.md"
+    },
+    {
+      "basename": "Nation-State Actors",
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Nation-State Actors.md"
+    },
+    {
+      "basename": "Attributes of Threat Actors",
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Attributes of Threat Actors.md"
+    },
+    {
+      "basename": "NIST CyberSecurity Framework",
+      "path": "CyberSecurity/Security+/5-Governance-Risk-Compliance/Frameworks/NIST CyberSecurity Framework.md"
+    },
+    {
+      "basename": "Flip Cards",
+      "path": "CyberSecurity/Security+/Flip cards/Flip Cards.md"
+    },
+    {
+      "basename": "Security Concepts Map",
+      "path": "CyberSecurity/Security+/Security Concepts Map.md"
+    },
+    {
+      "basename": "Reconnaissance Methodologies",
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Lockheed Martin Cyber Kill Chain/Reconnaisance/Methodologies/Reconnaissance Methodologies.md"
+    },
+    {
+      "basename": "Dig",
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Lockheed Martin Cyber Kill Chain/Reconnaisance/Tools/Dig.md"
+    },
+    {
+      "basename": "Tools Of Reconnaissance",
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Lockheed Martin Cyber Kill Chain/Reconnaisance/Tools/Tools Of Reconnaissance.md"
+    },
+    {
+      "basename": "Host",
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Lockheed Martin Cyber Kill Chain/Reconnaisance/Tools/Host.md"
+    },
+    {
+      "basename": "Ping",
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Lockheed Martin Cyber Kill Chain/Reconnaisance/Tools/Ping.md"
+    },
+    {
+      "basename": "TelNet",
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Lockheed Martin Cyber Kill Chain/Reconnaisance/Tools/TelNet.md"
+    },
+    {
+      "basename": "SNMP Enumeration Tools",
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Lockheed Martin Cyber Kill Chain/Reconnaisance/Tools/SNMP Enumeration Tools.md"
+    },
+    {
+      "basename": "LDAP Enumeration Tool",
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Lockheed Martin Cyber Kill Chain/Reconnaisance/Tools/LDAP Enumeration Tool.md"
+    },
+    {
+      "basename": "Slitheris Network Scanner",
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Lockheed Martin Cyber Kill Chain/Reconnaisance/Tools/Slitheris Network Scanner.md"
+    },
+    {
+      "basename": "DirSearch",
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Lockheed Martin Cyber Kill Chain/Reconnaisance/Tools/DirSearch.md"
+    },
+    {
+      "basename": "RustScan",
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Lockheed Martin Cyber Kill Chain/Reconnaisance/Tools/RustScan.md"
+    },
+    {
+      "basename": "Passive Reconnaissance in the Cyber Kill Chain",
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Lockheed Martin Cyber Kill Chain/Reconnaisance/Methodologies/Passive Reconnaissance in the Cyber Kill Chain.md"
+    },
+    {
+      "basename": "Active Reconnaissance in Cyber Kill Chain",
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Lockheed Martin Cyber Kill Chain/Reconnaisance/Methodologies/Active Reconnaissance in Cyber Kill Chain.md"
+    },
+    {
+      "basename": "Shortcuts for writing Obsidian",
+      "path": "Shortcuts for writing Obsidian.md"
+    },
+    {
+      "basename": "Hackers and Hacktivists",
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Hackers and Hacktivists.md"
+    },
+    {
+      "basename": "CIA Triad",
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/CIA Triad.md"
+    },
+    {
+      "basename": "Glossary.md",
+      "path": "CyberSecurity/Security+/Glossary.md.md"
+    },
+    {
+      "basename": "Index.md",
+      "path": "CyberSecurity/Security+/Index.md.md"
+    },
+    {
+      "basename": "Operating System Configuration",
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Attacking-Frameworks/MITRE ATT&CK/Mobile-Attack/mitigations/Operating System Configuration.md"
+    },
+    {
+      "basename": "Reconnaissance",
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Lockheed Martin Cyber Kill Chain/Reconnaisance/Reconnaissance.md"
+    },
+    {
+      "basename": "Unterstanding Cyber Kill Chain",
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Lockheed Martin Cyber Kill Chain/Unterstanding Cyber Kill Chain.md"
+    },
+    {
+      "basename": "Lockheed Martin Cyber Kill Chain",
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Lockheed Martin Cyber Kill Chain/Lockheed Martin Cyber Kill Chain.md"
+    },
+    {
+      "basename": "Ajax Security Team",
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Attacking-Frameworks/MITRE ATT&CK/Mobile-Attack/groups/Ajax Security Team.md"
+    },
+    {
+      "basename": "MITRE ATT&CK Framework",
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Attacking-Frameworks/MITRE ATT&CK/MITRE ATT&CK Framework.md"
+    },
+    {
+      "basename": "Attacking Frameworks",
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Attacking-Frameworks/Attacking Frameworks.md"
+    },
+    {
+      "basename": "menuPass",
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Attacking-Frameworks/MITRE ATT&CK/Enterprise-Attack/groups/menuPass.md"
+    },
+    {
+      "basename": "Leafminer",
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Attacking-Frameworks/MITRE ATT&CK/Enterprise-Attack/groups/Leafminer.md"
+    },
+    {
+      "basename": "NEODYMIUM",
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Attacking-Frameworks/MITRE ATT&CK/Enterprise-Attack/groups/NEODYMIUM.md"
+    },
+    {
+      "basename": "APT32",
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Attacking-Frameworks/MITRE ATT&CK/Enterprise-Attack/groups/APT32.md"
+    },
+    {
+      "basename": "groups",
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Attacking-Frameworks/MITRE ATT&CK/Enterprise-Attack/groups/groups.md"
+    },
+    {
+      "basename": "Static Residental Proxies",
+      "path": "Network/Proxy/Static Residental Proxies.md"
+    },
+    {
+      "basename": "APT1",
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Attacking-Frameworks/MITRE ATT&CK/Enterprise-Attack/groups/APT1.md"
+    }
+  ],
+  "omittedPaths": [],
+  "omittedTags": [],
+  "updateOn": "file-open",
+  "omitBookmarks": false
+}
