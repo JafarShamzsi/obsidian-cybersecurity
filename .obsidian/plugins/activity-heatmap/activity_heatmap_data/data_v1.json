@@ -13274,6 +13274,16 @@
       "mtime": 1744553497028,
       "wordCount": 5113,
       "fileSize": 36881
+    },
+    "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attack Surface.md": {
+      "mtime": 1744634313868,
+      "wordCount": 1584,
+      "fileSize": 13401
+    },
+    "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Supply Chain Attack Surface.md": {
+      "mtime": 1744634313868,
+      "wordCount": 1584,
+      "fileSize": 13401
     }
   },
   "activityOverTime": {
@@ -13392,6 +13402,10 @@
     "2025-04-13": {
       "wordCount": 8743,
       "fileSize": 61713
+    },
+    "2025-04-14": {
+      "wordCount": 3354,
+      "fileSize": 31318
     }
   }
 }
