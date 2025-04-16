@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Shortcuts for writing Obsidian",
+      "path": "Shortcuts for writing Obsidian.md"
+    },
+    {
       "basename": "image (620) (1) hmmm",
       "path": "HackTricks/src/images/image (620) (1) hmmm.png"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "crontab",
       "path": "OSCP-Notes/OSCP/CLI-tools/linux/crontab.md"
-    },
-    {
-      "basename": "rsync",
-      "path": "OSCP-Notes/OSCP/CLI-tools/linux/rsync.md"
     }
   ],
   "omittedPaths": [],

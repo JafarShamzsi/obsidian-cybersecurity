@@ -11,12 +11,15 @@
             "id": "0411073bdabeb9a2",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "HackTricks/src/images/image (620) (1) hmmm.png"
+                "file": "Shortcuts for writing Obsidian.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-image",
-              "title": "image (620) (1) hmmm"
+              "icon": "lucide-file",
+              "title": "Shortcuts for writing Obsidian"
             }
           }
         ]
@@ -236,8 +239,9 @@
       "vault-2-book:Obsidian 2 Book: Generate a book from a specified folder": false
     }
   },
-  "active": "e58be068870c1953",
+  "active": "0411073bdabeb9a2",
   "lastOpenFiles": [
+    "HackTricks/src/images/image (620) (1) hmmm.png",
     "HackTricks/src/images/image (567) (1) this one big.png",
     "HackTricks/src/images/image (477) (2) big.png",
     "HackTricks/src/images/image (446) (1) (2)too big.png",
@@ -284,7 +288,6 @@
     "HackTricks/src/macos-hardening/macos-security-and-privilege-escalation/macos-proces-abuse/macos-ipc-inter-process-communication/macos-xpc/macos-xpc-connecting-process-check/README.md",
     "HackTricks/src/macos-hardening/macos-security-and-privilege-escalation/macos-proces-abuse/macos-ipc-inter-process-communication/macos-xpc/macos-xpc-connecting-process-check/macos-xpc_connection_get_audit_token-attack.md",
     "HackTricks/src/images/websec.gif",
-    "HackTricks/src/images/websec (1).svg",
     "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Untitled.canvas",
     "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Supply Chain Attack APT view.canvas",
     "Untitled.canvas"
