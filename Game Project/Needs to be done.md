@@ -1,8 +1,0 @@
-- Needed to create a inventory system
-- needed create controls and better support
-- need to create menu and ui for it 
-- need to apply settings menu 
-- need to create the npc’s 
-- need to create the monsters
-- need to create the  expendable and infinite world
-- fix the game crashes 

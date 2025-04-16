@@ -30,13 +30,15 @@
       "icon": "lucide-gamepad",
       "color": "purple",
       "unsynced": [
-        "5d9789662d2ad8a8"
+        "5d9789662d2ad8a8",
+        "e0e074616846973e"
       ]
     },
     "Game Project/Pygame": {
       "icon": "lucide-origami",
       "unsynced": [
-        "5d9789662d2ad8a8"
+        "5d9789662d2ad8a8",
+        "e0e074616846973e"
       ],
       "color": "green"
     },

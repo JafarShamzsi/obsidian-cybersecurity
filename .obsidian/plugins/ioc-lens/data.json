@@ -1,0 +1,116 @@
+{
+  "validTld": [],
+  "searchSites": [
+    {
+      "name": "VirusTotal",
+      "shortName": "VT",
+      "description": "VirusTotal inspects items with over 70 antivirus scanners and URL/domain blocklisting services.",
+      "site": "https://virustotal.com/gui/search/%s",
+      "ip": true,
+      "ipv6": true,
+      "hash": true,
+      "domain": true,
+      "multisearch": true,
+      "separator": "%20",
+      "enabled": true
+    },
+    {
+      "name": "AbuseIPDB",
+      "shortName": "IPDB",
+      "description": "Check an IP address, domain name, or subnet to see if it's been reported.",
+      "site": "https://abuseipdb.com/check/%s",
+      "ip": true,
+      "ipv6": true,
+      "hash": false,
+      "domain": true,
+      "multisearch": false,
+      "enabled": true
+    },
+    {
+      "name": "Google",
+      "shortName": "Google",
+      "description": "A general web search engine.",
+      "site": "https://google.com/search?q=\"%s\"",
+      "ip": true,
+      "ipv6": true,
+      "hash": true,
+      "domain": true,
+      "multisearch": false,
+      "enabled": true
+    },
+    {
+      "name": "DuckDuckGo",
+      "shortName": "DuckDuckGo",
+      "description": "A general, privacy-focused web search engine.",
+      "site": "https://duckduckgo.com/?q=\"%s\"",
+      "ip": true,
+      "ipv6": true,
+      "hash": true,
+      "domain": true,
+      "multisearch": false,
+      "enabled": false
+    },
+    {
+      "name": "URLScan",
+      "shortName": "URLScan",
+      "description": "A free service to scan and analyze websites.",
+      "site": "https://urlscan.io/search/#%s",
+      "ip": true,
+      "ipv6": false,
+      "hash": false,
+      "domain": true,
+      "multisearch": false,
+      "enabled": false
+    },
+    {
+      "name": "Shodan",
+      "shortName": "Shodan",
+      "description": "A search engine for internet-connected devices.",
+      "site": "https://www.shodan.io/host/%s",
+      "ip": true,
+      "ipv6": true,
+      "hash": false,
+      "domain": false,
+      "multisearch": false,
+      "enabled": false
+    },
+    {
+      "name": "Censys",
+      "shortName": "Censys",
+      "description": "A database of internet intelligence.",
+      "site": "https://search.censys.io/hosts/%s",
+      "ip": true,
+      "ipv6": true,
+      "hash": false,
+      "domain": true,
+      "multisearch": false,
+      "enabled": false
+    },
+    {
+      "name": "Spur Context API",
+      "shortName": "Spur",
+      "description": "Identifies VPN entry/exit, residential proxies, geo concentration, and more. Free account required to retrieve results.",
+      "site": "https://app.spur.us/context?q=%s",
+      "ip": true,
+      "ipv6": true,
+      "hash": false,
+      "domain": false,
+      "multisearch": false,
+      "enabled": false
+    },
+    {
+      "name": "GreyNoise",
+      "shortName": "GN",
+      "description": "Provides context and reputation for IP addresses involved in internet scanning.",
+      "site": "https://viz.greynoise.io/ip/%s",
+      "ip": true,
+      "ipv6": false,
+      "hash": false,
+      "domain": false,
+      "multisearch": false,
+      "enabled": true
+    }
+  ],
+  "sha256Enabled": true,
+  "md5Enabled": true
+}

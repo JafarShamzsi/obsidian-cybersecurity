@@ -4,22 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "f50d892f1975d87e",
+        "id": "a0619b594f85f596",
         "type": "tabs",
         "children": [
           {
-            "id": "abc9faf17fca3483",
+            "id": "0411073bdabeb9a2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Home.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "HackTricks/src/images/image (620) (1) hmmm.png"
               },
-              "icon": "lucide-file",
-              "title": "Home"
+              "icon": "lucide-image",
+              "title": "image (620) (1) hmmm"
             }
           }
         ]
@@ -115,24 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CyberSecurity/Security+/Flip cards/Flip Cards.md",
+                "file": "obsidian_book.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Flip Cards"
-            }
-          },
-          {
-            "id": "e7a7b303c61786dc",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "graph",
-              "state": {},
-              "pinned": true,
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Outgoing links from obsidian_book"
             }
           },
           {
@@ -156,22 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "obsidian_book.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
-            }
-          },
-          {
-            "id": "782e08f5f52b3264",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "title": "Outline of obsidian_book"
             }
           },
           {
@@ -183,9 +159,19 @@
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
             }
+          },
+          {
+            "id": "14ba4d6eef9e4d8e",
+            "type": "leaf",
+            "state": {
+              "type": "ioc-lens-view",
+              "state": {},
+              "icon": "scan-eye",
+              "title": "IOC Lens view"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "a1febc4a44f0b8ef",
@@ -225,7 +211,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 333.5
+    "width": 333.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -243,58 +230,63 @@
       "iconic:Open rulebook": false,
       "homepage:Open homepage": false,
       "obsidian-git:Open Git source control": false,
-      "activity-heatmap:Open activity heatmap": false
+      "activity-heatmap:Open activity heatmap": false,
+      "webpage-html-export:Export Vault to HTML": false,
+      "ioc-lens:Activate IOC Lens": false,
+      "vault-2-book:Obsidian 2 Book: Generate a book from a specified folder": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "e58be068870c1953",
   "lastOpenFiles": [
+    "HackTricks/src/images/image (567) (1) this one big.png",
+    "HackTricks/src/images/image (477) (2) big.png",
+    "HackTricks/src/images/image (446) (1) (2)too big.png",
+    "HackTricks/src/images/image (413) (3) (3) too big.png",
+    "HackTricks/src/images/image (413) (3) tooo big.png",
+    "HackTricks/src/images/image (253) (1) (2) too big.png",
     "Home.md",
+    "obsidian_book.md",
+    "Probability Methods.md",
+    "Network/Proxy/Static Residental Proxies.md",
+    "notebook.zim",
+    "Hackeye/Untitled.canvas",
+    "Hackeye/HackEye.md",
+    "Game Project/Starting point.md",
+    "Game Project/Sprite (Concept) - Giant Bomb.md",
+    "Game Project/Document.pdf",
+    "Game Project/Pasted image 20250208191120.png",
+    "Game Project/Needs to be done.md",
+    "Game Project/Ai question notes and answers.md",
+    "Game Project/Pygame/Pygame library.md",
+    "Game Project/Pygame/NPC.md",
+    "Game Project/Pygame/Introduction to pygame - GeeksforGeeks.md",
+    "Game Project/Pygame/Infinite world.md",
+    "Game Project/Pygame/Infinite Random world.md",
+    "Dev/Python/Use Multi processing for paralel tasks.md",
+    "Dev/Python/Python Package Manager (PIP).md",
+    "Dev/Python/python interpreter project/What is Interpreter_.md",
+    "Dev/Python/python interpreter project/Recursive descent parser.md",
+    "Dev/Python/python interpreter project/Interpreter.md",
+    "Dev/Python/apache kafka python/What is Kafka_.md",
+    "Dev/Python/Blockchain/All Notes.md",
+    "Dev/Database/PostgreSQL/Postgre SQL Connection String.md",
+    "HackTricks/searchindex.json",
+    "HackTricks/searchindex.js",
+    "HackTricks/README.md",
+    "HackTricks/hacktricks-preprocessor.py",
+    "HackTricks/clean_unused_images.sh",
+    "HackTricks/book.toml",
+    "HackTricks/theme/fonts/SOURCE-CODE-PRO-LICENSE.txt",
+    "HackTricks/theme/fonts/source-code-pro-v11-all-charsets-500.woff2",
+    "HackTricks/theme/fonts/open-sans-v17-all-charsets-regular.woff2",
+    "HackTricks/theme/favicon.svg",
+    "HackTricks/theme/favicon.png",
+    "HackTricks/src/macos-hardening/macos-security-and-privilege-escalation/macos-proces-abuse/macos-ipc-inter-process-communication/macos-xpc/macos-xpc-connecting-process-check/README.md",
+    "HackTricks/src/macos-hardening/macos-security-and-privilege-escalation/macos-proces-abuse/macos-ipc-inter-process-communication/macos-xpc/macos-xpc-connecting-process-check/macos-xpc_connection_get_audit_token-attack.md",
+    "HackTricks/src/images/websec.gif",
+    "HackTricks/src/images/websec (1).svg",
+    "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Untitled.canvas",
     "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Supply Chain Attack APT view.canvas",
-    "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Supply Chain Attack Surface.md",
-    "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks",
-    "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Attacking-Frameworks/MITRE ATT&CK/Mobile-Attack/tactics/Collection.md",
-    "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Offensive-Techniques/EternalBlue.md",
-    "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Message-Based Attack Vectors.md",
-    "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Attacking-Frameworks/MITRE ATT&CK/Mobile-Attack/tactics/Credential Access.md",
-    "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Attacking-Frameworks/MITRE ATT&CK/Mobile-Attack/tactics/Persistence.md",
-    "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Internal Threat Actors.md",
-    "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Lure-Based Attack Vectors.md",
-    "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Network Vectors for Attack.md",
-    "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Offensive-Techniques",
-    "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Vulnerable Software Vectors.md",
-    "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Attack Surface and Threat Vectors.md",
-    "Images/57-1692974859396.jpg",
-    "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Organized Crime and Competitors in Cybersecurity.md",
-    "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Nation-State Actors.md",
-    "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Attributes of Threat Actors.md",
-    "CyberSecurity/Security+/5-Governance-Risk-Compliance/Frameworks/NIST CyberSecurity Framework.md",
-    "CyberSecurity/Security+/Flip cards/Flip Cards.md",
-    "CyberSecurity/Security+/Security Concepts Map.md",
-    "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Lockheed Martin Cyber Kill Chain/Reconnaisance/Methodologies/Reconnaissance Methodologies.md",
-    "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Lockheed Martin Cyber Kill Chain/Reconnaisance/Tools/Dig.md",
-    "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Lockheed Martin Cyber Kill Chain/Reconnaisance/Tools/Tools Of Reconnaissance.md",
-    "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Lockheed Martin Cyber Kill Chain/Reconnaisance/Tools/Host.md",
-    "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Lockheed Martin Cyber Kill Chain/Reconnaisance/Tools/Ping.md",
-    "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Lockheed Martin Cyber Kill Chain/Reconnaisance/Tools/TelNet.md",
-    "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Lockheed Martin Cyber Kill Chain/Reconnaisance/Tools/SNMP Enumeration Tools.md",
-    "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Lockheed Martin Cyber Kill Chain/Reconnaisance/Case-Studies",
-    "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Lockheed Martin Cyber Kill Chain/Reconnaisance/Defensive-Strategies",
-    "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Lockheed Martin Cyber Kill Chain/Reconnaisance/Methodologies",
-    "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Lockheed Martin Cyber Kill Chain/Reconnaisance/Tools",
-    "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Lockheed Martin Cyber Kill Chain/Reconnaisance/Techniques",
-    "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Lockheed Martin Cyber Kill Chain/Reconnaisance",
-    "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Lockheed Martin Cyber Kill Chain",
-    "Images/Pasted image 20250327024644.png",
-    "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Attacking-Frameworks/groups",
-    "Untitled.canvas",
-    "Images/wp4397506-death-stranding-fragile-wallpapers.jpg",
-    "Images/Pasted image 20250323235049.png",
-    "Images/Pasted image 20250323190725.png",
-    "Images/Pasted image 20250320214106.png",
-    "Images/Pasted image 20250323013746.png",
-    "Images/Pasted image 20250315123224.png",
-    "Images/Pasted image 20250320031145.png",
-    "Images/Pasted image 20250320032810.png",
-    "Hackeye/Untitled.canvas"
+    "Untitled.canvas"
   ]
 }

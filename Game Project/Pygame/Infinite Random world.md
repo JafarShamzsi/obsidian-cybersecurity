@@ -1,3 +1,6 @@
+---
+icon: 🗺
+---
 #ai
 # Creating Infinite World in Pygame
 

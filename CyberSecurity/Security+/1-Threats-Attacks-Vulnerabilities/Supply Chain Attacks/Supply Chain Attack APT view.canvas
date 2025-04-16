@@ -1,6 +1,17 @@
 {
-	"nodes":[
-		{"id":"38b298eda5406d7a","x":-229,"y":-258,"width":250,"height":60,"type":"text","text":"Supply Chain Attack APT view\n"}
-	],
-	"edges":[]
+  "edges": [
+  ],
+  "nodes": [
+    {
+      "height": 60,
+      "id": "38b298eda5406d7a",
+      "styleAttributes": {
+      },
+      "text": "Supply Chain Attack APT view\n",
+      "type": "text",
+      "width": 250,
+      "x": -420,
+      "y": -480
+    }
+  ]
 }

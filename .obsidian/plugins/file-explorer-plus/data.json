@@ -38,6 +38,20 @@
         "type": "DIRECTORIES",
         "pattern": "Polish",
         "patternType": "STRICT"
+      },
+      {
+        "name": "",
+        "active": true,
+        "type": "DIRECTORIES",
+        "pattern": "OSCP-Notes",
+        "patternType": "STRICT"
+      },
+      {
+        "name": "",
+        "active": true,
+        "type": "DIRECTORIES",
+        "pattern": "HackTricks",
+        "patternType": "STRICT"
       }
     ]
   },
