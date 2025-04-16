@@ -1,0 +1,26 @@
+# Obsidian core files
+.obsidian/cache
+.obsidian/workspace.json
+.trash/
+
+# Plugin data that doesn't need to be tracked
+.obsidian/plugins/*/data.json
+.obsidian/plugins/recent-files-obsidian/data.json
+.obsidian/plugins/file-explorer-plus/data.json
+.obsidian/plugins/activity-heatmap/activity_heatmap_data/
+.obsidian/plugins/iconic/data.json
+.obsidian/plugins/ioc-lens/data.json
+.obsidian/plugins/obsidian-icon-folder/data.json
+
+# Large files (over 50MB)
+*.raw
+HackTricks/src/files/sigdigger_20220308_*.raw
+
+# Potential OS files
+.DS_Store
+Thumbs.db
+
+# Any exported files you don't want to track
+*.pdf
+*.docx
+*.epub
