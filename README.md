@@ -2,7 +2,7 @@
 
 # CyberDev Knowledge Base
 
-My obsidian vault from the resources i researched studied and the practice i had.
+My obsidian vault from the resources i researched, studied and the practice i had.
 
 ## Contents
 
@@ -14,7 +14,8 @@ My obsidian vault from the resources i researched studied and the practice i had
   
 ## Usage
 
-1. Clone the repo and open with Obsidian ``` git clone https://github.com/JafarShamzsi/obsidian-cybersecurity.git ```
+Clone the repo and open with Obsidian
+``` git clone https://github.com/JafarShamzsi/obsidian-cybersecurity.git ```
 
 ## Disclaimer
 
