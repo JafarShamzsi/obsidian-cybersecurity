@@ -4,25 +4,68 @@
     "type": "split",
     "children": [
       {
-        "id": "a0619b594f85f596",
+        "id": "9a2fcac75bc33c76",
         "type": "tabs",
         "children": [
           {
-            "id": "0411073bdabeb9a2",
+            "id": "d3ba6c17901eae9e",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Untitled.canvas",
+                "viewState": {
+                  "x": 705.3663106015981,
+                  "y": 79.62846029024884,
+                  "zoom": -0.4309965925514771
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "dbae57d605419682",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "6ccca7e92fe6a1c6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Shortcuts for writing Obsidian.md",
+                "file": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Attacking-Frameworks/MITRE ATT&CK/Mobile-Attack/techniques/Compromise Hardware Supply Chain.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Shortcuts for writing Obsidian"
+              "title": "Compromise Hardware Supply Chain"
+            }
+          },
+          {
+            "id": "d36562feffc16818",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Attacking-Frameworks/MITRE ATT&CK/Mobile-Attack/techniques/Supply Chain Compromise.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Supply Chain Compromise"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -79,7 +122,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 340.5
+    "width": 464.5
   },
   "right": {
     "id": "067dbe9ff984865f",
@@ -239,57 +282,56 @@
       "vault-2-book:Obsidian 2 Book: Generate a book from a specified folder": false
     }
   },
-  "active": "0411073bdabeb9a2",
+  "active": "dbae57d605419682",
   "lastOpenFiles": [
-    "HackTricks/src/images/image (620) (1) hmmm.png",
-    "HackTricks/src/images/image (567) (1) this one big.png",
-    "HackTricks/src/images/image (477) (2) big.png",
-    "HackTricks/src/images/image (446) (1) (2)too big.png",
-    "HackTricks/src/images/image (413) (3) (3) too big.png",
-    "HackTricks/src/images/image (413) (3) tooo big.png",
-    "HackTricks/src/images/image (253) (1) (2) too big.png",
-    "Home.md",
-    "obsidian_book.md",
-    "Probability Methods.md",
-    "Network/Proxy/Static Residental Proxies.md",
-    "notebook.zim",
-    "Hackeye/Untitled.canvas",
-    "Hackeye/HackEye.md",
-    "Game Project/Starting point.md",
-    "Game Project/Sprite (Concept) - Giant Bomb.md",
-    "Game Project/Document.pdf",
-    "Game Project/Pasted image 20250208191120.png",
-    "Game Project/Needs to be done.md",
-    "Game Project/Ai question notes and answers.md",
-    "Game Project/Pygame/Pygame library.md",
-    "Game Project/Pygame/NPC.md",
-    "Game Project/Pygame/Introduction to pygame - GeeksforGeeks.md",
-    "Game Project/Pygame/Infinite world.md",
-    "Game Project/Pygame/Infinite Random world.md",
-    "Dev/Python/Use Multi processing for paralel tasks.md",
-    "Dev/Python/Python Package Manager (PIP).md",
-    "Dev/Python/python interpreter project/What is Interpreter_.md",
-    "Dev/Python/python interpreter project/Recursive descent parser.md",
-    "Dev/Python/python interpreter project/Interpreter.md",
-    "Dev/Python/apache kafka python/What is Kafka_.md",
-    "Dev/Python/Blockchain/All Notes.md",
-    "Dev/Database/PostgreSQL/Postgre SQL Connection String.md",
-    "HackTricks/searchindex.json",
-    "HackTricks/searchindex.js",
-    "HackTricks/README.md",
-    "HackTricks/hacktricks-preprocessor.py",
-    "HackTricks/clean_unused_images.sh",
-    "HackTricks/book.toml",
-    "HackTricks/theme/fonts/SOURCE-CODE-PRO-LICENSE.txt",
-    "HackTricks/theme/fonts/source-code-pro-v11-all-charsets-500.woff2",
-    "HackTricks/theme/fonts/open-sans-v17-all-charsets-regular.woff2",
-    "HackTricks/theme/favicon.svg",
-    "HackTricks/theme/favicon.png",
-    "HackTricks/src/macos-hardening/macos-security-and-privilege-escalation/macos-proces-abuse/macos-ipc-inter-process-communication/macos-xpc/macos-xpc-connecting-process-check/README.md",
-    "HackTricks/src/macos-hardening/macos-security-and-privilege-escalation/macos-proces-abuse/macos-ipc-inter-process-communication/macos-xpc/macos-xpc-connecting-process-check/macos-xpc_connection_get_audit_token-attack.md",
-    "HackTricks/src/images/websec.gif",
+    "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Attacking-Frameworks/MITRE ATT&CK/Mobile-Attack/techniques/Compromise Software Supply Chain.md",
+    "CyberSecurity/Security+/Glossary.md.md",
+    "OWASP Top 10/Top10/Index.md",
     "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Untitled.canvas",
+    "OWASP Top 10/Top10/Preface.md",
+    "OWASP Top 10/Top10/README.md",
+    "OWASP Top 10/Top10/CODE_OF_CONDUCT.md",
+    "OWASP Top 10/Top10/2021/docs/zh_TW/assets/OWASP_logo.png",
+    "OWASP Top 10/Top10/2021/docs/zh_TW/assets/mapping.png",
+    "OWASP Top 10/Top10/2021/docs/zh_TW/assets/LICENSE-FRONT-WASP.txt",
+    "OWASP Top 10/Top10/2021/docs/zh_TW/assets/license.png",
+    "OWASP Top 10/Top10/2021/docs/zh_TW/assets/front-wasp.png",
+    "OWASP Top 10/Top10/2021/docs/zh_TW/assets/image1.png",
+    "OWASP Top 10/Top10/2021/docs/zh_TW/assets/image2.png",
+    "OWASP Top 10/Top10/2021/docs/pt_BR/assets/TOP_10_logo_Final_Logo_Colour.png",
+    "OWASP Top 10/Top10/2021/docs/zh_TW/assets/front-cc.png",
+    "OWASP Top 10/Top10/2021/docs/pt_BR/assets/2017to2021.svg",
+    "OWASP Top 10/Top10/2021/docs/pt_BR/assets/2017 to 2021.drawio",
+    "OWASP Top 10/Top10/2021/docs/pt_BR/assets/image1.png",
+    "OWASP Top 10/Top10/2021/docs/es/assets/Top10Mapping-es.xlsx",
+    "OWASP Top 10/Top10/2021/docs/ar/assets/readme.md",
+    "OWASP Top 10/Top10/2021/docs/ar/assets/LICENSE-FRONT-WASP.txt",
+    "OWASP Top 10/Top10/2017/tr/images/LICENSE-FRONT-WASP.txt",
+    "OWASP Top 10/Top10/2017/ro/images/LICENSE-FRONT-WASP.txt",
+    "OWASP Top 10/Top10/2017/pt-pt/images/LICENSE-FRONT-WASP.txt",
+    "OWASP Top 10/Top10/2017/ru/images/OWASP Top 10 - 2017 - Icons.xcf",
+    "OWASP Top 10/Top10/2017/pt-br/images/LICENSE-FRONT-WASP.txt",
+    "OWASP Top 10/Top10/2017/id/images/LICENSE-FRONT-WASP.txt",
+    "OWASP Top 10/Top10/2017/datacall/submissions/README.md",
+    "OWASP Top 10/Top10/2017/datacall/analysis/README.MD",
+    "OWASP Top 10/Top10/osib/docs/A11_2021-Next_Steps.md",
+    "OWASP Top 10/Top10/osib/docs/A09_2021-Security_Logging_and_Monitoring_Failures.md",
+    "OWASP Top 10/Top10/osib/docs/A08_2021-Software_and_Data_Integrity_Failures.md",
+    "OWASP Top 10/Top10/osib/docs/A10_2021-Server-Side_Request_Forgery_(SSRF).md",
+    "OWASP Top 10/Top10/osib/docs/A07_2021-Identification_and_Authentication_Failures.md",
+    "OWASP Top 10/Top10/osib/docs/A06_2021-Vulnerable_and_Outdated_Components.md",
+    "OWASP Top 10/Top10/osib/docs/A05_2021-Security_Misconfiguration.md",
+    "OWASP Top 10/Top10/osib/docs/A03_2021-Injection.md",
+    "OWASP Top 10/Top10/osib/docs/A02_2021-Cryptographic_Failures.md",
+    "OWASP Top 10/Top10/osib/docs/A04_2021-Insecure_Design.md",
+    "OWASP Top 10/Top10/osib/docs/A00_2021_Introduction.md",
+    "OWASP Top 10/Top10/osib/docs/A01_2021-Broken_Access_Control.md",
+    "OWASP Top 10/Top10/generated/cheatsheets/index.md",
+    "OWASP Top 10/Top10/generated/cheatsheets/Glossary.md",
+    "OWASP Top 10/Top10/2024/Presentations/README.md",
+    "OWASP Top 10/Top10/2024/docs/README.md",
     "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Supply Chain Attack APT view.canvas",
+    "Hackeye/Untitled.canvas",
     "Untitled.canvas"
   ]
 }

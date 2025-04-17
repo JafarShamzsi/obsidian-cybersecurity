@@ -2,7 +2,7 @@
 
 # 👾 Welcome!
 
-- [HackTricks](README.md)
+- [HackTricks](HackTricks/src/README.md)
 - [HackTricks Values & FAQ](welcome/hacktricks-values-and-faq.md)
 - [About the author](welcome/about-the-author.md)
 

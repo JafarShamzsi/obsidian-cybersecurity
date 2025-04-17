@@ -1,6 +1,86 @@
 {
   "recentFiles": [
     {
+      "basename": "Compromise Software Supply Chain",
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Attacking-Frameworks/MITRE ATT&CK/Mobile-Attack/techniques/Compromise Software Supply Chain.md"
+    },
+    {
+      "basename": "Glossary.md",
+      "path": "CyberSecurity/Security+/Glossary.md.md"
+    },
+    {
+      "basename": "Index",
+      "path": "OWASP Top 10/Top10/Index.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Untitled.canvas"
+    },
+    {
+      "basename": "Compromise Hardware Supply Chain",
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Attacking-Frameworks/MITRE ATT&CK/Mobile-Attack/techniques/Compromise Hardware Supply Chain.md"
+    },
+    {
+      "basename": "Supply Chain Compromise",
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Attacking-Frameworks/MITRE ATT&CK/Mobile-Attack/techniques/Supply Chain Compromise.md"
+    },
+    {
+      "basename": "Pasted image 20250327024644",
+      "path": "Images/Pasted image 20250327024644.png"
+    },
+    {
+      "basename": "wp4397506-death-stranding-fragile-wallpapers",
+      "path": "Images/wp4397506-death-stranding-fragile-wallpapers.jpg"
+    },
+    {
+      "basename": "Pasted image 20250323235049",
+      "path": "Images/Pasted image 20250323235049.png"
+    },
+    {
+      "basename": "Pasted image 20250323013746",
+      "path": "Images/Pasted image 20250323013746.png"
+    },
+    {
+      "basename": "Pasted image 20250323190725",
+      "path": "Images/Pasted image 20250323190725.png"
+    },
+    {
+      "basename": "Pasted image 20250320214106",
+      "path": "Images/Pasted image 20250320214106.png"
+    },
+    {
+      "basename": "Pasted image 20250320032810",
+      "path": "Images/Pasted image 20250320032810.png"
+    },
+    {
+      "basename": "Pasted image 20250320031145",
+      "path": "Images/Pasted image 20250320031145.png"
+    },
+    {
+      "basename": "Pasted image 20250315123224",
+      "path": "Images/Pasted image 20250315123224.png"
+    },
+    {
+      "basename": "57-1692974859396",
+      "path": "Images/57-1692974859396.jpg"
+    },
+    {
+      "basename": "Supply Chain Attack APT view",
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Supply Chain Attack APT view.canvas"
+    },
+    {
+      "basename": "Supply Chain Attack Surface",
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Supply Chain Attack Surface.md"
+    },
+    {
+      "basename": "Home",
+      "path": "Home.md"
+    },
+    {
+      "basename": "Attack Surface and Threat Vectors",
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Attack Surface and Threat Vectors.md"
+    },
+    {
       "basename": "Shortcuts for writing Obsidian",
       "path": "Shortcuts for writing Obsidian.md"
     },
@@ -31,10 +111,6 @@
     {
       "basename": "image (253) (1) (2) too big",
       "path": "HackTricks/src/images/image (253) (1) (2) too big.png"
-    },
-    {
-      "basename": "Home",
-      "path": "Home.md"
     },
     {
       "basename": "obsidian_book",
@@ -109,18 +185,6 @@
       "path": "Dev/Database/PostgreSQL/Postgre SQL Connection String.md"
     },
     {
-      "basename": "Untitled",
-      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Untitled.canvas"
-    },
-    {
-      "basename": "Supply Chain Attack Surface",
-      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Supply Chain Attack Surface.md"
-    },
-    {
-      "basename": "Supply Chain Attack APT view",
-      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Supply Chain Attack APT view.canvas"
-    },
-    {
       "basename": "search-engines",
       "path": "OSCP-Notes/OSCP/www/search-engines.md"
     },
@@ -135,70 +199,6 @@
     {
       "basename": "HTTP-request",
       "path": "OSCP-Notes/OSCP/www/HTTP-request.md"
-    },
-    {
-      "basename": "B&E-III-NOP-Sleds",
-      "path": "OSCP-Notes/OSCP/writeups/B&E-III-NOP-Sleds.md"
-    },
-    {
-      "basename": "B&E-II-Classic-Overflow",
-      "path": "OSCP-Notes/OSCP/writeups/B&E-II-Classic-Overflow.md"
-    },
-    {
-      "basename": "B&E-I-The-Stack",
-      "path": "OSCP-Notes/OSCP/writeups/B&E-I-The-Stack.md"
-    },
-    {
-      "basename": "B&E-IV-ROP-Gadgets",
-      "path": "OSCP-Notes/OSCP/writeups/B&E-IV-ROP-Gadgets.md"
-    },
-    {
-      "basename": "HTB-vaccine",
-      "path": "OSCP-Notes/OSCP/writeups/HTB-vaccine.md"
-    },
-    {
-      "basename": "markup",
-      "path": "OSCP-Notes/OSCP/writeups/markup.md"
-    },
-    {
-      "basename": "python-concurrency-with-asyncio",
-      "path": "OSCP-Notes/OSCP/writeups/python-concurrency-with-asyncio.md"
-    },
-    {
-      "basename": "react-framework",
-      "path": "OSCP-Notes/OSCP/coding/frameworks/react-framework.md"
-    },
-    {
-      "basename": "redis",
-      "path": "OSCP-Notes/OSCP/coding/databases/redis.md"
-    },
-    {
-      "basename": "MongoDB",
-      "path": "OSCP-Notes/OSCP/coding/databases/MongoDB.md"
-    },
-    {
-      "basename": "DBMS",
-      "path": "OSCP-Notes/OSCP/coding/databases/DBMS.md"
-    },
-    {
-      "basename": "notpetya",
-      "path": "OSCP-Notes/OSCP/cybersecurity/attacks/notpetya.md"
-    },
-    {
-      "basename": "curL",
-      "path": "OSCP-Notes/OSCP/CLI-tools/linux/remote/curL.md"
-    },
-    {
-      "basename": "w",
-      "path": "OSCP-Notes/OSCP/CLI-tools/linux/users/w.md"
-    },
-    {
-      "basename": "who",
-      "path": "OSCP-Notes/OSCP/CLI-tools/linux/users/who.md"
-    },
-    {
-      "basename": "crontab",
-      "path": "OSCP-Notes/OSCP/CLI-tools/linux/crontab.md"
     }
   ],
   "omittedPaths": [],

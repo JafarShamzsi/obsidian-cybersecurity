@@ -1,9 +1,9 @@
 {
-  "cssTheme": "Material Ocean",
+  "cssTheme": "Minimal",
   "translucency": false,
   "baseFontSizeAction": true,
   "accentColor": "#5c0d87",
-  "baseFontSize": 15,
+  "baseFontSize": 18,
   "theme": "obsidian",
   "enabledCssSnippets": [
     "dashboard",
