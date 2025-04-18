@@ -8,30 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d3ba6c17901eae9e",
+            "id": "181e451be4956d23",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Offensive-Techniques/EternalBlue.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "EternalBlue"
+            }
+          },
+          {
+            "id": "8f25db14b42ecb5e",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Untitled.canvas",
                 "viewState": {
-                  "x": 705.3663106015981,
-                  "y": 79.62846029024884,
-                  "zoom": -0.4309965925514771
+                  "x": -1609.8175181872305,
+                  "y": 3076.40039279289,
+                  "zoom": -1.666666666666666
                 }
               },
               "icon": "lucide-layout-dashboard",
               "title": "Untitled"
-            }
-          },
-          {
-            "id": "dbae57d605419682",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
             }
           },
           {
@@ -122,7 +127,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 464.5
+    "width": 464.5,
+    "collapsed": true
   },
   "right": {
     "id": "067dbe9ff984865f",
@@ -282,12 +288,15 @@
       "vault-2-book:Obsidian 2 Book: Generate a book from a specified folder": false
     }
   },
-  "active": "dbae57d605419682",
+  "active": "8f25db14b42ecb5e",
   "lastOpenFiles": [
+    "Untitled.md",
+    "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Untitled.canvas",
+    "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Offensive-Techniques/EternalBlue.md",
+    "README.md",
     "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Attacking-Frameworks/MITRE ATT&CK/Mobile-Attack/techniques/Compromise Software Supply Chain.md",
     "CyberSecurity/Security+/Glossary.md.md",
     "OWASP Top 10/Top10/Index.md",
-    "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Untitled.canvas",
     "OWASP Top 10/Top10/Preface.md",
     "OWASP Top 10/Top10/README.md",
     "OWASP Top 10/Top10/CODE_OF_CONDUCT.md",
@@ -327,9 +336,6 @@
     "OWASP Top 10/Top10/osib/docs/A00_2021_Introduction.md",
     "OWASP Top 10/Top10/osib/docs/A01_2021-Broken_Access_Control.md",
     "OWASP Top 10/Top10/generated/cheatsheets/index.md",
-    "OWASP Top 10/Top10/generated/cheatsheets/Glossary.md",
-    "OWASP Top 10/Top10/2024/Presentations/README.md",
-    "OWASP Top 10/Top10/2024/docs/README.md",
     "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Supply Chain Attack APT view.canvas",
     "Hackeye/Untitled.canvas",
     "Untitled.canvas"

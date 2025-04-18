@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "Untitled",
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Untitled.canvas"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Untitled.md"
+    },
+    {
+      "basename": "Image File Execution Options Injection",
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Attacking-Frameworks/MITRE ATT&CK/Enterprise-Attack/techniques/Image File Execution Options Injection.md"
+    },
+    {
+      "basename": "EternalBlue",
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Offensive-Techniques/EternalBlue.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
       "basename": "Compromise Software Supply Chain",
       "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Attacking-Frameworks/MITRE ATT&CK/Mobile-Attack/techniques/Compromise Software Supply Chain.md"
     },
@@ -11,10 +31,6 @@
     {
       "basename": "Index",
       "path": "OWASP Top 10/Top10/Index.md"
-    },
-    {
-      "basename": "Untitled",
-      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Untitled.canvas"
     },
     {
       "basename": "Compromise Hardware Supply Chain",
@@ -183,22 +199,6 @@
     {
       "basename": "Postgre SQL Connection String",
       "path": "Dev/Database/PostgreSQL/Postgre SQL Connection String.md"
-    },
-    {
-      "basename": "search-engines",
-      "path": "OSCP-Notes/OSCP/www/search-engines.md"
-    },
-    {
-      "basename": "HTTPS",
-      "path": "OSCP-Notes/OSCP/www/HTTPS.md"
-    },
-    {
-      "basename": "HTTP",
-      "path": "OSCP-Notes/OSCP/www/HTTP.md"
-    },
-    {
-      "basename": "HTTP-request",
-      "path": "OSCP-Notes/OSCP/www/HTTP-request.md"
     }
   ],
   "omittedPaths": [],

@@ -21,3 +21,5 @@ Thumbs.db
 *.pdf
 *.docx
 *.epub
+/.obsidian/plugins/recent-files-obsidian
+.obsidian/plugins/recent-files-obsidian/data.json
