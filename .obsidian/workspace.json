@@ -11,17 +11,15 @@
             "id": "181e451be4956d23",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Untitled.canvas",
-                "viewState": {
-                  "x": -1648.9874603644055,
-                  "y": 2642.1228637243607,
-                  "zoom": -1.102523883970069
-                }
+                "file": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Offensive-Techniques/EternalBlue.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Untitled"
+              "icon": "lucide-file",
+              "title": "EternalBlue"
             }
           },
           {
@@ -111,8 +109,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 464.5,
-    "collapsed": true
+    "width": 464.5
   },
   "right": {
     "id": "067dbe9ff984865f",
@@ -273,9 +270,9 @@
   },
   "active": "181e451be4956d23",
   "lastOpenFiles": [
-    "HackTricks/src/network-services-pentesting/8089-splunkd.md",
-    "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Offensive-Techniques/EternalBlue.md",
     "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Untitled.canvas",
+    "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Offensive-Techniques/EternalBlue.md",
+    "HackTricks/src/network-services-pentesting/8089-splunkd.md",
     "Untitled.md",
     "README.md",
     "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Attacking-Frameworks/MITRE ATT&CK/Mobile-Attack/techniques/Compromise Software Supply Chain.md",
@@ -319,7 +316,6 @@
     "OWASP Top 10/Top10/osib/docs/A04_2021-Insecure_Design.md",
     "OWASP Top 10/Top10/osib/docs/A00_2021_Introduction.md",
     "OWASP Top 10/Top10/osib/docs/A01_2021-Broken_Access_Control.md",
-    "OWASP Top 10/Top10/generated/cheatsheets/index.md",
     "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Supply Chain Attack APT view.canvas",
     "Hackeye/Untitled.canvas",
     "Untitled.canvas"
