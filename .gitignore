@@ -23,3 +23,11 @@ Thumbs.db
 *.epub
 /.obsidian/plugins/recent-files-obsidian
 .obsidian/plugins/recent-files-obsidian/data.json
+.obsidian/plugins/obsidian-icon-folder/data.json
+.obsidian/plugins/obsidian-icon-folder/data.json
+.obsidian/plugins/obsidian-linter/data.json
+.obsidian/plugins/obsidian-minimal-settings/data.json
+.obsidian/plugins/obsidian-plugin-update-tracker/data.json
+.obsidian/plugins/omnisearch/data.json
+.obsidian/plugins/recent-files-obsidian/data.json
+.obsidian/plugins/table-editor-obsidian/data.json
