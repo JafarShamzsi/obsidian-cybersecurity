@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "EternalBlue",
-      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Offensive-Techniques/EternalBlue.md"
-    },
-    {
       "basename": "Untitled",
       "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Untitled.canvas"
+    },
+    {
+      "basename": "Cross-env Typosquatting Campaign (2020)",
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Cross-env Typosquatting Campaign (2020).md"
+    },
+    {
+      "basename": "Python3-dateutil Supply Chain Attack",
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Python3-dateutil Supply Chain Attack.md"
+    },
+    {
+      "basename": "AES-256-CBC",
+      "path": "CyberSecurity/Encryption/AES-256-CBC.md"
+    },
+    {
+      "basename": "Home",
+      "path": "Home.md"
+    },
+    {
+      "basename": "EternalBlue",
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Offensive-Techniques/EternalBlue.md"
     },
     {
       "basename": "Image File Execution Options Injection",
@@ -87,10 +103,6 @@
     {
       "basename": "Supply Chain Attack Surface",
       "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Supply Chain Attack Surface.md"
-    },
-    {
-      "basename": "Home",
-      "path": "Home.md"
     },
     {
       "basename": "Attack Surface and Threat Vectors",
@@ -187,18 +199,6 @@
     {
       "basename": "Recursive descent parser",
       "path": "Dev/Python/python interpreter project/Recursive descent parser.md"
-    },
-    {
-      "basename": "Interpreter",
-      "path": "Dev/Python/python interpreter project/Interpreter.md"
-    },
-    {
-      "basename": "What is Kafka_",
-      "path": "Dev/Python/apache kafka python/What is Kafka_.md"
-    },
-    {
-      "basename": "Postgre SQL Connection String",
-      "path": "Dev/Database/PostgreSQL/Postgre SQL Connection String.md"
     }
   ],
   "omittedPaths": [],

