@@ -4,22 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "0d8d76d7d3035b9a",
+        "id": "68f5129221941dc2",
         "type": "tabs",
         "children": [
           {
-            "id": "f119a4ba509c41a3",
+            "id": "eccc7ba98599748d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "CyberSecurity/Encryption/What is Encryption.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Supply Chain Attack.canvas",
+                "viewState": {
+                  "x": 755,
+                  "y": 1905,
+                  "zoom": -4
+                }
               },
-              "icon": "lucide-file",
-              "title": "What is Encryption"
+              "icon": "lucide-layout-dashboard",
+              "title": "Supply Chain Attack"
             }
           }
         ]
@@ -238,11 +240,12 @@
       "ioc-lens:Activate IOC Lens": false
     }
   },
-  "active": "f119a4ba509c41a3",
+  "active": "e58be068870c1953",
   "lastOpenFiles": [
+    "CyberSecurity/Social Engineering",
     "Home.md",
     "CyberSecurity/Encryption/What is Encryption.md",
-    "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Untitled.canvas",
+    "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Supply Chain Attack.canvas",
     "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Cross-env Typosquatting Campaign (2020).md",
     "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Python3-dateutil Supply Chain Attack.md",
     "CyberSecurity/Encryption/AES-256-CBC.md",
@@ -286,7 +289,6 @@
     "OWASP Top 10/Top10/osib/docs/A07_2021-Identification_and_Authentication_Failures.md",
     "OWASP Top 10/Top10/osib/docs/A06_2021-Vulnerable_and_Outdated_Components.md",
     "OWASP Top 10/Top10/osib/docs/A05_2021-Security_Misconfiguration.md",
-    "OWASP Top 10/Top10/osib/docs/A03_2021-Injection.md",
     "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Supply Chain Attack APT view.canvas",
     "Hackeye/Untitled.canvas",
     "Untitled.canvas"

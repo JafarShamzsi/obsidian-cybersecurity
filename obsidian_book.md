@@ -23739,7 +23739,7 @@
 
 ##### Untitled
 
-![[/CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Untitled.canvas|Untitled.canvas]]
+![[Supply Chain Attack.canvas|Supply Chain Attack.canvas]]
 
 ---
 

@@ -13396,9 +13396,9 @@
       "fileSize": 203
     },
     "obsidian_book.md": {
-      "mtime": 1745169924895,
-      "wordCount": 59676,
-      "fileSize": 1084025
+      "mtime": 1745440695013,
+      "wordCount": 59678,
+      "fileSize": 1083967
     },
     "OSCP-Notes/OSCP/www/HTTPS.md": {
       "mtime": 1745169924275,
@@ -23731,7 +23731,7 @@
       "fileSize": 7438
     },
     "CyberSecurity/Encryption/What is Encryption.md": {
-      "mtime": 1745349017220,
+      "mtime": 1745356244588,
       "wordCount": 2463,
       "fileSize": 18768
     }
@@ -23884,6 +23884,14 @@
     "2025-04-22": {
       "wordCount": 6386,
       "fileSize": 51533
+    },
+    "2025-04-23": {
+      "wordCount": 0,
+      "fileSize": 40
+    },
+    "2025-04-24": {
+      "wordCount": 2,
+      "fileSize": 58
     }
   }
 }
