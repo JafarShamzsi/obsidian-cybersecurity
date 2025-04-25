@@ -4,24 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "68f5129221941dc2",
+        "id": "c53bd78cdf7caa2e",
         "type": "tabs",
         "children": [
           {
-            "id": "eccc7ba98599748d",
+            "id": "c3f9fcced9548115",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Supply Chain Attack.canvas",
-                "viewState": {
-                  "x": 755,
-                  "y": 1905,
-                  "zoom": -4
-                }
+                "file": "CyberSecurity/Social Engineering/What is Social Engineering.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Supply Chain Attack"
+              "icon": "lucide-file",
+              "title": "What is Social Engineering"
             }
           }
         ]
@@ -240,12 +238,13 @@
       "ioc-lens:Activate IOC Lens": false
     }
   },
-  "active": "e58be068870c1953",
+  "active": "c3f9fcced9548115",
   "lastOpenFiles": [
-    "CyberSecurity/Social Engineering",
     "Home.md",
-    "CyberSecurity/Encryption/What is Encryption.md",
+    "CyberSecurity/Social Engineering/What is Social Engineering.md",
     "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Supply Chain Attack.canvas",
+    "CyberSecurity/Social Engineering",
+    "CyberSecurity/Encryption/What is Encryption.md",
     "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Cross-env Typosquatting Campaign (2020).md",
     "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Python3-dateutil Supply Chain Attack.md",
     "CyberSecurity/Encryption/AES-256-CBC.md",
@@ -279,7 +278,6 @@
     "OWASP Top 10/Top10/2017/ro/images/LICENSE-FRONT-WASP.txt",
     "OWASP Top 10/Top10/2017/pt-pt/images/LICENSE-FRONT-WASP.txt",
     "OWASP Top 10/Top10/2017/ru/images/OWASP Top 10 - 2017 - Icons.xcf",
-    "OWASP Top 10/Top10/2017/pt-br/images/LICENSE-FRONT-WASP.txt",
     "OWASP Top 10/Top10/2017/datacall/submissions/README.md",
     "OWASP Top 10/Top10/2017/datacall/analysis/README.MD",
     "OWASP Top 10/Top10/osib/docs/A11_2021-Next_Steps.md",

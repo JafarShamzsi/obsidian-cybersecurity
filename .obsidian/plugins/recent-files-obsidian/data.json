@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Supply Chain Attack",
-      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Supply Chain Attack.canvas"
+      "basename": "What is Social Engineering",
+      "path": "CyberSecurity/Social Engineering/What is Social Engineering.md"
     },
     {
       "basename": "Home",
       "path": "Home.md"
+    },
+    {
+      "basename": "Supply Chain Attack",
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Supply Chain Attack.canvas"
     },
     {
       "basename": "What is Encryption",
@@ -195,10 +199,6 @@
     {
       "basename": "Python Package Manager (PIP)",
       "path": "Dev/Python/Python Package Manager (PIP).md"
-    },
-    {
-      "basename": "What is Interpreter_",
-      "path": "Dev/Python/python interpreter project/What is Interpreter_.md"
     }
   ],
   "omittedPaths": [],

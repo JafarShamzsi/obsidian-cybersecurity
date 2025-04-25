@@ -23734,6 +23734,11 @@
       "mtime": 1745356244588,
       "wordCount": 2463,
       "fileSize": 18768
+    },
+    "CyberSecurity/Social Engineering/What is Social Engineering.md": {
+      "mtime": 1745606239977,
+      "wordCount": 1,
+      "fileSize": 1
     }
   },
   "activityOverTime": {
@@ -23892,6 +23897,10 @@
     "2025-04-24": {
       "wordCount": 2,
       "fileSize": 58
+    },
+    "2025-04-25": {
+      "wordCount": 1,
+      "fileSize": 1
     }
   }
 }
