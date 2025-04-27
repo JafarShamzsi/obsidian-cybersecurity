@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c53bd78cdf7caa2e",
+        "id": "6ac7c05352a487c3",
         "type": "tabs",
         "children": [
           {
-            "id": "c3f9fcced9548115",
+            "id": "d425a2719b66361c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -238,23 +238,25 @@
       "ioc-lens:Activate IOC Lens": false
     }
   },
-  "active": "c3f9fcced9548115",
+  "active": "d425a2719b66361c",
   "lastOpenFiles": [
-    "Home.md",
+    "CyberSecurity/Security+/Glossary.md.md",
     "CyberSecurity/Social Engineering/What is Social Engineering.md",
+    "Home.md",
+    "CyberSecurity/Security+/3-Implementation/Authentication.md",
+    "CyberSecurity/Security+/2-Architecture-Design/Access Control.md",
+    "CyberSecurity/Encryption/AES-256-CBC.md",
+    "CyberSecurity/Encryption/What is Encryption.md",
     "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Supply Chain Attack.canvas",
     "CyberSecurity/Social Engineering",
-    "CyberSecurity/Encryption/What is Encryption.md",
     "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Cross-env Typosquatting Campaign (2020).md",
     "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Python3-dateutil Supply Chain Attack.md",
-    "CyberSecurity/Encryption/AES-256-CBC.md",
     "CyberSecurity/Encryption",
     "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Offensive-Techniques/EternalBlue.md",
     "HackTricks/src/network-services-pentesting/8089-splunkd.md",
     "Untitled.md",
     "README.md",
     "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Attacking-Frameworks/MITRE ATT&CK/Mobile-Attack/techniques/Compromise Software Supply Chain.md",
-    "CyberSecurity/Security+/Glossary.md.md",
     "OWASP Top 10/Top10/Index.md",
     "OWASP Top 10/Top10/Preface.md",
     "OWASP Top 10/Top10/README.md",
@@ -285,8 +287,6 @@
     "OWASP Top 10/Top10/osib/docs/A08_2021-Software_and_Data_Integrity_Failures.md",
     "OWASP Top 10/Top10/osib/docs/A10_2021-Server-Side_Request_Forgery_(SSRF).md",
     "OWASP Top 10/Top10/osib/docs/A07_2021-Identification_and_Authentication_Failures.md",
-    "OWASP Top 10/Top10/osib/docs/A06_2021-Vulnerable_and_Outdated_Components.md",
-    "OWASP Top 10/Top10/osib/docs/A05_2021-Security_Misconfiguration.md",
     "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Supply Chain Attack APT view.canvas",
     "Hackeye/Untitled.canvas",
     "Untitled.canvas"

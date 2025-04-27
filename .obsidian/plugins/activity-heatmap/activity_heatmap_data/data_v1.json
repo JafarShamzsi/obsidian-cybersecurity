@@ -106,9 +106,9 @@
       "fileSize": 4393
     },
     "CyberSecurity/Security+/3-Implementation/Authentication.md": {
-      "mtime": 1745169922107,
+      "mtime": 1745767911934,
       "wordCount": 851,
-      "fileSize": 6439
+      "fileSize": 6331
     },
     "CyberSecurity/Security+/Security Concepts Map.md": {
       "mtime": 1745169922109,
@@ -116,9 +116,9 @@
       "fileSize": 1452
     },
     "CyberSecurity/Security+/Glossary.md.md": {
-      "mtime": 1745169922109,
+      "mtime": 1745779294846,
       "wordCount": 2674,
-      "fileSize": 19948
+      "fileSize": 19559
     },
     "CyberSecurity/Security+/Index.md.md": {
       "mtime": 1745169922109,
@@ -171,9 +171,9 @@
       "fileSize": 5473
     },
     "CyberSecurity/Security+/2-Architecture-Design/Access Control.md": {
-      "mtime": 1745169922106,
+      "mtime": 1745767892087,
       "wordCount": 523,
-      "fileSize": 3810
+      "fileSize": 3729
     },
     "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Lockheed Martin Cyber Kill Chain/Unterstanding Cyber Kill Chain.md": {
       "mtime": 1745169922102,
@@ -23736,9 +23736,9 @@
       "fileSize": 18768
     },
     "CyberSecurity/Social Engineering/What is Social Engineering.md": {
-      "mtime": 1745606239977,
-      "wordCount": 1,
-      "fileSize": 1
+      "mtime": 1745779326032,
+      "wordCount": 3787,
+      "fileSize": 25026
     }
   },
   "activityOverTime": {
@@ -23901,6 +23901,10 @@
     "2025-04-25": {
       "wordCount": 1,
       "fileSize": 1
+    },
+    "2025-04-27": {
+      "wordCount": 3790,
+      "fileSize": 26761
     }
   }
 }
