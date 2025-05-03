@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6ac7c05352a487c3",
+        "id": "42e608870386fc6a",
         "type": "tabs",
         "children": [
           {
-            "id": "d425a2719b66361c",
+            "id": "938cd2d7c43ce25d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -63,16 +63,6 @@
               },
               "icon": "lucide-search",
               "title": "Search"
-            }
-          },
-          {
-            "id": "cc34df69e0851196",
-            "type": "leaf",
-            "state": {
-              "type": "recent-files",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
             }
           }
         ]
@@ -238,11 +228,11 @@
       "ioc-lens:Activate IOC Lens": false
     }
   },
-  "active": "d425a2719b66361c",
+  "active": "938cd2d7c43ce25d",
   "lastOpenFiles": [
-    "CyberSecurity/Security+/Glossary.md.md",
-    "CyberSecurity/Social Engineering/What is Social Engineering.md",
     "Home.md",
+    "CyberSecurity/Social Engineering/What is Social Engineering.md",
+    "CyberSecurity/Security+/Glossary.md.md",
     "CyberSecurity/Security+/3-Implementation/Authentication.md",
     "CyberSecurity/Security+/2-Architecture-Design/Access Control.md",
     "CyberSecurity/Encryption/AES-256-CBC.md",

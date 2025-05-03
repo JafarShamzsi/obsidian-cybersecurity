@@ -1,13 +1,6 @@
 ---
 banner: "Images/wp4397506-death-stranding-fragile-wallpapers.jpg"
 ---
----
-sticker: lucide//home
-color: var(--mk-color-green)
-banner: "Images/wp4397506-death-stranding-fragile-wallpapers.jpg"
--plugin: 
-banner_y: "28.5"
----
 
 ---  
 
