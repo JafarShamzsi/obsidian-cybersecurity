@@ -1,6 +1,3 @@
----
-banner: "Images/wp4397506-death-stranding-fragile-wallpapers.jpg"
----
 
 ---  
 

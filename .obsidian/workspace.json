@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "42e608870386fc6a",
+        "id": "c1fa8960c0840e06",
         "type": "tabs",
         "children": [
           {
-            "id": "938cd2d7c43ce25d",
+            "id": "c60a5191f3364770",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CyberSecurity/Social Engineering/What is Social Engineering.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "What is Social Engineering"
+              "title": "Home"
             }
           }
         ]
@@ -224,18 +224,19 @@
       "obsidian-git:Open Git source control": false,
       "activity-heatmap:Open activity heatmap": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "webpage-html-export:Export Vault to HTML": false,
-      "ioc-lens:Activate IOC Lens": false
+      "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "938cd2d7c43ce25d",
+  "active": "c60a5191f3364770",
   "lastOpenFiles": [
+    "CyberSecurity/Encryption/AES-256-CBC.md",
     "Home.md",
     "CyberSecurity/Social Engineering/What is Social Engineering.md",
+    "Untitled.md",
+    "Untitled.canvas",
     "CyberSecurity/Security+/Glossary.md.md",
     "CyberSecurity/Security+/3-Implementation/Authentication.md",
     "CyberSecurity/Security+/2-Architecture-Design/Access Control.md",
-    "CyberSecurity/Encryption/AES-256-CBC.md",
     "CyberSecurity/Encryption/What is Encryption.md",
     "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Supply Chain Attack.canvas",
     "CyberSecurity/Social Engineering",
@@ -244,7 +245,6 @@
     "CyberSecurity/Encryption",
     "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Offensive-Techniques/EternalBlue.md",
     "HackTricks/src/network-services-pentesting/8089-splunkd.md",
-    "Untitled.md",
     "README.md",
     "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Attacking-Frameworks/MITRE ATT&CK/Mobile-Attack/techniques/Compromise Software Supply Chain.md",
     "OWASP Top 10/Top10/Index.md",
@@ -276,9 +276,7 @@
     "OWASP Top 10/Top10/osib/docs/A09_2021-Security_Logging_and_Monitoring_Failures.md",
     "OWASP Top 10/Top10/osib/docs/A08_2021-Software_and_Data_Integrity_Failures.md",
     "OWASP Top 10/Top10/osib/docs/A10_2021-Server-Side_Request_Forgery_(SSRF).md",
-    "OWASP Top 10/Top10/osib/docs/A07_2021-Identification_and_Authentication_Failures.md",
     "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Supply Chain Attack APT view.canvas",
-    "Hackeye/Untitled.canvas",
-    "Untitled.canvas"
+    "Hackeye/Untitled.canvas"
   ]
 }
