@@ -2,6 +2,7 @@
 
 This technical documentation provides a comprehensive analysis of social engineering as a critical attack vector in modern security landscapes. Social engineering manipulates human psychology rather than technical vulnerabilities, making it one of the most effective and dangerous attack methodologies. This document examines the psychological foundations, methodologies, attack vectors, defense strategies, and notable case studies to provide security professionals with the knowledge necessary to identify, prevent, and mitigate social engineering threats.
 
+![[Pasted image 20250506003146.png]]
 ## Table of Contents
 
 1. [Introduction to Social Engineering]

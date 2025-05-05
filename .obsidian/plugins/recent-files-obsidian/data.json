@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Phishing and Pharming",
+      "path": "CyberSecurity/Social Engineering/Phishing and Pharming.md"
+    },
+    {
+      "basename": "What is Social Engineering",
+      "path": "CyberSecurity/Social Engineering/What is Social Engineering.md"
+    },
+    {
       "basename": "Impersonation and Pretexting",
       "path": "CyberSecurity/Social Engineering/Impersonation and Pretexting.md"
     },
@@ -11,10 +19,6 @@
     {
       "basename": "AES-256-CBC",
       "path": "CyberSecurity/Encryption/AES-256-CBC.md"
-    },
-    {
-      "basename": "What is Social Engineering",
-      "path": "CyberSecurity/Social Engineering/What is Social Engineering.md"
     },
     {
       "basename": "Glossary.md",
