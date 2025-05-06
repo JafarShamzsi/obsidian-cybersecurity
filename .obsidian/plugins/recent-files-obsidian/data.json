@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Symmetric Encryption",
+      "path": "CyberSecurity/Encryption/Symmetric Encryption.md"
+    },
+    {
       "basename": "Home",
       "path": "Home.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Pygame library",
       "path": "Game Project/Pygame/Pygame library.md"
-    },
-    {
-      "basename": "NPC",
-      "path": "Game Project/Pygame/NPC.md"
     }
   ],
   "omittedPaths": [],

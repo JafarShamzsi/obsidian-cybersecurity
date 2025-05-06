@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "CyberSecurity/Encryption/Symmetric Encryption.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "Symmetric Encryption"
             }
           }
         ]
@@ -227,11 +227,13 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "168b654522d69d9e",
+  "active": "e58be068870c1953",
   "lastOpenFiles": [
+    "Images/Pasted image 20250506222917.png",
+    "Home.md",
+    "CyberSecurity/Encryption/Symmetric Encryption.md",
     "CyberSecurity/Social Engineering/Business email compromise and Watering Hole Attacks.md",
     "CyberSecurity/Social Engineering/Typosquatting.md",
-    "Home.md",
     "CyberSecurity/Social Engineering/Phishing and Pharming.md",
     "Images/Pasted image 20250506012056.png",
     "CyberSecurity/Social Engineering/What is Social Engineering.md",
@@ -275,8 +277,6 @@
     "OWASP Top 10/Top10/2017/pt-pt/images/LICENSE-FRONT-WASP.txt",
     "OWASP Top 10/Top10/2017/ru/images/OWASP Top 10 - 2017 - Icons.xcf",
     "OWASP Top 10/Top10/2017/datacall/submissions/README.md",
-    "OWASP Top 10/Top10/2017/datacall/analysis/README.MD",
-    "OWASP Top 10/Top10/osib/docs/A11_2021-Next_Steps.md",
     "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Supply Chain Attack APT view.canvas",
     "Hackeye/Untitled.canvas"
   ]
