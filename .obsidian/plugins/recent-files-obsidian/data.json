@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Home",
+      "path": "Home.md"
+    },
+    {
+      "basename": "Business email compromise and Watering Hole Attacks",
+      "path": "CyberSecurity/Social Engineering/Business email compromise and Watering Hole Attacks.md"
+    },
+    {
+      "basename": "Typosquatting",
+      "path": "CyberSecurity/Social Engineering/Typosquatting.md"
+    },
+    {
       "basename": "Phishing and Pharming",
       "path": "CyberSecurity/Social Engineering/Phishing and Pharming.md"
     },
@@ -11,10 +23,6 @@
     {
       "basename": "Impersonation and Pretexting",
       "path": "CyberSecurity/Social Engineering/Impersonation and Pretexting.md"
-    },
-    {
-      "basename": "Home",
-      "path": "Home.md"
     },
     {
       "basename": "AES-256-CBC",
@@ -191,14 +199,6 @@
     {
       "basename": "NPC",
       "path": "Game Project/Pygame/NPC.md"
-    },
-    {
-      "basename": "Introduction to pygame - GeeksforGeeks",
-      "path": "Game Project/Pygame/Introduction to pygame - GeeksforGeeks.md"
-    },
-    {
-      "basename": "Infinite world",
-      "path": "Game Project/Pygame/Infinite world.md"
     }
   ],
   "omittedPaths": [],
