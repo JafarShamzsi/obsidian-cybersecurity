@@ -23731,9 +23731,39 @@
       "fileSize": 18768
     },
     "CyberSecurity/Social Engineering/What is Social Engineering.md": {
-      "mtime": 1746292439523,
-      "wordCount": 2722,
-      "fileSize": 21401
+      "mtime": 1746477107192,
+      "wordCount": 2725,
+      "fileSize": 21438
+    },
+    "CyberSecurity/Social Engineering/Phishing and Pharming.md": {
+      "mtime": 1746480058377,
+      "wordCount": 3536,
+      "fileSize": 31749
+    },
+    "CyberSecurity/Social Engineering/Impersonation and Pretexting.md": {
+      "mtime": 1746477039709,
+      "wordCount": 3262,
+      "fileSize": 29223
+    },
+    "CyberSecurity/Social Engineering/Typosquatting.md": {
+      "mtime": 1746557210721,
+      "wordCount": 1446,
+      "fileSize": 11818
+    },
+    "CyberSecurity/Social Engineering/Business email compromise and Watering Hole Attacks.md": {
+      "mtime": 1746559650957,
+      "wordCount": 2796,
+      "fileSize": 23378
+    },
+    "CyberSecurity/Encryption/Symmetric Encryption.md": {
+      "mtime": 1746556159673,
+      "wordCount": 5275,
+      "fileSize": 42794
+    },
+    "CyberSecurity/Encryption/Key Length.md": {
+      "mtime": 1746659526746,
+      "wordCount": 357,
+      "fileSize": 2528
     }
   },
   "activityOverTime": {
@@ -23908,6 +23938,14 @@
     "2025-05-03": {
       "wordCount": 1065,
       "fileSize": 3625
+    },
+    "2025-05-06": {
+      "wordCount": 16318,
+      "fileSize": 138999
+    },
+    "2025-05-08": {
+      "wordCount": 373,
+      "fileSize": 2624
     }
   }
 }

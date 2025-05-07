@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Key Length",
+      "path": "CyberSecurity/Encryption/Key Length.md"
+    },
+    {
       "basename": "Symmetric Encryption",
       "path": "CyberSecurity/Encryption/Symmetric Encryption.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Ai question notes and answers",
       "path": "Game Project/Ai question notes and answers.md"
-    },
-    {
-      "basename": "Pygame library",
-      "path": "Game Project/Pygame/Pygame library.md"
     }
   ],
   "omittedPaths": [],
