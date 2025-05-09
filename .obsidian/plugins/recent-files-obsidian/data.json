@@ -1,16 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "Digital Signatures",
+      "path": "CyberSecurity/Encryption/Digital Signatures.md"
+    },
+    {
+      "basename": "Hashing",
+      "path": "CyberSecurity/Encryption/Hashing.md"
+    },
+    {
+      "basename": "Asymmetric Encryption",
+      "path": "CyberSecurity/Encryption/Asymmetric Encryption.md"
+    },
+    {
+      "basename": "Home",
+      "path": "Home.md"
+    },
+    {
       "basename": "Key Length",
       "path": "CyberSecurity/Encryption/Key Length.md"
     },
     {
       "basename": "Symmetric Encryption",
       "path": "CyberSecurity/Encryption/Symmetric Encryption.md"
-    },
-    {
-      "basename": "Home",
-      "path": "Home.md"
     },
     {
       "basename": "Business email compromise and Watering Hole Attacks",
@@ -187,18 +199,6 @@
     {
       "basename": "Starting point",
       "path": "Game Project/Starting point.md"
-    },
-    {
-      "basename": "Sprite (Concept) - Giant Bomb",
-      "path": "Game Project/Sprite (Concept) - Giant Bomb.md"
-    },
-    {
-      "basename": "Document",
-      "path": "Game Project/Document.pdf"
-    },
-    {
-      "basename": "Ai question notes and answers",
-      "path": "Game Project/Ai question notes and answers.md"
     }
   ],
   "omittedPaths": [],

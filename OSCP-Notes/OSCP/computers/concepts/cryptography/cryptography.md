@@ -17,7 +17,7 @@ Keys are added to the *cipher* to encrypt data.
 #### key types
 Some algorithms use one key, while other are able to use multiple. It's generally more secure to have a *longer key*.
 #### key security
-Keys can be made more secure  by *performing multiple processes on it* such as hashing a password, then [hashing](hashing.md) the hash of the password. This is called *key stretching, key lengthening*. This is more secure because if someone were to try to *brute force* the key, they would have to brute force each hash they recover.
+Keys can be made more secure  by *performing multiple processes on it* such as hashing a password, then [hashing](OSCP-Notes/OSCP/computers/concepts/cryptography/hashing.md) the hash of the password. This is called *key stretching, key lengthening*. This is more secure because if someone were to try to *brute force* the key, they would have to brute force each hash they recover.
 ##### Key stretching libraries
 Applications which will perform *key stretching for you*.
 ###### Bcrypt
