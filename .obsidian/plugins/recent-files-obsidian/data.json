@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Certificate Authorities",
+      "path": "CyberSecurity/Encryption/Certificate Authorities.md"
+    },
+    {
       "basename": "Digital Signatures",
       "path": "CyberSecurity/Encryption/Digital Signatures.md"
     },
@@ -9,12 +13,12 @@
       "path": "CyberSecurity/Encryption/Hashing.md"
     },
     {
-      "basename": "Asymmetric Encryption",
-      "path": "CyberSecurity/Encryption/Asymmetric Encryption.md"
-    },
-    {
       "basename": "Home",
       "path": "Home.md"
+    },
+    {
+      "basename": "Asymmetric Encryption",
+      "path": "CyberSecurity/Encryption/Asymmetric Encryption.md"
     },
     {
       "basename": "Key Length",
@@ -195,10 +199,6 @@
     {
       "basename": "Static Residental Proxies",
       "path": "Network/Proxy/Static Residental Proxies.md"
-    },
-    {
-      "basename": "Starting point",
-      "path": "Game Project/Starting point.md"
     }
   ],
   "omittedPaths": [],
