@@ -3,7 +3,7 @@
   "translucency": false,
   "baseFontSizeAction": true,
   "accentColor": "#5c0d87",
-  "baseFontSize": 18,
+  "baseFontSize": 24,
   "theme": "obsidian",
   "enabledCssSnippets": [
     "dashboard",

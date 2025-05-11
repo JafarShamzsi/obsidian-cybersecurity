@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "Cryptoprocessors and Secure Enclaves (part 2)",
+      "path": "CyberSecurity/Encryption/Cryptoprocessors and Secure Enclaves (part 2).md"
+    },
+    {
+      "basename": "Cryptoprocessors and Secure Enclaves (part 1)",
+      "path": "CyberSecurity/Encryption/Cryptoprocessors and Secure Enclaves (part 1).md"
+    },
+    {
+      "basename": "Cryptographic Key Management",
+      "path": "CyberSecurity/Encryption/Cryptographic Key Management.md"
+    },
+    {
+      "basename": "Certificate Revocation",
+      "path": "CyberSecurity/Encryption/Certificate Revocation.md"
+    },
+    {
+      "basename": "Subject Name Attributes",
+      "path": "CyberSecurity/Encryption/Subject Name Attributes.md"
+    },
+    {
+      "basename": "Certificate Signing requests",
+      "path": "CyberSecurity/Encryption/Certificate Signing requests.md"
+    },
+    {
+      "basename": "Root of Trust",
+      "path": "CyberSecurity/Encryption/Root of Trust.md"
+    },
+    {
       "basename": "Certificate Authorities",
       "path": "CyberSecurity/Encryption/Certificate Authorities.md"
     },
@@ -171,34 +199,6 @@
     {
       "basename": "image (567) (1) this one big",
       "path": "HackTricks/src/images/image (567) (1) this one big.png"
-    },
-    {
-      "basename": "image (477) (2) big",
-      "path": "HackTricks/src/images/image (477) (2) big.png"
-    },
-    {
-      "basename": "image (446) (1) (2)too big",
-      "path": "HackTricks/src/images/image (446) (1) (2)too big.png"
-    },
-    {
-      "basename": "image (413) (3) (3) too big",
-      "path": "HackTricks/src/images/image (413) (3) (3) too big.png"
-    },
-    {
-      "basename": "image (413) (3) tooo big",
-      "path": "HackTricks/src/images/image (413) (3) tooo big.png"
-    },
-    {
-      "basename": "image (253) (1) (2) too big",
-      "path": "HackTricks/src/images/image (253) (1) (2) too big.png"
-    },
-    {
-      "basename": "obsidian_book",
-      "path": "obsidian_book.md"
-    },
-    {
-      "basename": "Static Residental Proxies",
-      "path": "Network/Proxy/Static Residental Proxies.md"
     }
   ],
   "omittedPaths": [],

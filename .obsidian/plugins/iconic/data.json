@@ -22,6 +22,12 @@
   "appIcons": {},
   "tabIcons": {},
   "fileIcons": {
+    "CyberSecurity/Encryption/Cryptographic Key Management.md": {
+      "icon": "lucide-key-round"
+    },
+    "CyberSecurity/Encryption/Cryptoprocessors and Secure Enclaves (part 1).md": {
+      "icon": "lucide-key"
+    },
     "CyberSecurity/Security+/5-Governance-Risk-Compliance/Security Concepts and Controls - Lesson 1 Summary.md": {
       "icon": "lucide-arrow-up-left-from-circle",
       "color": "yellow"
