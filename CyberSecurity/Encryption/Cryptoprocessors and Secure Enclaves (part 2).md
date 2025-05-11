@@ -1,6 +1,6 @@
 
 Cryptoprocessors are specialized hardware modules that **securely generate, store, and operate on cryptographic keys**. They typically include high-quality **TRNG-based entropy sources**, dedicated crypto accelerators, and tamper-resistant key storage. Secure enclaves (a form of Trusted Execution Environment, or TEE) isolate code and data inside the CPU or SoC, protecting them from the rest of the system. Enclaves and hardware crypto modules together form a hardware root of trust, preventing keys from ever being exposed in system memory or on disk.
-
+![[Pasted image 20250511042046.png]]
 ## Key Generation and Entropy
 
 - **TRNG vs PRNG**. True RNGs (TRNGs) use physical unpredictability (e.g. electronic noise, ring oscillators, or quantum effects) to generate entropy. Pseudorandom generators (PRNGs or DRBGs) use deterministic algorithms seeded by some entropy. A PRNG alone is insecure if the seed is guessable or low-entropy. In practice, a TRNG seed is fed into a CSPRNG (cryptographically-secure PRNG) to produce usable randomness. Modern CPUs often include hardware RNG instructions (e.g. Intel RDRAND/RDSEED) or dedicated entropy modules (e.g. ARM’s TRNG in Cortex-M/TrustZone). HSMs and TPMs likewise contain certified TRNG circuits.
@@ -8,13 +8,14 @@ Cryptoprocessors are specialized hardware modules that **securely generate, stor
 - **OS Entropy Pools**. Operating systems (Linux `dev/random`/`dev/urandom`, Windows CNG, etc.) mix entropy from multiple sources: hardware RNGs, timing jitter, user events, and device states. For example, **GnuPG** prompts the user to move the mouse or type during key generation so the OS can collect “environmental” entropy. In headless or embedded systems, `rngd` or `haveged` can feed hardware random bytes into the entropy pool (e.g., `sudo apt-get install rng-tools` and `sudo rngd -r /dev/urandom`).
     
 - **Entropy Quality**. It is critical to use high-quality entropy for key generation. Software-only measurements (timing differences, loop jitter) can be influenced or predicted by attackers. HSMs use vetted hardware RNGs to meet standards (e.g. FIPS 140-2 RNG tests). For example, Linux’s RNG on an idle server may block when entropy is low; using a hardware RNG or adding more entropy (disk activity, interrupts) is recommended when generating long keys. In practice, `/dev/urandom` suffices for CSPRNG needs once properly seeded, but care is taken at boot time to seed the pool from hardware sources.
-    
 
 ```bash
 # Example: Seed the Linux RNG with hardware entropy (Ubuntu/Debian)
 $ sudo apt-get install rng-tools
 $ sudo rngd -r /dev/urandom   # feed random data into the pool
 ```
+
+![[Pasted image 20250511041726.png]]
 
 ## Key Storage: Filesystem vs Secure Hardware
 
@@ -48,15 +49,17 @@ $ sudo rngd -r /dev/urandom   # feed random data into the pool
     
 - **TPM 1.2 vs 2.0**. TPM 1.2 (widely deployed since ~2006) has a simpler model: a single “owner” with a fixed RSA 2048-bit Endorsement Key (EK) and a Storage Root Key (SRK) under which all keys are protected. TPM 2.0 (newer standard) introduces multiple hierarchies (Storage, Endorsement, Platform, Null) each with its own authorization. This allows separate keys/authorizations for system vendors versus end-users, and supports up to four distinct authorizations instead of one. TPM 2.0 also supports more algorithms (e.g. NIST P-256 ECC curves). In practice, TPM 2.0 is more flexible and is now required (e.g. by Windows 11) on new PCs. The table below highlights key differences:
     
+![[Pasted image 20250511041749.png]]
 
-| **Feature**        | **TPM 1.2**                          | **TPM 2.0**                                                 |
-| ------------------ | ------------------------------------ | ----------------------------------------------------------- |
-| **Key Hierarchy**  | Single owner: one EK and SRK         | Multiple hierarchies (Endorsement, Storage, Platform, Null) |
-| **Authorization**  | Single “owner” role (one auth)       | Up to four auth values (one per hierarchy)                  |
-| **Algorithms**     | RSA keys (up to 2048-bit)            | RSA and ECC (e.g., P-256), SHA-256+, symmetric ciphers      |
-| **Policy Support** | Limited (physical presence, lockout) | Flexible policy objects, more commands                      |
-
-
+| **Feature**        | **TPM 1.2**                          | **TPM 2.0**                                                 |     |
+| ------------------ | ------------------------------------ | ----------------------------------------------------------- | --- |
+| **Key Hierarchy**  | Single owner: one EK and SRK         | Multiple hierarchies (Endorsement, Storage, Platform, Null) |     |
+| **Authorization**  | Single “owner” role (one auth)       | Up to four auth values (one per hierarchy)                  |     |
+| **Algorithms**     | RSA keys (up to 2048-bit)            | RSA and ECC (e.g., P-256), SHA-256+, symmetric ciphers      |     |
+| **Policy Support** | Limited (physical presence, lockout) | Flexible policy objects, more commands                      |     |
+![[Pasted image 20250511041852.png]]
+![[Pasted image 20250511041910.png]]
+![[Pasted image 20250511042117.png]]
 _Table: TPM 1.2 vs TPM 2.0 differences (adapted from Dell documentation)._
     
 - **Form factors and types**. TPM 2.0 can be implemented in various ways:
@@ -72,14 +75,14 @@ _Table: TPM 1.2 vs TPM 2.0 differences (adapted from Dell documentation)._
     - **Software TPM**: pure software emulation (no hardware protection) – only for development, not secure.
         
 - **Security implications**. A discrete TPM, being a separate silicon chip, is highly isolated: it resists software attacks and includes physical protection (voltage, temperature sensors, epoxy coating). By contrast, an fTPM shares the CPU die and so has a larger attack surface (though Intel/AMD run it in their trusted execution subsystems). In practice, **non-exportable keys in a TPM cannot be read out** by software, and a TPM can attest to the platform state (PCRs) as a hardware root of trust. Certification standards (Common Criteria, FIPS) often cover discrete TPMs; for example, current TPM chips used in servers are typically CC-certified.
-    
+    ![[Pasted image 20250511041821.png]]
 - **Usage examples**: TPMs are used for BitLocker/disk encryption key storage, measured/secure boot (recording hashes in PCRs), platform attestation (e.g. remote service verifies BIOS/OS state), and more. The TPM’s random number generator (if present) can seed key generation, and the TPM can sign attestations with its EK. Many Linux tools (e.g. `tpm2-tools`) allow creating or sealing keys to the TPM. For instance, a disk encryption key can be “sealed” in TPM memory and only released (via `tpm2_unseal`) if the system’s boot measurements match expected PCR values.
     
 
 ## Hardware Security Modules (HSMs)
 
 - **Definition and Role**. A Hardware Security Module (HSM) is a **tamper-resistant hardware appliance** that performs cryptographic operations and protects keys. Unlike a TPM (which is low-cost and passive), HSMs typically provide high-performance crypto (RSA up to 4096-bit, ECC, AES, hashing) and store many keys. They are used where high throughput or multi-tenancy is needed (e.g. SSL/TLS acceleration, certificate authorities, database encryption keys). As Entrust notes: HSMs are “hardened, tamper-resistant hardware devices” that manage keys used for encryption, decryption, signing, etc. and meet strict security standards (FIPS 140-2, Common Criteria). In effect, an HSM is the gold standard for protecting critical keys.
-    
+    ![[Pasted image 20250511041937.png]]
 - **Form factors**: HSMs come in various forms:
     
     - **Rack-mounted/network HSM**: A 1U or larger appliance connected over a local or IP network. Example: Thales/Entrust nShield Connect, AWS CloudHSM.
@@ -89,11 +92,9 @@ _Table: TPM 1.2 vs TPM 2.0 differences (adapted from Dell documentation)._
     - **USB/token HSM**: A small USB dongle or smartcard form factor (e.g. YubiHSM 2, smartcards). Portable and affordable; often used for code signing or small-scale key storage.
         
     - **Cloud/Virtual HSM**: Virtualized or managed HSM services (AWS KMS/HSM, Azure Key Vault Hardware, Google Cloud HSM). These use real hardware (often dedicated chips) in a data center, or in some cases a software emulator with hardware security boundary.
-        
-- **Centralized vs Portable**. HSMs can centralize key management (network HSM clustering) or be used for portable keys (tokens). For instance, payment card issuance uses big central HSMs, whereas developers might use a USB HSM for SSH/GPG keys. The choice depends on scalability and threat model. Cloud HSM offerings allow customers to maintain control of keys in hardware even in outsourced environments.
-    
+        ![[Pasted image 20250511042635.png]]
 - **FIPS 140 Compliance**. HSMs are typically certified under NIST FIPS 140 (often Level 2 or 3, sometimes Level 4). For example, Entrust’s nShield HSMs are certified to FIPS 140-2 Level 3 (physical tamper evidence) or Level 4 (penetration-resistant). FIPS validation ensures the HSM’s design and RNG meet government security standards. Many regulations (PCI, HIPAA, eIDAS) explicitly require HSMs for key protection.
-    
+    ![[Pasted image 20250511042411.png]]
 - **Use Cases**: Key use cases include:
     
     - **Certificate Authorities / PKI**: Storing CA root/intermediate keys in an HSM so private CA keys never leak.
@@ -109,8 +110,8 @@ _Table: TPM 1.2 vs TPM 2.0 differences (adapted from Dell documentation)._
     - **Blockchain / Cryptocurrency**: Cold or secure wallets in HSMs.
         
 - **Randomness**. HSMs often include their own hardware RNG. Entrust notes that HSMs use _hardware-based entropy that is verified to be good in all conditions_, avoiding predictable software seeds. Good entropy is essential for key generation on the HSM side as well.
-    
-
+    ![[Pasted image 20250511042433.png]]
+![[Pasted image 20250511042445.png]]
 ```bash
 # Example: Initialize a software-based HSM (SoftHSM) and generate an RSA key via PKCS#11
 $ pkcs11-tool --module /usr/lib/softhsm/libsofthsm2.so --init-token --free --label MyToken --pin 1234 --so-pin 0000
@@ -122,8 +123,8 @@ $ pkcs11-tool --module /usr/lib/softhsm/libsofthsm2.so --login --pin 1234 --labe
 _Example (SoftHSM): initializing a token and generating an RSA 2048 key via PKCS#11._
 
 - **HSM as a Service**. Many cloud providers offer HSM-backed key management (AWS KMS, Azure Key Vault HSM, Google Cloud HSM). These services use dedicated (or virtualized) HSM hardware under the hood, giving similar protections. For instance, Entrust offers “nShield as a Service” with FIPS 140-2 Level 3 devices, combining on-prem HSM features with a subscription model. This allows organizations to leverage HSM security without managing hardware themselves.
-    
-
+    ![[Pasted image 20250511042505.png]]
+![[Pasted image 20250511042735.png]]
 ## Secure Enclaves and TEEs
 
 A **Trusted Execution Environment (TEE)** is a secure area of a processor that ensures code and data loaded inside it are protected with respect to confidentiality and integrity. Architecturally, the CPU enforces that enclave/TEE memory is encrypted and isolated from the rest of the system. In general, a TEE provides:
@@ -134,15 +135,15 @@ A **Trusted Execution Environment (TEE)** is a secure area of a processor that e
     
 - **Attestation**: The enclave can prove to a remote party that it’s running genuine code in a genuine processor (using a built-in signing key or root certificate).
     
-
+![[Pasted image 20250511042026.png]]
 Below are key vendor implementations and comparisons:
 
 - **Intel SGX (Software Guard Extensions)**: SGX provides per-application _enclaves_ on Intel x86 CPUs. An SGX enclave is an allocated region in the Processor Reserved Memory (PRM) that is hardware-encrypted by the Memory Encryption Engine (MEE) on the fly. Code and data in the enclave are automatically decrypted only within the CPU; the OS or hypervisor cannot read enclave memory. SGX supports attestation and sealing of secrets. _Limitations_: Enclave memory is limited (hundreds of MB), and SGX does **not** protect against microarchitectural side-channel attacks (e.g. cache/timing leaks, speculative execution flaws like LVI/Foreshadow). Intel has deprecated SGX on many consumer CPUs (preserving it for server CPUs).
-    
+    ![[Pasted image 20250511042343.png]]
 - **AMD SEV-SNP (Secure Encrypted Virtualization – Secure Nested Paging)**: SEV is designed for AMD EPYC servers to protect **virtual machines**. Each VM is encrypted with its own AES key in hardware (via the Secure Processor), so the hypervisor cannot read its memory. The latest SEV-SNP adds integrity protection and true attestation (so a VM can prove it’s running on genuine AMD hardware). SEV’s model is coarser than SGX: it encrypts entire VM address spaces (rather than individual code sections). A compromised hypervisor can’t see guest memory contents (only ciphertext). However, early SEV iterations were vulnerable to certain attacks (e.g. manipulation of memory if integrity wasn’t ensured), which SNP addresses. Overall, **SEV provides per-VM confidentiality** (and now integrity) but relies on a trusted secure processor for key management.
     
 - **Apple Secure Enclave (SEP)**: Found in iPhones, iPads, Apple Watches, and Apple Silicon Macs, the SEP is a separate **co-processor** running its own secure kernel. It has its own AES engine and isolated memory. The SEP holds fingerprints/FaceID templates, device keys, and provides services (e.g. encryption, signing) to the main OS via an RPC. Apple describes it as “isolated from the main processor” with its own boot ROM and encrypted memory. Because the SEP is a fully separate chip (or core), it resists many side-channels that affect TrustZone/SGX. However, it is proprietary; security relies on Apple’s implementation. Recent news has shown that even the SEP’s firmware can have vulnerabilities, but its isolation (dedicated L4 microkernel) still raises the bar for attacks.
-    
+    ![[Pasted image 20250511042536.png]]
 - **ARM TrustZone**: ARM processors include a built-in TEE called TrustZone. It splits the CPU into **Secure World** and **Normal World**. On startup, the CPU can enter the Secure World (using a special monitor mode) running a Trusted OS (e.g. ARM Trusted OS, OP-TEE). Only code in the Secure World can access certain secure peripherals or memory regions. This model is widely used in smartphones and IoT (e.g. to isolate payment or DRM code). TrustZone does not inherently encrypt all memory bus traffic, but it can restrict access to secure RAM and devices. Many GlobalPlatform TEEs (Qualcomm’s QSEE, Samsung Knox, etc.) are built on TrustZone. If the normal OS is compromised, the Secure World can still protect its data, but side-channel attacks (e.g. timing) are still a concern if code shares CPU cores.
     
 - **Comparison and Risks**: In summary, SGX is **application-centric** (strong isolation for small enclaves), SEV is **VM-centric** (encrypts entire guest memory), SEP is **device-centric** (dedicated co-processor), and TrustZone is **soc/phone-centric** (Secure/Normal modes). All rely on encryption of memory to mitigate physical RAM attacks. For example, using memory encryption (AES-XTS) prevents rowhammer or cold-boot attacks from reading cleartext keys. However, every enclave model has had attacks:
@@ -150,8 +151,6 @@ Below are key vendor implementations and comparisons:
     - SGX is vulnerable to CPU side-channels (Spectre/LVI, Foreshadow) because it shares microarchitecture with the OS.
         
     - SEV (pre-SNP) could be attacked by a malicious hypervisor without integrity checks; SNP mitigates this.
-        
-    - TrustZone and SEP depend on the trusted code running; flaws in the secure OS or crypto can be devastating (e.g. a bug in a TEE OS could be exploited).
         
     - All TEEs must consider DMA attacks, bus snooping, power analysis, and should ideally use an IOMMU or encrypt peripherals.
         
@@ -214,7 +213,7 @@ Cryptoprocessors are widely integrated into secure systems to protect keys throu
     - **Secure Boot**: A CPU’s firmware measures the bootloader and OS; the values are extended into TPM PCRs. Only if these match known good values will the TPM release a decryption key (allowing the system to boot a disk image, for example).
         
     - **Cloud KMS**: AWS KMS provides managed keys that are, under the covers, held in HSMs. When you ask KMS to sign or decrypt, the actual key never leaves the HSM.
-        
+        ![[Pasted image 20250511042616.png]]
     - **Secrets Management**: Tools like HashiCorp Vault can be configured to use an HSM-backed transit engine or auto-unseal with a TPM. This ensures even ephemeral secrets are protected.
         
 - **Key Lifecycle Management**: As Cryptomathic notes, keys go through multiple phases (generation, storage, distribution, backup, destruction) and hardware modules provide **security at each phase**. For example, generation in hardware guarantees initial secrecy; storage in tamper-proof memory prevents theft; usage policies (e.g. requiring PIN or PCR conditions) control distribution; and built-in RNG prevents weak keys. Organizations often use HSMs/TPMs to implement “secure key management” compliant with regulations.
