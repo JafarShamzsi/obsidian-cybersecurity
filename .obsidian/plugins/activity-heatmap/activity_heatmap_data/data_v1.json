@@ -23839,6 +23839,11 @@
       "mtime": 1746979041651,
       "wordCount": 1146,
       "fileSize": 8592
+    },
+    "CyberSecurity/Encryption/Database Encryption.md": {
+      "mtime": 1746982319008,
+      "wordCount": 821,
+      "fileSize": 6825
     }
   },
   "activityOverTime": {
@@ -24031,8 +24036,8 @@
       "fileSize": 18668
     },
     "2025-05-11": {
-      "wordCount": 19392,
-      "fileSize": 156081
+      "wordCount": 20215,
+      "fileSize": 162906
     }
   }
 }

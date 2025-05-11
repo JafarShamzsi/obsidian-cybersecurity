@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Home",
+      "path": "Home.md"
+    },
+    {
+      "basename": "Database Encryption",
+      "path": "CyberSecurity/Encryption/Database Encryption.md"
+    },
+    {
       "basename": "Disk and File Encryption",
       "path": "CyberSecurity/Encryption/Disk and File Encryption.md"
     },
@@ -11,10 +19,6 @@
     {
       "basename": "Key Escrow",
       "path": "CyberSecurity/Encryption/Key Escrow.md"
-    },
-    {
-      "basename": "Home",
-      "path": "Home.md"
     },
     {
       "basename": "Cryptoprocessors and Secure Enclaves (part 2)",
@@ -195,10 +199,6 @@
     {
       "basename": "Supply Chain Attack Surface",
       "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Supply Chain Attack Surface.md"
-    },
-    {
-      "basename": "Attack Surface and Threat Vectors",
-      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Attack Surface and Threat Vectors.md"
     }
   ],
   "omittedPaths": [],
