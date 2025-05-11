@@ -23779,6 +23779,66 @@
       "mtime": 1746751953078,
       "wordCount": 2633,
       "fileSize": 19613
+    },
+    "CyberSecurity/Social Engineering/Human Vectors.md": {
+      "mtime": 1746884046600,
+      "wordCount": 245,
+      "fileSize": 1521
+    },
+    "CyberSecurity/Encryption/Subject Name Attributes.md": {
+      "mtime": 1746915658825,
+      "wordCount": 1148,
+      "fileSize": 8923
+    },
+    "CyberSecurity/Encryption/Root of Trust.md": {
+      "mtime": 1746913422197,
+      "wordCount": 706,
+      "fileSize": 5225
+    },
+    "CyberSecurity/Encryption/Cryptoprocessors and Secure Enclaves (part 2).md": {
+      "mtime": 1746923257596,
+      "wordCount": 3813,
+      "fileSize": 26487
+    },
+    "CyberSecurity/Encryption/Cryptoprocessors and Secure Enclaves (part 1).md": {
+      "mtime": 1746921899519,
+      "wordCount": 3040,
+      "fileSize": 25762
+    },
+    "CyberSecurity/Encryption/Certificate Signing requests.md": {
+      "mtime": 1746913949520,
+      "wordCount": 898,
+      "fileSize": 7096
+    },
+    "CyberSecurity/Encryption/Cryptographic Key Management.md": {
+      "mtime": 1746920858151,
+      "wordCount": 2125,
+      "fileSize": 19158
+    },
+    "CyberSecurity/Encryption/Certificate Revocation.md": {
+      "mtime": 1746919992751,
+      "wordCount": 1444,
+      "fileSize": 12769
+    },
+    "CyberSecurity/Encryption/Certificate Authorities.md": {
+      "mtime": 1746885047536,
+      "wordCount": 2098,
+      "fileSize": 17147
+    },
+    "CyberSecurity/Encryption/Key Escrow.md": {
+      "mtime": 1746972706569,
+      "wordCount": 3043,
+      "fileSize": 24988
+    },
+    "CyberSecurity/Encryption/Encryption for Confidentiality.md": {
+      "mtime": 1746976662724,
+      "wordCount": 2003,
+      "fileSize": 16859
+    },
+    "CyberSecurity/Encryption/Disk and File Encryption.md": {
+      "mtime": 1746979041651,
+      "wordCount": 1146,
+      "fileSize": 8592
     }
   },
   "activityOverTime": {
@@ -23965,6 +24025,14 @@
     "2025-05-09": {
       "wordCount": 6215,
       "fileSize": 47887
+    },
+    "2025-05-10": {
+      "wordCount": 2343,
+      "fileSize": 18668
+    },
+    "2025-05-11": {
+      "wordCount": 19392,
+      "fileSize": 156081
     }
   }
 }

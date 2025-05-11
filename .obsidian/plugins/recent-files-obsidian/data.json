@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Disk and File Encryption",
+      "path": "CyberSecurity/Encryption/Disk and File Encryption.md"
+    },
+    {
+      "basename": "Encryption for Confidentiality",
+      "path": "CyberSecurity/Encryption/Encryption for Confidentiality.md"
+    },
+    {
+      "basename": "Key Escrow",
+      "path": "CyberSecurity/Encryption/Key Escrow.md"
+    },
+    {
+      "basename": "Home",
+      "path": "Home.md"
+    },
+    {
       "basename": "Cryptoprocessors and Secure Enclaves (part 2)",
       "path": "CyberSecurity/Encryption/Cryptoprocessors and Secure Enclaves (part 2).md"
     },
@@ -39,10 +55,6 @@
     {
       "basename": "Hashing",
       "path": "CyberSecurity/Encryption/Hashing.md"
-    },
-    {
-      "basename": "Home",
-      "path": "Home.md"
     },
     {
       "basename": "Asymmetric Encryption",
@@ -187,18 +199,6 @@
     {
       "basename": "Attack Surface and Threat Vectors",
       "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Attack Surface and Threat Vectors.md"
-    },
-    {
-      "basename": "Shortcuts for writing Obsidian",
-      "path": "Shortcuts for writing Obsidian.md"
-    },
-    {
-      "basename": "image (620) (1) hmmm",
-      "path": "HackTricks/src/images/image (620) (1) hmmm.png"
-    },
-    {
-      "basename": "image (567) (1) this one big",
-      "path": "HackTricks/src/images/image (567) (1) this one big.png"
     }
   ],
   "omittedPaths": [],
