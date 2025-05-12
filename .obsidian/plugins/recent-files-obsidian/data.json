@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Transport Encryption and Key Exchange",
+      "path": "CyberSecurity/Encryption/Transport Encryption and Key Exchange.md"
+    },
+    {
       "basename": "Home",
       "path": "Home.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Supply Chain Attack APT view",
       "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Supply Chain Attack APT view.canvas"
-    },
-    {
-      "basename": "Supply Chain Attack Surface",
-      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Supply Chain Attack Surface.md"
     }
   ],
   "omittedPaths": [],

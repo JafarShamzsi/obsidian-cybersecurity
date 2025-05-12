@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "2164604f9dc812ec",
+        "id": "8de3084cde372dee",
         "type": "tabs",
         "children": [
           {
-            "id": "314ec4d1f84d8886",
+            "id": "e84236a66086f0f1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "CyberSecurity/Encryption/Transport Encryption and Key Exchange.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "Transport Encryption and Key Exchange"
             }
           }
         ]
@@ -227,13 +227,16 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "314ec4d1f84d8886",
+  "active": "e58be068870c1953",
   "lastOpenFiles": [
+    "Images/Pasted image 20250513032546.png",
+    "Images/ChatGPT Image May 13, 2025, 03_25_01 AM.png",
+    "Home.md",
+    "CyberSecurity/Encryption/Transport Encryption and Key Exchange.md",
     "CyberSecurity/Encryption/Database Encryption.md",
     "CyberSecurity/Encryption/Disk and File Encryption.md",
     "CyberSecurity/Encryption/Encryption for Confidentiality.md",
     "CyberSecurity/Encryption/Key Escrow.md",
-    "Home.md",
     "CyberSecurity/Encryption/Cryptoprocessors and Secure Enclaves (part 2).md",
     "Images/Pasted image 20250511042735.png",
     "Images/Pasted image 20250511042635.png",
@@ -244,7 +247,6 @@
     "Images/Pasted image 20250511042433.png",
     "Images/Pasted image 20250511042411.png",
     "Images/Pasted image 20250511042343.png",
-    "Images/Pasted image 20250511042117.png",
     "CyberSecurity/Encryption/Cryptoprocessors and Secure Enclaves (part 1).md",
     "CyberSecurity/Encryption/Cryptographic Key Management.md",
     "CyberSecurity/Encryption/Certificate Revocation.md",
@@ -263,8 +265,6 @@
     "CyberSecurity/Social Engineering/Typosquatting.md",
     "CyberSecurity/Social Engineering/Phishing and Pharming.md",
     "CyberSecurity/Social Engineering/What is Social Engineering.md",
-    "CyberSecurity/Social Engineering/Impersonation and Pretexting.md",
-    "CyberSecurity/Encryption/AES-256-CBC.md",
     "Untitled.canvas",
     "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Supply Chain Attack.canvas",
     "CyberSecurity/Social Engineering",
