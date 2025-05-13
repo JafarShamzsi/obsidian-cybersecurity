@@ -1,5 +1,3 @@
-# Comprehensive Technical Analysis of Biometric Authentication Systems
-
 ## 1. Core Fundamentals of Biometric Authentication
 
 ### 1.1 Definition and Architecture
