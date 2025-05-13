@@ -36,5 +36,7 @@
   "obsidian-vimrc-support",
   "advanced-canvas",
   "webpage-html-export",
-  "vault-2-book"
+  "vault-2-book",
+  "obsidian-import-json",
+  "data-files-editor"
 ]

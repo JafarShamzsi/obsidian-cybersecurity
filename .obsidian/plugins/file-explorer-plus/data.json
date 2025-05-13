@@ -59,6 +59,13 @@
         "type": "DIRECTORIES",
         "pattern": "OWASP Top 10",
         "patternType": "STRICT"
+      },
+      {
+        "name": "",
+        "active": true,
+        "type": "DIRECTORIES",
+        "pattern": "developer-roadmap",
+        "patternType": "STRICT"
       }
     ]
   },

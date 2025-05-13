@@ -1,6 +1,50 @@
 {
   "recentFiles": [
     {
+      "basename": "Biometric Authentication",
+      "path": "CyberSecurity/Encryption/Biometric Authentication.md"
+    },
+    {
+      "basename": "Certificate Authorities",
+      "path": "CyberSecurity/Encryption/Certificate Authorities.md"
+    },
+    {
+      "basename": "Home",
+      "path": "Home.md"
+    },
+    {
+      "basename": "Multifactor Authentication (MFA)",
+      "path": "CyberSecurity/Encryption/Multifactor Authentication (MFA).md"
+    },
+    {
+      "basename": "Password Managers",
+      "path": "CyberSecurity/Encryption/Password Managers.md"
+    },
+    {
+      "basename": "obsidian_book",
+      "path": "obsidian_book.md"
+    },
+    {
+      "basename": "Web Shell",
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Attacking-Frameworks/MITRE ATT&CK/Mobile-Attack/techniques/Web Shell.md"
+    },
+    {
+      "basename": "System Owner／User Discovery",
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Attacking-Frameworks/MITRE ATT&CK/Mobile-Attack/techniques/System Owner／User Discovery.md"
+    },
+    {
+      "basename": "Turla",
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Attacking-Frameworks/MITRE ATT&CK/ICS-Attack/groups/Turla.md"
+    },
+    {
+      "basename": "AES-256-CBC",
+      "path": "CyberSecurity/Encryption/AES-256-CBC.md"
+    },
+    {
+      "basename": "Encryption for Confidentiality",
+      "path": "CyberSecurity/Encryption/Encryption for Confidentiality.md"
+    },
+    {
       "basename": "Password Concepts",
       "path": "CyberSecurity/Encryption/Password Concepts.md"
     },
@@ -33,20 +77,12 @@
       "path": "CyberSecurity/Encryption/Transport Encryption and Key Exchange.md"
     },
     {
-      "basename": "Home",
-      "path": "Home.md"
-    },
-    {
       "basename": "Database Encryption",
       "path": "CyberSecurity/Encryption/Database Encryption.md"
     },
     {
       "basename": "Disk and File Encryption",
       "path": "CyberSecurity/Encryption/Disk and File Encryption.md"
-    },
-    {
-      "basename": "Encryption for Confidentiality",
-      "path": "CyberSecurity/Encryption/Encryption for Confidentiality.md"
     },
     {
       "basename": "Key Escrow",
@@ -71,10 +107,6 @@
     {
       "basename": "Root of Trust",
       "path": "CyberSecurity/Encryption/Root of Trust.md"
-    },
-    {
-      "basename": "Certificate Authorities",
-      "path": "CyberSecurity/Encryption/Certificate Authorities.md"
     },
     {
       "basename": "Digital Signatures",
@@ -115,10 +147,6 @@
     {
       "basename": "Impersonation and Pretexting",
       "path": "CyberSecurity/Social Engineering/Impersonation and Pretexting.md"
-    },
-    {
-      "basename": "AES-256-CBC",
-      "path": "CyberSecurity/Encryption/AES-256-CBC.md"
     },
     {
       "basename": "Glossary.md",
@@ -171,34 +199,6 @@
     {
       "basename": "Compromise Hardware Supply Chain",
       "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Attacking-Frameworks/MITRE ATT&CK/Mobile-Attack/techniques/Compromise Hardware Supply Chain.md"
-    },
-    {
-      "basename": "Supply Chain Compromise",
-      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Attacking-Frameworks/MITRE ATT&CK/Mobile-Attack/techniques/Supply Chain Compromise.md"
-    },
-    {
-      "basename": "Pasted image 20250327024644",
-      "path": "Images/Pasted image 20250327024644.png"
-    },
-    {
-      "basename": "wp4397506-death-stranding-fragile-wallpapers",
-      "path": "Images/wp4397506-death-stranding-fragile-wallpapers.jpg"
-    },
-    {
-      "basename": "Pasted image 20250323235049",
-      "path": "Images/Pasted image 20250323235049.png"
-    },
-    {
-      "basename": "Pasted image 20250323013746",
-      "path": "Images/Pasted image 20250323013746.png"
-    },
-    {
-      "basename": "Pasted image 20250323190725",
-      "path": "Images/Pasted image 20250323190725.png"
-    },
-    {
-      "basename": "Pasted image 20250320214106",
-      "path": "Images/Pasted image 20250320214106.png"
     }
   ],
   "omittedPaths": [],

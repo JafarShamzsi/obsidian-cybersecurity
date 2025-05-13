@@ -2,9 +2,9 @@
   "cssTheme": "Minimal",
   "translucency": false,
   "baseFontSizeAction": true,
-  "accentColor": "#5c0d87",
+  "accentColor": "",
   "baseFontSize": 25,
-  "theme": "obsidian",
+  "theme": "system",
   "enabledCssSnippets": [
     "dashboard",
     "animations",

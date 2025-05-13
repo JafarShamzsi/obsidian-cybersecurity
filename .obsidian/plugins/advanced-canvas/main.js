@@ -4826,6 +4826,25 @@ var CommandsCanvasExtension = class extends CanvasExtension {
         (canvas) => this.flipSelection(canvas, false)
       )
     });
+    this.plugin.addCommand({
+      id: "swap-nodes",
+      name: "Swap nodes",
+      checkCallback: CanvasHelper.canvasCommand(
+        this.plugin,
+        (canvas) => !canvas.readonly && canvas.getSelectionData().nodes.length === 2,
+        (canvas) => {
+          const selectedNodes = canvas.getSelectionData().nodes.map((nodeData) => canvas.nodes.get(nodeData.id)).filter((node) => node !== void 0);
+          if (selectedNodes.length !== 2)
+            return;
+          const [nodeA, nodeB] = selectedNodes;
+          const nodeAData = nodeA.getData();
+          const nodeBData = nodeB.getData();
+          nodeA.setData({ ...nodeAData, x: nodeBData.x, y: nodeBData.y, width: nodeBData.width, height: nodeBData.height });
+          nodeB.setData({ ...nodeBData, x: nodeAData.x, y: nodeAData.y, width: nodeAData.width, height: nodeAData.height });
+          canvas.pushHistory(canvas.getData());
+        }
+      )
+    });
   }
   createTextNode(canvas) {
     const size = canvas.config.defaultTextNodeDimensions;
@@ -5006,7 +5025,7 @@ var AutoResizeNodeCanvasExtension = class extends CanvasExtension {
       (canvas, node) => this.onNodeCreated(canvas, node)
     ));
     this.plugin.registerEvent(this.plugin.app.workspace.on(
-      "advanced-canvas:canvas-changed",
+      "advanced-canvas:popup-menu-created",
       (canvas) => this.onPopupMenuCreated(canvas)
     ));
     this.plugin.registerEvent(this.plugin.app.workspace.on(
