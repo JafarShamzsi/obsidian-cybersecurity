@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "Obfuscation",
+      "path": "CyberSecurity/Encryption/Obfuscation.md"
+    },
+    {
+      "basename": "Blockchain",
+      "path": "CyberSecurity/Encryption/Blockchain.md"
+    },
+    {
+      "basename": "Salting and Key Stretching",
+      "path": "CyberSecurity/Encryption/Salting and Key Stretching.md"
+    },
+    {
+      "basename": "Cryptoprocessors and Secure Enclaves (part 2)",
+      "path": "CyberSecurity/Encryption/Cryptoprocessors and Secure Enclaves (part 2).md"
+    },
+    {
+      "basename": "Cryptoprocessors and Secure Enclaves (part 1)",
+      "path": "CyberSecurity/Encryption/Cryptoprocessors and Secure Enclaves (part 1).md"
+    },
+    {
+      "basename": "Perfect Forward Secrecy",
+      "path": "CyberSecurity/Encryption/Perfect Forward Secrecy.md"
+    },
+    {
       "basename": "Transport Encryption and Key Exchange",
       "path": "CyberSecurity/Encryption/Transport Encryption and Key Exchange.md"
     },
@@ -23,14 +47,6 @@
     {
       "basename": "Key Escrow",
       "path": "CyberSecurity/Encryption/Key Escrow.md"
-    },
-    {
-      "basename": "Cryptoprocessors and Secure Enclaves (part 2)",
-      "path": "CyberSecurity/Encryption/Cryptoprocessors and Secure Enclaves (part 2).md"
-    },
-    {
-      "basename": "Cryptoprocessors and Secure Enclaves (part 1)",
-      "path": "CyberSecurity/Encryption/Cryptoprocessors and Secure Enclaves (part 1).md"
     },
     {
       "basename": "Cryptographic Key Management",
@@ -183,22 +199,6 @@
     {
       "basename": "Pasted image 20250320032810",
       "path": "Images/Pasted image 20250320032810.png"
-    },
-    {
-      "basename": "Pasted image 20250320031145",
-      "path": "Images/Pasted image 20250320031145.png"
-    },
-    {
-      "basename": "Pasted image 20250315123224",
-      "path": "Images/Pasted image 20250315123224.png"
-    },
-    {
-      "basename": "57-1692974859396",
-      "path": "Images/57-1692974859396.jpg"
-    },
-    {
-      "basename": "Supply Chain Attack APT view",
-      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Supply Chain Attack APT view.canvas"
     }
   ],
   "omittedPaths": [],

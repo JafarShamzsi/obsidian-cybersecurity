@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CyberSecurity/Encryption/Transport Encryption and Key Exchange.md",
+                "file": "CyberSecurity/Encryption/Obfuscation.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Transport Encryption and Key Exchange"
+              "title": "Obfuscation"
             }
           }
         ]
@@ -227,17 +227,23 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "e58be068870c1953",
+  "active": "e84236a66086f0f1",
   "lastOpenFiles": [
+    "CyberSecurity/Encryption/Blockchain.md",
+    "CyberSecurity/Encryption/Obfuscation.md",
+    "CyberSecurity/Encryption/Salting and Key Stretching.md",
+    "CyberSecurity/Encryption/Cryptoprocessors and Secure Enclaves (part 2).md",
+    "CyberSecurity/Encryption/Cryptoprocessors and Secure Enclaves (part 1).md",
+    "CyberSecurity/Encryption/Perfect Forward Secrecy.md",
+    "Pasted image 20250513035438.png",
+    "CyberSecurity/Encryption/Transport Encryption and Key Exchange.md",
     "Images/Pasted image 20250513032546.png",
     "Images/ChatGPT Image May 13, 2025, 03_25_01 AM.png",
     "Home.md",
-    "CyberSecurity/Encryption/Transport Encryption and Key Exchange.md",
     "CyberSecurity/Encryption/Database Encryption.md",
     "CyberSecurity/Encryption/Disk and File Encryption.md",
     "CyberSecurity/Encryption/Encryption for Confidentiality.md",
     "CyberSecurity/Encryption/Key Escrow.md",
-    "CyberSecurity/Encryption/Cryptoprocessors and Secure Enclaves (part 2).md",
     "Images/Pasted image 20250511042735.png",
     "Images/Pasted image 20250511042635.png",
     "Images/Pasted image 20250511042616.png",
@@ -245,9 +251,6 @@
     "Images/Pasted image 20250511042505.png",
     "Images/Pasted image 20250511042445.png",
     "Images/Pasted image 20250511042433.png",
-    "Images/Pasted image 20250511042411.png",
-    "Images/Pasted image 20250511042343.png",
-    "CyberSecurity/Encryption/Cryptoprocessors and Secure Enclaves (part 1).md",
     "CyberSecurity/Encryption/Cryptographic Key Management.md",
     "CyberSecurity/Encryption/Certificate Revocation.md",
     "CyberSecurity/Encryption/Subject Name Attributes.md",
@@ -262,9 +265,6 @@
     "CyberSecurity/Encryption/Key Length.md",
     "CyberSecurity/Encryption/Symmetric Encryption.md",
     "CyberSecurity/Social Engineering/Business email compromise and Watering Hole Attacks.md",
-    "CyberSecurity/Social Engineering/Typosquatting.md",
-    "CyberSecurity/Social Engineering/Phishing and Pharming.md",
-    "CyberSecurity/Social Engineering/What is Social Engineering.md",
     "Untitled.canvas",
     "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Supply Chain Attack.canvas",
     "CyberSecurity/Social Engineering",
