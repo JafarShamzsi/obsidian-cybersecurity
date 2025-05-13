@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b54f7a544a1cc3d5",
+        "id": "e183ca5195fda341",
         "type": "tabs",
         "children": [
           {
-            "id": "555fb6da45f1a3e2",
+            "id": "b4a3b38237f22012",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -228,12 +228,15 @@
       "obsidian-import-json:JSON/CSV Importer": false
     }
   },
-  "active": "555fb6da45f1a3e2",
+  "active": "b4a3b38237f22012",
   "lastOpenFiles": [
-    "Pasted image 20250513035438.png",
-    "CyberSecurity/Encryption/Certificate Authorities.md",
+    "developer-roadmap/public/roadmap-content/ai-agents.json",
     "CyberSecurity/Encryption/Biometric Authentication.md",
     "Home.md",
+    "developer-roadmap/tests/data/question-groups/react/content/controlled-vs-uncontrolled.md",
+    "developer-roadmap/tests/data/roadmaps/aspnet-core/content/distributed-lock@T2FsSndxzSuKTFdjoyPi-.md",
+    "Pasted image 20250513035438.png",
+    "CyberSecurity/Encryption/Certificate Authorities.md",
     "CyberSecurity/Encryption/Multifactor Authentication (MFA).md",
     "developer-roadmap/src/data/roadmaps/react-native/content/core-components/listings/list-views/section-list.md",
     "developer-roadmap/src/data/roadmaps/react-native/content/core-components/listings/list-views/flat-list.md",
@@ -254,8 +257,6 @@
     "developer-roadmap/src/data/roadmaps/software-design-architecture/content/object-oriented-programming/model-driven-design/index.md",
     "developer-roadmap/src/data/roadmaps/software-design-architecture/content/object-oriented-programming/model-driven-design/domain-models.md",
     "developer-roadmap/src/data/roadmaps/software-design-architecture/content/object-oriented-programming/model-driven-design/domain-language.md",
-    "developer-roadmap/src/data/roadmaps/software-design-architecture/content/object-oriented-programming/model-driven-design/class-invariants.md",
-    "developer-roadmap/src/data/roadmaps/software-design-architecture/content/object-oriented-programming/model-driven-design/anemic-models.md",
     "developer-roadmap/src/data/roadmaps/react-native/content/core-components/listings/list-views",
     "developer-roadmap/src/data/roadmaps/spring-boot/content/spring-core/introduction",
     "developer-roadmap/src/data/roadmaps/spring-boot/content/microservices/spring-cloud",
@@ -275,7 +276,6 @@
     "developer-roadmap/public/roadmaps/android/build-an-application.png",
     "developer-roadmap/public/og-images/roadmaps/spring-boot.png",
     "developer-roadmap/public/og-images/roadmaps/vue.png",
-    "developer-roadmap/public/og-images/roadmaps/ux-design.png",
     "Untitled.canvas",
     "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Supply Chain Attack.canvas",
     "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Supply Chain Attack APT view.canvas",

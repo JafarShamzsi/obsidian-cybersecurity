@@ -5,12 +5,24 @@
       "path": "CyberSecurity/Encryption/Biometric Authentication.md"
     },
     {
-      "basename": "Certificate Authorities",
-      "path": "CyberSecurity/Encryption/Certificate Authorities.md"
+      "basename": "ai-agents",
+      "path": "developer-roadmap/public/roadmap-content/ai-agents.json"
     },
     {
       "basename": "Home",
       "path": "Home.md"
+    },
+    {
+      "basename": "controlled-vs-uncontrolled",
+      "path": "developer-roadmap/tests/data/question-groups/react/content/controlled-vs-uncontrolled.md"
+    },
+    {
+      "basename": "distributed-lock@T2FsSndxzSuKTFdjoyPi-",
+      "path": "developer-roadmap/tests/data/roadmaps/aspnet-core/content/distributed-lock@T2FsSndxzSuKTFdjoyPi-.md"
+    },
+    {
+      "basename": "Certificate Authorities",
+      "path": "CyberSecurity/Encryption/Certificate Authorities.md"
     },
     {
       "basename": "Multifactor Authentication (MFA)",
@@ -187,18 +199,6 @@
     {
       "basename": "README",
       "path": "README.md"
-    },
-    {
-      "basename": "Compromise Software Supply Chain",
-      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Attacking-Frameworks/MITRE ATT&CK/Mobile-Attack/techniques/Compromise Software Supply Chain.md"
-    },
-    {
-      "basename": "Index",
-      "path": "OWASP Top 10/Top10/Index.md"
-    },
-    {
-      "basename": "Compromise Hardware Supply Chain",
-      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Attacking-Frameworks/MITRE ATT&CK/Mobile-Attack/techniques/Compromise Hardware Supply Chain.md"
     }
   ],
   "omittedPaths": [],
