@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CyberSecurity/Encryption/Obfuscation.md",
+                "file": "CyberSecurity/Encryption/Password Concepts.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Obfuscation"
+              "title": "Password Concepts"
             }
           }
         ]
@@ -229,8 +229,9 @@
   },
   "active": "e84236a66086f0f1",
   "lastOpenFiles": [
-    "CyberSecurity/Encryption/Blockchain.md",
     "CyberSecurity/Encryption/Obfuscation.md",
+    "CyberSecurity/Encryption/Password Concepts.md",
+    "CyberSecurity/Encryption/Blockchain.md",
     "CyberSecurity/Encryption/Salting and Key Stretching.md",
     "CyberSecurity/Encryption/Cryptoprocessors and Secure Enclaves (part 2).md",
     "CyberSecurity/Encryption/Cryptoprocessors and Secure Enclaves (part 1).md",
@@ -264,7 +265,6 @@
     "CyberSecurity/Encryption/Asymmetric Encryption.md",
     "CyberSecurity/Encryption/Key Length.md",
     "CyberSecurity/Encryption/Symmetric Encryption.md",
-    "CyberSecurity/Social Engineering/Business email compromise and Watering Hole Attacks.md",
     "Untitled.canvas",
     "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Supply Chain Attack.canvas",
     "CyberSecurity/Social Engineering",

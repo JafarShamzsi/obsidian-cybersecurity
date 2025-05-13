@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Password Concepts",
+      "path": "CyberSecurity/Encryption/Password Concepts.md"
+    },
+    {
       "basename": "Obfuscation",
       "path": "CyberSecurity/Encryption/Obfuscation.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Pasted image 20250320214106",
       "path": "Images/Pasted image 20250320214106.png"
-    },
-    {
-      "basename": "Pasted image 20250320032810",
-      "path": "Images/Pasted image 20250320032810.png"
     }
   ],
   "omittedPaths": [],
