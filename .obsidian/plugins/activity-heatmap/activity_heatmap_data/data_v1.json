@@ -356,9 +356,9 @@
       "fileSize": 672
     },
     "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Attacking-Frameworks/MITRE ATT&CK/Mobile-Attack/tactics/Command and Control.md": {
-      "mtime": 1745169921974,
+      "mtime": 1747252956308,
       "wordCount": 81,
-      "fileSize": 587
+      "fileSize": 574
     },
     "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Attacking-Frameworks/MITRE ATT&CK/Mobile-Attack/tactics/Collection.md": {
       "mtime": 1745169921974,
@@ -63860,6 +63860,10 @@
     "2025-05-12": {
       "wordCount": 1158487,
       "fileSize": 8711677
+    },
+    "2025-05-15": {
+      "wordCount": 0,
+      "fileSize": 13
     }
   }
 }

@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "Home",
+      "path": "Home.md"
+    },
+    {
+      "basename": "Command and Control",
+      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Attacking-Frameworks/MITRE ATT&CK/Mobile-Attack/tactics/Command and Control.md"
+    },
+    {
       "basename": "Biometric Authentication",
       "path": "CyberSecurity/Encryption/Biometric Authentication.md"
     },
     {
       "basename": "ai-agents",
       "path": "developer-roadmap/public/roadmap-content/ai-agents.json"
-    },
-    {
-      "basename": "Home",
-      "path": "Home.md"
     },
     {
       "basename": "controlled-vs-uncontrolled",
@@ -195,10 +199,6 @@
     {
       "basename": "Image File Execution Options Injection",
       "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Attacking-Frameworks/MITRE ATT&CK/Enterprise-Attack/techniques/Image File Execution Options Injection.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
     }
   ],
   "omittedPaths": [],
