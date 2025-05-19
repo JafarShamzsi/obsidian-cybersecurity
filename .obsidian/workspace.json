@@ -4,17 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "7568d15f92587741",
+        "id": "72caa0722f399496",
         "type": "tabs",
         "children": [
           {
-            "id": "338149409b64a7e4",
+            "id": "c6a5e2cef21d2c60",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "CyberSecurity/Encryption/Passwordless Authentication.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Passwordless Authentication"
             }
           }
         ]
@@ -64,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 464.5,
-    "collapsed": true
+    "width": 464.5
   },
   "right": {
     "id": "067dbe9ff984865f",
@@ -224,8 +228,11 @@
       "obsidian-import-json:JSON/CSV Importer": false
     }
   },
-  "active": "338149409b64a7e4",
+  "active": "c6a5e2cef21d2c60",
   "lastOpenFiles": [
+    "CyberSecurity/Encryption/Soft Authentication Tokens.md",
+    "CyberSecurity/Encryption/Passwordless Authentication.md",
+    "CyberSecurity/Encryption/Hard Authentication Tokens.md",
     "Home.md",
     "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Attacking-Frameworks/MITRE ATT&CK/Mobile-Attack/tactics/Command and Control.md",
     "CyberSecurity/Encryption/Biometric Authentication.md",
@@ -251,9 +258,6 @@
     "developer-roadmap/src/data/roadmaps/spring-boot/content/microservices/spring-cloud/hystrix.md",
     "developer-roadmap/src/data/roadmaps/software-design-architecture/content/object-oriented-programming/model-driven-design/layered-architectures.md",
     "developer-roadmap/src/data/roadmaps/spring-boot/content/microservices/spring-cloud/cloud-config.md",
-    "developer-roadmap/src/data/roadmaps/software-design-architecture/content/object-oriented-programming/model-driven-design/index.md",
-    "developer-roadmap/src/data/roadmaps/software-design-architecture/content/object-oriented-programming/model-driven-design/domain-models.md",
-    "developer-roadmap/src/data/roadmaps/software-design-architecture/content/object-oriented-programming/model-driven-design/domain-language.md",
     "developer-roadmap/src/data/roadmaps/react-native/content/core-components/listings/list-views",
     "developer-roadmap/src/data/roadmaps/spring-boot/content/spring-core/introduction",
     "developer-roadmap/src/data/roadmaps/spring-boot/content/microservices/spring-cloud",

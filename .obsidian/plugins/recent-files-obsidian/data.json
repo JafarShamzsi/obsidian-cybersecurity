@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Passwordless Authentication",
+      "path": "CyberSecurity/Encryption/Passwordless Authentication.md"
+    },
+    {
+      "basename": "Soft Authentication Tokens",
+      "path": "CyberSecurity/Encryption/Soft Authentication Tokens.md"
+    },
+    {
+      "basename": "Hard Authentication Tokens",
+      "path": "CyberSecurity/Encryption/Hard Authentication Tokens.md"
+    },
+    {
       "basename": "Home",
       "path": "Home.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "Cross-env Typosquatting Campaign (2020)",
       "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Cross-env Typosquatting Campaign (2020).md"
-    },
-    {
-      "basename": "Python3-dateutil Supply Chain Attack",
-      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Python3-dateutil Supply Chain Attack.md"
-    },
-    {
-      "basename": "EternalBlue",
-      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Offensive-Techniques/EternalBlue.md"
-    },
-    {
-      "basename": "Image File Execution Options Injection",
-      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Attacking-Frameworks/MITRE ATT&CK/Enterprise-Attack/techniques/Image File Execution Options Injection.md"
     }
   ],
   "omittedPaths": [],
