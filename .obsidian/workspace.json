@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CyberSecurity/Encryption/Passwordless Authentication.md",
+                "file": "CyberSecurity/Authentication/Least Privilege Permission Assignments.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Passwordless Authentication"
+              "title": "Least Privilege Permission Assignments"
             }
           }
         ]
@@ -230,8 +230,12 @@
   },
   "active": "c6a5e2cef21d2c60",
   "lastOpenFiles": [
-    "CyberSecurity/Encryption/Soft Authentication Tokens.md",
+    "CyberSecurity/Authentication/Role-based and Attribute-Based Access Control.md",
+    "CyberSecurity/Authentication/Least Privilege Permission Assignments.md",
+    "CyberSecurity/Authentication/Discretionary and Mandatory Access Control.md",
+    "CyberSecurity/Authentication",
     "CyberSecurity/Encryption/Passwordless Authentication.md",
+    "CyberSecurity/Encryption/Soft Authentication Tokens.md",
     "CyberSecurity/Encryption/Hard Authentication Tokens.md",
     "Home.md",
     "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Attacking-Frameworks/MITRE ATT&CK/Mobile-Attack/tactics/Command and Control.md",
@@ -255,9 +259,6 @@
     "developer-roadmap/src/data/roadmaps/spring-boot/content/microservices/spring-cloud/sleuth.md",
     "developer-roadmap/src/data/roadmaps/spring-boot/content/microservices/spring-cloud/index.md",
     "developer-roadmap/src/data/roadmaps/spring-boot/content/microservices/spring-cloud/eureka.md",
-    "developer-roadmap/src/data/roadmaps/spring-boot/content/microservices/spring-cloud/hystrix.md",
-    "developer-roadmap/src/data/roadmaps/software-design-architecture/content/object-oriented-programming/model-driven-design/layered-architectures.md",
-    "developer-roadmap/src/data/roadmaps/spring-boot/content/microservices/spring-cloud/cloud-config.md",
     "developer-roadmap/src/data/roadmaps/react-native/content/core-components/listings/list-views",
     "developer-roadmap/src/data/roadmaps/spring-boot/content/spring-core/introduction",
     "developer-roadmap/src/data/roadmaps/spring-boot/content/microservices/spring-cloud",
@@ -266,7 +267,6 @@
     "developer-roadmap/src/data/roadmaps/software-design-architecture/content/object-oriented-programming/paradigm-features",
     "developer-roadmap/src/data/roadmaps/software-design-architecture/content/architectural-styles/structural",
     "developer-roadmap/src/data/roadmaps/software-design-architecture/content/architectural-styles/messaging",
-    "developer-roadmap/src/data/roadmaps/software-design-architecture/content/architectural-styles/distributed",
     "developer-roadmap/public/roadmaps/android/the-fundamentals.png",
     "developer-roadmap/public/roadmaps/android/roadmap.svg",
     "developer-roadmap/public/roadmaps/android/roadmap.png",

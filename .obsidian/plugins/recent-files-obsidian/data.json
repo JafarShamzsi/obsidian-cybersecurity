@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Least Privilege Permission Assignments",
+      "path": "CyberSecurity/Authentication/Least Privilege Permission Assignments.md"
+    },
+    {
+      "basename": "Role-based and Attribute-Based Access Control",
+      "path": "CyberSecurity/Authentication/Role-based and Attribute-Based Access Control.md"
+    },
+    {
+      "basename": "Discretionary and Mandatory Access Control",
+      "path": "CyberSecurity/Authentication/Discretionary and Mandatory Access Control.md"
+    },
+    {
       "basename": "Passwordless Authentication",
       "path": "CyberSecurity/Encryption/Passwordless Authentication.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "Access Control",
       "path": "CyberSecurity/Security+/2-Architecture-Design/Access Control.md"
-    },
-    {
-      "basename": "What is Encryption",
-      "path": "CyberSecurity/Encryption/What is Encryption.md"
-    },
-    {
-      "basename": "Supply Chain Attack",
-      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Supply Chain Attack.canvas"
-    },
-    {
-      "basename": "Cross-env Typosquatting Campaign (2020)",
-      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Cross-env Typosquatting Campaign (2020).md"
     }
   ],
   "omittedPaths": [],
