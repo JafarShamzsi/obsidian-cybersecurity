@@ -66,7 +66,7 @@ Thus, both parties independently derive the same symmetric key `s = 6`.
 
 An eavesdropper (Mallory) who sees `p`, `g`, `A`, and `B` cannot compute `s` unless she solves the **discrete logarithm problem (DLP)**, which is computationally infeasible for large `p`.
 
-![[Pasted image 20250513035438.png]]
+![[Pasted image 20250513035438 1.png]]
 
 ---
 

@@ -228,8 +228,9 @@
       "obsidian-import-json:JSON/CSV Importer": false
     }
   },
-  "active": "c6a5e2cef21d2c60",
+  "active": "e58be068870c1953",
   "lastOpenFiles": [
+    "Images/Pasted image 20250520050915.png",
     "CyberSecurity/Authentication/Role-based and Attribute-Based Access Control.md",
     "CyberSecurity/Authentication/Least Privilege Permission Assignments.md",
     "CyberSecurity/Authentication/Discretionary and Mandatory Access Control.md",
@@ -243,7 +244,7 @@
     "developer-roadmap/public/roadmap-content/ai-agents.json",
     "developer-roadmap/tests/data/question-groups/react/content/controlled-vs-uncontrolled.md",
     "developer-roadmap/tests/data/roadmaps/aspnet-core/content/distributed-lock@T2FsSndxzSuKTFdjoyPi-.md",
-    "Pasted image 20250513035438.png",
+    "Images/Pasted image 20250513035438 1.png",
     "CyberSecurity/Encryption/Certificate Authorities.md",
     "CyberSecurity/Encryption/Multifactor Authentication (MFA).md",
     "developer-roadmap/src/data/roadmaps/react-native/content/core-components/listings/list-views/section-list.md",
@@ -258,7 +259,6 @@
     "developer-roadmap/src/data/roadmaps/spring-boot/content/microservices/spring-cloud/spring-cloud-circuit-breaker.md",
     "developer-roadmap/src/data/roadmaps/spring-boot/content/microservices/spring-cloud/sleuth.md",
     "developer-roadmap/src/data/roadmaps/spring-boot/content/microservices/spring-cloud/index.md",
-    "developer-roadmap/src/data/roadmaps/spring-boot/content/microservices/spring-cloud/eureka.md",
     "developer-roadmap/src/data/roadmaps/react-native/content/core-components/listings/list-views",
     "developer-roadmap/src/data/roadmaps/spring-boot/content/spring-core/introduction",
     "developer-roadmap/src/data/roadmaps/spring-boot/content/microservices/spring-cloud",

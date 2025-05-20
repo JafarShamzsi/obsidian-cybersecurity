@@ -5,7 +5,7 @@
 ![[Least Privilege Definition]]
 
 > "The principle of least privilege requires that a subject be given no more privilege than necessary to perform a job." — NIST Special Publication 800-179
-
+![[Pasted image 20250520050915.png]]
 ## Conceptual Framework
 
 ### Key Components
