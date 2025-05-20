@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Account Attributes and Access Policies",
+      "path": "CyberSecurity/Authentication/Account Attributes and Access Policies.md"
+    },
+    {
+      "basename": "User Account Provisioning and Deprovisioning",
+      "path": "CyberSecurity/Authentication/User Account Provisioning and Deprovisioning.md"
+    },
+    {
+      "basename": "Home",
+      "path": "Home.md"
+    },
+    {
       "basename": "Least Privilege Permission Assignments",
       "path": "CyberSecurity/Authentication/Least Privilege Permission Assignments.md"
     },
@@ -23,10 +35,6 @@
     {
       "basename": "Hard Authentication Tokens",
       "path": "CyberSecurity/Encryption/Hard Authentication Tokens.md"
-    },
-    {
-      "basename": "Home",
-      "path": "Home.md"
     },
     {
       "basename": "Command and Control",
@@ -191,14 +199,6 @@
     {
       "basename": "Glossary.md",
       "path": "CyberSecurity/Security+/Glossary.md.md"
-    },
-    {
-      "basename": "Authentication",
-      "path": "CyberSecurity/Security+/3-Implementation/Authentication.md"
-    },
-    {
-      "basename": "Access Control",
-      "path": "CyberSecurity/Security+/2-Architecture-Design/Access Control.md"
     }
   ],
   "omittedPaths": [],
