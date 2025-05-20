@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Privileged Access Management",
+      "path": "CyberSecurity/Authentication/Privileged Access Management.md"
+    },
+    {
+      "basename": "Account Restrictions",
+      "path": "CyberSecurity/Authentication/Account Restrictions.md"
+    },
+    {
       "basename": "Account Attributes and Access Policies",
       "path": "CyberSecurity/Authentication/Account Attributes and Access Policies.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "What is Social Engineering",
       "path": "CyberSecurity/Social Engineering/What is Social Engineering.md"
-    },
-    {
-      "basename": "Impersonation and Pretexting",
-      "path": "CyberSecurity/Social Engineering/Impersonation and Pretexting.md"
-    },
-    {
-      "basename": "Glossary.md",
-      "path": "CyberSecurity/Security+/Glossary.md.md"
     }
   ],
   "omittedPaths": [],

@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CyberSecurity/Authentication/Account Attributes and Access Policies.md",
+                "file": "CyberSecurity/Authentication/Privileged Access Management.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Account Attributes and Access Policies"
+              "title": "Privileged Access Management"
             }
           }
         ]
@@ -228,11 +228,13 @@
       "obsidian-import-json:JSON/CSV Importer": false
     }
   },
-  "active": "e58be068870c1953",
+  "active": "b776495acccdafbc",
   "lastOpenFiles": [
+    "CyberSecurity/Authentication/Privileged Access Management.md",
+    "CyberSecurity/Authentication/Account Restrictions.md",
+    "CyberSecurity/Authentication/Account Attributes and Access Policies.md",
     "Images/148-1692974862548.png",
     "CyberSecurity/Authentication/User Account Provisioning and Deprovisioning.md",
-    "CyberSecurity/Authentication/Account Attributes and Access Policies.md",
     "Home.md",
     "CyberSecurity/Authentication/Least Privilege Permission Assignments.md",
     "Images/Pasted image 20250520050915.png",
@@ -259,7 +261,6 @@
     "developer-roadmap/src/data/roadmaps/spring-boot/content/spring-core/introduction/architecture.md",
     "developer-roadmap/src/data/roadmaps/spring-boot/content/microservices/spring-cloud/spring-cloud-openfeign.md",
     "developer-roadmap/src/data/roadmaps/spring-boot/content/microservices/spring-cloud/spring-cloud-gateway.md",
-    "developer-roadmap/src/data/roadmaps/spring-boot/content/microservices/spring-cloud/spring-cloud-circuit-breaker.md",
     "developer-roadmap/src/data/roadmaps/react-native/content/core-components/listings/list-views",
     "developer-roadmap/src/data/roadmaps/spring-boot/content/spring-core/introduction",
     "developer-roadmap/src/data/roadmaps/spring-boot/content/microservices/spring-cloud",
@@ -275,7 +276,6 @@
     "developer-roadmap/public/roadmaps/android/pick-language.png",
     "developer-roadmap/public/roadmaps/android/git-github.png",
     "developer-roadmap/public/roadmaps/android/build-an-application.png",
-    "developer-roadmap/public/og-images/roadmaps/spring-boot.png",
     "Untitled.canvas",
     "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Supply Chain Attack.canvas",
     "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Supply Chain Attack APT view.canvas",
