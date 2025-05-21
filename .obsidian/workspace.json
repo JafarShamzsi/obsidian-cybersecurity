@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "7e753e26c9bd47d0",
+        "id": "834ef7e03d4b5550",
         "type": "tabs",
         "children": [
           {
-            "id": "b776495acccdafbc",
+            "id": "6700731195ec5dba",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CyberSecurity/Authentication/Privileged Access Management.md",
+                "file": "CyberSecurity/Authentication/OAuth-Open Authorization.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Privileged Access Management"
+              "title": "OAuth-Open Authorization"
             }
           }
         ]
@@ -228,14 +228,25 @@
       "obsidian-import-json:JSON/CSV Importer": false
     }
   },
-  "active": "b776495acccdafbc",
+  "active": "6700731195ec5dba",
   "lastOpenFiles": [
-    "CyberSecurity/Authentication/Privileged Access Management.md",
-    "CyberSecurity/Authentication/Account Restrictions.md",
-    "CyberSecurity/Authentication/Account Attributes and Access Policies.md",
-    "Images/148-1692974862548.png",
-    "CyberSecurity/Authentication/User Account Provisioning and Deprovisioning.md",
+    "CyberSecurity/Authentication/Security Assertion Markup Language (SAML).md",
+    "CyberSecurity/Authentication/OAuth-Open Authorization.md",
+    "CyberSecurity/Authentication/Federation.md",
+    "Images/image-5f9996ed36c02.jpg",
+    "CyberSecurity/Authentication/Single Sign-On Authorization (Kerberos).md",
+    "Images/5363-1692974862866.png",
+    "CyberSecurity/Authentication/Single Sign On (SSO) & Kerberos.md",
+    "Images/9269-1692974862756.png",
     "Home.md",
+    "CyberSecurity/Authentication/Directory Services.md",
+    "Images/2586-1692974862656.png",
+    "CyberSecurity/Authentication/Local, Network and Remote Authentication.md",
+    "CyberSecurity/Authentication/Privileged Access Management.md",
+    "CyberSecurity/Authentication/User Account Provisioning and Deprovisioning.md",
+    "CyberSecurity/Authentication/Account Attributes and Access Policies.md",
+    "CyberSecurity/Authentication/Account Restrictions.md",
+    "Images/148-1692974862548.png",
     "CyberSecurity/Authentication/Least Privilege Permission Assignments.md",
     "Images/Pasted image 20250520050915.png",
     "CyberSecurity/Authentication/Role-based and Attribute-Based Access Control.md",
@@ -254,13 +265,6 @@
     "CyberSecurity/Encryption/Multifactor Authentication (MFA).md",
     "developer-roadmap/src/data/roadmaps/react-native/content/core-components/listings/list-views/section-list.md",
     "developer-roadmap/src/data/roadmaps/react-native/content/core-components/listings/list-views/flat-list.md",
-    "developer-roadmap/src/data/roadmaps/react-native/content/core-components/listings/list-views/index.md",
-    "developer-roadmap/src/data/roadmaps/spring-boot/content/spring-core/introduction/why-spring.md",
-    "developer-roadmap/src/data/roadmaps/spring-boot/content/spring-core/introduction/terminology.md",
-    "developer-roadmap/src/data/roadmaps/spring-boot/content/spring-core/introduction/index.md",
-    "developer-roadmap/src/data/roadmaps/spring-boot/content/spring-core/introduction/architecture.md",
-    "developer-roadmap/src/data/roadmaps/spring-boot/content/microservices/spring-cloud/spring-cloud-openfeign.md",
-    "developer-roadmap/src/data/roadmaps/spring-boot/content/microservices/spring-cloud/spring-cloud-gateway.md",
     "developer-roadmap/src/data/roadmaps/react-native/content/core-components/listings/list-views",
     "developer-roadmap/src/data/roadmaps/spring-boot/content/spring-core/introduction",
     "developer-roadmap/src/data/roadmaps/spring-boot/content/microservices/spring-cloud",
@@ -272,10 +276,6 @@
     "developer-roadmap/public/roadmaps/android/the-fundamentals.png",
     "developer-roadmap/public/roadmaps/android/roadmap.svg",
     "developer-roadmap/public/roadmaps/android/roadmap.png",
-    "developer-roadmap/public/roadmaps/android/pick-language.svg",
-    "developer-roadmap/public/roadmaps/android/pick-language.png",
-    "developer-roadmap/public/roadmaps/android/git-github.png",
-    "developer-roadmap/public/roadmaps/android/build-an-application.png",
     "Untitled.canvas",
     "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Supply Chain Attack.canvas",
     "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Supply Chain Attack APT view.canvas",

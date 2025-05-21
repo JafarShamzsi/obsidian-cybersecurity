@@ -1,24 +1,52 @@
 {
   "recentFiles": [
     {
+      "basename": "OAuth-Open Authorization",
+      "path": "CyberSecurity/Authentication/OAuth-Open Authorization.md"
+    },
+    {
+      "basename": "Security Assertion Markup Language (SAML)",
+      "path": "CyberSecurity/Authentication/Security Assertion Markup Language (SAML).md"
+    },
+    {
+      "basename": "Federation",
+      "path": "CyberSecurity/Authentication/Federation.md"
+    },
+    {
+      "basename": "Single Sign-On Authorization (Kerberos)",
+      "path": "CyberSecurity/Authentication/Single Sign-On Authorization (Kerberos).md"
+    },
+    {
+      "basename": "Single Sign On (SSO) & Kerberos",
+      "path": "CyberSecurity/Authentication/Single Sign On (SSO) & Kerberos.md"
+    },
+    {
+      "basename": "Home",
+      "path": "Home.md"
+    },
+    {
+      "basename": "Directory Services",
+      "path": "CyberSecurity/Authentication/Directory Services.md"
+    },
+    {
+      "basename": "Local, Network and Remote Authentication",
+      "path": "CyberSecurity/Authentication/Local, Network and Remote Authentication.md"
+    },
+    {
       "basename": "Privileged Access Management",
       "path": "CyberSecurity/Authentication/Privileged Access Management.md"
-    },
-    {
-      "basename": "Account Restrictions",
-      "path": "CyberSecurity/Authentication/Account Restrictions.md"
-    },
-    {
-      "basename": "Account Attributes and Access Policies",
-      "path": "CyberSecurity/Authentication/Account Attributes and Access Policies.md"
     },
     {
       "basename": "User Account Provisioning and Deprovisioning",
       "path": "CyberSecurity/Authentication/User Account Provisioning and Deprovisioning.md"
     },
     {
-      "basename": "Home",
-      "path": "Home.md"
+      "basename": "Account Attributes and Access Policies",
+      "path": "CyberSecurity/Authentication/Account Attributes and Access Policies.md"
+    },
+    {
+      "basename": "Account Restrictions",
+      "path": "CyberSecurity/Authentication/Account Restrictions.md"
     },
     {
       "basename": "Least Privilege Permission Assignments",
@@ -171,34 +199,6 @@
     {
       "basename": "Hashing",
       "path": "CyberSecurity/Encryption/Hashing.md"
-    },
-    {
-      "basename": "Asymmetric Encryption",
-      "path": "CyberSecurity/Encryption/Asymmetric Encryption.md"
-    },
-    {
-      "basename": "Key Length",
-      "path": "CyberSecurity/Encryption/Key Length.md"
-    },
-    {
-      "basename": "Symmetric Encryption",
-      "path": "CyberSecurity/Encryption/Symmetric Encryption.md"
-    },
-    {
-      "basename": "Business email compromise and Watering Hole Attacks",
-      "path": "CyberSecurity/Social Engineering/Business email compromise and Watering Hole Attacks.md"
-    },
-    {
-      "basename": "Typosquatting",
-      "path": "CyberSecurity/Social Engineering/Typosquatting.md"
-    },
-    {
-      "basename": "Phishing and Pharming",
-      "path": "CyberSecurity/Social Engineering/Phishing and Pharming.md"
-    },
-    {
-      "basename": "What is Social Engineering",
-      "path": "CyberSecurity/Social Engineering/What is Social Engineering.md"
     }
   ],
   "omittedPaths": [],
