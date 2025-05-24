@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "Attack Surface",
+      "path": "CyberSecurity/Network/Attack Surface.md"
+    },
+    {
+      "basename": "Security Zones in Network Architecture",
+      "path": "CyberSecurity/Network/Security Zones in Network Architecture.md"
+    },
+    {
+      "basename": "Home",
+      "path": "Home.md"
+    },
+    {
       "basename": "Routing Infrastructure Considerations",
       "path": "CyberSecurity/Network/Routing Infrastructure Considerations.md"
     },
     {
       "basename": "Switching Infrastructure Considerations",
       "path": "CyberSecurity/Network/Switching Infrastructure Considerations.md"
-    },
-    {
-      "basename": "Home",
-      "path": "Home.md"
     },
     {
       "basename": "Network Infrastructure",
@@ -191,14 +199,6 @@
     {
       "basename": "Certificate Revocation",
       "path": "CyberSecurity/Encryption/Certificate Revocation.md"
-    },
-    {
-      "basename": "Subject Name Attributes",
-      "path": "CyberSecurity/Encryption/Subject Name Attributes.md"
-    },
-    {
-      "basename": "Certificate Signing requests",
-      "path": "CyberSecurity/Encryption/Certificate Signing requests.md"
     }
   ],
   "omittedPaths": [],
