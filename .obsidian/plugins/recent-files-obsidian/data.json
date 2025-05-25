@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Architecture COnsiderations",
+      "path": "CyberSecurity/Network/Architecture COnsiderations.md"
+    },
+    {
+      "basename": "Port Security",
+      "path": "CyberSecurity/Network/Port Security.md"
+    },
+    {
       "basename": "Attack Surface",
       "path": "CyberSecurity/Network/Attack Surface.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Key Escrow",
       "path": "CyberSecurity/Encryption/Key Escrow.md"
-    },
-    {
-      "basename": "Cryptographic Key Management",
-      "path": "CyberSecurity/Encryption/Cryptographic Key Management.md"
-    },
-    {
-      "basename": "Certificate Revocation",
-      "path": "CyberSecurity/Encryption/Certificate Revocation.md"
     }
   ],
   "omittedPaths": [],
