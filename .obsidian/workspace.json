@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "940000bce4eee15c",
+        "id": "5a8f8a0210c1fbe3",
         "type": "tabs",
         "children": [
           {
-            "id": "3f298119f3a2ca95",
+            "id": "e7d1af24d9a7724a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CyberSecurity/Network/Architecture COnsiderations.md",
+                "file": "CyberSecurity/Network/Firewall.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Architecture COnsiderations"
+              "title": "Firewall"
             }
           }
         ]
@@ -228,14 +228,17 @@
       "obsidian-import-json:JSON/CSV Importer": false
     }
   },
-  "active": "3f298119f3a2ca95",
+  "active": "e7d1af24d9a7724a",
   "lastOpenFiles": [
-    "CyberSecurity/Network/Port Security.md",
+    "CyberSecurity/Network/Device Attributes in Network Security.md",
+    "CyberSecurity/Network/Firewall.md",
+    "9719-1692974864420.png",
+    "Home.md",
     "CyberSecurity/Network/Architecture COnsiderations.md",
-    "7891-1692974864032.png",
+    "CyberSecurity/Network/Port Security.md",
+    "Images/7891-1692974864032.png",
     "CyberSecurity/Network/Attack Surface.md",
     "CyberSecurity/Network/Security Zones in Network Architecture.md",
-    "Home.md",
     "CyberSecurity/Network/Routing Infrastructure Considerations.md",
     "Images/8218-1692974863714.png",
     "Images/6565-1692974863528.png",
@@ -254,7 +257,6 @@
     "CyberSecurity/Authentication/Single Sign On (SSO) & Kerberos.md",
     "Images/9269-1692974862756.png",
     "CyberSecurity/Authentication/Directory Services.md",
-    "Images/2586-1692974862656.png",
     "CyberSecurity/Authentication/Local, Network and Remote Authentication.md",
     "CyberSecurity/Authentication/Privileged Access Management.md",
     "CyberSecurity/Authentication/User Account Provisioning and Deprovisioning.md",
@@ -266,8 +268,6 @@
     "CyberSecurity/Authentication",
     "CyberSecurity/Encryption/Passwordless Authentication.md",
     "CyberSecurity/Encryption/Soft Authentication Tokens.md",
-    "CyberSecurity/Encryption/Hard Authentication Tokens.md",
-    "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Attacking-Frameworks/MITRE ATT&CK/Mobile-Attack/tactics/Command and Control.md",
     "developer-roadmap/public/roadmap-content/ai-agents.json",
     "developer-roadmap/src/data/roadmaps/react-native/content/core-components/listings/list-views",
     "developer-roadmap/src/data/roadmaps/spring-boot/content/spring-core/introduction",

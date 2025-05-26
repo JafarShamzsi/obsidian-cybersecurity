@@ -98494,6 +98494,16 @@
       "mtime": 1747865890630,
       "wordCount": 1024,
       "fileSize": 7302
+    },
+    "CyberSecurity/Network/Untitled.md": {
+      "mtime": 1748202907494,
+      "wordCount": 1,
+      "fileSize": 0
+    },
+    "CyberSecurity/Network/Device Attributes in Network Security.md": {
+      "mtime": 1748203087649,
+      "wordCount": 812,
+      "fileSize": 6263
     }
   },
   "activityOverTime": {
@@ -98724,6 +98734,10 @@
     "2025-05-22": {
       "wordCount": 3806,
       "fileSize": 29730
+    },
+    "2025-05-25": {
+      "wordCount": 847,
+      "fileSize": 6615
     }
   }
 }

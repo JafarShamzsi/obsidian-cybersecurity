@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Firewall",
+      "path": "CyberSecurity/Network/Firewall.md"
+    },
+    {
+      "basename": "Device Attributes in Network Security",
+      "path": "CyberSecurity/Network/Device Attributes in Network Security.md"
+    },
+    {
+      "basename": "Home",
+      "path": "Home.md"
+    },
+    {
       "basename": "Architecture COnsiderations",
       "path": "CyberSecurity/Network/Architecture COnsiderations.md"
     },
@@ -15,10 +27,6 @@
     {
       "basename": "Security Zones in Network Architecture",
       "path": "CyberSecurity/Network/Security Zones in Network Architecture.md"
-    },
-    {
-      "basename": "Home",
-      "path": "Home.md"
     },
     {
       "basename": "Routing Infrastructure Considerations",
@@ -191,14 +199,6 @@
     {
       "basename": "Database Encryption",
       "path": "CyberSecurity/Encryption/Database Encryption.md"
-    },
-    {
-      "basename": "Disk and File Encryption",
-      "path": "CyberSecurity/Encryption/Disk and File Encryption.md"
-    },
-    {
-      "basename": "Key Escrow",
-      "path": "CyberSecurity/Encryption/Key Escrow.md"
     }
   ],
   "omittedPaths": [],
