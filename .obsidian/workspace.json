@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CyberSecurity/Network/Firewall.md",
+                "file": "CyberSecurity/Network/Layer 4 and Layer 7 Firewalls.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Firewall"
+              "title": "Layer 4 and Layer 7 Firewalls"
             }
           }
         ]
@@ -228,11 +228,14 @@
       "obsidian-import-json:JSON/CSV Importer": false
     }
   },
-  "active": "e7d1af24d9a7724a",
+  "active": "e58be068870c1953",
   "lastOpenFiles": [
-    "CyberSecurity/Network/Device Attributes in Network Security.md",
+    "Images/7303-1692974864649.png",
+    "Images/3887-1692974864580.png",
     "CyberSecurity/Network/Firewall.md",
-    "9719-1692974864420.png",
+    "CyberSecurity/Network/Layer 4 and Layer 7 Firewalls.md",
+    "CyberSecurity/Network/Device Attributes in Network Security.md",
+    "Images/9719-1692974864420.png",
     "Home.md",
     "CyberSecurity/Network/Architecture COnsiderations.md",
     "CyberSecurity/Network/Port Security.md",
@@ -255,7 +258,6 @@
     "CyberSecurity/Authentication/Single Sign-On Authorization (Kerberos).md",
     "Images/5363-1692974862866.png",
     "CyberSecurity/Authentication/Single Sign On (SSO) & Kerberos.md",
-    "Images/9269-1692974862756.png",
     "CyberSecurity/Authentication/Directory Services.md",
     "CyberSecurity/Authentication/Local, Network and Remote Authentication.md",
     "CyberSecurity/Authentication/Privileged Access Management.md",
@@ -266,8 +268,6 @@
     "CyberSecurity/Authentication/Role-based and Attribute-Based Access Control.md",
     "CyberSecurity/Authentication/Discretionary and Mandatory Access Control.md",
     "CyberSecurity/Authentication",
-    "CyberSecurity/Encryption/Passwordless Authentication.md",
-    "CyberSecurity/Encryption/Soft Authentication Tokens.md",
     "developer-roadmap/public/roadmap-content/ai-agents.json",
     "developer-roadmap/src/data/roadmaps/react-native/content/core-components/listings/list-views",
     "developer-roadmap/src/data/roadmaps/spring-boot/content/spring-core/introduction",

@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Layer 4 and Layer 7 Firewalls",
+      "path": "CyberSecurity/Network/Layer 4 and Layer 7 Firewalls.md"
+    },
+    {
       "basename": "Firewall",
       "path": "CyberSecurity/Network/Firewall.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Transport Encryption and Key Exchange",
       "path": "CyberSecurity/Encryption/Transport Encryption and Key Exchange.md"
-    },
-    {
-      "basename": "Database Encryption",
-      "path": "CyberSecurity/Encryption/Database Encryption.md"
     }
   ],
   "omittedPaths": [],
