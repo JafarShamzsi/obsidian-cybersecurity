@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Intrusion Detection and Prevention Systems (IDS, IPS)",
+      "path": "CyberSecurity/Network/Intrusion Detection and Prevention Systems (IDS, IPS).md"
+    },
+    {
+      "basename": "Proxy Servers",
+      "path": "CyberSecurity/Network/Proxy Servers.md"
+    },
+    {
+      "basename": "Home",
+      "path": "Home.md"
+    },
+    {
       "basename": "Layer 4 and Layer 7 Firewalls",
       "path": "CyberSecurity/Network/Layer 4 and Layer 7 Firewalls.md"
     },
@@ -11,10 +23,6 @@
     {
       "basename": "Device Attributes in Network Security",
       "path": "CyberSecurity/Network/Device Attributes in Network Security.md"
-    },
-    {
-      "basename": "Home",
-      "path": "Home.md"
     },
     {
       "basename": "Architecture COnsiderations",
@@ -191,14 +199,6 @@
     {
       "basename": "Cryptoprocessors and Secure Enclaves (part 1)",
       "path": "CyberSecurity/Encryption/Cryptoprocessors and Secure Enclaves (part 1).md"
-    },
-    {
-      "basename": "Perfect Forward Secrecy",
-      "path": "CyberSecurity/Encryption/Perfect Forward Secrecy.md"
-    },
-    {
-      "basename": "Transport Encryption and Key Exchange",
-      "path": "CyberSecurity/Encryption/Transport Encryption and Key Exchange.md"
     }
   ],
   "omittedPaths": [],

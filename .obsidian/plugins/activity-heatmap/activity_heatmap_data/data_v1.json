@@ -98504,6 +98504,61 @@
       "mtime": 1748203087649,
       "wordCount": 812,
       "fileSize": 6263
+    },
+    "CyberSecurity/Network/Proxy Servers.md": {
+      "mtime": 1748414934432,
+      "wordCount": 888,
+      "fileSize": 6275
+    },
+    "CyberSecurity/Network/Security Zones in Network Architecture.md": {
+      "mtime": 1748075642206,
+      "wordCount": 872,
+      "fileSize": 5714
+    },
+    "CyberSecurity/Network/Switching Infrastructure Considerations.md": {
+      "mtime": 1747919484373,
+      "wordCount": 746,
+      "fileSize": 5320
+    },
+    "CyberSecurity/Network/Network Infrastructure.md": {
+      "mtime": 1747890071868,
+      "wordCount": 684,
+      "fileSize": 5113
+    },
+    "CyberSecurity/Network/Routing Infrastructure Considerations.md": {
+      "mtime": 1747943878047,
+      "wordCount": 789,
+      "fileSize": 5627
+    },
+    "CyberSecurity/Network/Port Security.md": {
+      "mtime": 1748091893669,
+      "wordCount": 586,
+      "fileSize": 4751
+    },
+    "CyberSecurity/Network/Layer 4 and Layer 7 Firewalls.md": {
+      "mtime": 1748279859724,
+      "wordCount": 791,
+      "fileSize": 5954
+    },
+    "CyberSecurity/Network/Firewall.md": {
+      "mtime": 1748236881119,
+      "wordCount": 828,
+      "fileSize": 5877
+    },
+    "CyberSecurity/Network/Attack Surface.md": {
+      "mtime": 1748090189493,
+      "wordCount": 783,
+      "fileSize": 6503
+    },
+    "CyberSecurity/Network/Architecture COnsiderations.md": {
+      "mtime": 1748116647374,
+      "wordCount": 1084,
+      "fileSize": 8913
+    },
+    "CyberSecurity/Network/Intrusion Detection and Prevention Systems (IDS, IPS).md": {
+      "mtime": 1748416309671,
+      "wordCount": 541,
+      "fileSize": 4384
     }
   },
   "activityOverTime": {
@@ -98732,12 +98787,24 @@
       "fileSize": 18877
     },
     "2025-05-22": {
-      "wordCount": 3806,
-      "fileSize": 29730
+      "wordCount": 6025,
+      "fileSize": 45790
     },
     "2025-05-25": {
       "wordCount": 847,
       "fileSize": 6615
+    },
+    "2025-05-28": {
+      "wordCount": 1433,
+      "fileSize": 10697
+    },
+    "2025-05-24": {
+      "wordCount": 3325,
+      "fileSize": 25881
+    },
+    "2025-05-26": {
+      "wordCount": 1619,
+      "fileSize": 11831
     }
   }
 }
