@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "Responsibility Model",
+      "path": "CyberSecurity/Cloud/Responsibility Model.md"
+    },
+    {
+      "basename": "Cloud Deployment Models",
+      "path": "CyberSecurity/Cloud/Cloud Deployment Models.md"
+    },
+    {
+      "basename": "Out-of-Band Management and Jump Servers",
+      "path": "CyberSecurity/Network/Out-of-Band Management and Jump Servers.md"
+    },
+    {
+      "basename": "Secure Shell (SSH)",
+      "path": "CyberSecurity/Network/Secure Shell (SSH).md"
+    },
+    {
+      "basename": "Remote Desktop",
+      "path": "CyberSecurity/Network/Remote Desktop.md"
+    },
+    {
+      "basename": "Internet Key Exchange (IKE)",
+      "path": "CyberSecurity/Network/Internet Key Exchange (IKE).md"
+    },
+    {
       "basename": "Internet Protocol Security (IPSEC) Tunnelling",
       "path": "CyberSecurity/Network/Internet Protocol Security (IPSEC) Tunnelling.md"
     },
@@ -175,30 +199,6 @@
     {
       "basename": "Password Managers",
       "path": "CyberSecurity/Encryption/Password Managers.md"
-    },
-    {
-      "basename": "obsidian_book",
-      "path": "obsidian_book.md"
-    },
-    {
-      "basename": "Web Shell",
-      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Attacking-Frameworks/MITRE ATT&CK/Mobile-Attack/techniques/Web Shell.md"
-    },
-    {
-      "basename": "System Owner／User Discovery",
-      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Attacking-Frameworks/MITRE ATT&CK/Mobile-Attack/techniques/System Owner／User Discovery.md"
-    },
-    {
-      "basename": "Turla",
-      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Attacking-Frameworks/MITRE ATT&CK/ICS-Attack/groups/Turla.md"
-    },
-    {
-      "basename": "AES-256-CBC",
-      "path": "CyberSecurity/Encryption/AES-256-CBC.md"
-    },
-    {
-      "basename": "Encryption for Confidentiality",
-      "path": "CyberSecurity/Encryption/Encryption for Confidentiality.md"
     }
   ],
   "omittedPaths": [],
