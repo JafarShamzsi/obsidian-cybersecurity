@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CyberSecurity/Network/Transport Layer Security (TLS) Tunneling.md",
+                "file": "CyberSecurity/Network/Internet Protocol Security (IPSEC) Tunnelling.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Transport Layer Security (TLS) Tunneling"
+              "title": "Internet Protocol Security (IPSEC) Tunnelling"
             }
           }
         ]
@@ -228,12 +228,16 @@
       "obsidian-import-json:JSON/CSV Importer": false
     }
   },
-  "active": "2318de6cfccecf2c",
+  "active": "e58be068870c1953",
   "lastOpenFiles": [
-    "8581-1692974865849.png",
-    "7460-1692974865786.png",
-    "CyberSecurity/Network/Remote Access Architecture.md",
+    "Images/3806-1692974866142.png",
+    "Images/1132-1692974866005.png",
+    "Images/9434-1692974865939.png",
     "CyberSecurity/Network/Transport Layer Security (TLS) Tunneling.md",
+    "CyberSecurity/Network/Internet Protocol Security (IPSEC) Tunnelling.md",
+    "Images/8581-1692974865849.png",
+    "Images/7460-1692974865786.png",
+    "CyberSecurity/Network/Remote Access Architecture.md",
     "Images/image-5fabec2a7885d.jpg",
     "Images/image-5fab20d6c544b 1.jpg",
     "Images/image-5fab20d6c544b.jpg",
@@ -246,10 +250,7 @@
     "CyberSecurity/Network/Intrusion Detection and Prevention Systems (IDS, IPS).md",
     "Images/5840-1692974864918.png",
     "CyberSecurity/Network/Proxy Servers.md",
-    "Images/3363-1692974864790.png",
-    "Images/1446-1692974864724.png",
     "CyberSecurity/Network/Layer 4 and Layer 7 Firewalls.md",
-    "Images/7303-1692974864649.png",
     "CyberSecurity/Network/Firewall.md",
     "CyberSecurity/Network/Device Attributes in Network Security.md",
     "CyberSecurity/Network/Architecture COnsiderations.md",
@@ -266,7 +267,6 @@
     "CyberSecurity/Authentication/Single Sign-On Authorization (Kerberos).md",
     "CyberSecurity/Authentication/Single Sign On (SSO) & Kerberos.md",
     "CyberSecurity/Authentication/Directory Services.md",
-    "CyberSecurity/Authentication/Local, Network and Remote Authentication.md",
     "CyberSecurity/Authentication",
     "developer-roadmap/public/roadmap-content/ai-agents.json",
     "developer-roadmap/src/data/roadmaps/react-native/content/core-components/listings/list-views",

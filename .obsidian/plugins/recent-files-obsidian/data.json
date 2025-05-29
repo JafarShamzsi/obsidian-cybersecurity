@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Internet Protocol Security (IPSEC) Tunnelling",
+      "path": "CyberSecurity/Network/Internet Protocol Security (IPSEC) Tunnelling.md"
+    },
+    {
       "basename": "Transport Layer Security (TLS) Tunneling",
       "path": "CyberSecurity/Network/Transport Layer Security (TLS) Tunneling.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Encryption for Confidentiality",
       "path": "CyberSecurity/Encryption/Encryption for Confidentiality.md"
-    },
-    {
-      "basename": "Password Concepts",
-      "path": "CyberSecurity/Encryption/Password Concepts.md"
     }
   ],
   "omittedPaths": [],
