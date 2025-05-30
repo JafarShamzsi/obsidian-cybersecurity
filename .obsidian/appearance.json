@@ -7,7 +7,6 @@
   "theme": "system",
   "enabledCssSnippets": [
     "dashboard",
-    "animations",
     "pincard",
     "code-block-styling-01",
     "command-palette",

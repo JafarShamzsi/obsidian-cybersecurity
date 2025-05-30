@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Application Virtualization and Container Virtualization",
+      "path": "CyberSecurity/Cloud/Application Virtualization and Container Virtualization.md"
+    },
+    {
+      "basename": "Resilient Architecture Concepts (Cloud)",
+      "path": "CyberSecurity/Cloud/Resilient Architecture Concepts (Cloud).md"
+    },
+    {
+      "basename": "Home",
+      "path": "Home.md"
+    },
+    {
+      "basename": "Centralized vs. Decentralized computing",
+      "path": "CyberSecurity/Cloud/Centralized vs. Decentralized computing.md"
+    },
+    {
       "basename": "Responsibility Model",
       "path": "CyberSecurity/Cloud/Responsibility Model.md"
     },
@@ -47,10 +63,6 @@
     {
       "basename": "Next Generation Firewalls (NGFW) and Unified Threat Management (UTM)",
       "path": "CyberSecurity/Network/Next Generation Firewalls (NGFW) and Unified Threat Management (UTM).md"
-    },
-    {
-      "basename": "Home",
-      "path": "Home.md"
     },
     {
       "basename": "Intrusion Detection and Prevention Systems (IDS, IPS)",
@@ -187,18 +199,6 @@
     {
       "basename": "distributed-lock@T2FsSndxzSuKTFdjoyPi-",
       "path": "developer-roadmap/tests/data/roadmaps/aspnet-core/content/distributed-lock@T2FsSndxzSuKTFdjoyPi-.md"
-    },
-    {
-      "basename": "Certificate Authorities",
-      "path": "CyberSecurity/Encryption/Certificate Authorities.md"
-    },
-    {
-      "basename": "Multifactor Authentication (MFA)",
-      "path": "CyberSecurity/Encryption/Multifactor Authentication (MFA).md"
-    },
-    {
-      "basename": "Password Managers",
-      "path": "CyberSecurity/Encryption/Password Managers.md"
     }
   ],
   "omittedPaths": [],

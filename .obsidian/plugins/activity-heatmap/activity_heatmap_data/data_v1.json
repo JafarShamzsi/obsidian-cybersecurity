@@ -98559,6 +98559,81 @@
       "mtime": 1748416309671,
       "wordCount": 541,
       "fileSize": 4384
+    },
+    "CyberSecurity/Cloud/Responsibility Model.md": {
+      "mtime": 1748550917843,
+      "wordCount": 736,
+      "fileSize": 6188
+    },
+    "CyberSecurity/Cloud/Cloud Deployment Models.md": {
+      "mtime": 1748549456988,
+      "wordCount": 968,
+      "fileSize": 7402
+    },
+    "CyberSecurity/Cloud/Centralized vs. Decentralized computing.md": {
+      "mtime": 1748551265103,
+      "wordCount": 643,
+      "fileSize": 5398
+    },
+    "CyberSecurity/Network/Web Application Firewalls (WAF).md": {
+      "mtime": 1748455546223,
+      "wordCount": 595,
+      "fileSize": 4330
+    },
+    "CyberSecurity/Network/Transport Layer Security (TLS) Tunneling.md": {
+      "mtime": 1748534304646,
+      "wordCount": 523,
+      "fileSize": 3608
+    },
+    "CyberSecurity/Network/Secure Shell (SSH).md": {
+      "mtime": 1748540875613,
+      "wordCount": 643,
+      "fileSize": 4679
+    },
+    "CyberSecurity/Network/Remote Desktop.md": {
+      "mtime": 1748538859357,
+      "wordCount": 578,
+      "fileSize": 4117
+    },
+    "CyberSecurity/Network/Remote Access Architecture.md": {
+      "mtime": 1748533807301,
+      "wordCount": 562,
+      "fileSize": 3917
+    },
+    "CyberSecurity/Network/Out-of-Band Management and Jump Servers.md": {
+      "mtime": 1748542438993,
+      "wordCount": 747,
+      "fileSize": 6039
+    },
+    "CyberSecurity/Network/Next Generation Firewalls (NGFW) and Unified Threat Management (UTM).md": {
+      "mtime": 1748440406696,
+      "wordCount": 823,
+      "fileSize": 6620
+    },
+    "CyberSecurity/Network/Load Balancers.md": {
+      "mtime": 1748454238479,
+      "wordCount": 670,
+      "fileSize": 4685
+    },
+    "CyberSecurity/Network/Internet Protocol Security (IPSEC) Tunnelling.md": {
+      "mtime": 1748534925428,
+      "wordCount": 606,
+      "fileSize": 4365
+    },
+    "CyberSecurity/Network/Internet Key Exchange (IKE).md": {
+      "mtime": 1748537095553,
+      "wordCount": 552,
+      "fileSize": 3832
+    },
+    "CyberSecurity/Cloud/Resilient Architecture Concepts (Cloud).md": {
+      "mtime": 1748611640638,
+      "wordCount": 518,
+      "fileSize": 4206
+    },
+    "CyberSecurity/Cloud/Application Virtualization and Container Virtualization.md": {
+      "mtime": 1748613933586,
+      "wordCount": 625,
+      "fileSize": 5113
     }
   },
   "activityOverTime": {
@@ -98795,8 +98870,8 @@
       "fileSize": 6615
     },
     "2025-05-28": {
-      "wordCount": 1433,
-      "fileSize": 10697
+      "wordCount": 3521,
+      "fileSize": 26332
     },
     "2025-05-24": {
       "wordCount": 3325,
@@ -98805,6 +98880,14 @@
     "2025-05-26": {
       "wordCount": 1619,
       "fileSize": 11831
+    },
+    "2025-05-30": {
+      "wordCount": 3512,
+      "fileSize": 28515
+    },
+    "2025-05-29": {
+      "wordCount": 4211,
+      "fileSize": 30557
     }
   }
 }
