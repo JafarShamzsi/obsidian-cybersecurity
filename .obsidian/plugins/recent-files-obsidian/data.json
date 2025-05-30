@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "Industrial Control Systems (ICS) and SCADA Security",
+      "path": "CyberSecurity/Cloud/Industrial Control Systems (ICS) and SCADA Security.md"
+    },
+    {
+      "basename": "Embedded Systems and Real-Time Operating Systems (RTOS)",
+      "path": "CyberSecurity/Cloud/Embedded Systems and Real-Time Operating Systems (RTOS).md"
+    },
+    {
+      "basename": "Cloud Security Considerations",
+      "path": "CyberSecurity/Cloud/Cloud Security Considerations.md"
+    },
+    {
+      "basename": "Cloud Architecture Features",
+      "path": "CyberSecurity/Cloud/Cloud Architecture Features.md"
+    },
+    {
+      "basename": "Software Defined Networking (SDN)",
+      "path": "CyberSecurity/Cloud/Software Defined Networking (SDN).md"
+    },
+    {
+      "basename": "Cloud Automation Technologies",
+      "path": "CyberSecurity/Cloud/Cloud Automation Technologies.md"
+    },
+    {
+      "basename": "Cloud Architecture",
+      "path": "CyberSecurity/Cloud/Cloud Architecture.md"
+    },
+    {
       "basename": "Application Virtualization and Container Virtualization",
       "path": "CyberSecurity/Cloud/Application Virtualization and Container Virtualization.md"
     },
@@ -171,34 +199,6 @@
     {
       "basename": "Passwordless Authentication",
       "path": "CyberSecurity/Encryption/Passwordless Authentication.md"
-    },
-    {
-      "basename": "Soft Authentication Tokens",
-      "path": "CyberSecurity/Encryption/Soft Authentication Tokens.md"
-    },
-    {
-      "basename": "Hard Authentication Tokens",
-      "path": "CyberSecurity/Encryption/Hard Authentication Tokens.md"
-    },
-    {
-      "basename": "Command and Control",
-      "path": "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Attacking-Frameworks/MITRE ATT&CK/Mobile-Attack/tactics/Command and Control.md"
-    },
-    {
-      "basename": "Biometric Authentication",
-      "path": "CyberSecurity/Encryption/Biometric Authentication.md"
-    },
-    {
-      "basename": "ai-agents",
-      "path": "developer-roadmap/public/roadmap-content/ai-agents.json"
-    },
-    {
-      "basename": "controlled-vs-uncontrolled",
-      "path": "developer-roadmap/tests/data/question-groups/react/content/controlled-vs-uncontrolled.md"
-    },
-    {
-      "basename": "distributed-lock@T2FsSndxzSuKTFdjoyPi-",
-      "path": "developer-roadmap/tests/data/roadmaps/aspnet-core/content/distributed-lock@T2FsSndxzSuKTFdjoyPi-.md"
     }
   ],
   "omittedPaths": [],

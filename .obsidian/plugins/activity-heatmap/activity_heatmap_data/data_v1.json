@@ -98634,6 +98634,41 @@
       "mtime": 1748613933586,
       "wordCount": 625,
       "fileSize": 5113
+    },
+    "CyberSecurity/Cloud/Cloud Architecture.md": {
+      "mtime": 1748616111795,
+      "wordCount": 812,
+      "fileSize": 7038
+    },
+    "CyberSecurity/Cloud/Cloud Automation Technologies.md": {
+      "mtime": 1748620911720,
+      "wordCount": 777,
+      "fileSize": 5836
+    },
+    "CyberSecurity/Cloud/Software Defined Networking (SDN).md": {
+      "mtime": 1748621212398,
+      "wordCount": 892,
+      "fileSize": 6763
+    },
+    "CyberSecurity/Cloud/Cloud Architecture Features.md": {
+      "mtime": 1748622170313,
+      "wordCount": 904,
+      "fileSize": 7668
+    },
+    "CyberSecurity/Cloud/Cloud Security Considerations.md": {
+      "mtime": 1748623913205,
+      "wordCount": 1000,
+      "fileSize": 7664
+    },
+    "CyberSecurity/Cloud/Embedded Systems and Real-Time Operating Systems (RTOS).md": {
+      "mtime": 1748627346276,
+      "wordCount": 658,
+      "fileSize": 5343
+    },
+    "CyberSecurity/Cloud/Industrial Control Systems (ICS) and SCADA Security.md": {
+      "mtime": 1748629551147,
+      "wordCount": 586,
+      "fileSize": 4576
     }
   },
   "activityOverTime": {
@@ -98882,8 +98917,8 @@
       "fileSize": 11831
     },
     "2025-05-30": {
-      "wordCount": 3512,
-      "fileSize": 28515
+      "wordCount": 9661,
+      "fileSize": 77459
     },
     "2025-05-29": {
       "wordCount": 4211,
