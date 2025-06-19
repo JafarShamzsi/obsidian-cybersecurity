@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Home",
+      "path": "Home.md"
+    },
+    {
+      "basename": "Internet of Things (IOT)",
+      "path": "CyberSecurity/Cloud/Internet of Things (IOT).md"
+    },
+    {
       "basename": "Industrial Control Systems (ICS) and SCADA Security",
       "path": "CyberSecurity/Cloud/Industrial Control Systems (ICS) and SCADA Security.md"
     },
@@ -35,10 +43,6 @@
     {
       "basename": "Resilient Architecture Concepts (Cloud)",
       "path": "CyberSecurity/Cloud/Resilient Architecture Concepts (Cloud).md"
-    },
-    {
-      "basename": "Home",
-      "path": "Home.md"
     },
     {
       "basename": "Centralized vs. Decentralized computing",
@@ -195,10 +199,6 @@
     {
       "basename": "Discretionary and Mandatory Access Control",
       "path": "CyberSecurity/Authentication/Discretionary and Mandatory Access Control.md"
-    },
-    {
-      "basename": "Passwordless Authentication",
-      "path": "CyberSecurity/Encryption/Passwordless Authentication.md"
     }
   ],
   "omittedPaths": [],
