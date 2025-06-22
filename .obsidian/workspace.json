@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "9e74540093deb428",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "62cdc0339153b07c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -201,8 +201,10 @@
   },
   "active": "e58be068870c1953",
   "lastOpenFiles": [
-    "CyberSecurity/Asset Protection",
+    "CyberSecurity/Vulnerabilities/False Positives, False Negatives, Log Review.md",
+    "CyberSecurity/Vulnerabilities",
     "Home.md",
+    "CyberSecurity/Asset Protection",
     "CyberSecurity/Cloud/Internet of Things (IOT).md",
     "CyberSecurity/Cloud/Industrial Control Systems (ICS) and SCADA Security.md",
     "CyberSecurity/Cloud/Embedded Systems and Real-Time Operating Systems (RTOS).md",
@@ -237,7 +239,6 @@
     "CyberSecurity/Network/Web Application Firewalls (WAF).md",
     "CyberSecurity/Network/Load Balancers.md",
     "CyberSecurity/Network/Next Generation Firewalls (NGFW) and Unified Threat Management (UTM).md",
-    "CyberSecurity/Network/Intrusion Detection and Prevention Systems (IDS, IPS).md",
     "CyberSecurity/Network",
     "CyberSecurity/Authentication",
     "developer-roadmap/public/roadmap-content/ai-agents.json",
@@ -245,8 +246,6 @@
     "developer-roadmap/src/data/roadmaps/spring-boot/content/spring-core/introduction",
     "developer-roadmap/src/data/roadmaps/spring-boot/content/microservices/spring-cloud",
     "developer-roadmap/src/data/roadmaps/software-design-architecture/content/object-oriented-programming/model-driven-design",
-    "developer-roadmap/src/data/roadmaps/software-design-architecture/content/object-oriented-programming/primary-principles",
-    "developer-roadmap/src/data/roadmaps/software-design-architecture/content/object-oriented-programming/paradigm-features",
     "Untitled.canvas",
     "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Supply Chain Attack.canvas",
     "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Supply Chain Attack APT view.canvas",
