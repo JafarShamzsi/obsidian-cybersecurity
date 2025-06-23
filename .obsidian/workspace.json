@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "CyberSecurity/Vulnerabilities/Vulnerability Response.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "Vulnerability Response"
             }
           }
         ]
@@ -199,11 +199,13 @@
       "obsidian-import-json:JSON/CSV Importer": false
     }
   },
-  "active": "e58be068870c1953",
+  "active": "62cdc0339153b07c",
   "lastOpenFiles": [
+    "CyberSecurity/Vulnerabilities/Vulnerability Analysis.md",
+    "CyberSecurity/Vulnerabilities/Vulnerability Response.md",
     "CyberSecurity/Vulnerabilities/False Positives, False Negatives, Log Review.md",
-    "CyberSecurity/Vulnerabilities",
     "Home.md",
+    "CyberSecurity/Vulnerabilities",
     "CyberSecurity/Asset Protection",
     "CyberSecurity/Cloud/Internet of Things (IOT).md",
     "CyberSecurity/Cloud/Industrial Control Systems (ICS) and SCADA Security.md",
@@ -238,7 +240,6 @@
     "CyberSecurity/Network/Remote Access Architecture.md",
     "CyberSecurity/Network/Web Application Firewalls (WAF).md",
     "CyberSecurity/Network/Load Balancers.md",
-    "CyberSecurity/Network/Next Generation Firewalls (NGFW) and Unified Threat Management (UTM).md",
     "CyberSecurity/Network",
     "CyberSecurity/Authentication",
     "developer-roadmap/public/roadmap-content/ai-agents.json",

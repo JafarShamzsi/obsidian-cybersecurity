@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Vulnerability Response",
+      "path": "CyberSecurity/Vulnerabilities/Vulnerability Response.md"
+    },
+    {
+      "basename": "Vulnerability Analysis",
+      "path": "CyberSecurity/Vulnerabilities/Vulnerability Analysis.md"
+    },
+    {
       "basename": "Home",
       "path": "Home.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Least Privilege Permission Assignments",
       "path": "CyberSecurity/Authentication/Least Privilege Permission Assignments.md"
-    },
-    {
-      "basename": "Role-based and Attribute-Based Access Control",
-      "path": "CyberSecurity/Authentication/Role-based and Attribute-Based Access Control.md"
-    },
-    {
-      "basename": "Discretionary and Mandatory Access Control",
-      "path": "CyberSecurity/Authentication/Discretionary and Mandatory Access Control.md"
     }
   ],
   "omittedPaths": [],
