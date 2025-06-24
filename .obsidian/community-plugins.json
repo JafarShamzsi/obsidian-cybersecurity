@@ -4,13 +4,10 @@
   "persistent-graph",
   "url-into-selection",
   "obsidian-plugin-update-tracker",
-  "recent-files-obsidian",
   "obsidian-importer",
   "iconic",
   "obsidian-icon-folder",
   "homepage",
-  "obsidian-minimal-settings",
-  "theme-picker",
   "activity-heatmap",
   "custom-font-loader",
   "file-explorer-plus",
@@ -28,9 +25,9 @@
   "heatmap-calendar",
   "obsidian-linter",
   "obsidian-latex-suite",
-  "obsidian-vimrc-support",
   "advanced-canvas",
   "vault-2-book",
   "obsidian-import-json",
-  "data-files-editor"
+  "data-files-editor",
+  "theme-picker"
 ]
