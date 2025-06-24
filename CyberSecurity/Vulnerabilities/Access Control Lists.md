@@ -1,0 +1,26 @@
+An access control list (ACL) is a list of permissions associated with a network device, such as a router or a switch, that controls traffic at a network interface level. ACLs typically use packet information like source and destination IP addresses, port numbers, and the protocol to decide whether to permit or deny the traffic. They are usually implemented on network devices to provide traffic control across the network, adding a layer of security and efficiency. In contrast, a firewall rule dictates how firewalls should handle inbound or outbound network traffic for specific IP addresses, IP ranges, or network interfaces. Firewalls typically provide both network and application-level control. They are designed to protect a network perimeter by preventing unauthorized access to or from a network. Firewall rules can be based on various factors, such as IP addresses, port numbers, protocols, or even specific application traffic patterns.
+
+The rules in a firewall's ACL are processed from top to bottom. If traffic matches one of the rules, then it is allowed to pass; consequently, the most specific rules are placed at the top. The final default rule is typically to block any traffic that has not matched a rule (implicit deny). If the firewall does not have a default implicit deny rule, an explicit deny all rule can be added manually to the end of the ACL.
+
+![A Screengrab of Firewall Rules in IPFire local domain.](https://s3.amazonaws.com/wmx-api-production/courses/54332/images/7642-1692974870084.png)
+
+Sample firewall rules configured on IPFire. This ruleset allows any HTTP, HTTPS, or SMTP traffic to specific internal addresses. (Screenshot used with permission from IPFire)
+
+Each rule can specify whether to block or allow traffic based on several parameters, often referred to as tuples. If you think of each rule being like a row in a database, the tuples are the columns. For example, in the previous screenshot, the tuples include Protocol, Source (address), (Source) Port, Destination (address), (Destination) Port, and so on.
+
+Even the simplest packet-filtering firewall can be complex to configure securely. It is essential to create a written policy describing what a filter ruleset should do and to test the configuration as far as possible to ensure that the ACLs you have set up work as intended. Also, test and document changes made to ACLs. Some other basic principles include the following:
+
+- Block incoming requests from internal or private IP addresses (that have obviously been spoofed).
+- Block incoming requests from protocols that should only function at a local network level, such as ICMP, DHCP, or routing protocol traffic.
+- Use penetration testing to confirm the configuration is secure. Log access attempts and monitor the logs for suspicious activity.
+- Take the usual steps to secure the hardware on which the firewall is running and use the management interface.
+![[Pasted image 20250624175535.png]]
+For instance, a firewall rule can be specifically designed to permit or deny traffic based on the TCP or UDP port numbers that a service operates on. If a web server on a network should only allow incoming HTTP and HTTPS traffic, rules could be set up to allow traffic only on ports 80 (HTTP) and 443 (HTTPS), the standard ports for these services. Similarly, rules can be defined to restrict certain protocols such as FTP or SSH from entering the network if they are not needed, thereby reducing the potential attack surface.
+
+Additionally, you can use firewall rules to restrict outgoing traffic to prevent certain types of communication from inside the network. For instance, a rule can block all outgoing traffic to port 25 (SMTP) to prevent a compromised machine within the network from sending out spam emails.
+
+### Screened Subnet
+
+A screened subnet, also known as a perimeter network, creates an additional layer of protection between an organization's internal network and the Internet. A screened subnet acts as a neutral zone, separating public-facing servers from sensitive internal network resources to reduce the exposure of the internal network resource to external threats. In practical terms, the screened subnet often hosts web, email, DNS, or FTP services. These systems must typically be accessible from the public Internet but isolated from sensitive internal systems to limit the impact of a breach of one of these services. By placing these servers in the screened subnet, an organization can limit the damage if these servers are compromised.
+
+Firewalls are typically used to create and control the traffic to and from the screened subnet. The first firewall, between the Internet and the screened subnet, is configured to allow traffic to the services hosted in the screened subnet. The second firewall, between the screened subnet and the internal network, is configured to block most (practically all) traffic from the screened subnet to the internal network. A screened subnet is a fundamental part of a network's security architecture and an important example of network segmentation as a type of security control.

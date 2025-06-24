@@ -98704,6 +98704,21 @@
       "mtime": 1750765840621,
       "wordCount": 966,
       "fileSize": 6492
+    },
+    "CyberSecurity/Vulnerabilities/Network Access Control.md": {
+      "mtime": 1750770718720,
+      "wordCount": 705,
+      "fileSize": 4901
+    },
+    "CyberSecurity/Vulnerabilities/Access Control Lists.md": {
+      "mtime": 1750773336888,
+      "wordCount": 805,
+      "fileSize": 5098
+    },
+    "CyberSecurity/Vulnerabilities/Intrusion Detection Prevention Systems.md": {
+      "mtime": 1750800069058,
+      "wordCount": 708,
+      "fileSize": 5120
     }
   },
   "activityOverTime": {
@@ -98972,8 +98987,12 @@
       "fileSize": 10497
     },
     "2025-06-24": {
-      "wordCount": 3426,
-      "fileSize": 23256
+      "wordCount": 4942,
+      "fileSize": 33303
+    },
+    "2025-06-25": {
+      "wordCount": 708,
+      "fileSize": 5120
     }
   }
 }
