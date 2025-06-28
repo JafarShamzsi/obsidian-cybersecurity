@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "72fa9fb097e81569",
+        "id": "ffeb9bf9183a0274",
         "type": "tabs",
         "children": [
           {
-            "id": "defee709513012f0",
+            "id": "7a97d16aa4a7c432",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CyberSecurity/Vulnerabilities/Intrusion Detection Prevention Systems.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Intrusion Detection Prevention Systems"
+              "title": "Home"
             }
           }
         ]
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 287
+    "width": 223
   },
   "right": {
     "id": "067dbe9ff984865f",
@@ -182,6 +182,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "omnisearch:Omnisearch": false,
+      "obsidian-import-json:JSON/CSV Importer": false,
       "graph:Open graph view": false,
       "markdown-importer:Open format converter": false,
       "switcher:Open quick switcher": false,
@@ -189,19 +191,19 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-importer:Open Importer": false,
       "iconic:Open rulebook": false,
       "homepage:Open homepage": false,
-      "activity-heatmap:Open activity heatmap": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "omnisearch:Omnisearch": false,
-      "obsidian-import-json:JSON/CSV Importer": false
+      "activity-heatmap:Open activity heatmap": false
     }
   },
-  "active": "defee709513012f0",
+  "active": "7a97d16aa4a7c432",
   "lastOpenFiles": [
+    "CyberSecurity/Hardening/Advanced Endpoint Protection.md",
     "Home.md",
+    "CyberSecurity/Hardening/Endpoint Configuration.md",
+    "CyberSecurity/Hardening/Endpoint Protection.md",
+    "CyberSecurity/Hardening",
     "CyberSecurity/Vulnerabilities/Intrusion Detection Prevention Systems.md",
     "CyberSecurity/Vulnerabilities/Access Control Lists.md",
     "Images/Pasted image 20250624175535.png",
@@ -230,11 +232,8 @@
     "CyberSecurity/Cloud/Centralized vs. Decentralized computing.md",
     "CyberSecurity/Cloud/Responsibility Model.md",
     "Images/6389-1692974866520.png",
-    "CyberSecurity/Cloud/Cloud Deployment Models.md",
     "CyberSecurity/Cloud",
-    "CyberSecurity/Network/Out-of-Band Management and Jump Servers.md",
     "Images/image-5fab1f0e73ce1.jpg",
-    "CyberSecurity/Network/Secure Shell (SSH).md",
     "Images/4777-1692974866308.png",
     "Images/3784-1692974866208.png",
     "Images/3806-1692974866142.png",
@@ -246,7 +245,6 @@
     "developer-roadmap/src/data/roadmaps/react-native/content/core-components/listings/list-views",
     "developer-roadmap/src/data/roadmaps/spring-boot/content/spring-core/introduction",
     "developer-roadmap/src/data/roadmaps/spring-boot/content/microservices/spring-cloud",
-    "developer-roadmap/src/data/roadmaps/software-design-architecture/content/object-oriented-programming/model-driven-design",
     "Untitled.canvas",
     "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Supply Chain Attack.canvas",
     "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Supply Chain Attacks/Supply Chain Attack APT view.canvas",
