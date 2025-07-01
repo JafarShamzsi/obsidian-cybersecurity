@@ -17,7 +17,7 @@
     "statusbar",
     "banner"
   ],
-  "interfaceFontFamily": "0xProto Nerd Font",
-  "textFontFamily": "0xProto Nerd Font,0xProto Nerd Font Mono,0xProto Nerd Font Propo",
+  "interfaceFontFamily": "Inter",
+  "textFontFamily": "Inter",
   "nativeMenus": false
 }

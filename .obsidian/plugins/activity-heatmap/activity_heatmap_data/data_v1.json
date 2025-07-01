@@ -98739,6 +98739,51 @@
       "mtime": 1751230800762,
       "wordCount": 1747,
       "fileSize": 12850
+    },
+    "CyberSecurity/Hardening/Hardening Specialized Devices.md": {
+      "mtime": 1751261730724,
+      "wordCount": 436,
+      "fileSize": 3232
+    },
+    "CyberSecurity/Hardening/Mobile Hardening Techniques.md": {
+      "mtime": 1751276637909,
+      "wordCount": 716,
+      "fileSize": 5004
+    },
+    "CyberSecurity/Hardening/Location Services.md": {
+      "mtime": 1751278777444,
+      "wordCount": 506,
+      "fileSize": 3658
+    },
+    "CyberSecurity/Hardening/Celular and GPS Connection Methods.md": {
+      "mtime": 1751279515391,
+      "wordCount": 346,
+      "fileSize": 2609
+    },
+    "CyberSecurity/Hardening/WI-FI and Tethering Connection Methods.md": {
+      "mtime": 1751286741700,
+      "wordCount": 441,
+      "fileSize": 3101
+    },
+    "CyberSecurity/Hardening/Bluetooth Connection Methods.md": {
+      "mtime": 1751288296374,
+      "wordCount": 612,
+      "fileSize": 5346
+    },
+    "CyberSecurity/Hardening/Near-Field Communications (NFC) and Mobile Payment Services.md": {
+      "mtime": 1751360553693,
+      "wordCount": 416,
+      "fileSize": 2673
+    },
+    "CyberSecurity/Network/Secure Protocols.md": {
+      "mtime": 1751362309293,
+      "wordCount": 631,
+      "fileSize": 4613
+    },
+    "CyberSecurity/Network/Transport Layer Security.md": {
+      "mtime": 1751364315499,
+      "wordCount": 556,
+      "fileSize": 3424
     }
   },
   "activityOverTime": {
@@ -99019,8 +99064,12 @@
       "fileSize": 561475
     },
     "2025-06-30": {
-      "wordCount": 1747,
-      "fileSize": 544546
+      "wordCount": 4808,
+      "fileSize": 567554
+    },
+    "2025-07-01": {
+      "wordCount": 2709,
+      "fileSize": 17494
     }
   }
 }

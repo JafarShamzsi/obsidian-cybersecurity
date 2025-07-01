@@ -1,0 +1,13 @@
+Near-field communication (NFC) is based on a particular type of radio frequency ID (RFID). NFC sensors and functionality are now commonly incorporated into smartphones. An NFC chip can also be used to read passive RFID tags at close range, configure other types of connections (pairing Bluetooth devices, for instance), and exchange information such as contact cards. An NFC transaction is sometimes known as a bump, named after an early mobile sharing app, later redeveloped as Android Beam, to use NFC.
+
+The typical use case is "smart" posters, where the user can tap the tag on a poster to open a linked webpage via information coded in the tag.
+
+Attacks could be developed using vulnerabilities in handling the tag ([securityboulevard.com/2019/10/nfc-false-tag-vulnerability-cve-2019-9295](https://securityboulevard.com/2019/10/nfc-false-tag-vulnerability-cve-2019-9295/)). It is also possible to exploit NFC by crafting tags to direct the device browser to a malicious webpage where the attacker could try to exploit vulnerabilities in the browser.
+
+NFC does not provide encryption, so eavesdropping and on-path attacks are possible if the attacker can find some way of intercepting the communication and the software services are not encrypting the data.
+
+The widest application of NFC is to make payments via contactless point-of-sale (PoS) machines. To configure a payment service, the user enters their credit card information into a mobile wallet app on the device. The wallet app does not transmit the original credit card information but a one-time token that is interpreted by the card merchant and linked back to the relevant customer account. There are three major mobile wallet apps: Apple Pay, Google Pay (formerly Android Pay), and Samsung Pay.
+
+Despite having a close physical proximity requirement, NFC is vulnerable to several types of attacks. Certain antenna configurations may be able to pick up the RF signals emitted by NFC from several feet away, allowing an attacker to eavesdrop from a more comfortable distance. An attacker with a reader may also be able to skim information from an NFC device in a crowded area, such as a busy train. An attacker may also be able to corrupt data as it is being transferred through a method similar to a DoS attack—by flooding the area with an excess of RF signals to interrupt the transfer.
+
+Skimming a credit or bank card will give the attacker the long card number and expiration date. Completing fraudulent transactions directly via NFC is much more difficult as the attacker would have to use a valid merchant account and fraudulent transactions related to that account would be detected very quickly.
