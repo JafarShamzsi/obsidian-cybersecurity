@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CyberSecurity/Network/Transport Layer Security.md",
+                "file": "CyberSecurity/Network/File Transfer Services.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Transport Layer Security"
+              "title": "File Transfer Services"
             }
           }
         ]
@@ -197,11 +197,14 @@
       "obsidian-import-json:JSON/CSV Importer": false
     }
   },
-  "active": "e58be068870c1953",
+  "active": "781576106f9a3460",
   "lastOpenFiles": [
+    "CyberSecurity/Network/Simple Network Management Protocol (SNMP)  Security.md",
+    "CyberSecurity/Network/File Transfer Services.md",
+    "CyberSecurity/Network/Secure Directory Services.md",
+    "CyberSecurity/Network/Transport Layer Security.md",
     "Images/Pasted image 20250701140513.png",
     "CyberSecurity/Network/Secure Protocols.md",
-    "CyberSecurity/Network/Transport Layer Security.md",
     "CyberSecurity/Untitled",
     "CyberSecurity/Hardening/Near-Field Communications (NFC) and Mobile Payment Services.md",
     "CyberSecurity/Hardening/WI-FI and Tethering Connection Methods.md",
@@ -226,10 +229,8 @@
     "CyberSecurity/Vulnerabilities/Benchmarks and Secure Configuration Guides.md",
     "CyberSecurity/Vulnerabilities/Vulnerability Response.md",
     "CyberSecurity/Vulnerabilities/Vulnerability Analysis.md",
-    "CyberSecurity/Vulnerabilities/False Positives, False Negatives, Log Review.md",
     "CyberSecurity/Vulnerabilities",
     "CyberSecurity/Asset Protection",
-    "CyberSecurity/Cloud/Internet of Things (IOT).md",
     "Images/2672-1692974866728.png",
     "Images/8534-1692974866618.png",
     "Images/6389-1692974866520.png",
@@ -239,7 +240,6 @@
     "Images/3784-1692974866208.png",
     "Images/3806-1692974866142.png",
     "Images/1132-1692974866005.png",
-    "Images/9434-1692974865939.png",
     "CyberSecurity/Network",
     "CyberSecurity/Authentication",
     "developer-roadmap/public/roadmap-content/ai-agents.json",

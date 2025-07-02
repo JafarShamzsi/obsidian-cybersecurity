@@ -98784,6 +98784,21 @@
       "mtime": 1751364315499,
       "wordCount": 556,
       "fileSize": 3424
+    },
+    "CyberSecurity/Network/Secure Directory Services.md": {
+      "mtime": 1751373474825,
+      "wordCount": 319,
+      "fileSize": 2134
+    },
+    "CyberSecurity/Network/Simple Network Management Protocol (SNMP)  Security.md": {
+      "mtime": 1751384236741,
+      "wordCount": 336,
+      "fileSize": 2065
+    },
+    "CyberSecurity/Network/File Transfer Services.md": {
+      "mtime": 1751389252467,
+      "wordCount": 412,
+      "fileSize": 2613
     }
   },
   "activityOverTime": {
@@ -99068,8 +99083,8 @@
       "fileSize": 567554
     },
     "2025-07-01": {
-      "wordCount": 2709,
-      "fileSize": 17494
+      "wordCount": 3776,
+      "fileSize": 24306
     }
   }
 }
