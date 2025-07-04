@@ -23927,7 +23927,7 @@
 
 ##### Accounting in Cybersecurity
 
-![[/CyberSecurity/Security+/5-Governance-Risk-Compliance/4-Operations-Incident-Response/Accounting in Cybersecurity.md|Accounting in Cybersecurity.md]]
+![[Accounting in Cybersecurity|Accounting in Cybersecurity.md]]
 
 ---
 
@@ -23935,7 +23935,7 @@
 
 ##### Information Security Business Unit
 
-![[/CyberSecurity/Security+/5-Governance-Risk-Compliance/4-Operations-Incident-Response/Information Security Business Unit.md|Information Security Business Unit.md]]
+![[Information Security Business Unit|Information Security Business Unit.md]]
 
 ---
 
