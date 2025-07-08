@@ -3,7 +3,7 @@
 ## 2. [[Web Application Pentesting]]
 ## 3. [[Client Side Attack]]
 ## 4. [[FInding Exploits]]
-## 5. [[Password Attacks]]
+## 5. [[OSCP-Notes/OSCP-1/Notes/Password Attacks]]
 ## 6. [[Privilege Escalation]]
 ## 7. [[Port Forwarding]]
 ## 8. [[SSH, DNS, HTTP Tunneling]]
