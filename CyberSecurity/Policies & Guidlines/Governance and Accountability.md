@@ -1,0 +1,56 @@
+Governance practices ensure organizations abide by all applicable cybersecurity laws and regulations to protect them from legal liability. Governance and organizational-level oversight must manage many legal risks, such as regulatory compliance requirements, contractual obligations, public disclosure laws, breach liability, privacy laws, intellectual property protection, and licensing agreements, and interpret and translate these legal requirements into operational controls to avoid legal trouble, act ethically, and protect the organization.
+
+### Monitoring and Revision
+
+The cybersecurity landscape is continually evolving. Consequently, organizations must ensure that their cybersecurity policies, procedures, standards, and legal compliance practices associated with legal and regulatory compliance are regularly monitored, evaluated, and updated. These responsibilities are generally managed via collaboration among diverse groups to review existing policies, procedures, and standards and ensure their effectiveness against current requirements. Routine audits, inspections, and assessments are commonly used to measure compliance levels and identify new risks. The results of compliance reports, technological changes, business processes, laws, or newly identified risks drive policy, procedure, and standards revisions. Regular training sessions help to inform employees of policy changes and ensure continued compliance.
+
+Additionally, organizations must maintain awareness of any changes in cybersecurity legislation in their jurisdictions, including international, national, regional, or industry-specific laws. Effective monitoring and revision of cybersecurity policies, procedures, standards, and legal compliance practices is a dynamic, cyclical process requiring diligence, foresight, and proactive strategies.
+
+### Governance Boards
+
+Governance boards are crucial in ensuring an organization's effective security governance and oversight because they are responsible for setting strategic objectives, policies, and guidelines for security practices and risk management. Governance boards oversee the implementation of security controls, work closely with risk management teams to ensure compliance with relevant laws and regulations, and evaluate the security program's overall effectiveness. Governance boards drive organization-wide security practices through leadership, guidance, and accountability and ensure that security risks are effectively identified and mitigated. Governance boards unite executive management, security professionals, and stakeholders to ensure security is a top strategic priority aligned with the organization's objectives and values.
+
+### Centralized versus Decentralized
+
+Centralized and decentralized security governance models aim to achieve the organization's security goals, protect assets, mitigate risks, and ensure regulatory compliance. Additionally, they recognize the importance of security and the need for collaboration between stakeholders and departments. However, there are notable differences between the two approaches. In centralized security governance, decision-making authority primarily rests with a single core group or department that establishes policies, procedures, and guidelines and makes important security-focused decisions. Resource allocation, including budget and personnel, is controlled by this group to promote consistency and standardization across the entire organization.
+
+In contrast, decentralized security governance distributes decision-making authority to different groups or departments to facilitate security-focused decisions based on localized needs and priorities. Each unit has greater control over the allocation of security resources to allow greater adaptability and tailoring of security capabilities.
+
+The choice between centralized and decentralized security governance depends on the organization's size, structure, culture, and risk appetite. Ultimately, the goal is to create a security governance model that effectively supports the organization's needs while balancing security risks.
+
+Hybrid governance structures combine elements of both centralized and decentralized approaches. It aims to balance the advantages of centralized oversight and decentralized implementation. Under a hybrid system, specific security processes and decisions are centralized, while others are delegated to business units or departments to facilitate the development of standardized policies at the enterprise level while providing flexibility and local control as warranted.
+
+### Committees and Boards
+
+Governance boards depend upon governance committees to assist in complex decision-making situations. The governance board is typically composed of executives with the ultimate decision-making authority and is responsible for setting the strategic direction and policies of the organization. This responsibility often requires executives to make critical decisions regarding subjects outside their scope of expertise.
+
+Committees are specialized groups comprised of subject matter experts, stakeholders, and representatives from relevant departments that focus on specific issues, such as security, risk management, audit, or compliance. They provide in-depth analysis, recommendations, and operational support to the governance board to provide them with the critical information needed to make effective decisions.
+
+Governance boards and governance committees serve distinct roles within an organization's governance structure. Governance boards are typically composed of high-level executives and external stakeholders, whereas, governance committees are typically comprised of subject matter experts and operational leaders.
+
+### Government Entities and Groups
+
+At the government level, governance committees are often represented by specialized agencies. Several government agencies are associated with security governance and differ between countries and jurisdictions. A few examples of government agencies with security governance responsibilities include the following:
+
+| Agency                             | Description                                                                                                                                                                                                                                                                                                     |
+| ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regulatory Agencies                | Regulatory agencies establish and enforce security standards, regulations, and guidelines. They oversee compliance with laws related to specific sectors such as finance, healthcare, telecommunications, and energy.                                                                                           |
+| Intelligence Agencies              | Intelligence agencies gather and analyze information to identify and counteract potential security threats and provide this information to national-level government groups to steer national policy and military strategy.                                                                                     |
+| Law Enforcement Agencies           | Law enforcement agencies enforce laws and regulations related to public safety and security. They investigate and prosecute criminal activities, including cybercrimes and terrorist activities.                                                                                                                |
+| Defense and Military Organizations | Defense and military organizations are responsible for safeguarding national security and protecting the country from external threats. They develop strategies, policies, and capabilities to address physical security, border control, and defense-related cybersecurity.                                    |
+| Data Protection Authorities        | Data protection authorities focus on protecting personal data and privacy rights. They enforce data protection regulations and provide guidance on the best practices for securing personal information.                                                                                                        |
+| National Cybersecurity Agencies    | National cybersecurity agencies focus on protecting critical infrastructure, government networks, and national cybersecurity interests. They develop cybersecurity strategies, coordinate incident response, and provide guidance on cybersecurity practices for government entities and private organizations. |
+
+### Data Governance Roles
+
+Security governance relies heavily on specially designed and interdependent roles called owner, controller, processor, and custodian. Each role carries unique responsibilities that contribute to maintaining effective security oversight and control.
+
+**Owner** —A high-ranking employee, like a director or a vice president, typically holds the owner role and is ultimately responsible for ensuring data is appropriately protected. The owner identifies what level of classification and sensitivity the data has, decides who should have access to it, and what level of security should be applied. In relation to governance, the owner provides strategic guidance to ensure that security policies align with business objectives.
+
+**Controller** —The controller role closely relates to GDPR and identifies the purposes, conditions, and means of processing personal data. An individual, public authority, agency, or other body can fill the controller role. The controller ensures that data processing activities adhere to all legal requirements. In relation to governance, the controller helps maintain legal and regulatory compliance.
+
+**Processor** —The processor is responsible for processing personal data on behalf of the controller and often represents cloud service providers (CSP) but could also be represented by vendors and business partners. Processors must maintain records of their processing activities, cooperate with supervisory authorities, and implement appropriate security measures to protect the data they handle. In relation to governance, the processor role ensures that data is handled securely and in accordance with the rules established by the owner and controller roles.
+
+**Custodian** —The custodian, also known as the data steward, is responsible for the safe custody, transport, storage of the data, and implementation of business rules. The IT department typically represents the custodian role, and in relation to governance, the custodian role implements and enforces the security controls established by the data owner and controller and reports any issues indicative of a security incident.
+
+Coordination among data owner, controller, processor, and custodian in managing and protecting data is crucial to ensure compliance with data protection regulations, establish clear responsibilities, and maintain data integrity and security.
