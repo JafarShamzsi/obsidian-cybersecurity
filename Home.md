@@ -49,3 +49,6 @@ cellStyle:
 
 #### For more Navigation:
 ==[[Shortcuts for writing Obsidian]]==
+
+
+use this file to know the structure of obsidian.
