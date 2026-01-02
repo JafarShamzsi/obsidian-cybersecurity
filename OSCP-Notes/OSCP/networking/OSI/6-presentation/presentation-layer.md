@@ -1,2 +1,0 @@
-# OSI: Presentation Layer
-Init.

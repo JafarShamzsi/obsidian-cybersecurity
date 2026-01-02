@@ -1,4 +1,0 @@
-
-# HTTP Request
-
-Init.

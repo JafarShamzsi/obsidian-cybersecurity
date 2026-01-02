@@ -1,3 +1,0 @@
-
-# Worm/ Worming
-Init.

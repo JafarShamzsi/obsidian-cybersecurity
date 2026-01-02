@@ -1,3 +1,0 @@
-
-# Hypertext Markup Language
-Init.

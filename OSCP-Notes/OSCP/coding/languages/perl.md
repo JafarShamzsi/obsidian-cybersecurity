@@ -1,3 +1,0 @@
-
-# Perl Programming language
-Init.

@@ -1,3 +1,0 @@
-
-# Router Networking Device
-Init.

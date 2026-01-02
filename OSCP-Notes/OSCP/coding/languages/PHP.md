@@ -1,3 +1,0 @@
-
-# PHP Coding Language
-Init.

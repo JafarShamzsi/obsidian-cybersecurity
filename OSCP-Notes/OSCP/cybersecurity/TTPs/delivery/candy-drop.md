@@ -1,3 +1,0 @@
-
-# Candy Drop
-Init.

@@ -1,3 +1,0 @@
-
-# Digital Forensics
-Init.

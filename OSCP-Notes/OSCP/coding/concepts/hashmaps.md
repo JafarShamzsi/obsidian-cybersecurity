@@ -1,3 +1,0 @@
-
-# Hashmaps
-Init.

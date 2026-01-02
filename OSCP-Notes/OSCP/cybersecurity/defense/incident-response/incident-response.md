@@ -1,3 +1,0 @@
-
-# Incident Response
-Init.

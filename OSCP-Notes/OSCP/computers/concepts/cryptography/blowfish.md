@@ -1,3 +1,0 @@
-
-# Blowfish
-Init

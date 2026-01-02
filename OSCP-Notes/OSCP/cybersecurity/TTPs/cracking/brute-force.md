@@ -1,3 +1,0 @@
-
-# Brute Force Attack
-Init.

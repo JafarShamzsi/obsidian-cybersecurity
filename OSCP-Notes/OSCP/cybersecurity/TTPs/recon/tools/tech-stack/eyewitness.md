@@ -1,3 +1,0 @@
-
-# EyeWitness
-Init.

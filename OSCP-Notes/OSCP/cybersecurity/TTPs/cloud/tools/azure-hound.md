@@ -1,3 +1,0 @@
-
-# Azure Hound
-init.

@@ -1,7 +1,0 @@
-System memory is volatile data held in Random Access Memory (RAM) modules. Volatile means that the data is lost when power is removed. A system memory dump creates an image file that can be analyzed to identify the processes that are running, the contents of temporary file systems, registry data, network connections, cryptographic keys, and more. It can also be a means of accessing data that is encrypted when stored on a mass storage device.
-
-![A memory dump lists the offset (V), name, P I D, P P I D, Thds, Hnds, Sess, Wow64, start, and exit. One of the entries of the list is highlighted.](https://s3.amazonaws.com/wmx-api-production/courses/54332/images/5524-1692974872843.png)
-
-Viewing the process list in a memory dump using the Volatility framework. (Screenshot Volatility framework [volatilityfoundation.org](https://www.volatilityfoundation.org/).)
-
-A specialist hardware or software tool can capture the contents of memory while the host is running. Unfortunately, this type of tool needs to be preinstalled as it requires a kernel mode driver to dump any data of interest. Various commercial tools are available to perform system memory acquisition on Windows. On Linux, the Volatility framework includes a tool to install a kernel driver.

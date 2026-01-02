@@ -1,3 +1,0 @@
-
-# Notpetya
-Init.

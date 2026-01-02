@@ -1,3 +1,0 @@
-
-# Tactics, Techniques, Procedures
-Init.

@@ -1,2 +1,0 @@
-
-# Trojan Attack Technique

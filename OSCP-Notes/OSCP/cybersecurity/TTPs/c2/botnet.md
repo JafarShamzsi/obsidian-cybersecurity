@@ -1,3 +1,0 @@
-
-# Botnet
-Init.

@@ -1,3 +1,0 @@
-
-# Random Access Memory
-Init.

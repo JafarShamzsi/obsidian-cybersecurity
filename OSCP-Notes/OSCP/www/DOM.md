@@ -1,3 +1,0 @@
-
-# Document Object Model
-Init.

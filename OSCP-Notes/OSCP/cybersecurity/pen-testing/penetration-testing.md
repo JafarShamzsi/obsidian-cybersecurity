@@ -1,2 +1,0 @@
-
-# Penetration testing

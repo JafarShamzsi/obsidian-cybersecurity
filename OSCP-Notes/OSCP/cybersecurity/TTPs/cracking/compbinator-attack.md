@@ -1,3 +1,0 @@
-
-# Combinator Attack
-Init.

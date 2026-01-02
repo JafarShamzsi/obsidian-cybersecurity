@@ -1,3 +1,0 @@
-
-# C Programming Language
-Init.
