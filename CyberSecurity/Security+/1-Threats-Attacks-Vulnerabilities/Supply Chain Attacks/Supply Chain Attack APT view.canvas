@@ -1,0 +1,17 @@
+{
+  "edges": [
+  ],
+  "nodes": [
+    {
+      "height": 60,
+      "id": "38b298eda5406d7a",
+      "styleAttributes": {
+      },
+      "text": "Supply Chain Attack APT view\n",
+      "type": "text",
+      "width": 250,
+      "x": -420,
+      "y": -480
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+/*
+
+This CSS file will be included with your plugin, and
+available in the app when your plugin is enabled.
+
+If your plugin does not need CSS, delete this file.
+
+*/
+
+/* node_modules/cal-heatmap/dist/cal-heatmap.css */
+.ch-container {
+    display: block;
+  }
+  .ch-container,
+  .ch-domain,
+  .ch-domain-container,
+  .ch-domain-container-animation-wrapper {
+    overflow: visible;
+  }
+  .ch-domain-container.in-transition .ch-domain-container-animation-wrapper {
+    overflow: hidden;
+  }
+  .ch-domain-bg {
+    fill: transparent;
+  }
+  .ch-domain-text {
+    fill: currentColor;
+    font-size: 10px;
+  }
+  .ch-subdomain {
+    overflow: visible;
+  }
+  .ch-subdomain-bg {
+    fill: #ededed;
+  }
+  .ch-subdomain-bg.highlight {
+    stroke: #444;
+    stroke-width: 1px;
+  }
+  .ch-subdomain-bg:hover {
+    stroke: #000;
+    stroke-width: 1px;
+  }
+  .ch-subdomain-text {
+    font-size: 8px;
+    pointer-events: none;
+  }
+  [data-theme=dark] .ch-subdomain-bg {
+    fill: #2d333b;
+  }
+  [data-theme=dark] .ch-subdomain-bg.highlight {
+    stroke: #768390;
+  }
+  [data-theme=dark] .ch-subdomain-bg:hover {
+    stroke: #636e7b;
+  }
+  #ch-plugin-legend > svg {
+    background: transparent;
+    color: currentColor;
+  }
+  #ch-tooltip {
+    background: #222;
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
+    box-sizing: border-box;
+    color: #bbb;
+    display: none;
+    font-size: 12px;
+    line-height: 1.4;
+    padding: 5px 10px;
+    text-align: center;
+    z-index: 9999;
+  }
+  #ch-tooltip[data-show] {
+    display: block;
+  }
+  #ch-tooltip-arrow,
+  #ch-tooltip-arrow:before {
+    background: inherit;
+    height: 8px;
+    position: absolute;
+    width: 8px;
+  }
+  #ch-tooltip-arrow {
+    visibility: hidden;
+  }
+  #ch-tooltip-arrow:before {
+    content: "";
+    transform: rotate(45deg);
+    visibility: visible;
+  }
+  #ch-tooltip[data-popper-placement^=top] > #ch-tooltip-arrow {
+    bottom: -4px;
+    margin-left: -4px;
+  }
+  #ch-tooltip[data-popper-placement^=bottom] > #ch-tooltip-arrow {
+    margin-left: -4px;
+    top: -4px;
+  }
+  #ch-tooltip[data-popper-placement^=left] > #ch-tooltip-arrow {
+    right: -4px;
+  }
+  #ch-tooltip[data-popper-placement^=right] > #ch-tooltip-arrow {
+    left: -4px;
+  }
+  #ch-tooltip[data-theme=dark] {
+    background: #636e7b;
+    color: #cdd9e5;
+  }
+  /*# sourceMappingURL=data:application/json;base64,ewogICJ2ZXJzaW9uIjogMywKICAic291cmNlcyI6IFsibm9kZV9tb2R1bGVzL2NhbC1oZWF0bWFwL2Rpc3QvY2FsLWhlYXRtYXAuY3NzIl0sCiAgInNvdXJjZXNDb250ZW50IjogWyIuY2gtY29udGFpbmVye2Rpc3BsYXk6YmxvY2t9LmNoLWNvbnRhaW5lciwuY2gtZG9tYWluLC5jaC1kb21haW4tY29udGFpbmVyLC5jaC1kb21haW4tY29udGFpbmVyLWFuaW1hdGlvbi13cmFwcGVye292ZXJmbG93OnZpc2libGV9LmNoLWRvbWFpbi1jb250YWluZXIuaW4tdHJhbnNpdGlvbiAuY2gtZG9tYWluLWNvbnRhaW5lci1hbmltYXRpb24td3JhcHBlcntvdmVyZmxvdzpoaWRkZW59LmNoLWRvbWFpbi1iZ3tmaWxsOnRyYW5zcGFyZW50fS5jaC1kb21haW4tdGV4dHtmaWxsOmN1cnJlbnRDb2xvcjtmb250LXNpemU6MTBweH0uY2gtc3ViZG9tYWlue292ZXJmbG93OnZpc2libGV9LmNoLXN1YmRvbWFpbi1iZ3tmaWxsOiNlZGVkZWR9LmNoLXN1YmRvbWFpbi1iZy5oaWdobGlnaHR7c3Ryb2tlOiM0NDQ7c3Ryb2tlLXdpZHRoOjFweH0uY2gtc3ViZG9tYWluLWJnOmhvdmVye3N0cm9rZTojMDAwO3N0cm9rZS13aWR0aDoxcHh9LmNoLXN1YmRvbWFpbi10ZXh0e2ZvbnQtc2l6ZTo4cHg7cG9pbnRlci1ldmVudHM6bm9uZX1bZGF0YS10aGVtZT1kYXJrXSAuY2gtc3ViZG9tYWluLWJne2ZpbGw6IzJkMzMzYn1bZGF0YS10aGVtZT1kYXJrXSAuY2gtc3ViZG9tYWluLWJnLmhpZ2hsaWdodHtzdHJva2U6Izc2ODM5MH1bZGF0YS10aGVtZT1kYXJrXSAuY2gtc3ViZG9tYWluLWJnOmhvdmVye3N0cm9rZTojNjM2ZTdifSNjaC1wbHVnaW4tbGVnZW5kPnN2Z3tiYWNrZ3JvdW5kOnRyYW5zcGFyZW50O2NvbG9yOmN1cnJlbnRDb2xvcn0jY2gtdG9vbHRpcHtiYWNrZ3JvdW5kOiMyMjI7Ym9yZGVyLXJhZGl1czoycHg7Ym94LXNoYWRvdzoycHggMnB4IDJweCByZ2JhKDAsMCwwLC4yKTtib3gtc2l6aW5nOmJvcmRlci1ib3g7Y29sb3I6I2JiYjtkaXNwbGF5Om5vbmU7Zm9udC1zaXplOjEycHg7bGluZS1oZWlnaHQ6MS40O3BhZGRpbmc6NXB4IDEwcHg7dGV4dC1hbGlnbjpjZW50ZXJ9I2NoLXRvb2x0aXBbZGF0YS1zaG93XXtkaXNwbGF5OmJsb2NrfSNjaC10b29sdGlwLWFycm93LCNjaC10b29sdGlwLWFycm93OmJlZm9yZXtiYWNrZ3JvdW5kOmluaGVyaXQ7aGVpZ2h0OjhweDtwb3NpdGlvbjphYnNvbHV0ZTt3aWR0aDo4cHh9I2NoLXRvb2x0aXAtYXJyb3d7dmlzaWJpbGl0eTpoaWRkZW59I2NoLXRvb2x0aXAtYXJyb3c6YmVmb3Jle2NvbnRlbnQ6XCJcIjt0cmFuc2Zvcm06cm90YXRlKDQ1ZGVnKTt2aXNpYmlsaXR5OnZpc2libGV9I2NoLXRvb2x0aXBbZGF0YS1wb3BwZXItcGxhY2VtZW50Xj10b3BdPiNjaC10b29sdGlwLWFycm93e2JvdHRvbTotNHB4O21hcmdpbi1sZWZ0Oi00cHh9I2NoLXRvb2x0aXBbZGF0YS1wb3BwZXItcGxhY2VtZW50Xj1ib3R0b21dPiNjaC10b29sdGlwLWFycm93e21hcmdpbi1sZWZ0Oi00cHg7dG9wOi00cHh9I2NoLXRvb2x0aXBbZGF0YS1wb3BwZXItcGxhY2VtZW50Xj1sZWZ0XT4jY2gtdG9vbHRpcC1hcnJvd3tyaWdodDotNHB4fSNjaC10b29sdGlwW2RhdGEtcG9wcGVyLXBsYWNlbWVudF49cmlnaHRdPiNjaC10b29sdGlwLWFycm93e2xlZnQ6LTRweH0jY2gtdG9vbHRpcFtkYXRhLXRoZW1lPWRhcmtde2JhY2tncm91bmQ6IzYzNmU3Yjtjb2xvcjojY2RkOWU1fSJdLAogICJtYXBwaW5ncyI6ICI7QUFBQTtBQUFjO0FBQUE7QUFBYztBQUFBO0FBQUE7QUFBQTtBQUFxRjtBQUFBO0FBQWlCO0FBQTBFO0FBQUE7QUFBZ0I7QUFBYztBQUFBO0FBQWlCO0FBQWdCO0FBQWtCO0FBQUE7QUFBZTtBQUFjO0FBQUE7QUFBaUI7QUFBaUI7QUFBQTtBQUFhO0FBQTJCO0FBQVk7QUFBQTtBQUFpQjtBQUF1QjtBQUFZO0FBQUE7QUFBaUI7QUFBbUI7QUFBYztBQUFBO0FBQW9CO0FBQW1DO0FBQUE7QUFBYTtBQUE2QztBQUFBO0FBQWU7QUFBeUM7QUFBQTtBQUFlO0FBQXNCO0FBQXVCO0FBQUE7QUFBbUI7QUFBWTtBQUFnQjtBQUFrQjtBQUFzQztBQUFzQjtBQUFXO0FBQWE7QUFBZTtBQUFnQjtBQUFpQjtBQUFBO0FBQWtCO0FBQXVCO0FBQUE7QUFBYztBQUFBO0FBQTJDO0FBQW1CO0FBQVc7QUFBa0I7QUFBQTtBQUFVO0FBQWtCO0FBQUE7QUFBa0I7QUFBeUI7QUFBVztBQUF3QjtBQUFBO0FBQW1CO0FBQTBEO0FBQVk7QUFBQTtBQUFpQjtBQUE2RDtBQUFpQjtBQUFBO0FBQVM7QUFBMkQ7QUFBQTtBQUFXO0FBQTREO0FBQUE7QUFBVTtBQUE2QjtBQUFtQjtBQUFBOyIsCiAgIm5hbWVzIjogW10KfQo= */
+  
+.activity-heatmap-modal {
+    width: 90vw;
+}
+
+.activity-heatmap-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2218e6f89df19e16",
+        "id": "bd8a93898831516e",
         "type": "tabs",
         "children": [
           {
-            "id": "5869c8225da9051a",
+            "id": "e2217098d806e40f",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -173,9 +173,20 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-importer:Open Importer": false,
+      "iconic:Open rulebook": false,
+      "homepage:Open homepage": false,
+      "activity-heatmap:Open activity heatmap": false,
+      "omnisearch:Omnisearch": false,
+      "obsidian-import-json:JSON/CSV Importer": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "44f3ecc18d0b93bc",
-  "lastOpenFiles": []
+  "active": "e2217098d806e40f",
+  "lastOpenFiles": [
+    "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Attacking-Frameworks/MITRE ATT&CK/Enterprise-Attack/techniques/Artificial Intelligence.md",
+    "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Attacking-Frameworks/MITRE ATT&CK/Mobile-Attack/tactics/Credential Access.md",
+    "CyberSecurity/Security+/1-Threats-Attacks-Vulnerabilities/Attacking-Frameworks/MITRE ATT&CK/Enterprise-Attack/techniques/Domain Controller Authentication.md"
+  ]
 }
